@@ -21,7 +21,7 @@ const jobs = {
       rear: { label: 'Rear bank', laborHours: 1.3 },
       both: { label: 'Both banks', laborHours: 2.5 },
     },
-    policyIncluded: ['Gasket(s) for selected bank scope'],
+    policyIncluded: ['Gasket(s) for selected bank scope', 'Intake manifold gasket set'],
     accessRecommendations: [{
       job: 'Spark plug replacement', disposition: 'review service history',
       reason: 'The verified cylinder-head-cover removal procedure removes the intake manifold and six ignition coils.',
