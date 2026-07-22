@@ -1,10 +1,15 @@
 import { findVerifiedVehicle, getMdxJob, getMdxScope } from './src/mdx.js';
+import { catalogOptions, findCatalogEntry } from './src/catalog.js';
 
 const vinInput = document.querySelector('#vin');
 const rateInput = document.querySelector('#labor-rate');
 const jobSelect = document.querySelector('#job');
 const estimate = document.querySelector('#estimate');
 const scopeSelect = document.querySelector('#scope');
+const catalogYear = document.querySelector('#catalog-year');
+const catalogModel = document.querySelector('#catalog-model');
+const catalogEngine = document.querySelector('#catalog-engine');
+const catalogStatus = document.querySelector('#catalog-status');
 const currency = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' });
 
 for (const selector of ['label[for="job-search"]', '#job-search', 'label[for="category"]', '#category']) {
@@ -29,6 +34,36 @@ function renderUnavailable(vin) {
   estimate.innerHTML = `<div class="estimate-heading"><div><p class="eyebrow">Vehicle verification required</p><h2>No verified estimate available</h2><p>${vin ? `VIN ${vin.toUpperCase()} has no reviewed vehicle/job records yet.` : 'Enter a 17-character VIN to select a reviewed vehicle record.'}</p></div></div><p class="job-note">This tool does not fall back to generic labor, parts, or access assumptions.</p>`;
 }
 
+function fillSelect(select, values) {
+  select.replaceChildren(...values.map((value) => new Option(value, value)));
+  select.disabled = values.length === 0;
+}
+
+async function loadCatalog() {
+  try {
+    const response = await fetch('./data/lemon-acura-catalog.json');
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const catalog = await response.json();
+    fillSelect(catalogYear, catalogOptions(catalog, 'year'));
+    const updateModels = () => {
+      fillSelect(catalogModel, catalogOptions(catalog, 'model', { year: Number(catalogYear.value) }));
+      updateEngines();
+    };
+    const updateEngines = () => {
+      fillSelect(catalogEngine, catalogOptions(catalog, 'engine', { year: Number(catalogYear.value), model: catalogModel.value }));
+      const entry = findCatalogEntry(catalog, { year: Number(catalogYear.value), model: catalogModel.value, engine: catalogEngine.value });
+      catalogStatus.innerHTML = entry ? `LEMON manual available: <a href="${entry.manual_url}" target="_blank" rel="noreferrer">open matching manual</a>. Estimate coverage is separate.` : 'No matching manual found.';
+    };
+    catalogYear.addEventListener('change', updateModels);
+    catalogModel.addEventListener('change', updateEngines);
+    catalogEngine.addEventListener('change', updateEngines);
+    updateModels();
+  } catch (error) {
+    catalogYear.disabled = true;
+    catalogStatus.textContent = 'Manual catalog could not be loaded.';
+  }
+}
+
 function render() {
   const vehicle = findVerifiedVehicle(vinInput.value);
   if (!vehicle) { renderUnavailable(vinInput.value.trim()); return; }
@@ -50,4 +85,5 @@ jobSelect.addEventListener('change', render);
 scopeSelect.addEventListener('change', () => { scopeSelect.dataset.scope = scopeSelect.value; render(); });
 rateInput.addEventListener('input', render);
 vinInput.addEventListener('input', render);
+loadCatalog();
 render();
