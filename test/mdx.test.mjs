@@ -25,3 +25,10 @@ test('defaults scoped jobs to the full shop scope', () => {
   assert.equal(getMdxScope('valve-cover-gasket').key, 'both');
   assert.equal(getMdxScope('timing-service').key, 'default');
 });
+
+test('keeps access recommendations separate from mandatory replacements', () => {
+  const valveJob = getMdxJob('valve-cover-gasket');
+  assert.equal(valveJob.accessRecommendations[0].job, 'Spark plug replacement');
+  assert.equal(valveJob.accessRecommendations[0].disposition, 'review service history');
+  assert.equal(getMdxJob('front-struts').accessRecommendations.length, 0);
+});
