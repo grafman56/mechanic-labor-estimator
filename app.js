@@ -10,6 +10,7 @@ const catalogYear = document.querySelector('#catalog-year');
 const catalogModel = document.querySelector('#catalog-model');
 const catalogEngine = document.querySelector('#catalog-engine');
 const catalogStatus = document.querySelector('#catalog-status');
+const checkManual = document.querySelector('#check-manual');
 const currency = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' });
 
 for (const selector of ['label[for="job-search"]', '#job-search', 'label[for="category"]', '#category']) {
@@ -52,6 +53,8 @@ async function loadCatalog() {
     const updateEngines = () => {
       fillSelect(catalogEngine, catalogOptions(catalog, 'engine', { year: Number(catalogYear.value), model: catalogModel.value }));
       const entry = findCatalogEntry(catalog, { year: Number(catalogYear.value), model: catalogModel.value, engine: catalogEngine.value });
+      checkManual.disabled = !entry;
+      checkManual.dataset.url = entry?.manual_url ?? '';
       catalogStatus.innerHTML = entry ? `LEMON manual available: <a href="${entry.manual_url}" target="_blank" rel="noreferrer">open matching manual</a>. Estimate coverage is separate.` : 'No matching manual found.';
     };
     catalogYear.addEventListener('change', updateModels);
@@ -85,5 +88,14 @@ jobSelect.addEventListener('change', render);
 scopeSelect.addEventListener('change', () => { scopeSelect.dataset.scope = scopeSelect.value; render(); });
 rateInput.addEventListener('input', render);
 vinInput.addEventListener('input', render);
+checkManual.addEventListener('click', async () => {
+  catalogStatus.textContent = 'Checking live manual…';
+  try {
+    const response = await fetch(`/api/manual-metadata?url=${encodeURIComponent(checkManual.dataset.url)}`);
+    const result = await response.json();
+    if (!response.ok) throw new Error(result.error);
+    catalogStatus.innerHTML = `Live LEMON manual found: <a href="${result.source_url}" target="_blank" rel="noreferrer">${result.title}</a>. Estimate coverage is separate.`;
+  } catch (error) { catalogStatus.textContent = `Live manual check failed: ${error.message}`; }
+});
 loadCatalog();
 render();

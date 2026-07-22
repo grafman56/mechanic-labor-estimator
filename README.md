@@ -45,6 +45,16 @@ The first generated catalog is `data/lemon-acura-catalog.json` with 869 Acura ye
 python3 -c "from tools.lemon_catalog import crawl_make, write_catalog; write_catalog(crawl_make('Acura'), 'data/lemon-acura-catalog.json')"
 ```
 
+## Private on-demand source lookup
+
+For the personal on-demand workflow, run the same-origin private server instead of a static host:
+
+```sh
+python3 server.py
+```
+
+It listens only on `127.0.0.1:8099`, serves the planner, and exposes `GET /api/manual-metadata` for allowlisted LEMON manual URLs. The UI's **Check live manual** button uses that endpoint and returns only source URL/title metadata. It does not copy manual text or create an estimate by itself. Do not expose this service publicly without adding authentication, request rate limits, and a persistent cache.
+
 ## Data maintenance
 
 Vehicle/job records live in `src/mdx.js`. Add a record only after matching the exact vehicle/engine, source labor operation, procedure evidence, required disturbed parts, shop policy, and scope rules. If any of that is missing, leave the vehicle/job unavailable.
