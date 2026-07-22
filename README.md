@@ -35,6 +35,16 @@ npm test
 
 Upload `index.html`, `app.js`, `styles.css`, and the `src/` directory together. No build step is required.
 
+## Vehicle/manual catalog
+
+`tools/lemon_catalog.py` crawls only LEMON's public navigation pages (make → year → model/engine); it does not fetch procedure pages or download manual archives. Its default delay is one second between year pages. The generated catalog means `manual available`, not `verified estimate available`.
+
+The first generated catalog is `data/lemon-acura-catalog.json` with 869 Acura year/model/engine entries. Rebuild it with:
+
+```sh
+python3 -c "from tools.lemon_catalog import crawl_make, write_catalog; write_catalog(crawl_make('Acura'), 'data/lemon-acura-catalog.json')"
+```
+
 ## Data maintenance
 
 Vehicle/job records live in `src/mdx.js`. Add a record only after matching the exact vehicle/engine, source labor operation, procedure evidence, required disturbed parts, shop policy, and scope rules. If any of that is missing, leave the vehicle/job unavailable.
