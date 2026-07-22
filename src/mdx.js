@@ -37,3 +37,9 @@ export const mdxPilot = {
 };
 
 export function getMdxJob(id) { return jobs[id]; }
+
+export function getMdxScope(id, scopeKey) {
+  const job = getMdxJob(id);
+  const key = scopeKey && job.scopes[scopeKey] ? scopeKey : (job.scopes.both ? 'both' : 'default');
+  return { key, ...job.scopes[key] };
+}

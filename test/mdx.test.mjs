@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 
-import { getMdxJob } from '../src/mdx.js';
+import { getMdxJob, getMdxScope } from '../src/mdx.js';
 
 test('uses the published both-side front strut labor for the MDX pilot', () => {
   assert.equal(getMdxJob('front-struts').scopes.both.laborHours, 1.9);
@@ -18,4 +18,10 @@ test('makes the timing service a water-pump-inclusive shop package', () => {
   const job = getMdxJob('timing-service');
   assert.equal(job.scopes.default.laborHours, 5.1);
   assert.ok(job.policyIncluded.includes('Water pump'));
+});
+
+test('defaults scoped jobs to the full shop scope', () => {
+  assert.equal(getMdxScope('front-struts').key, 'both');
+  assert.equal(getMdxScope('valve-cover-gasket').key, 'both');
+  assert.equal(getMdxScope('timing-service').key, 'default');
 });
