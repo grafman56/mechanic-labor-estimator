@@ -1,8 +1,13 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 
-import { getMdxJob, getMdxScope } from '../src/mdx.js';
+import { getMdxJob, getMdxScope, findVerifiedVehicle } from '../src/mdx.js';
 
+test('rejects unverified VINs instead of falling back to generic estimates', () => {
+  assert.equal(findVerifiedVehicle('2HNYD18836H516598').model, 'MDX Touring');
+  assert.equal(findVerifiedVehicle(' 2hnyd18836h516598 ' ).make, 'Acura');
+  assert.equal(findVerifiedVehicle('1HGCM82633A004352'), null);
+});
 test('uses the published both-side front strut labor for the MDX pilot', () => {
   assert.equal(getMdxJob('front-struts').scopes.both.laborHours, 1.9);
 });
