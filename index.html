@@ -19,8 +19,15 @@
       <label for="labor-rate">Shop labor rate (per hour)</label>
       <div class="rate-input"><span>$</span><input id="labor-rate" type="number" min="1" step="1" value="125" inputmode="decimal"></div>
 
+      <label for="job-search">Search jobs</label>
+      <input id="job-search" type="search" placeholder="e.g. brakes, alternator" autocomplete="off">
+
+      <label for="category">Category</label>
+      <select id="category"><option value="">All categories</option></select>
+
       <label for="job">Repair job</label>
       <select id="job"></select>
+      <button id="copy-link" type="button">Copy estimate link</button>
     </section>
 
     <section id="estimate" class="estimate" aria-live="polite"></section>

@@ -88,12 +88,36 @@ const jobs = [
     name: 'Front strut replacement',
     category: 'Suspension & steering',
     laborHours: { low: 2.5, high: 5 },
-    parts: {
-      required: ['Front struts or complete strut assemblies'],
-      recommended: ['Strut mounts/bearings when replacing bare struts', 'Wheel alignment'],
-      inspect: ['Sway-bar links', 'Control arms and bushings', 'Tires for uneven wear'],
-    },
+    parts: { required: ['Front struts or complete strut assemblies'], recommended: ['Strut mounts/bearings when replacing bare struts', 'Wheel alignment'], inspect: ['Sway-bar links', 'Control arms and bushings', 'Tires for uneven wear'] },
     notes: 'Both front corners. Alignment is recommended but priced separately.',
+  },
+  {
+    id: 'oil-change', name: 'Engine oil and filter change', category: 'Maintenance', laborHours: { low: 0.3, high: 0.8 },
+    parts: { required: ['Engine oil', 'Oil filter', 'Drain plug gasket where specified'], recommended: ['Tire-pressure check'], inspect: ['Fluid leaks', 'Oil drain plug threads'] }, notes: 'Oil capacity and specification are vehicle-specific.',
+  },
+  {
+    id: 'brake-caliper', name: 'Brake caliper replacement', category: 'Brakes', laborHours: { low: 1, high: 2.5 },
+    parts: { required: ['Brake caliper', 'Brake fluid'], recommended: ['Brake hose if damaged', 'Brake pads if contaminated'], inspect: ['Slide pins', 'Brake rotor condition', 'Flexible brake hose'] }, notes: 'Per caliper. Bleeding and hydraulic diagnosis are included only as applicable.',
+  },
+  {
+    id: 'battery', name: 'Battery replacement', category: 'Electrical', laborHours: { low: 0.2, high: 1 },
+    parts: { required: ['Battery'], recommended: ['Terminal cleaning/protectant'], inspect: ['Battery terminals', 'Hold-down hardware', 'Charging system'] }, notes: 'Programming, memory preservation, and battery registration may add work.',
+  },
+  {
+    id: 'thermostat', name: 'Thermostat replacement', category: 'Cooling', laborHours: { low: 1, high: 4 },
+    parts: { required: ['Thermostat', 'Thermostat gasket or seal', 'Coolant'], recommended: ['Coolant hose if aged and disturbed'], inspect: ['Water pump', 'Coolant leaks', 'Radiator cap'] }, notes: 'Cooling-system diagnosis and refill/bleed requirements vary by vehicle.',
+  },
+  {
+    id: 'radiator', name: 'Radiator replacement', category: 'Cooling', laborHours: { low: 1.5, high: 4 },
+    parts: { required: ['Radiator', 'Coolant'], recommended: ['Upper/lower radiator hoses if aged'], inspect: ['Cooling fans', 'Transmission cooler connections', 'Water pump'] }, notes: 'Pressure testing and transmission-fluid loss are separate considerations.',
+  },
+  {
+    id: 'control-arm', name: 'Control arm replacement', category: 'Suspension & steering', laborHours: { low: 1.5, high: 4 },
+    parts: { required: ['Control arm assembly or bushing'], recommended: ['Wheel alignment'], inspect: ['Ball joint', 'Sway-bar links', 'Other suspension bushings'] }, notes: 'Per side. Seized bolts and alignment are not included in the base range.',
+  },
+  {
+    id: 'tie-rod-end', name: 'Outer tie-rod end replacement', category: 'Suspension & steering', laborHours: { low: 0.8, high: 2 },
+    parts: { required: ['Outer tie-rod end'], recommended: ['Wheel alignment'], inspect: ['Inner tie rod', 'Steering rack boots', 'Front suspension wear'] }, notes: 'Per side. Alignment is required after steering-geometry work.',
   },
 ];
 
@@ -103,6 +127,21 @@ export function getJobs() {
 
 export function getJobById(id) {
   return jobs.find((job) => job.id === id);
+}
+
+export function searchJobs(query = '') {
+  const normalizedQuery = query.trim().toLowerCase();
+  if (!normalizedQuery) return getJobs();
+
+  return jobs.filter((job) => `${job.name} ${job.category}`.toLowerCase().includes(normalizedQuery));
+}
+
+export function getEstimateState(params, defaultRate = 125) {
+  const selectedJob = getJobById(params.get('job')) ?? getJobs()[0];
+  const requestedRate = Number(params.get('rate'));
+  const laborRate = Number.isFinite(requestedRate) && requestedRate > 0 ? requestedRate : defaultRate;
+
+  return { jobId: selectedJob.id, laborRate };
 }
 
 export function calculateEstimate(job, laborRate) {

@@ -4,7 +4,7 @@ A static, mobile-friendly planning tool for common automotive repairs. It shows 
 
 ## What it is
 
-- A feasibility prototype with eight common repair jobs.
+- A first public version with 15 common repair-planning templates, searchable by job or category.
 - Plain HTML, CSS, and browser JavaScript; no backend, tracking, credentials, or third-party runtime calls.
 - Ready to upload directly to a Hostinger document root.
 
