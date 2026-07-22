@@ -1,0 +1,8 @@
+{
+  "name": "mechanic-labor-estimator",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  }
+}

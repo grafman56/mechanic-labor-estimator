@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A planning tool for common automotive repair labor and related parts.">
+  <title>Mechanic Labor Planner</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page">
+    <header>
+      <p class="eyebrow">Planning estimate</p>
+      <h1>Mechanic Labor Planner</h1>
+      <p class="intro">Choose a common repair to see a labor-only range and a practical parts checklist. This is not a diagnosis or a final quote.</p>
+    </header>
+
+    <section class="controls" aria-label="Estimate controls">
+      <label for="labor-rate">Shop labor rate (per hour)</label>
+      <div class="rate-input"><span>$</span><input id="labor-rate" type="number" min="1" step="1" value="125" inputmode="decimal"></div>
+
+      <label for="job">Repair job</label>
+      <select id="job"></select>
+    </section>
+
+    <section id="estimate" class="estimate" aria-live="polite"></section>
+
+    <section class="notice">
+      <h2>Before authorizing work</h2>
+      <p>Vehicle configuration, condition, access, corrosion, previous repairs, and diagnosis can change labor. Verify the exact procedure and parts for the vehicle before quoting or beginning work.</p>
+    </section>
+  </main>
+  <footer>Source approach: curated planning templates informed by service-manual research. Do not treat this tool as a substitute for a vehicle-specific service manual or inspection.</footer>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
