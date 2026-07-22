@@ -31,9 +31,8 @@ test('defaults scoped jobs to the full shop scope', () => {
   assert.equal(getMdxScope('timing-service').key, 'default');
 });
 
-test('keeps access recommendations separate from mandatory replacements', () => {
+test('does not hard-code access recommendations into a vehicle record', () => {
   const valveJob = getMdxJob('valve-cover-gasket');
-  assert.equal(valveJob.accessRecommendations.find((item) => item.job === 'Spark plug replacement').disposition, 'review service history');
-  assert.equal(valveJob.accessRecommendations.find((item) => item.job === 'Intake manifold gasket set').disposition, 'required replacement');
+  assert.equal(valveJob.accessRecommendations.length, 0);
   assert.equal(getMdxJob('front-struts').accessRecommendations.length, 0);
 });
