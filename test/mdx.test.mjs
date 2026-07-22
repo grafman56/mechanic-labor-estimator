@@ -28,8 +28,7 @@ test('defaults scoped jobs to the full shop scope', () => {
 
 test('keeps access recommendations separate from mandatory replacements', () => {
   const valveJob = getMdxJob('valve-cover-gasket');
-  assert.equal(valveJob.accessRecommendations[0].job, 'Spark plug replacement');
-  assert.equal(valveJob.accessRecommendations[0].disposition, 'review service history');
-  assert.ok(valveJob.policyIncluded.includes('Intake manifold gasket set'));
+  assert.equal(valveJob.accessRecommendations.find((item) => item.job === 'Spark plug replacement').disposition, 'review service history');
+  assert.equal(valveJob.accessRecommendations.find((item) => item.job === 'Intake manifold gasket set').disposition, 'required replacement');
   assert.equal(getMdxJob('front-struts').accessRecommendations.length, 0);
 });

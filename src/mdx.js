@@ -23,6 +23,11 @@ const jobs = {
     },
     policyIncluded: ['Gasket(s) for selected bank scope', 'Intake manifold gasket set'],
     accessRecommendations: [{
+      job: 'Intake manifold gasket set', disposition: 'required replacement',
+      reason: 'The verified cylinder-head-cover removal procedure requires intake-manifold removal; shop policy replaces disturbed gaskets.',
+      labor: 'Included in the valve-cover operation; no separate labor is added.',
+      source: 'https://lemon-manuals.la/Acura/2006/MDX%20V6-3.5L/Repair%20and%20Diagnosis/Engine%2C%20Cooling%20and%20Exhaust/Engine/Cylinder%20Head%20Assembly/Valve%20Cover/Service%20and%20Repair/Cylinder%20Head%20Cover%20Removal/',
+    }, {
       job: 'Spark plug replacement', disposition: 'review service history',
       reason: 'The verified cylinder-head-cover removal procedure removes the intake manifold and six ignition coils.',
       labor: 'Do not add standalone spark-plug labor; a reviewed incremental operation is required.',

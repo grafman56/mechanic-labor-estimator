@@ -3,7 +3,7 @@ import { getMdxJob, getMdxScope, mdxPilot } from './src/mdx.js';
 const rateInput = document.querySelector('#labor-rate');
 const jobSelect = document.querySelector('#job');
 const estimate = document.querySelector('#estimate');
-const controls = document.querySelector('.controls');
+const scopeSelect = document.querySelector('#scope');
 const currency = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' });
 
 for (const [id, job] of Object.entries(mdxPilot.jobs)) jobSelect.add(new Option(job.name, id));
@@ -12,12 +12,6 @@ document.querySelector('#job-search').style.display = 'none';
 const categoryLabel = document.querySelector('label[for="category"]');
 categoryLabel.style.display = 'none';
 document.querySelector('#category').style.display = 'none';
-
-const scopeLabel = document.createElement('label');
-scopeLabel.htmlFor = 'scope'; scopeLabel.textContent = 'Service scope';
-const scopeSelect = document.createElement('select'); scopeSelect.id = 'scope';
-controls.insertBefore(scopeLabel, jobSelect.previousElementSibling);
-controls.insertBefore(scopeSelect, jobSelect.previousElementSibling);
 
 function render() {
   const job = getMdxJob(jobSelect.value);
