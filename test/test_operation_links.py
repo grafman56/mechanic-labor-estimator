@@ -1,4 +1,5 @@
 import unittest
+from urllib.error import HTTPError
 
 from tools.manual_lookup import extract_labor_times, find_operation_links, lookup_job_candidates, lookup_job_labor
 
@@ -60,6 +61,15 @@ class OperationLinkTests(unittest.TestCase):
             'job_id': 'water-pump',
             'reason': 'Multiple exact source operations require review.',
         })
+    def test_reports_missing_parts_and_labor_as_unavailable(self):
+        def missing_page(_):
+            raise HTTPError('https://lemon-manuals.la/missing/', 404, 'Not Found', None, None)
+        self.assertEqual(lookup_job_labor('https://lemon-manuals.la/Acura/2006/MDX%20Base/', 'front-struts', missing_page), {
+            'status': 'unavailable',
+            'job_id': 'front-struts',
+            'reason': 'Source Parts and Labor page is unavailable.',
+        })
+
     def test_returns_source_paths_for_ambiguous_operations_without_selecting_one(self):
         manual_url = 'https://lemon-manuals.la/Acura/2006/MDX%20V6-3.5L/'
         index_url = f'{manual_url}Parts%20and%20Labor/'

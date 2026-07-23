@@ -142,7 +142,11 @@ def lookup_job_labor(manual_url, job_id, fetch_html):
     if not aliases:
         raise ValueError('Unsupported repair job')
     parts_labor_url = urljoin(safe_url, 'Parts%20and%20Labor/')
-    matches = find_operation_links(fetch_html(parts_labor_url), aliases, parts_labor_url)
+    try:
+        parts_labor_html = fetch_html(parts_labor_url)
+    except OSError:
+        return {'status': 'unavailable', 'job_id': job_id, 'reason': 'Source Parts and Labor page is unavailable.'}
+    matches = find_operation_links(parts_labor_html, aliases, parts_labor_url)
     if not matches:
         return {'status': 'unavailable', 'job_id': job_id, 'reason': 'No exact source operation found.'}
     if len(matches) != 1:
