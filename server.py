@@ -5,20 +5,23 @@ from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import parse_qs, urlparse
 
 from tools.manual_lookup import fetch_manual_html, fetch_manual_metadata, lookup_job_labor
+from tools.vin_lookup import decode_vin_and_find_manuals, fetch_lemon_html, fetch_vpic_json
 
 
 class PlannerHandler(SimpleHTTPRequestHandler):
     def do_GET(self):
         parsed = urlparse(self.path)
-        if parsed.path not in ('/api/manual-metadata', '/api/live-job-labor'):
+        if parsed.path not in ('/api/manual-metadata', '/api/live-job-labor', '/api/vin-manuals'):
             return super().do_GET()
         query = parse_qs(parsed.query)
         url = query.get('url', [''])[0]
         try:
             if parsed.path == '/api/manual-metadata':
                 payload = fetch_manual_metadata(url)
-            else:
+            elif parsed.path == '/api/live-job-labor':
                 payload = lookup_job_labor(url, query.get('job', [''])[0], fetch_manual_html)
+            else:
+                payload = decode_vin_and_find_manuals(query.get('vin', [''])[0], fetch_vpic_json, fetch_lemon_html)
             status = 200
         except (ValueError, OSError) as error:
             payload, status = {'error': str(error)}, 400
