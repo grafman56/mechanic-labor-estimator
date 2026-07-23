@@ -3,6 +3,7 @@ import { catalogOptions, findCatalogEntry } from './src/catalog.js';
 import { tier1Jobs } from './src/tier1-jobs.js';
 import { liveEstimateModel, supportsManualEstimate } from './src/live-estimate.js';
 import { availableManuals } from './src/manual-availability.js';
+import { sourceScopeOptions } from './src/live-scopes.js';
 
 const vinInput = document.querySelector('#vin');
 const rateInput = document.querySelector('#labor-rate');
@@ -58,7 +59,7 @@ async function populateLiveScopes() {
       const response = await fetch(`/api/live-job-rows?${params}`);
       const result = await response.json();
       if (response.ok && result.rows.length) {
-        liveScope.replaceChildren(...result.rows.map((row) => new Option(`${row.operation} — ${row.standard_hours} hr`, row.operation)));
+        liveScope.replaceChildren(...sourceScopeOptions(result.rows).map((option) => new Option(option.label, option.value)));
         liveScope.disabled = result.rows.length === 1;
         liveScope.dataset.sourceRow = 'true';
         return;
