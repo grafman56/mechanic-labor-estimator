@@ -1,6 +1,6 @@
 """Safe, low-volume LEMON manual lookup primitives for the private service."""
 from html.parser import HTMLParser
-from urllib.parse import urljoin, urlparse
+from urllib.parse import unquote, urljoin, urlparse
 from urllib.request import Request, urlopen
 
 
@@ -190,6 +190,41 @@ def lookup_job_candidates(manual_url, job_id, fetch_html):
     }
 
 
+def _source_operation_path(source_url, parts_labor_url):
+    relative_path = urlparse(source_url).path.removeprefix(urlparse(parts_labor_url).path).strip('/')
+    return ' / '.join(unquote(part) for part in relative_path.split('/') if part)
+
+
+def lookup_job_operation_rows(manual_url, job_id, fetch_html):
+    safe_url = validate_manual_url(manual_url)
+    if not safe_url:
+        raise ValueError('Unsupported manual URL')
+    aliases = TIER1_JOB_ALIASES.get(job_id)
+    if not aliases:
+        raise ValueError('Unsupported repair job')
+    parts_labor_url = urljoin(safe_url, 'Parts%20and%20Labor/')
+    operations = []
+    seen = set()
+    for match in find_operation_links(fetch_html(parts_labor_url), aliases, parts_labor_url):
+        labor_url = urljoin(match['source_url'], 'Labor%20Times/')
+        rows = [
+            {'operation': row['operation'], 'standard_hours': row['standard_hours']}
+            for row in extract_labor_times(fetch_html(labor_url))
+            if row['operation'].casefold().startswith('replace')
+        ]
+        signature = tuple((row['operation'], row['standard_hours']) for row in rows)
+        if not rows or signature in seen:
+            continue
+        seen.add(signature)
+        operations.append({
+            'title': match['title'],
+            'source_url': match['source_url'],
+            'source_path': _source_operation_path(match['source_url'], parts_labor_url),
+            'rows': rows,
+        })
+    return {'job_id': job_id, 'operations': operations}
+
+
 def lookup_job_labor_rows(manual_url, job_id, fetch_html):
     safe_url = validate_manual_url(manual_url)
     if not safe_url:
@@ -234,7 +269,7 @@ def _select_labor_row(labor_rows, job_id, scope, source_row=None):
     return None, None
 
 
-def lookup_job_labor(manual_url, job_id, fetch_html, scope=None, source_row=None):
+def lookup_job_labor(manual_url, job_id, fetch_html, scope=None, source_row=None, source_operation_url=None):
     safe_url = validate_manual_url(manual_url)
     if not safe_url:
         raise ValueError('Unsupported manual URL')
@@ -249,6 +284,10 @@ def lookup_job_labor(manual_url, job_id, fetch_html, scope=None, source_row=None
     matches = find_operation_links(parts_labor_html, aliases, parts_labor_url)
     if not matches:
         return {'status': 'unavailable', 'job_id': job_id, 'reason': 'No exact source operation found.'}
+    if source_operation_url:
+        matches = [match for match in matches if match['source_url'] == source_operation_url]
+        if not matches:
+            return {'status': 'unavailable', 'job_id': job_id, 'reason': 'Selected source operation is unavailable for this manual.'}
     selections = []
     for match in matches:
         labor_url = urljoin(match['source_url'], 'Labor%20Times/')

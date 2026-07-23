@@ -3,6 +3,7 @@ import { catalogOptions, findCatalogEntry } from './src/catalog.js';
 import { tier1Jobs } from './src/tier1-jobs.js';
 import { liveEstimateModel, supportsManualEstimate } from './src/live-estimate.js';
 import { availableManuals } from './src/manual-availability.js';
+import { manualOperationOptions } from './src/live-operations.js';
 import { sourceScopeOptions } from './src/live-scopes.js';
 import { procedureEvidenceGroups } from './src/procedure-evidence.js';
 
@@ -17,10 +18,12 @@ const catalogEngine = document.querySelector('#catalog-engine');
 const catalogStatus = document.querySelector('#catalog-status');
 const checkManual = document.querySelector('#check-manual');
 const liveJob = document.querySelector('#live-job');
+const liveOperation = document.querySelector('#live-operation');
 const liveScope = document.querySelector('#live-scope');
 const getLiveLabor = document.querySelector('#get-live-labor');
 const currency = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' });
 let selectedManual = null;
+let liveOperations = [];
 
 for (const selector of ['label[for="job-search"]', '#job-search', 'label[for="category"]', '#category']) {
   document.querySelector(selector).style.display = 'none';
@@ -53,25 +56,32 @@ function fillSelect(select, values) {
   select.disabled = values.length === 0;
 }
 
+function populateLiveRows() {
+  const operation = liveOperations.find((candidate) => candidate.source_url === liveOperation.value);
+  const rows = operation?.rows ?? [];
+  liveScope.replaceChildren(...sourceScopeOptions(rows).map((option) => new Option(option.label, option.value)));
+  liveScope.disabled = rows.length <= 1;
+  liveScope.dataset.sourceRow = rows.length ? 'true' : '';
+}
+
 async function populateLiveScopes() {
-  if (selectedManual) {
-    try {
-      const params = new URLSearchParams({ url: selectedManual.manual_url, job: liveJob.value });
-      const response = await fetch(`/api/live-job-rows?${params}`);
-      const result = await response.json();
-      if (response.ok && result.rows.length) {
-        liveScope.replaceChildren(...sourceScopeOptions(result.rows).map((option) => new Option(option.label, option.value)));
-        liveScope.disabled = result.rows.length === 1;
-        liveScope.dataset.sourceRow = 'true';
-        return;
-      }
-    } catch (_) { /* Preserve the static source-scope fallback. */ }
-  }
-  const job = tier1Jobs.find((candidate) => candidate.id === liveJob.value);
-  const labels = { left: 'Left / one side', right: 'Right / one side', both: 'Both sides', front: 'Front bank', rear: 'Rear bank', standard: 'Standard', 'front-one': 'Front suspension / one side', 'front-both': 'Front suspension / both sides', 'hub-one': 'Hub & bearing assembly / one side', 'hub-both': 'Hub & bearing assembly / both sides' };
-  liveScope.replaceChildren(...(job?.scopes ?? []).map((scope) => new Option(labels[scope] ?? scope, scope)));
-  liveScope.disabled = !job || job.scopes.length === 1;
+  liveOperations = [];
+  liveOperation.replaceChildren();
+  liveOperation.disabled = true;
+  liveScope.replaceChildren();
+  liveScope.disabled = true;
   liveScope.dataset.sourceRow = '';
+  if (!selectedManual) return;
+  try {
+    const params = new URLSearchParams({ url: selectedManual.manual_url, job: liveJob.value });
+    const response = await fetch(`/api/live-job-rows?${params}`);
+    const result = await response.json();
+    if (!response.ok || !result.operations?.length) return;
+    liveOperations = result.operations;
+    liveOperation.replaceChildren(...manualOperationOptions(liveOperations).map((option) => new Option(option.label, option.value)));
+    liveOperation.disabled = liveOperations.length <= 1;
+    populateLiveRows();
+  } catch (_) { /* A selected manual without live source rows has no estimate fallback. */ }
 }
 
 function populateLiveJobs() {
@@ -159,6 +169,7 @@ checkManual.addEventListener('click', async () => {
   } catch (error) { catalogStatus.textContent = `Live manual check failed: ${error.message}`; }
 });
 liveJob.addEventListener('change', populateLiveScopes);
+liveOperation.addEventListener('change', populateLiveRows);
 getLiveLabor.addEventListener('click', async () => {
   catalogStatus.textContent = 'Looking up published labor time…';
   try {
@@ -167,6 +178,7 @@ getLiveLabor.addEventListener('click', async () => {
       job: liveJob.value,
       scope: liveScope.dataset.sourceRow ? '' : liveScope.value,
       source_row: liveScope.dataset.sourceRow ? liveScope.value : '',
+      source_operation_url: liveScope.dataset.sourceRow ? liveOperation.value : '',
     });
     const response = await fetch(`/api/live-job-labor?${params}`);
     const result = await response.json();

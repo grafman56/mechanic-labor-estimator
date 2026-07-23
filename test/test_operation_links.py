@@ -1,7 +1,7 @@
 import unittest
 from urllib.error import HTTPError
 
-from tools.manual_lookup import extract_labor_times, find_operation_links, lookup_job_candidates, lookup_job_labor, lookup_job_labor_rows, manual_has_parts_labor
+from tools.manual_lookup import extract_labor_times, find_operation_links, lookup_job_candidates, lookup_job_labor, lookup_job_labor_rows, lookup_job_operation_rows, manual_has_parts_labor
 
 
 class OperationLinkTests(unittest.TestCase):
@@ -200,6 +200,67 @@ class OperationLinkTests(unittest.TestCase):
                 {'title': 'Water Pump', 'source_url': f'{index_url}Engine/Water%20Pump/'},
                 {'title': 'Water Pump', 'source_url': f'{index_url}Cooling/Water%20Pump/'},
             ],
+        })
+
+    def test_lists_distinct_manual_operations_with_only_their_published_replace_rows(self):
+        manual_url = 'https://lemon-manuals.la/Acura/2006/MDX%20V6-3.5L/'
+        index_url = f'{manual_url}Parts%20and%20Labor/'
+        pages = {
+            index_url: '<a href="Engine/Water%20Pump/">Water Pump</a><a href="Cooling/Water%20Pump/">Water Pump</a>',
+            f'{index_url}Engine/Water%20Pump/Labor%20Times/': "<table class='labor-times-table'><tr><td>Replace</td><td>5.1</td><td>3.3</td><td>B</td><td></td></tr><tr><td>Overhaul/Rebuild</td><td>8.0</td><td>5.0</td><td>B</td><td></td></tr></table>",
+            f'{index_url}Cooling/Water%20Pump/Labor%20Times/': "<table class='labor-times-table'><tr><td>Replace</td><td>0.8</td><td>0.5</td><td>B</td><td></td></tr></table>",
+        }
+        self.assertEqual(lookup_job_operation_rows(manual_url, 'water-pump', pages.__getitem__), {
+            'job_id': 'water-pump',
+            'operations': [
+                {
+                    'title': 'Water Pump',
+                    'source_url': f'{index_url}Engine/Water%20Pump/',
+                    'source_path': 'Engine / Water Pump',
+                    'rows': [{'operation': 'Replace', 'standard_hours': 5.1}],
+                },
+                {
+                    'title': 'Water Pump',
+                    'source_url': f'{index_url}Cooling/Water%20Pump/',
+                    'source_path': 'Cooling / Water Pump',
+                    'rows': [{'operation': 'Replace', 'standard_hours': 0.8}],
+                },
+            ],
+        })
+
+    def test_deduplicates_only_equivalent_manual_operations(self):
+        manual_url = 'https://lemon-manuals.la/Acura/2006/MDX%20V6-3.5L/'
+        index_url = f'{manual_url}Parts%20and%20Labor/'
+        pages = {
+            index_url: '<a href="Engine/Water%20Pump/">Water Pump</a><a href="Cooling/Water%20Pump/">Water Pump</a>',
+            f'{index_url}Engine/Water%20Pump/Labor%20Times/': "<table class='labor-times-table'><tr><td>Replace</td><td>5.1</td><td>3.3</td><td>B</td><td></td></tr></table>",
+            f'{index_url}Cooling/Water%20Pump/Labor%20Times/': "<table class='labor-times-table'><tr><td>Replace</td><td>5.1</td><td>3.3</td><td>B</td><td></td></tr></table>",
+        }
+        self.assertEqual(lookup_job_operation_rows(manual_url, 'water-pump', pages.__getitem__), {
+            'job_id': 'water-pump',
+            'operations': [{
+                'title': 'Water Pump',
+                'source_url': f'{index_url}Engine/Water%20Pump/',
+                'source_path': 'Engine / Water Pump',
+                'rows': [{'operation': 'Replace', 'standard_hours': 5.1}],
+            }],
+        })
+
+    def test_uses_only_a_rediscovered_selected_operation_url(self):
+        manual_url = 'https://lemon-manuals.la/Acura/2006/MDX%20V6-3.5L/'
+        index_url = f'{manual_url}Parts%20and%20Labor/'
+        engine_url = f'{index_url}Engine/Water%20Pump/'
+        cooling_url = f'{index_url}Cooling/Water%20Pump/'
+        pages = {
+            index_url: '<a href="Engine/Water%20Pump/">Water Pump</a><a href="Cooling/Water%20Pump/">Water Pump</a>',
+            f'{engine_url}Labor%20Times/': "<table class='labor-times-table'><tr><td>Replace</td><td>5.1</td><td>3.3</td><td>B</td><td></td></tr></table>",
+            f'{cooling_url}Labor%20Times/': "<table class='labor-times-table'><tr><td>Replace</td><td>0.8</td><td>0.5</td><td>B</td><td></td></tr></table>",
+        }
+        self.assertEqual(lookup_job_labor(manual_url, 'water-pump', pages.__getitem__, source_row='Replace', source_operation_url=cooling_url)['standard_hours'], 0.8)
+        self.assertEqual(lookup_job_labor(manual_url, 'water-pump', pages.__getitem__, source_row='Replace', source_operation_url='https://lemon-manuals.la/other/Water%20Pump/'), {
+            'status': 'unavailable',
+            'job_id': 'water-pump',
+            'reason': 'Selected source operation is unavailable for this manual.',
         })
 
 

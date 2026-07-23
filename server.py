@@ -4,7 +4,7 @@ import json
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import parse_qs, urlparse
 
-from tools.manual_lookup import fetch_manual_html, fetch_manual_metadata, lookup_job_labor, lookup_job_labor_rows, manual_has_parts_labor
+from tools.manual_lookup import fetch_manual_html, fetch_manual_metadata, lookup_job_labor, lookup_job_operation_rows, manual_has_parts_labor
 from tools.vin_lookup import decode_vin_and_find_manuals, fetch_lemon_html, fetch_vpic_json
 from tools.procedure_evidence import lookup_job_procedure_evidence
 
@@ -22,11 +22,11 @@ class PlannerHandler(SimpleHTTPRequestHandler):
             elif parsed.path == '/api/manual-availability':
                 payload = {'available': manual_has_parts_labor(url, fetch_manual_html)}
             elif parsed.path == '/api/live-job-rows':
-                payload = {'rows': lookup_job_labor_rows(url, query.get('job', [''])[0], fetch_manual_html)}
+                payload = lookup_job_operation_rows(url, query.get('job', [''])[0], fetch_manual_html)
             elif parsed.path == '/api/procedure-evidence':
                 payload = lookup_job_procedure_evidence(url, query.get('job', [''])[0], fetch_manual_html)
             elif parsed.path == '/api/live-job-labor':
-                payload = lookup_job_labor(url, query.get('job', [''])[0], fetch_manual_html, query.get('scope', [''])[0] or None, query.get('source_row', [''])[0] or None)
+                payload = lookup_job_labor(url, query.get('job', [''])[0], fetch_manual_html, query.get('scope', [''])[0] or None, query.get('source_row', [''])[0] or None, query.get('source_operation_url', [''])[0] or None)
             else:
                 payload = decode_vin_and_find_manuals(query.get('vin', [''])[0], fetch_vpic_json, fetch_lemon_html)
             status = 200
