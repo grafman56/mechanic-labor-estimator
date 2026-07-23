@@ -151,6 +151,11 @@ LABOR_SCOPE_TERMS = {
         'right': ('Rear Suspension', 'One Side'),
         'both': ('Rear Suspension', 'Both Sides'),
     },
+    'valve-cover-gasket': {
+        'front': ('One Bank',),
+        'rear': ('One Bank',),
+        'both': ('Both Banks',),
+    },
 }
 
 

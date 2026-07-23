@@ -74,6 +74,19 @@ class OperationLinkTests(unittest.TestCase):
         self.assertEqual(lookup_job_labor(manual_url, 'front-struts', pages.__getitem__, scope='both')['standard_hours'], 1.9)
         self.assertEqual(lookup_job_labor(manual_url, 'front-struts', pages.__getitem__, scope='left')['standard_hours'], 1.0)
 
+    def test_uses_requested_valve_cover_bank_scope_from_source_rows(self):
+        manual_url = 'https://lemon-manuals.la/Acura/2006/MDX%20V6-3.5L/'
+        pages = {
+            f'{manual_url}Parts%20and%20Labor/': '<a href="Engine/Valve%20Cover%20Gasket/">Valve Cover Gasket</a>',
+            f'{manual_url}Parts%20and%20Labor/Engine/Valve%20Cover%20Gasket/Labor%20Times/': (
+                "<table class='labor-times-table'><tr><td>Replace</td></tr>"
+                '<tr><td>One Bank</td><td>1.3</td><td>0.8</td><td>B</td><td></td></tr>'
+                '<tr><td>Both Banks</td><td>2.5</td><td>1.1</td><td>B</td><td></td></tr></table>'
+            ),
+        }
+        self.assertEqual(lookup_job_labor(manual_url, 'valve-cover-gasket', pages.__getitem__, scope='front')['standard_hours'], 1.3)
+        self.assertEqual(lookup_job_labor(manual_url, 'valve-cover-gasket', pages.__getitem__, scope='both')['standard_hours'], 2.5)
+
     def test_refuses_to_choose_between_multiple_source_operations(self):
         manual_url = 'https://lemon-manuals.la/Acura/2006/MDX%20V6-3.5L/'
         pages = {
