@@ -68,6 +68,21 @@ class OperationLinkTests(unittest.TestCase):
         }
         self.assertEqual(lookup_job_labor(manual_url, 'starter', pages.__getitem__)['standard_hours'], 1.2)
 
+    def test_matches_a_factory_manual_air_filter_element_title(self):
+        manual_url = 'https://lemon-manuals.la/BMW/2006/325Ci%20Convertible%20%28E46%29%20L6-2.5L%20%28M54%29/'
+        pages = {
+            f'{manual_url}Parts%20and%20Labor/': '<a href="Maintenance/Filters/Air%20Filter%20Element/">Air Filter Element</a>',
+            f'{manual_url}Parts%20and%20Labor/Maintenance/Filters/Air%20Filter%20Element/Labor%20Times/': "<table class='labor-times-table'><tr><td>Replace</td><td>0.3</td><td>0.2</td><td>C</td><td></td></tr></table>",
+        }
+        self.assertEqual(lookup_job_labor(manual_url, 'engine-air-filter', pages.__getitem__), {
+            'status': 'available',
+            'job_id': 'engine-air-filter',
+            'source_operation': 'Air Filter Element',
+            'source_url': f'{manual_url}Parts%20and%20Labor/Maintenance/Filters/Air%20Filter%20Element/Labor%20Times/',
+            'standard_hours': 0.3,
+            'time_basis': 'replace',
+        })
+
     def test_lists_exact_published_rows_for_scope_selection(self):
         manual_url = 'https://lemon-manuals.la/Acura/2006/MDX%20V6-3.5L/'
         pages = {

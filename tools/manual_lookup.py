@@ -136,6 +136,7 @@ TIER1_JOB_ALIASES = {
     'wheel-bearing-hub': ('Wheel Bearing',),
     'serpentine-belt': ('Drive Belt',),
     'spark-plugs': ('Spark Plug',),
+    'engine-air-filter': ('Air Filter Element',),
     'valve-cover-gasket': ('Valve Cover Gasket',),
     'timing-belt': ('Timing Belt',),
     'water-pump': ('Water Pump',),

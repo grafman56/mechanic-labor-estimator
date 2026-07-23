@@ -8,5 +8,8 @@ test('exposes the normalized jobs available for live source lookup', () => {
   assert.deepEqual(findTier1Job('alternator'), {
     id: 'alternator', label: 'Alternator', aliases: ['Alternator'], scopes: ['standard'],
   });
+  assert.deepEqual(findTier1Job('engine-air-filter'), {
+    id: 'engine-air-filter', label: 'Engine air filter', aliases: ['Air Filter Element'], scopes: ['standard'],
+  });
   assert.equal(findTier1Job('not-a-job'), null);
 });

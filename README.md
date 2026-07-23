@@ -6,7 +6,7 @@ A local, vehicle-specific labor-planning pilot. It does not provide generic esti
 
 - VIN `2HNYD18836H516598`: 2006 Acura MDX Touring, J35A5 3.5L V6 remains the reviewed static-record pilot.
 - A selected LEMON manual with a Parts and Labor page is an alternative to VIN verification for live labor lookup.
-- Live source labor supports these Tier 1 job IDs when the selected manual exposes an exact published `Replace` row: front struts; rear struts/shocks; alternator; starter motor; radiator; wheel bearing/hub; serpentine belt; spark plugs; valve-cover gasket; timing belt; and water pump.
+- Live source labor supports these Tier 1 job IDs when the selected manual exposes an exact published `Replace` row: front struts; rear struts/shocks; alternator; starter motor; radiator; wheel bearing/hub; serpentine belt; spark plugs; engine air filter; valve-cover gasket; timing belt; and water pump.
 - Same-named source operations can require a manual operation-path selection. The tool never selects between conflicting paths automatically.
 - Procedure evidence is currently verified only for these exact 2006 MDX V6-3.5L manual operations:
   - valve-cover gasket: spark plug seals (`replace-if-removed`) and cover washer (`inspect`);
@@ -17,6 +17,7 @@ A local, vehicle-specific labor-planning pilot. It does not provide generic esti
 | --- | --- | --- |
 | Front/rear struts or shocks; wheel bearing/hub | Exact published rows; generic side wording stays generic | Labor only |
 | Alternator; starter; radiator; serpentine belt; spark plugs | Exact published `Replace` row when available | Labor only |
+| Engine air filter | Exact published `Replace` row when available | Labor only |
 | Valve-cover gasket | Exact published bank/side wording | Verified for the MDX operation listed above |
 | Timing belt | Exact published `Replace` row; no water-pump labor is silently added | Labor only |
 | Water pump | Exact operation path and published row required when paths conflict | Verified only for the MDX engine-path operation listed above |

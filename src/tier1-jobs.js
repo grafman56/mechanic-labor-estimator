@@ -7,6 +7,7 @@ export const tier1Jobs = [
   { id: 'wheel-bearing-hub', label: 'Wheel bearing / hub', aliases: ['Wheel Bearing'], scopes: ['front-one', 'front-both', 'hub-one', 'hub-both'] },
   { id: 'serpentine-belt', label: 'Serpentine belt', aliases: ['Drive Belt'], scopes: ['standard'] },
   { id: 'spark-plugs', label: 'Spark plugs', aliases: ['Spark Plug'], scopes: ['standard'] },
+  { id: 'engine-air-filter', label: 'Engine air filter', aliases: ['Air Filter Element'], scopes: ['standard'] },
   { id: 'valve-cover-gasket', label: 'Valve-cover gasket', aliases: ['Valve Cover Gasket'], scopes: ['front', 'rear', 'both'] },
   { id: 'timing-belt', label: 'Timing belt', aliases: ['Timing Belt'], scopes: ['standard'] },
   { id: 'water-pump', label: 'Water pump', aliases: ['Water Pump'], scopes: ['standard'] },
