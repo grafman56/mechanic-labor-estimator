@@ -9,11 +9,18 @@ MDX_2006_V6_MANUAL_URL = 'https://lemon-manuals.la/Acura/2006/MDX%20V6-3.5L/'
 MDX_2006_V6_VALVE_COVER_OPERATION_URL = (
     f'{MDX_2006_V6_MANUAL_URL}Parts%20and%20Labor/Engine%2C%20Cooling%20and%20Exhaust/Engine/Valve%20Cover%20Gasket/'
 )
+MDX_2006_V6_WATER_PUMP_OPERATION_URL = (
+    f'{MDX_2006_V6_MANUAL_URL}Parts%20and%20Labor/Engine%2C%20Cooling%20and%20Exhaust/Engine/Water%20Pump/'
+)
 PROCEDURE_INSTALLATION_PATHS = {
     (MDX_2006_V6_MANUAL_URL, 'valve-cover-gasket', MDX_2006_V6_VALVE_COVER_OPERATION_URL): (
         'Repair%20and%20Diagnosis/Engine%2C%20Cooling%20and%20Exhaust/Engine/'
         'Cylinder%20Head%20Assembly/Valve%20Cover/Service%20and%20Repair/'
         'Cylinder%20Head%20Cover%20Installation/'
+    ),
+    (MDX_2006_V6_MANUAL_URL, 'water-pump', MDX_2006_V6_WATER_PUMP_OPERATION_URL): (
+        'Repair%20and%20Diagnosis/Engine%2C%20Cooling%20and%20Exhaust/Engine/Water%20Pump/'
+        'Service%20and%20Repair/Water%20Pump%20Replacement/'
     ),
 }
 
@@ -36,6 +43,13 @@ def extract_procedure_evidence(source_url, fetch_html):
     parser.feed(fetch_html(source_url))
     text = ' '.join(' '.join(parser.parts).split())
     items = []
+    for required in re.finditer(r'install the .+? with a new (.+?) in the reverse order of removal\.', text, re.I):
+        items.append({
+            'kind': 'required',
+            'label': _title_case(required.group(1)),
+            'reason': required.group(0),
+            'source_url': source_url,
+        })
     for check in re.finditer(r'(?:visually )?check the (.+?) for damage\. Replace if necessary\.', text, re.I):
         items.append({
             'kind': 'replace-if-removed',

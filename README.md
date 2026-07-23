@@ -6,6 +6,7 @@ A static, vehicle-specific labor-planning pilot. It does not provide generic est
 
 - VIN `2HNYD18836H516598`: 2006 Acura MDX Touring, J35A5 3.5L V6.
 - Reviewed jobs: front struts, valve-cover gaskets, and the full timing-belt service package.
+- Procedure evidence is currently verified only for these exact MDX manual operations: valve-cover gasket (spark plug seals and cover washer) and engine-path water pump (new O-ring (B)).
 - Other VINs and unsupported jobs show `No verified estimate available`; they do not fall back to generic labor, parts, or access assumptions.
 
 Labor values are source-published standard/book times for the matched vehicle. Shop-policy packages, required disturbed gaskets, and access-aware recommendations are stored separately from source labor evidence.

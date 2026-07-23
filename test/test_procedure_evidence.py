@@ -59,6 +59,24 @@ class ProcedureEvidenceTests(unittest.TestCase):
             'reason': 'Selected source operation is unavailable for this manual.',
         })
 
+    def test_reports_an_explicit_new_water_pump_o_ring_as_required(self):
+        manual_url = 'https://lemon-manuals.la/Acura/2006/MDX%20V6-3.5L/'
+        operation_url = f'{manual_url}Parts%20and%20Labor/Engine%2C%20Cooling%20and%20Exhaust/Engine/Water%20Pump/'
+        source_url = f'{manual_url}Repair%20and%20Diagnosis/Engine%2C%20Cooling%20and%20Exhaust/Engine/Water%20Pump/Service%20and%20Repair/Water%20Pump%20Replacement/'
+        pages = {
+            f'{manual_url}Parts%20and%20Labor/': '<a href="Engine%2C%20Cooling%20and%20Exhaust/Engine/Water%20Pump/">Water Pump</a>',
+            source_url: '<p>Install the water pump with a new O-ring (B) in the reverse order of removal.</p>',
+        }
+        self.assertEqual(lookup_job_procedure_evidence(manual_url, 'water-pump', pages.__getitem__, source_operation_url=operation_url), {
+            'status': 'available',
+            'items': [{
+                'kind': 'required',
+                'label': 'O-ring (B)',
+                'reason': 'Install the water pump with a new O-ring (B) in the reverse order of removal.',
+                'source_url': source_url,
+            }],
+        })
+
     def test_does_not_infer_an_intake_gasket_from_an_install_instruction(self):
         source_url = 'https://lemon-manuals.la/example/'
         pages = {source_url: '<p>Install the intake manifold.</p>'}
