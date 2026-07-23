@@ -87,7 +87,16 @@ def extract_labor_times(html):
     parser = _LaborTableParser()
     parser.feed(html)
     rows = []
+    service_operation = None
+    source_group = None
     for cells in parser.rows:
+        if len(cells) == 1:
+            if cells[0] in ('Replace', 'Remove and Install', 'Overhaul/Rebuild'):
+                service_operation = cells[0]
+                source_group = None
+            else:
+                source_group = cells[0]
+            continue
         if len(cells) != 5 or cells[1] == 'Standard Hours':
             continue
         try:
@@ -95,8 +104,9 @@ def extract_labor_times(html):
             warranty_hours = float(cells[2])
         except ValueError:
             continue
+        operation = ' — '.join(part for part in (service_operation, source_group, cells[0]) if part)
         rows.append({
-            'operation': cells[0],
+            'operation': operation,
             'standard_hours': standard_hours,
             'warranty_hours': warranty_hours,
             'skill_level': cells[3],
@@ -163,18 +173,26 @@ def lookup_job_labor(manual_url, job_id, fetch_html):
     if len(matches) != 1:
         return {'status': 'unavailable', 'job_id': job_id, 'reason': 'Multiple exact source operations require review.'}
     labor_url = urljoin(matches[0]['source_url'], 'Labor%20Times/')
+    labor_rows = extract_labor_times(fetch_html(labor_url))
     replace_rows = [
-        row for row in extract_labor_times(fetch_html(labor_url))
-        if row['operation'].casefold() == 'replace'
+        row for row in labor_rows
+        if row['operation'].casefold().startswith('replace')
     ]
-    if len(replace_rows) != 1:
+    if len(replace_rows) == 1:
+        selected_row = replace_rows[0]
+        time_basis = 'replace'
+    elif not replace_rows and len(labor_rows) == 1:
+        selected_row = labor_rows[0]
+        time_basis = 'published-operation'
+    else:
         return {'status': 'unavailable', 'job_id': job_id, 'reason': 'No unambiguous source replace time found.'}
     return {
         'status': 'available',
         'job_id': job_id,
         'source_operation': matches[0]['title'],
         'source_url': labor_url,
-        'standard_hours': replace_rows[0]['standard_hours'],
+        'standard_hours': selected_row['standard_hours'],
+        'time_basis': time_basis,
     }
 
 

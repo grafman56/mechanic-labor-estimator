@@ -30,6 +30,17 @@ class OperationLinkTests(unittest.TestCase):
                 {'operation': 'Overhaul/Rebuild', 'standard_hours': 2.2, 'warranty_hours': 2.0, 'skill_level': 'B', 'notes': 'Includes: R&I Alternator.'},
             ],
         )
+    def test_keeps_source_grouping_for_scoped_labor_rows(self):
+        html = (
+            "<table class='labor-times-table'><tr><td>Replace</td></tr>"
+            '<tr><td>Front Suspension</td></tr><tr><td>Both Sides</td><td>1.9</td><td>1.2</td><td>B</td><td></td></tr>'
+            '<tr><td>Rear Suspension</td></tr><tr><td>Both Sides</td><td>0.7</td><td>0.6</td><td>B</td><td></td></tr></table>'
+        )
+        self.assertEqual(extract_labor_times(html), [
+            {'operation': 'Replace — Front Suspension — Both Sides', 'standard_hours': 1.9, 'warranty_hours': 1.2, 'skill_level': 'B', 'notes': ''},
+            {'operation': 'Replace — Rear Suspension — Both Sides', 'standard_hours': 0.7, 'warranty_hours': 0.6, 'skill_level': 'B', 'notes': ''},
+        ])
+
     def test_looks_up_one_exact_job_and_returns_its_replace_hours(self):
         manual_url = 'https://lemon-manuals.la/Acura/2006/MDX%20V6-3.5L/'
         pages = {
@@ -46,6 +57,7 @@ class OperationLinkTests(unittest.TestCase):
             'source_operation': 'Alternator',
             'source_url': f'{manual_url}Parts%20and%20Labor/Starting/Alternator/Labor%20Times/',
             'standard_hours': 1.5,
+            'time_basis': 'replace',
         })
 
     def test_refuses_to_choose_between_multiple_source_operations(self):
