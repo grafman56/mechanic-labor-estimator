@@ -1,7 +1,7 @@
 import unittest
 from urllib.error import HTTPError
 
-from tools.manual_lookup import extract_labor_times, find_operation_links, lookup_job_candidates, lookup_job_labor
+from tools.manual_lookup import extract_labor_times, find_operation_links, lookup_job_candidates, lookup_job_labor, manual_has_parts_labor
 
 
 class OperationLinkTests(unittest.TestCase):
@@ -61,6 +61,12 @@ class OperationLinkTests(unittest.TestCase):
             'job_id': 'water-pump',
             'reason': 'Multiple exact source operations require review.',
         })
+    def test_detects_when_a_manual_lacks_parts_and_labor(self):
+        def missing_page(_):
+            raise HTTPError('https://lemon-manuals.la/missing/', 404, 'Not Found', None, None)
+        self.assertFalse(manual_has_parts_labor('https://lemon-manuals.la/Acura/2006/MDX%20Base/', missing_page))
+        self.assertTrue(manual_has_parts_labor('https://lemon-manuals.la/Acura/2006/MDX%20V6-3.5L/', lambda _: '<title>Parts</title>'))
+
     def test_reports_missing_parts_and_labor_as_unavailable(self):
         def missing_page(_):
             raise HTTPError('https://lemon-manuals.la/missing/', 404, 'Not Found', None, None)

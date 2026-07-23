@@ -120,6 +120,17 @@ TIER1_JOB_ALIASES = {
 }
 
 
+def manual_has_parts_labor(manual_url, fetch_html):
+    safe_url = validate_manual_url(manual_url)
+    if not safe_url:
+        raise ValueError('Unsupported manual URL')
+    try:
+        fetch_html(urljoin(safe_url, 'Parts%20and%20Labor/'))
+    except OSError:
+        return False
+    return True
+
+
 def lookup_job_candidates(manual_url, job_id, fetch_html):
     safe_url = validate_manual_url(manual_url)
     if not safe_url:

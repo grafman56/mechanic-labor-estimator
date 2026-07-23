@@ -2,6 +2,7 @@ import { findVerifiedVehicle, getMdxJob, getMdxScope } from './src/mdx.js';
 import { catalogOptions, findCatalogEntry } from './src/catalog.js';
 import { tier1Jobs } from './src/tier1-jobs.js';
 import { liveEstimateModel } from './src/live-estimate.js';
+import { availableManuals } from './src/manual-availability.js';
 
 const vinInput = document.querySelector('#vin');
 const rateInput = document.querySelector('#labor-rate');
@@ -60,19 +61,33 @@ async function loadCatalog() {
       fillSelect(catalogModel, catalogOptions(catalog, 'model', { year: Number(catalogYear.value) }));
       updateEngines();
     };
-    const updateEngines = () => {
-      fillSelect(catalogEngine, catalogOptions(catalog, 'engine', { year: Number(catalogYear.value), model: catalogModel.value }));
-      const entry = findCatalogEntry(catalog, { year: Number(catalogYear.value), model: catalogModel.value, engine: catalogEngine.value });
+    const updateEngines = async () => {
+      const candidates = catalog.filter((entry) => entry.year === Number(catalogYear.value) && entry.model === catalogModel.value);
+      catalogEngine.disabled = true;
+      catalogStatus.textContent = 'Checking source labor availability…';
+      const manuals = await availableManuals(candidates, async (entry) => {
+        const response = await fetch(`/api/manual-availability?url=${encodeURIComponent(entry.manual_url)}`);
+        return response.ok && (await response.json()).available;
+      });
+      fillSelect(catalogEngine, manuals.map((entry) => entry.engine));
+      catalogEngine.dataset.manuals = JSON.stringify(manuals);
+      const entry = findCatalogEntry(manuals, { engine: catalogEngine.value });
       selectedManual = entry;
       checkManual.disabled = !entry;
       getLiveLabor.disabled = !entry;
       checkManual.dataset.url = entry?.manual_url ?? '';
       getLiveLabor.dataset.url = entry?.manual_url ?? '';
-      catalogStatus.innerHTML = entry ? `LEMON manual available: <a href="${entry.manual_url}" target="_blank" rel="noreferrer">open matching manual</a>. Estimate coverage is separate.` : 'No matching manual found.';
+      catalogStatus.innerHTML = entry ? `LEMON labor data available: <a href="${entry.manual_url}" target="_blank" rel="noreferrer">open matching manual</a>.` : 'No source manual with labor data is available for this selection.';
     };
     catalogYear.addEventListener('change', updateModels);
     catalogModel.addEventListener('change', updateEngines);
-    catalogEngine.addEventListener('change', updateEngines);
+    catalogEngine.addEventListener('change', () => {
+      selectedManual = findCatalogEntry(JSON.parse(catalogEngine.dataset.manuals || '[]'), { engine: catalogEngine.value });
+      checkManual.disabled = !selectedManual;
+      getLiveLabor.disabled = !selectedManual;
+      checkManual.dataset.url = selectedManual?.manual_url ?? '';
+      getLiveLabor.dataset.url = selectedManual?.manual_url ?? '';
+    });
     updateModels();
   } catch (error) {
     catalogYear.disabled = true;
