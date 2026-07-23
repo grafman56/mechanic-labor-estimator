@@ -188,7 +188,11 @@ getLiveLabor.addEventListener('click', async () => {
       return;
     }
     const live = liveEstimateModel(result, selectedManual, rateInput.value);
-    const evidenceResponse = await fetch(`/api/procedure-evidence?${new URLSearchParams({ url: getLiveLabor.dataset.url, job: liveJob.value })}`);
+    const evidenceResponse = await fetch(`/api/procedure-evidence?${new URLSearchParams({
+      url: getLiveLabor.dataset.url,
+      job: liveJob.value,
+      source_operation_url: liveOperation.value,
+    })}`);
     const evidence = evidenceResponse.ok ? await evidenceResponse.json() : { status: 'unavailable' };
     const groups = procedureEvidenceGroups(evidence);
     const evidenceHtml = groups.length ? `<div class="parts-group"><h3>Procedure evidence</h3>${groups.map((group) => `<p><strong>${group.heading}</strong><br>${group.items.map((label) => { const item = evidence.items.find((candidate) => candidate.label === label); return `<a href="${item.source_url}" target="_blank" rel="noreferrer">${label}</a>`; }).join(', ')}</p>`).join('')}</div>` : '';

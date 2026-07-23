@@ -24,7 +24,7 @@ class PlannerHandler(SimpleHTTPRequestHandler):
             elif parsed.path == '/api/live-job-rows':
                 payload = lookup_job_operation_rows(url, query.get('job', [''])[0], fetch_manual_html)
             elif parsed.path == '/api/procedure-evidence':
-                payload = lookup_job_procedure_evidence(url, query.get('job', [''])[0], fetch_manual_html)
+                payload = lookup_job_procedure_evidence(url, query.get('job', [''])[0], fetch_manual_html, query.get('source_operation_url', [''])[0] or None)
             elif parsed.path == '/api/live-job-labor':
                 payload = lookup_job_labor(url, query.get('job', [''])[0], fetch_manual_html, query.get('scope', [''])[0] or None, query.get('source_row', [''])[0] or None, query.get('source_operation_url', [''])[0] or None)
             else:
