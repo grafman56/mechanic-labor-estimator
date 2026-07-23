@@ -1,6 +1,7 @@
 import { findVerifiedVehicle, getMdxJob, getMdxScope } from './src/mdx.js';
 import { catalogOptions, findCatalogEntry } from './src/catalog.js';
 import { tier1Jobs } from './src/tier1-jobs.js';
+import { liveEstimateModel } from './src/live-estimate.js';
 
 const vinInput = document.querySelector('#vin');
 const rateInput = document.querySelector('#labor-rate');
@@ -15,6 +16,7 @@ const checkManual = document.querySelector('#check-manual');
 const liveJob = document.querySelector('#live-job');
 const getLiveLabor = document.querySelector('#get-live-labor');
 const currency = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' });
+let selectedManual = null;
 
 for (const selector of ['label[for="job-search"]', '#job-search', 'label[for="category"]', '#category']) {
   document.querySelector(selector).style.display = 'none';
@@ -61,6 +63,7 @@ async function loadCatalog() {
     const updateEngines = () => {
       fillSelect(catalogEngine, catalogOptions(catalog, 'engine', { year: Number(catalogYear.value), model: catalogModel.value }));
       const entry = findCatalogEntry(catalog, { year: Number(catalogYear.value), model: catalogModel.value, engine: catalogEngine.value });
+      selectedManual = entry;
       checkManual.disabled = !entry;
       getLiveLabor.disabled = !entry;
       checkManual.dataset.url = entry?.manual_url ?? '';
@@ -118,9 +121,10 @@ getLiveLabor.addEventListener('click', async () => {
       catalogStatus.textContent = `No verified live estimate: ${result.reason}`;
       return;
     }
-    const rate = Number(rateInput.value);
-    const price = Number.isFinite(rate) && rate > 0 ? ` · ${currency.format(result.standard_hours * rate)}` : '';
-    catalogStatus.innerHTML = `Live source match: <a href="${result.source_url}" target="_blank" rel="noreferrer">${result.source_operation} labor time</a> — ${result.standard_hours} standard hr${price}.`;
+    const live = liveEstimateModel(result, selectedManual, rateInput.value);
+    const price = live.laborCost === null ? '' : ` · ${currency.format(live.laborCost)}`;
+    catalogStatus.innerHTML = `Live source match: <a href="${live.sourceUrl}" target="_blank" rel="noreferrer">${live.operation} labor time</a> — ${live.laborHours} standard hr${price}.`;
+    estimate.innerHTML = `<div class="estimate-heading"><div><p class="eyebrow">Selected vehicle and live source</p><h2>${live.operation}</h2><p>${live.vehicle}</p></div><div class="total"><span>Published baseline labor</span><strong>${live.laborHours} hr${price}</strong></div></div><div class="parts-grid"><div class="parts-group"><h3>Source</h3><p><a href="${live.sourceUrl}" target="_blank" rel="noreferrer">LEMON labor-times page</a></p><p>Published standard/book time for the selected source manual.</p></div></div><p class="job-note">Vehicle/model selection can produce an estimate only when the selected manual exposes one exact operation and one unambiguous Replace labor time.</p>`;
   } catch (error) { catalogStatus.textContent = `Live labor lookup failed: ${error.message}`; }
 });
 populateLiveJobs();
