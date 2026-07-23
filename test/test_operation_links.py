@@ -68,6 +68,14 @@ class OperationLinkTests(unittest.TestCase):
         }
         self.assertEqual(lookup_job_labor(manual_url, 'starter', pages.__getitem__)['standard_hours'], 1.2)
 
+    def test_matches_a_factory_manual_lube_and_filter_service_title(self):
+        manual_url = 'https://lemon-manuals.la/BMW/2006/325Ci%20Convertible%20%28E46%29%20L6-2.5L%20%28M54%29/'
+        pages = {
+            f'{manual_url}Parts%20and%20Labor/': '<a href="Maintenance/Lube%20and%20Filter%20Service/">Lube &amp; Filter Service</a>',
+            f'{manual_url}Parts%20and%20Labor/Maintenance/Lube%20and%20Filter%20Service/Labor%20Times/': "<table class='labor-times-table'><tr><td>Replace</td><td>0.5</td><td>0.3</td><td>C</td><td></td></tr></table>",
+        }
+        self.assertEqual(lookup_job_labor(manual_url, 'oil-and-filter', pages.__getitem__)['standard_hours'], 0.5)
+
     def test_matches_a_factory_manual_air_filter_element_title(self):
         manual_url = 'https://lemon-manuals.la/BMW/2006/325Ci%20Convertible%20%28E46%29%20L6-2.5L%20%28M54%29/'
         pages = {
