@@ -15,6 +15,7 @@ const catalogEngine = document.querySelector('#catalog-engine');
 const catalogStatus = document.querySelector('#catalog-status');
 const checkManual = document.querySelector('#check-manual');
 const liveJob = document.querySelector('#live-job');
+const liveScope = document.querySelector('#live-scope');
 const getLiveLabor = document.querySelector('#get-live-labor');
 const currency = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' });
 let selectedManual = null;
@@ -50,9 +51,17 @@ function fillSelect(select, values) {
   select.disabled = values.length === 0;
 }
 
+function populateLiveScopes() {
+  const job = tier1Jobs.find((candidate) => candidate.id === liveJob.value);
+  const labels = { left: 'Left / one side', right: 'Right / one side', both: 'Both sides', front: 'Front bank', rear: 'Rear bank', standard: 'Standard' };
+  liveScope.replaceChildren(...(job?.scopes ?? []).map((scope) => new Option(labels[scope] ?? scope, scope)));
+  liveScope.disabled = !job || job.scopes.length === 1;
+}
+
 function populateLiveJobs() {
   liveJob.replaceChildren(...tier1Jobs.map((job) => new Option(job.label, job.id)));
   liveJob.disabled = false;
+  populateLiveScopes();
 }
 
 async function loadCatalog() {
@@ -131,10 +140,11 @@ checkManual.addEventListener('click', async () => {
     catalogStatus.innerHTML = `Live LEMON manual found: <a href="${result.source_url}" target="_blank" rel="noreferrer">${result.title}</a>. Estimate coverage is separate.`;
   } catch (error) { catalogStatus.textContent = `Live manual check failed: ${error.message}`; }
 });
+liveJob.addEventListener('change', populateLiveScopes);
 getLiveLabor.addEventListener('click', async () => {
   catalogStatus.textContent = 'Looking up published labor time…';
   try {
-    const params = new URLSearchParams({ url: getLiveLabor.dataset.url, job: liveJob.value });
+    const params = new URLSearchParams({ url: getLiveLabor.dataset.url, job: liveJob.value, scope: liveScope.value });
     const response = await fetch(`/api/live-job-labor?${params}`);
     const result = await response.json();
     if (!response.ok) throw new Error(result.error);

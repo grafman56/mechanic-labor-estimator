@@ -60,6 +60,20 @@ class OperationLinkTests(unittest.TestCase):
             'time_basis': 'replace',
         })
 
+    def test_uses_requested_front_strut_scope_from_source_rows(self):
+        manual_url = 'https://lemon-manuals.la/Acura/2006/MDX%20V6-3.5L/'
+        pages = {
+            f'{manual_url}Parts%20and%20Labor/': '<a href="Suspension/Strut/">Suspension Strut / Shock Absorber</a>',
+            f'{manual_url}Parts%20and%20Labor/Suspension/Strut/Labor%20Times/': (
+                "<table class='labor-times-table'><tr><td>Replace</td></tr><tr><td>Front Suspension</td></tr>"
+                '<tr><td>One Side</td><td>1.0</td><td>0.6</td><td>B</td><td></td></tr>'
+                '<tr><td>Both Sides</td><td>1.9</td><td>1.2</td><td>B</td><td></td></tr>'
+                '<tr><td>Rear Suspension</td></tr><tr><td>Both Sides</td><td>0.7</td><td>0.6</td><td>B</td><td></td></tr></table>'
+            ),
+        }
+        self.assertEqual(lookup_job_labor(manual_url, 'front-struts', pages.__getitem__, scope='both')['standard_hours'], 1.9)
+        self.assertEqual(lookup_job_labor(manual_url, 'front-struts', pages.__getitem__, scope='left')['standard_hours'], 1.0)
+
     def test_refuses_to_choose_between_multiple_source_operations(self):
         manual_url = 'https://lemon-manuals.la/Acura/2006/MDX%20V6-3.5L/'
         pages = {

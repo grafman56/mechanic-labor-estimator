@@ -21,7 +21,7 @@ class PlannerHandler(SimpleHTTPRequestHandler):
             elif parsed.path == '/api/manual-availability':
                 payload = {'available': manual_has_parts_labor(url, fetch_manual_html)}
             elif parsed.path == '/api/live-job-labor':
-                payload = lookup_job_labor(url, query.get('job', [''])[0], fetch_manual_html)
+                payload = lookup_job_labor(url, query.get('job', [''])[0], fetch_manual_html, query.get('scope', [''])[0] or None)
             else:
                 payload = decode_vin_and_find_manuals(query.get('vin', [''])[0], fetch_vpic_json, fetch_lemon_html)
             status = 200

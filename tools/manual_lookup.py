@@ -49,10 +49,24 @@ class _LaborTableParser(HTMLParser):
         self.current_row = []
         self.rows = []
 
+    def _finish_cell(self):
+        if self.in_cell:
+            self.current_row.append(' '.join(''.join(self.cell_parts).split()))
+            self.in_cell = False
+
+    def _finish_row(self):
+        self._finish_cell()
+        if self.current_row:
+            self.rows.append(self.current_row)
+        self.current_row = []
+
     def handle_starttag(self, tag, attrs):
         if tag == 'table' and 'labor-times-table' in dict(attrs).get('class', ''):
             self.in_labor_table = True
+        elif self.in_labor_table and tag == 'tr':
+            self._finish_row()
         elif self.in_labor_table and tag in ('td', 'th'):
+            self._finish_cell()
             self.in_cell = True
             self.cell_parts = []
 
@@ -62,13 +76,11 @@ class _LaborTableParser(HTMLParser):
 
     def handle_endtag(self, tag):
         if self.in_labor_table and tag in ('td', 'th'):
-            self.current_row.append(' '.join(''.join(self.cell_parts).split()))
-            self.in_cell = False
+            self._finish_cell()
         elif self.in_labor_table and tag == 'tr':
-            if self.current_row:
-                self.rows.append(self.current_row)
-            self.current_row = []
+            self._finish_row()
         elif tag == 'table':
+            self._finish_row()
             self.in_labor_table = False
 
 
@@ -128,6 +140,18 @@ TIER1_JOB_ALIASES = {
     'timing-belt': ('Timing Belt',),
     'water-pump': ('Water Pump',),
 }
+LABOR_SCOPE_TERMS = {
+    'front-struts': {
+        'left': ('Front Suspension', 'One Side'),
+        'right': ('Front Suspension', 'One Side'),
+        'both': ('Front Suspension', 'Both Sides'),
+    },
+    'rear-struts-shocks': {
+        'left': ('Rear Suspension', 'One Side'),
+        'right': ('Rear Suspension', 'One Side'),
+        'both': ('Rear Suspension', 'Both Sides'),
+    },
+}
 
 
 def manual_has_parts_labor(manual_url, fetch_html):
@@ -155,7 +179,7 @@ def lookup_job_candidates(manual_url, job_id, fetch_html):
     }
 
 
-def lookup_job_labor(manual_url, job_id, fetch_html):
+def lookup_job_labor(manual_url, job_id, fetch_html, scope=None):
     safe_url = validate_manual_url(manual_url)
     if not safe_url:
         raise ValueError('Unsupported manual URL')
@@ -178,6 +202,12 @@ def lookup_job_labor(manual_url, job_id, fetch_html):
         row for row in labor_rows
         if row['operation'].casefold().startswith('replace')
     ]
+    scope_terms = LABOR_SCOPE_TERMS.get(job_id, {}).get(scope) if scope else None
+    if scope_terms:
+        replace_rows = [
+            row for row in replace_rows
+            if all(term.casefold() in row['operation'].casefold() for term in scope_terms)
+        ]
     if len(replace_rows) == 1:
         selected_row = replace_rows[0]
         time_basis = 'replace'
