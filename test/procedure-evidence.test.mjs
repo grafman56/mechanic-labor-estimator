@@ -7,7 +7,13 @@ test('groups only source-backed procedure evidence by its source classification'
     { kind: 'replace-if-removed', label: 'Spark plug seals', reason: 'Replace if necessary.', source_url: 'https://example.test/a' },
     { kind: 'inspect', label: 'Cover washer', reason: 'Inspect it.', source_url: 'https://example.test/a' },
   ] }), [
-    { heading: 'Replace if removed / disturbed', items: ['Spark plug seals'] },
-    { heading: 'Inspection or measurement called out', items: ['Cover washer'] },
+    {
+      heading: 'Replace if removed / disturbed',
+      items: [{ label: 'Spark plug seals', reason: 'Replace if necessary.', source_url: 'https://example.test/a' }],
+    },
+    {
+      heading: 'Inspection or measurement called out',
+      items: [{ label: 'Cover washer', reason: 'Inspect it.', source_url: 'https://example.test/a' }],
+    },
   ]);
 });

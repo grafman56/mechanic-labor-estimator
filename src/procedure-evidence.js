@@ -7,6 +7,11 @@ const headings = {
 export function procedureEvidenceGroups(result) {
   if (result?.status !== 'available') return [];
   return Object.entries(headings)
-    .map(([kind, heading]) => ({ heading, items: result.items.filter((item) => item.kind === kind).map((item) => item.label) }))
+    .map(([kind, heading]) => ({
+      heading,
+      items: result.items
+        .filter((item) => item.kind === kind)
+        .map(({ label, reason, source_url }) => ({ label, reason, source_url })),
+    }))
     .filter((group) => group.items.length);
 }
