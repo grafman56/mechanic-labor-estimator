@@ -68,6 +68,19 @@ class OperationLinkTests(unittest.TestCase):
         }
         self.assertEqual(lookup_job_labor(manual_url, 'starter', pages.__getitem__)['standard_hours'], 1.2)
 
+    def test_uses_an_explicit_source_row_without_reinterpreting_side(self):
+        manual_url = 'https://lemon-manuals.la/Acura/2006/MDX%20V6-3.5L/'
+        pages = {
+            f'{manual_url}Parts%20and%20Labor/': '<a href="Suspension/Strut/">Suspension Strut / Shock Absorber</a>',
+            f'{manual_url}Parts%20and%20Labor/Suspension/Strut/Labor%20Times/': (
+                "<table class='labor-times-table'><tr><td>Replace</td></tr>"
+                '<tr><td>Left Side</td><td>1.0</td><td>0.6</td><td>B</td><td></td></tr>'
+                '<tr><td>Right Side</td><td>1.4</td><td>0.8</td><td>B</td><td></td></tr></table>'
+            ),
+        }
+        result = lookup_job_labor(manual_url, 'front-struts', pages.__getitem__, source_row='Replace — Right Side')
+        self.assertEqual(result['standard_hours'], 1.4)
+
     def test_uses_requested_wheel_bearing_variant_and_side(self):
         manual_url = 'https://lemon-manuals.la/Acura/2006/MDX%20V6-3.5L/'
         pages = {

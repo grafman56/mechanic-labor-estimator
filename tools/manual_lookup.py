@@ -190,7 +190,12 @@ def lookup_job_candidates(manual_url, job_id, fetch_html):
     }
 
 
-def _select_labor_row(labor_rows, job_id, scope):
+def _select_labor_row(labor_rows, job_id, scope, source_row=None):
+    if source_row:
+        exact_rows = [row for row in labor_rows if row['operation'] == source_row]
+        if len(exact_rows) == 1:
+            return exact_rows[0], 'published-operation'
+        return None, None
     replace_rows = [row for row in labor_rows if row['operation'].casefold().startswith('replace')]
     term_groups = LABOR_SCOPE_TERMS.get(job_id, {}).get(scope) if scope else None
     if term_groups:
@@ -206,7 +211,7 @@ def _select_labor_row(labor_rows, job_id, scope):
     return None, None
 
 
-def lookup_job_labor(manual_url, job_id, fetch_html, scope=None):
+def lookup_job_labor(manual_url, job_id, fetch_html, scope=None, source_row=None):
     safe_url = validate_manual_url(manual_url)
     if not safe_url:
         raise ValueError('Unsupported manual URL')
@@ -224,7 +229,7 @@ def lookup_job_labor(manual_url, job_id, fetch_html, scope=None):
     selections = []
     for match in matches:
         labor_url = urljoin(match['source_url'], 'Labor%20Times/')
-        selected_row, time_basis = _select_labor_row(extract_labor_times(fetch_html(labor_url)), job_id, scope)
+        selected_row, time_basis = _select_labor_row(extract_labor_times(fetch_html(labor_url)), job_id, scope, source_row)
         if selected_row:
             selections.append((match, labor_url, selected_row, time_basis))
     if not selections:
