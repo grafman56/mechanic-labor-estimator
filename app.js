@@ -1,7 +1,7 @@
 import { findVerifiedVehicle, getMdxJob, getMdxScope } from './src/mdx.js';
 import { catalogOptions, findCatalogEntry } from './src/catalog.js';
 import { tier1Jobs } from './src/tier1-jobs.js';
-import { liveEstimateModel } from './src/live-estimate.js';
+import { liveEstimateModel, supportsManualEstimate } from './src/live-estimate.js';
 import { availableManuals } from './src/manual-availability.js';
 
 const vinInput = document.querySelector('#vin');
@@ -38,7 +38,11 @@ function populateJobs(vehicle) {
 
 function renderUnavailable(vin) {
   setJobControlsEnabled(false);
-  estimate.innerHTML = `<div class="estimate-heading"><div><p class="eyebrow">Vehicle verification required</p><h2>No verified estimate available</h2><p>${vin ? `VIN ${vin.toUpperCase()} has no reviewed vehicle/job records yet.` : 'Enter a 17-character VIN to select a reviewed vehicle record.'}</p></div></div><p class="job-note">This tool does not fall back to generic labor, parts, or access assumptions.</p>`;
+  if (supportsManualEstimate(selectedManual)) {
+    estimate.innerHTML = `<div class="estimate-heading"><div><p class="eyebrow">Selected vehicle manual</p><h2>Ready for live labor lookup</h2><p>${selectedManual.year} ${selectedManual.make} ${selectedManual.model} · ${selectedManual.engine}</p></div></div><p class="job-note">VIN is optional here. Select a live repair job and choose Get live labor time to retrieve a source-backed estimate.</p>`;
+    return;
+  }
+  estimate.innerHTML = `<div class="estimate-heading"><div><p class="eyebrow">Vehicle verification required</p><h2>No verified estimate available</h2><p>${vin ? `VIN ${vin.toUpperCase()} has no reviewed vehicle/job records yet.` : 'Enter a 17-character VIN or select a vehicle manual.'}</p></div></div><p class="job-note">This tool does not fall back to generic labor, parts, or access assumptions.</p>`;
 }
 
 function fillSelect(select, values) {
@@ -77,6 +81,7 @@ async function loadCatalog() {
       getLiveLabor.disabled = !entry;
       checkManual.dataset.url = entry?.manual_url ?? '';
       getLiveLabor.dataset.url = entry?.manual_url ?? '';
+      render();
       catalogStatus.innerHTML = entry ? `LEMON labor data available: <a href="${entry.manual_url}" target="_blank" rel="noreferrer">open matching manual</a>.` : 'No source manual with labor data is available for this selection.';
     };
     catalogYear.addEventListener('change', updateModels);
@@ -87,6 +92,7 @@ async function loadCatalog() {
       getLiveLabor.disabled = !selectedManual;
       checkManual.dataset.url = selectedManual?.manual_url ?? '';
       getLiveLabor.dataset.url = selectedManual?.manual_url ?? '';
+      render();
     });
     updateModels();
   } catch (error) {

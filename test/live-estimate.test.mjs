@@ -1,7 +1,12 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 
-import { liveEstimateModel } from '../src/live-estimate.js';
+import { liveEstimateModel, supportsManualEstimate } from '../src/live-estimate.js';
+
+test('uses a selected manual as an alternative to VIN verification', () => {
+  assert.equal(supportsManualEstimate(null), false);
+  assert.equal(supportsManualEstimate({ year: 2006, make: 'Acura', model: 'MDX', engine: 'V6-3.5L', manual_url: 'https://lemon.example/mdx/' }), true);
+});
 
 test('creates an estimate from a selected manual without a VIN', () => {
   assert.deepEqual(liveEstimateModel(

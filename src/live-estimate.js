@@ -1,3 +1,7 @@
+export function supportsManualEstimate(manual) {
+  return Boolean(manual?.year && manual?.make && manual?.model && manual?.engine && manual?.manual_url);
+}
+
 export function liveEstimateModel(result, vehicle, laborRate) {
   if (result.status !== 'available') return null;
   const rate = Number(laborRate);
