@@ -4,7 +4,7 @@ A local, vehicle-specific labor-planning pilot. It does not provide generic esti
 
 ## Current verified coverage
 
-- VIN `2HNYD18836H516598`: 2006 Acura MDX Touring, J35A5 3.5L V6 remains the reviewed static-record pilot.
+- VIN `2HNYD18836H516598`: 2006 Acura MDX Touring, J35A5 3.5L V6 is the reviewed VIN-to-manual mapping.
 - A selected LEMON manual with a Parts and Labor page is an alternative to VIN verification for live labor lookup.
 - Live source labor supports these Tier 1 job IDs when the selected manual exposes an exact published `Replace` row: front struts; rear struts/shocks; alternator; starter motor; radiator; wheel bearing/hub; serpentine belt; spark plugs; engine air filter; cabin air filter; valve-cover gasket; timing belt; and water pump.
 - Same-named source operations can require a manual operation-path selection. The tool never selects between conflicting paths automatically.

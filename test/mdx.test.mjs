@@ -3,8 +3,10 @@ import assert from 'node:assert/strict';
 
 import { getMdxJob, getMdxScope, findVerifiedVehicle } from '../src/mdx.js';
 
-test('rejects unverified VINs instead of falling back to generic estimates', () => {
-  assert.equal(findVerifiedVehicle('2HNYD18836H516598').model, 'MDX Touring');
+test('recognizes only the reviewed MDX VIN and supplies its source manual', () => {
+  const vehicle = findVerifiedVehicle('2HNYD18836H516598');
+  assert.equal(vehicle.model, 'MDX Touring');
+  assert.equal(vehicle.manual_url, 'https://lemon-manuals.la/Acura/2006/MDX%20V6-3.5L/');
   assert.equal(findVerifiedVehicle(' 2hnyd18836h516598 ' ).make, 'Acura');
   assert.equal(findVerifiedVehicle('1HGCM82633A004352'), null);
 });

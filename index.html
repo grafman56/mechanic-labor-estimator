@@ -17,7 +17,7 @@
 
     <section class="controls" aria-label="Estimate controls">
       <label for="vin">Vehicle identification number (VIN)</label>
-      <input id="vin" type="text" value="2HNYD18836H516598" maxlength="17" autocapitalize="characters" autocomplete="off">
+      <input id="vin" type="text" maxlength="17" autocapitalize="characters" autocomplete="off" placeholder="Enter a verified VIN">
 
       <p class="eyebrow">Or select a LEMON manual</p>
       <label for="catalog-make">Make</label>
@@ -41,18 +41,7 @@
       <label for="labor-rate">Shop labor rate (per hour)</label>
       <div class="rate-input"><span>$</span><input id="labor-rate" type="number" min="1" step="1" value="125" inputmode="decimal"></div>
 
-      <label for="job-search">Search jobs</label>
-      <input id="job-search" type="search" placeholder="e.g. brakes, alternator" autocomplete="off">
 
-      <label for="category">Category</label>
-      <select id="category"><option value="">All categories</option></select>
-
-      <label for="job">Repair job</label>
-      <select id="job"></select>
-
-      <label for="scope">Service scope</label>
-      <select id="scope"></select>
-      <button id="copy-link" type="button">Copy estimate link</button>
     </section>
 
     <section id="estimate" class="estimate" aria-live="polite"></section>
