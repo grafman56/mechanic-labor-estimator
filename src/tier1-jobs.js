@@ -1,7 +1,7 @@
 export const tier1Jobs = [
   { id: 'front-struts', label: 'Front struts', aliases: ['Suspension Strut / Shock Absorber'], scopes: ['left', 'right', 'both'] },
   { id: 'rear-struts-shocks', label: 'Rear struts / shocks', aliases: ['Suspension Strut / Shock Absorber'], scopes: ['left', 'right', 'both'] },
-  { id: 'alternator', label: 'Alternator', aliases: ['Generator'], scopes: ['standard'] },
+  { id: 'alternator', label: 'Alternator', aliases: ['Alternator'], scopes: ['standard'] },
   { id: 'starter', label: 'Starter', aliases: ['Starter'], scopes: ['standard'] },
   { id: 'radiator', label: 'Radiator', aliases: ['Radiator'], scopes: ['standard'] },
   { id: 'wheel-bearing-hub', label: 'Wheel bearing / hub', aliases: ['Wheel Bearing'], scopes: ['left', 'right'] },

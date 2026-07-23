@@ -1,5 +1,6 @@
 import { findVerifiedVehicle, getMdxJob, getMdxScope } from './src/mdx.js';
 import { catalogOptions, findCatalogEntry } from './src/catalog.js';
+import { tier1Jobs } from './src/tier1-jobs.js';
 
 const vinInput = document.querySelector('#vin');
 const rateInput = document.querySelector('#labor-rate');
@@ -11,6 +12,8 @@ const catalogModel = document.querySelector('#catalog-model');
 const catalogEngine = document.querySelector('#catalog-engine');
 const catalogStatus = document.querySelector('#catalog-status');
 const checkManual = document.querySelector('#check-manual');
+const liveJob = document.querySelector('#live-job');
+const getLiveLabor = document.querySelector('#get-live-labor');
 const currency = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' });
 
 for (const selector of ['label[for="job-search"]', '#job-search', 'label[for="category"]', '#category']) {
@@ -40,6 +43,11 @@ function fillSelect(select, values) {
   select.disabled = values.length === 0;
 }
 
+function populateLiveJobs() {
+  liveJob.replaceChildren(...tier1Jobs.map((job) => new Option(job.label, job.id)));
+  liveJob.disabled = false;
+}
+
 async function loadCatalog() {
   try {
     const response = await fetch('./data/lemon-acura-catalog.json');
@@ -54,7 +62,9 @@ async function loadCatalog() {
       fillSelect(catalogEngine, catalogOptions(catalog, 'engine', { year: Number(catalogYear.value), model: catalogModel.value }));
       const entry = findCatalogEntry(catalog, { year: Number(catalogYear.value), model: catalogModel.value, engine: catalogEngine.value });
       checkManual.disabled = !entry;
+      getLiveLabor.disabled = !entry;
       checkManual.dataset.url = entry?.manual_url ?? '';
+      getLiveLabor.dataset.url = entry?.manual_url ?? '';
       catalogStatus.innerHTML = entry ? `LEMON manual available: <a href="${entry.manual_url}" target="_blank" rel="noreferrer">open matching manual</a>. Estimate coverage is separate.` : 'No matching manual found.';
     };
     catalogYear.addEventListener('change', updateModels);
@@ -97,5 +107,22 @@ checkManual.addEventListener('click', async () => {
     catalogStatus.innerHTML = `Live LEMON manual found: <a href="${result.source_url}" target="_blank" rel="noreferrer">${result.title}</a>. Estimate coverage is separate.`;
   } catch (error) { catalogStatus.textContent = `Live manual check failed: ${error.message}`; }
 });
+getLiveLabor.addEventListener('click', async () => {
+  catalogStatus.textContent = 'Looking up published labor time…';
+  try {
+    const params = new URLSearchParams({ url: getLiveLabor.dataset.url, job: liveJob.value });
+    const response = await fetch(`/api/live-job-labor?${params}`);
+    const result = await response.json();
+    if (!response.ok) throw new Error(result.error);
+    if (result.status !== 'available') {
+      catalogStatus.textContent = `No verified live estimate: ${result.reason}`;
+      return;
+    }
+    const rate = Number(rateInput.value);
+    const price = Number.isFinite(rate) && rate > 0 ? ` · ${currency.format(result.standard_hours * rate)}` : '';
+    catalogStatus.innerHTML = `Live source match: <a href="${result.source_url}" target="_blank" rel="noreferrer">${result.source_operation} labor time</a> — ${result.standard_hours} standard hr${price}.`;
+  } catch (error) { catalogStatus.textContent = `Live labor lookup failed: ${error.message}`; }
+});
+populateLiveJobs();
 loadCatalog();
 render();

@@ -53,7 +53,12 @@ For the personal on-demand workflow, run the same-origin private server instead 
 python3 server.py
 ```
 
-It listens only on `127.0.0.1:8099`, serves the planner, and exposes `GET /api/manual-metadata` for allowlisted LEMON manual URLs. The UI's **Check live manual** button uses that endpoint and returns only source URL/title metadata. It does not copy manual text or create an estimate by itself. Do not expose this service publicly without adding authentication, request rate limits, and a persistent cache.
+It listens only on `127.0.0.1:8099`, serves the planner, and exposes two restricted endpoints for allowlisted LEMON manual URLs:
+
+- `GET /api/manual-metadata` verifies the selected manual and returns only its source URL/title.
+- `GET /api/live-job-labor` accepts a normalized Tier 1 job ID, fetches that selected manual’s Parts and Labor index and exact operation Labor Times page, then returns a published `Replace` standard-hour value only when there is one unambiguous exact source operation.
+
+The live selector currently supports the small Tier 1 job catalog. It does not copy manual text, infer missing operations, choose between duplicate source operations, or create an estimate when the required source page is absent. Do not expose this service publicly without adding authentication, request rate limits, and a persistent cache.
 
 ## Data maintenance
 
