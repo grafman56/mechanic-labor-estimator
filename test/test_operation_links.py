@@ -1,6 +1,6 @@
 import unittest
 
-from tools.manual_lookup import extract_labor_times, find_operation_links, lookup_job_labor
+from tools.manual_lookup import extract_labor_times, find_operation_links, lookup_job_candidates, lookup_job_labor
 
 
 class OperationLinkTests(unittest.TestCase):
@@ -59,6 +59,17 @@ class OperationLinkTests(unittest.TestCase):
             'status': 'unavailable',
             'job_id': 'water-pump',
             'reason': 'Multiple exact source operations require review.',
+        })
+    def test_returns_source_paths_for_ambiguous_operations_without_selecting_one(self):
+        manual_url = 'https://lemon-manuals.la/Acura/2006/MDX%20V6-3.5L/'
+        index_url = f'{manual_url}Parts%20and%20Labor/'
+        html = '<a href="Engine/Water%20Pump/">Water Pump</a><a href="Cooling/Water%20Pump/">Water Pump</a>'
+        self.assertEqual(lookup_job_candidates(manual_url, 'water-pump', lambda _: html), {
+            'job_id': 'water-pump',
+            'candidates': [
+                {'title': 'Water Pump', 'source_url': f'{index_url}Engine/Water%20Pump/'},
+                {'title': 'Water Pump', 'source_url': f'{index_url}Cooling/Water%20Pump/'},
+            ],
         })
 
 

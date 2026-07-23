@@ -120,6 +120,20 @@ TIER1_JOB_ALIASES = {
 }
 
 
+def lookup_job_candidates(manual_url, job_id, fetch_html):
+    safe_url = validate_manual_url(manual_url)
+    if not safe_url:
+        raise ValueError('Unsupported manual URL')
+    aliases = TIER1_JOB_ALIASES.get(job_id)
+    if not aliases:
+        raise ValueError('Unsupported repair job')
+    parts_labor_url = urljoin(safe_url, 'Parts%20and%20Labor/')
+    return {
+        'job_id': job_id,
+        'candidates': find_operation_links(fetch_html(parts_labor_url), aliases, parts_labor_url),
+    }
+
+
 def lookup_job_labor(manual_url, job_id, fetch_html):
     safe_url = validate_manual_url(manual_url)
     if not safe_url:
