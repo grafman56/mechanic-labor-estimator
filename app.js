@@ -51,11 +51,25 @@ function fillSelect(select, values) {
   select.disabled = values.length === 0;
 }
 
-function populateLiveScopes() {
+async function populateLiveScopes() {
+  if (selectedManual) {
+    try {
+      const params = new URLSearchParams({ url: selectedManual.manual_url, job: liveJob.value });
+      const response = await fetch(`/api/live-job-rows?${params}`);
+      const result = await response.json();
+      if (response.ok && result.rows.length) {
+        liveScope.replaceChildren(...result.rows.map((row) => new Option(`${row.operation} — ${row.standard_hours} hr`, row.operation)));
+        liveScope.disabled = result.rows.length === 1;
+        liveScope.dataset.sourceRow = 'true';
+        return;
+      }
+    } catch (_) { /* Preserve the static source-scope fallback. */ }
+  }
   const job = tier1Jobs.find((candidate) => candidate.id === liveJob.value);
   const labels = { left: 'Left / one side', right: 'Right / one side', both: 'Both sides', front: 'Front bank', rear: 'Rear bank', standard: 'Standard', 'front-one': 'Front suspension / one side', 'front-both': 'Front suspension / both sides', 'hub-one': 'Hub & bearing assembly / one side', 'hub-both': 'Hub & bearing assembly / both sides' };
   liveScope.replaceChildren(...(job?.scopes ?? []).map((scope) => new Option(labels[scope] ?? scope, scope)));
   liveScope.disabled = !job || job.scopes.length === 1;
+  liveScope.dataset.sourceRow = '';
 }
 
 function populateLiveJobs() {
@@ -90,6 +104,7 @@ async function loadCatalog() {
       getLiveLabor.disabled = !entry;
       checkManual.dataset.url = entry?.manual_url ?? '';
       getLiveLabor.dataset.url = entry?.manual_url ?? '';
+      populateLiveScopes();
       render();
       catalogStatus.innerHTML = entry ? `LEMON labor data available: <a href="${entry.manual_url}" target="_blank" rel="noreferrer">open matching manual</a>.` : 'No source manual with labor data is available for this selection.';
     };
@@ -101,6 +116,7 @@ async function loadCatalog() {
       getLiveLabor.disabled = !selectedManual;
       checkManual.dataset.url = selectedManual?.manual_url ?? '';
       getLiveLabor.dataset.url = selectedManual?.manual_url ?? '';
+      populateLiveScopes();
       render();
     });
     updateModels();
@@ -144,7 +160,12 @@ liveJob.addEventListener('change', populateLiveScopes);
 getLiveLabor.addEventListener('click', async () => {
   catalogStatus.textContent = 'Looking up published labor time…';
   try {
-    const params = new URLSearchParams({ url: getLiveLabor.dataset.url, job: liveJob.value, scope: liveScope.value });
+    const params = new URLSearchParams({
+      url: getLiveLabor.dataset.url,
+      job: liveJob.value,
+      scope: liveScope.dataset.sourceRow ? '' : liveScope.value,
+      source_row: liveScope.dataset.sourceRow ? liveScope.value : '',
+    });
     const response = await fetch(`/api/live-job-labor?${params}`);
     const result = await response.json();
     if (!response.ok) throw new Error(result.error);

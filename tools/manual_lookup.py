@@ -190,6 +190,29 @@ def lookup_job_candidates(manual_url, job_id, fetch_html):
     }
 
 
+def lookup_job_labor_rows(manual_url, job_id, fetch_html):
+    safe_url = validate_manual_url(manual_url)
+    if not safe_url:
+        raise ValueError('Unsupported manual URL')
+    aliases = TIER1_JOB_ALIASES.get(job_id)
+    if not aliases:
+        raise ValueError('Unsupported repair job')
+    parts_labor_url = urljoin(safe_url, 'Parts%20and%20Labor/')
+    matches = find_operation_links(fetch_html(parts_labor_url), aliases, parts_labor_url)
+    rows = []
+    seen = set()
+    for match in matches:
+        labor_url = urljoin(match['source_url'], 'Labor%20Times/')
+        for row in extract_labor_times(fetch_html(labor_url)):
+            if not row['operation'].casefold().startswith('replace'):
+                continue
+            key = (row['operation'], row['standard_hours'])
+            if key not in seen:
+                seen.add(key)
+                rows.append({'operation': row['operation'], 'standard_hours': row['standard_hours']})
+    return rows
+
+
 def _select_labor_row(labor_rows, job_id, scope, source_row=None):
     if source_row:
         exact_rows = [row for row in labor_rows if row['operation'] == source_row]

@@ -1,7 +1,7 @@
 import unittest
 from urllib.error import HTTPError
 
-from tools.manual_lookup import extract_labor_times, find_operation_links, lookup_job_candidates, lookup_job_labor, manual_has_parts_labor
+from tools.manual_lookup import extract_labor_times, find_operation_links, lookup_job_candidates, lookup_job_labor, lookup_job_labor_rows, manual_has_parts_labor
 
 
 class OperationLinkTests(unittest.TestCase):
@@ -67,6 +67,21 @@ class OperationLinkTests(unittest.TestCase):
             f'{manual_url}Parts%20and%20Labor/Starting/Starter%20Motor/Labor%20Times/': "<table class='labor-times-table'><tr><td>Replace</td><td>1.2</td><td>1.0</td><td>B</td><td></td></tr></table>",
         }
         self.assertEqual(lookup_job_labor(manual_url, 'starter', pages.__getitem__)['standard_hours'], 1.2)
+
+    def test_lists_exact_published_rows_for_scope_selection(self):
+        manual_url = 'https://lemon-manuals.la/Acura/2006/MDX%20V6-3.5L/'
+        pages = {
+            f'{manual_url}Parts%20and%20Labor/': '<a href="Suspension/Strut/">Suspension Strut / Shock Absorber</a>',
+            f'{manual_url}Parts%20and%20Labor/Suspension/Strut/Labor%20Times/': (
+                "<table class='labor-times-table'><tr><td>Replace</td></tr>"
+                '<tr><td>Left Side</td><td>1.0</td><td>0.6</td><td>B</td><td></td></tr>'
+                '<tr><td>Right Side</td><td>1.4</td><td>0.8</td><td>B</td><td></td></tr></table>'
+            ),
+        }
+        self.assertEqual(lookup_job_labor_rows(manual_url, 'front-struts', pages.__getitem__), [
+            {'operation': 'Replace — Left Side', 'standard_hours': 1.0},
+            {'operation': 'Replace — Right Side', 'standard_hours': 1.4},
+        ])
 
     def test_uses_an_explicit_source_row_without_reinterpreting_side(self):
         manual_url = 'https://lemon-manuals.la/Acura/2006/MDX%20V6-3.5L/'
