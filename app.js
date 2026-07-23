@@ -1,5 +1,6 @@
 import { findVerifiedVehicle, getMdxJob, getMdxScope } from './src/mdx.js';
 import { catalogOptions, findCatalogEntry } from './src/catalog.js';
+import { manualSelectionOptions } from './src/catalog-selection.js';
 import { tier1Jobs } from './src/tier1-jobs.js';
 import { liveEstimateModel, supportsManualEstimate } from './src/live-estimate.js';
 import { availableManuals } from './src/manual-availability.js';
@@ -13,6 +14,7 @@ const rateInput = document.querySelector('#labor-rate');
 const jobSelect = document.querySelector('#job');
 const estimate = document.querySelector('#estimate');
 const scopeSelect = document.querySelector('#scope');
+const catalogMake = document.querySelector('#catalog-make');
 const catalogYear = document.querySelector('#catalog-year');
 const catalogModel = document.querySelector('#catalog-model');
 const catalogEngine = document.querySelector('#catalog-engine');
@@ -98,13 +100,13 @@ async function loadCatalog() {
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       return response.json();
     });
-    fillSelect(catalogYear, catalogOptions(catalog, 'year'));
-    const updateModels = () => {
-      fillSelect(catalogModel, catalogOptions(catalog, 'model', { year: Number(catalogYear.value) }));
-      updateEngines();
-    };
+    fillSelect(catalogMake, catalogOptions(catalog, 'make'));
     const updateEngines = async () => {
-      const candidates = catalog.filter((entry) => entry.year === Number(catalogYear.value) && entry.model === catalogModel.value);
+      const candidates = catalog.filter((entry) => (
+        entry.make === catalogMake.value
+        && entry.year === Number(catalogYear.value)
+        && entry.model === catalogModel.value
+      ));
       catalogEngine.disabled = true;
       catalogStatus.textContent = 'Checking source labor availability…';
       const manuals = await availableManuals(candidates, async (entry) => {
@@ -123,6 +125,20 @@ async function loadCatalog() {
       render();
       catalogStatus.innerHTML = entry ? `LEMON labor data available: <a href="${entry.manual_url}" target="_blank" rel="noreferrer">open matching manual</a>.` : 'No source manual with labor data is available for this selection.';
     };
+    const updateModels = () => {
+      const { models } = manualSelectionOptions(catalog, {
+        make: catalogMake.value,
+        year: Number(catalogYear.value),
+      });
+      fillSelect(catalogModel, models);
+      updateEngines();
+    };
+    const updateYears = () => {
+      const { years } = manualSelectionOptions(catalog, { make: catalogMake.value });
+      fillSelect(catalogYear, years);
+      updateModels();
+    };
+    catalogMake.addEventListener('change', updateYears);
     catalogYear.addEventListener('change', updateModels);
     catalogModel.addEventListener('change', updateEngines);
     catalogEngine.addEventListener('change', () => {
@@ -134,7 +150,7 @@ async function loadCatalog() {
       populateLiveScopes();
       render();
     });
-    updateModels();
+    updateYears();
   } catch (error) {
     catalogYear.disabled = true;
     catalogStatus.textContent = 'Manual catalog could not be loaded.';
