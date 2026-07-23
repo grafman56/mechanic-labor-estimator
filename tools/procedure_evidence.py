@@ -80,7 +80,10 @@ def lookup_job_procedure_evidence(manual_url, job_id, fetch_html, source_operati
     if not relative_path:
         return {'status': 'unavailable', 'reason': 'No exact procedure path is configured for this manual operation.'}
     source_url = urljoin(safe_url, relative_path)
-    items = extract_procedure_evidence(source_url, fetch_html)
+    try:
+        items = extract_procedure_evidence(source_url, fetch_html)
+    except OSError:
+        return {'status': 'unavailable', 'reason': 'Procedure source page is unavailable.'}
     if not items:
         return {'status': 'unavailable', 'reason': 'No explicit procedure evidence was found.'}
     return {'status': 'available', 'items': items}

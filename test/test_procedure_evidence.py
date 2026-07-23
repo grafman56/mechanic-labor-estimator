@@ -77,6 +77,19 @@ class ProcedureEvidenceTests(unittest.TestCase):
             }],
         })
 
+    def test_reports_a_missing_procedure_page_as_unavailable(self):
+        manual_url = 'https://lemon-manuals.la/Acura/2006/MDX%20V6-3.5L/'
+        operation_url = f'{manual_url}Parts%20and%20Labor/Engine%2C%20Cooling%20and%20Exhaust/Engine/Water%20Pump/'
+        parts_labor_url = f'{manual_url}Parts%20and%20Labor/'
+        def fetch_html(url):
+            if url == parts_labor_url:
+                return '<a href="Engine%2C%20Cooling%20and%20Exhaust/Engine/Water%20Pump/">Water Pump</a>'
+            raise OSError('source page unavailable')
+        self.assertEqual(lookup_job_procedure_evidence(manual_url, 'water-pump', fetch_html, source_operation_url=operation_url), {
+            'status': 'unavailable',
+            'reason': 'Procedure source page is unavailable.',
+        })
+
     def test_does_not_infer_an_intake_gasket_from_an_install_instruction(self):
         source_url = 'https://lemon-manuals.la/example/'
         pages = {source_url: '<p>Install the intake manifold.</p>'}
