@@ -49,13 +49,13 @@ npm test
 
 ## Deploy to Hostinger
 
-Upload `index.html`, `app.js`, `styles.css`, and the `src/` directory together. No build step is required.
+Upload `index.html`, `app.js`, `styles.css`, and the `src/` and `data/` directories together. No build step is required.
 
 ## Vehicle/manual catalog
 
 `tools/lemon_catalog.py` crawls only LEMON's public navigation pages (make → year → model/engine); it does not fetch procedure pages or download manual archives. Its default delay is one second between year pages. The generated catalog means `manual available`, not `verified estimate available`.
 
-The first generated catalog is `data/lemon-acura-catalog.json` with 869 Acura year/model/engine entries. Rebuild it with:
+The selector combines `data/lemon-acura-catalog.json` (869 Acura year/model/engine entries) and `data/lemon-bmw-catalog.json` (the verified factory-default 2006 BMW 325Ci Convertible (E46) L6-2.5L (M54) manual). A catalog record means `manual available`, not `verified estimate available`. Rebuild the Acura catalog with:
 
 ```sh
 python3 -c "from tools.lemon_catalog import crawl_make, write_catalog; write_catalog(crawl_make('Acura'), 'data/lemon-acura-catalog.json')"

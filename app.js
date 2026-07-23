@@ -3,6 +3,7 @@ import { catalogOptions, findCatalogEntry } from './src/catalog.js';
 import { tier1Jobs } from './src/tier1-jobs.js';
 import { liveEstimateModel, supportsManualEstimate } from './src/live-estimate.js';
 import { availableManuals } from './src/manual-availability.js';
+import { loadManualCatalog } from './src/manual-catalog.js';
 import { manualOperationOptions } from './src/live-operations.js';
 import { sourceScopeOptions } from './src/live-scopes.js';
 import { procedureEvidenceGroups } from './src/procedure-evidence.js';
@@ -92,9 +93,11 @@ function populateLiveJobs() {
 
 async function loadCatalog() {
   try {
-    const response = await fetch('./data/lemon-acura-catalog.json');
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    const catalog = await response.json();
+    const catalog = await loadManualCatalog(async (path) => {
+      const response = await fetch(path);
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      return response.json();
+    });
     fillSelect(catalogYear, catalogOptions(catalog, 'year'));
     const updateModels = () => {
       fillSelect(catalogModel, catalogOptions(catalog, 'model', { year: Number(catalogYear.value) }));
