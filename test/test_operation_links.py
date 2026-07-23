@@ -83,6 +83,14 @@ class OperationLinkTests(unittest.TestCase):
             'time_basis': 'replace',
         })
 
+    def test_matches_a_factory_manual_cabin_air_filter_title(self):
+        manual_url = 'https://lemon-manuals.la/BMW/2006/325Ci%20Convertible%20%28E46%29%20L6-2.5L%20%28M54%29/'
+        pages = {
+            f'{manual_url}Parts%20and%20Labor/': '<a href="Maintenance/Filters/Cabin%20Air%20Filter/">Cabin Air Filter / Purifier</a>',
+            f'{manual_url}Parts%20and%20Labor/Maintenance/Filters/Cabin%20Air%20Filter/Labor%20Times/': "<table class='labor-times-table'><tr><td>Replace</td><td>0.3</td><td>0.2</td><td>C</td><td></td></tr></table>",
+        }
+        self.assertEqual(lookup_job_labor(manual_url, 'cabin-air-filter', pages.__getitem__)['standard_hours'], 0.3)
+
     def test_lists_exact_published_rows_for_scope_selection(self):
         manual_url = 'https://lemon-manuals.la/Acura/2006/MDX%20V6-3.5L/'
         pages = {
