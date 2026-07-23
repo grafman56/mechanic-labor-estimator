@@ -60,6 +60,27 @@ class OperationLinkTests(unittest.TestCase):
             'time_basis': 'replace',
         })
 
+    def test_matches_source_starter_motor_title(self):
+        manual_url = 'https://lemon-manuals.la/Acura/2006/MDX%20V6-3.5L/'
+        pages = {
+            f'{manual_url}Parts%20and%20Labor/': '<a href="Starting/Starter%20Motor/">Starter Motor</a>',
+            f'{manual_url}Parts%20and%20Labor/Starting/Starter%20Motor/Labor%20Times/': "<table class='labor-times-table'><tr><td>Replace</td><td>1.2</td><td>1.0</td><td>B</td><td></td></tr></table>",
+        }
+        self.assertEqual(lookup_job_labor(manual_url, 'starter', pages.__getitem__)['standard_hours'], 1.2)
+
+    def test_uses_requested_wheel_bearing_variant_and_side(self):
+        manual_url = 'https://lemon-manuals.la/Acura/2006/MDX%20V6-3.5L/'
+        pages = {
+            f'{manual_url}Parts%20and%20Labor/': '<a href="Suspension/Wheel%20Bearing/">Wheel Bearing</a>',
+            f'{manual_url}Parts%20and%20Labor/Suspension/Wheel%20Bearing/Labor%20Times/': (
+                "<table class='labor-times-table'><tr><td>Replace</td></tr>"
+                '<tr><td>Front Suspension</td></tr><tr><td>One Side</td><td>1.3</td><td>1.1</td><td>B</td><td></td></tr>'
+                '<tr><td>Hub &amp; Bearing Assembly</td></tr><tr><td>Both Sides</td><td>5.9</td><td>4.3</td><td>B</td><td></td></tr></table>'
+            ),
+        }
+        self.assertEqual(lookup_job_labor(manual_url, 'wheel-bearing-hub', pages.__getitem__, scope='front-one')['standard_hours'], 1.3)
+        self.assertEqual(lookup_job_labor(manual_url, 'wheel-bearing-hub', pages.__getitem__, scope='hub-both')['standard_hours'], 5.9)
+
     def test_uses_requested_front_strut_scope_from_source_rows(self):
         manual_url = 'https://lemon-manuals.la/Acura/2006/MDX%20V6-3.5L/'
         pages = {
@@ -87,6 +108,30 @@ class OperationLinkTests(unittest.TestCase):
         self.assertEqual(lookup_job_labor(manual_url, 'valve-cover-gasket', pages.__getitem__, scope='front')['standard_hours'], 1.3)
         self.assertEqual(lookup_job_labor(manual_url, 'valve-cover-gasket', pages.__getitem__, scope='both')['standard_hours'], 2.5)
 
+    def test_prefers_explicit_valve_cover_bank_over_generic_one_bank_row(self):
+        manual_url = 'https://lemon-manuals.la/Acura/2006/MDX%20V6-3.5L/'
+        pages = {
+            f'{manual_url}Parts%20and%20Labor/': '<a href="Engine/Valve%20Cover%20Gasket/">Valve Cover Gasket</a>',
+            f'{manual_url}Parts%20and%20Labor/Engine/Valve%20Cover%20Gasket/Labor%20Times/': (
+                "<table class='labor-times-table'><tr><td>Replace</td></tr>"
+                '<tr><td>Front Bank</td><td>1.1</td><td>0.8</td><td>B</td><td></td></tr>'
+                '<tr><td>Rear Bank</td><td>1.6</td><td>1.0</td><td>B</td><td></td></tr></table>'
+            ),
+        }
+        self.assertEqual(lookup_job_labor(manual_url, 'valve-cover-gasket', pages.__getitem__, scope='front')['standard_hours'], 1.1)
+        self.assertEqual(lookup_job_labor(manual_url, 'valve-cover-gasket', pages.__getitem__, scope='rear')['standard_hours'], 1.6)
+
+    def test_accepts_equivalent_duplicate_source_operations(self):
+        manual_url = 'https://lemon-manuals.la/Acura/2006/MDX%20V6-3.5L/'
+        pages = {
+            f'{manual_url}Parts%20and%20Labor/': '<a href="Engine/Water%20Pump/">Water Pump</a><a href="Cooling/Water%20Pump/">Water Pump</a>',
+            f'{manual_url}Parts%20and%20Labor/Engine/Water%20Pump/Labor%20Times/': "<table class='labor-times-table'><tr><td>Replace</td><td>5.1</td><td>3.3</td><td>B</td><td></td></tr></table>",
+            f'{manual_url}Parts%20and%20Labor/Cooling/Water%20Pump/Labor%20Times/': "<table class='labor-times-table'><tr><td>Replace</td><td>5.1</td><td>3.3</td><td>B</td><td></td></tr></table>",
+        }
+        result = lookup_job_labor(manual_url, 'water-pump', pages.__getitem__)
+        self.assertEqual(result['status'], 'available')
+        self.assertEqual(result['standard_hours'], 5.1)
+
     def test_refuses_to_choose_between_multiple_source_operations(self):
         manual_url = 'https://lemon-manuals.la/Acura/2006/MDX%20V6-3.5L/'
         pages = {
@@ -94,6 +139,8 @@ class OperationLinkTests(unittest.TestCase):
                 '<a href="Engine/Water%20Pump/">Water Pump</a>'
                 '<a href="Cooling/Water%20Pump/">Water Pump</a>'
             ),
+            f'{manual_url}Parts%20and%20Labor/Engine/Water%20Pump/Labor%20Times/': "<table class='labor-times-table'><tr><td>Replace</td><td>5.1</td><td>3.3</td><td>B</td><td></td></tr></table>",
+            f'{manual_url}Parts%20and%20Labor/Cooling/Water%20Pump/Labor%20Times/': "<table class='labor-times-table'><tr><td>Replace</td><td>0.8</td><td>0.5</td><td>B</td><td></td></tr></table>",
         }
         self.assertEqual(lookup_job_labor(manual_url, 'water-pump', pages.__getitem__), {
             'status': 'unavailable',

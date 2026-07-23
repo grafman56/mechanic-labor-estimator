@@ -53,7 +53,7 @@ function fillSelect(select, values) {
 
 function populateLiveScopes() {
   const job = tier1Jobs.find((candidate) => candidate.id === liveJob.value);
-  const labels = { left: 'Left / one side', right: 'Right / one side', both: 'Both sides', front: 'Front bank', rear: 'Rear bank', standard: 'Standard' };
+  const labels = { left: 'Left / one side', right: 'Right / one side', both: 'Both sides', front: 'Front bank', rear: 'Rear bank', standard: 'Standard', 'front-one': 'Front suspension / one side', 'front-both': 'Front suspension / both sides', 'hub-one': 'Hub & bearing assembly / one side', 'hub-both': 'Hub & bearing assembly / both sides' };
   liveScope.replaceChildren(...(job?.scopes ?? []).map((scope) => new Option(labels[scope] ?? scope, scope)));
   liveScope.disabled = !job || job.scopes.length === 1;
 }

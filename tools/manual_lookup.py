@@ -131,7 +131,7 @@ TIER1_JOB_ALIASES = {
     'front-struts': ('Suspension Strut / Shock Absorber',),
     'rear-struts-shocks': ('Suspension Strut / Shock Absorber',),
     'alternator': ('Alternator',),
-    'starter': ('Starter',),
+    'starter': ('Starter Motor',),
     'radiator': ('Radiator',),
     'wheel-bearing-hub': ('Wheel Bearing',),
     'serpentine-belt': ('Drive Belt',),
@@ -142,19 +142,25 @@ TIER1_JOB_ALIASES = {
 }
 LABOR_SCOPE_TERMS = {
     'front-struts': {
-        'left': ('Front Suspension', 'One Side'),
-        'right': ('Front Suspension', 'One Side'),
-        'both': ('Front Suspension', 'Both Sides'),
+        'left': (('Front Suspension', 'One Side'),),
+        'right': (('Front Suspension', 'One Side'),),
+        'both': (('Front Suspension', 'Both Sides'),),
     },
     'rear-struts-shocks': {
-        'left': ('Rear Suspension', 'One Side'),
-        'right': ('Rear Suspension', 'One Side'),
-        'both': ('Rear Suspension', 'Both Sides'),
+        'left': (('Rear Suspension', 'One Side'),),
+        'right': (('Rear Suspension', 'One Side'),),
+        'both': (('Rear Suspension', 'Both Sides'),),
+    },
+    'wheel-bearing-hub': {
+        'front-one': (('Front Suspension', 'One Side'),),
+        'front-both': (('Front Suspension', 'Both Sides'),),
+        'hub-one': (('Hub & Bearing Assembly', 'One Side'),),
+        'hub-both': (('Hub & Bearing Assembly', 'Both Sides'),),
     },
     'valve-cover-gasket': {
-        'front': ('One Bank',),
-        'rear': ('One Bank',),
-        'both': ('Both Banks',),
+        'front': (('Front Bank',), ('One Bank',)),
+        'rear': (('Rear Bank',), ('One Bank',)),
+        'both': (('Both Banks',),),
     },
 }
 
@@ -184,6 +190,22 @@ def lookup_job_candidates(manual_url, job_id, fetch_html):
     }
 
 
+def _select_labor_row(labor_rows, job_id, scope):
+    replace_rows = [row for row in labor_rows if row['operation'].casefold().startswith('replace')]
+    term_groups = LABOR_SCOPE_TERMS.get(job_id, {}).get(scope) if scope else None
+    if term_groups:
+        for terms in term_groups:
+            scoped_rows = [row for row in replace_rows if all(term.casefold() in row['operation'].casefold() for term in terms)]
+            if len(scoped_rows) == 1:
+                return scoped_rows[0], 'replace'
+        return None, None
+    if len(replace_rows) == 1:
+        return replace_rows[0], 'replace'
+    if not replace_rows and len(labor_rows) == 1:
+        return labor_rows[0], 'published-operation'
+    return None, None
+
+
 def lookup_job_labor(manual_url, job_id, fetch_html, scope=None):
     safe_url = validate_manual_url(manual_url)
     if not safe_url:
@@ -199,32 +221,22 @@ def lookup_job_labor(manual_url, job_id, fetch_html, scope=None):
     matches = find_operation_links(parts_labor_html, aliases, parts_labor_url)
     if not matches:
         return {'status': 'unavailable', 'job_id': job_id, 'reason': 'No exact source operation found.'}
-    if len(matches) != 1:
-        return {'status': 'unavailable', 'job_id': job_id, 'reason': 'Multiple exact source operations require review.'}
-    labor_url = urljoin(matches[0]['source_url'], 'Labor%20Times/')
-    labor_rows = extract_labor_times(fetch_html(labor_url))
-    replace_rows = [
-        row for row in labor_rows
-        if row['operation'].casefold().startswith('replace')
-    ]
-    scope_terms = LABOR_SCOPE_TERMS.get(job_id, {}).get(scope) if scope else None
-    if scope_terms:
-        replace_rows = [
-            row for row in replace_rows
-            if all(term.casefold() in row['operation'].casefold() for term in scope_terms)
-        ]
-    if len(replace_rows) == 1:
-        selected_row = replace_rows[0]
-        time_basis = 'replace'
-    elif not replace_rows and len(labor_rows) == 1:
-        selected_row = labor_rows[0]
-        time_basis = 'published-operation'
-    else:
+    selections = []
+    for match in matches:
+        labor_url = urljoin(match['source_url'], 'Labor%20Times/')
+        selected_row, time_basis = _select_labor_row(extract_labor_times(fetch_html(labor_url)), job_id, scope)
+        if selected_row:
+            selections.append((match, labor_url, selected_row, time_basis))
+    if not selections:
         return {'status': 'unavailable', 'job_id': job_id, 'reason': 'No unambiguous source replace time found.'}
+    signatures = {(row['operation'], row['standard_hours'], basis) for _, _, row, basis in selections}
+    if len(signatures) != 1:
+        return {'status': 'unavailable', 'job_id': job_id, 'reason': 'Multiple exact source operations require review.'}
+    match, labor_url, selected_row, time_basis = selections[0]
     return {
         'status': 'available',
         'job_id': job_id,
-        'source_operation': matches[0]['title'],
+        'source_operation': match['title'],
         'source_url': labor_url,
         'standard_hours': selected_row['standard_hours'],
         'time_basis': time_basis,
