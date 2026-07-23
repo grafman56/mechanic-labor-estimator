@@ -6,12 +6,13 @@ from urllib.parse import parse_qs, urlparse
 
 from tools.manual_lookup import fetch_manual_html, fetch_manual_metadata, lookup_job_labor, lookup_job_labor_rows, manual_has_parts_labor
 from tools.vin_lookup import decode_vin_and_find_manuals, fetch_lemon_html, fetch_vpic_json
+from tools.procedure_evidence import lookup_job_procedure_evidence
 
 
 class PlannerHandler(SimpleHTTPRequestHandler):
     def do_GET(self):
         parsed = urlparse(self.path)
-        if parsed.path not in ('/api/manual-metadata', '/api/manual-availability', '/api/live-job-rows', '/api/live-job-labor', '/api/vin-manuals'):
+        if parsed.path not in ('/api/manual-metadata', '/api/manual-availability', '/api/live-job-rows', '/api/live-job-labor', '/api/procedure-evidence', '/api/vin-manuals'):
             return super().do_GET()
         query = parse_qs(parsed.query)
         url = query.get('url', [''])[0]
@@ -22,6 +23,8 @@ class PlannerHandler(SimpleHTTPRequestHandler):
                 payload = {'available': manual_has_parts_labor(url, fetch_manual_html)}
             elif parsed.path == '/api/live-job-rows':
                 payload = {'rows': lookup_job_labor_rows(url, query.get('job', [''])[0], fetch_manual_html)}
+            elif parsed.path == '/api/procedure-evidence':
+                payload = lookup_job_procedure_evidence(url, query.get('job', [''])[0], fetch_manual_html)
             elif parsed.path == '/api/live-job-labor':
                 payload = lookup_job_labor(url, query.get('job', [''])[0], fetch_manual_html, query.get('scope', [''])[0] or None, query.get('source_row', [''])[0] or None)
             else:

@@ -4,6 +4,7 @@ import { tier1Jobs } from './src/tier1-jobs.js';
 import { liveEstimateModel, supportsManualEstimate } from './src/live-estimate.js';
 import { availableManuals } from './src/manual-availability.js';
 import { sourceScopeOptions } from './src/live-scopes.js';
+import { procedureEvidenceGroups } from './src/procedure-evidence.js';
 
 const vinInput = document.querySelector('#vin');
 const rateInput = document.querySelector('#labor-rate');
@@ -175,9 +176,13 @@ getLiveLabor.addEventListener('click', async () => {
       return;
     }
     const live = liveEstimateModel(result, selectedManual, rateInput.value);
+    const evidenceResponse = await fetch(`/api/procedure-evidence?${new URLSearchParams({ url: getLiveLabor.dataset.url, job: liveJob.value })}`);
+    const evidence = evidenceResponse.ok ? await evidenceResponse.json() : { status: 'unavailable' };
+    const groups = procedureEvidenceGroups(evidence);
+    const evidenceHtml = groups.length ? `<div class="parts-group"><h3>Procedure evidence</h3>${groups.map((group) => `<p><strong>${group.heading}</strong><br>${group.items.map((label) => { const item = evidence.items.find((candidate) => candidate.label === label); return `<a href="${item.source_url}" target="_blank" rel="noreferrer">${label}</a>`; }).join(', ')}</p>`).join('')}</div>` : '';
     const price = live.laborCost === null ? '' : ` · ${currency.format(live.laborCost)}`;
     catalogStatus.innerHTML = `Live source match: <a href="${live.sourceUrl}" target="_blank" rel="noreferrer">${live.operation} labor time</a> — ${live.laborHours} standard hr${price}.`;
-    estimate.innerHTML = `<div class="estimate-heading"><div><p class="eyebrow">Selected vehicle and live source</p><h2>${live.operation}</h2><p>${live.vehicle}</p></div><div class="total"><span>Published baseline labor</span><strong>${live.laborHours} hr${price}</strong></div></div><div class="parts-grid"><div class="parts-group"><h3>Source</h3><p><a href="${live.sourceUrl}" target="_blank" rel="noreferrer">LEMON labor-times page</a></p><p>Published standard/book time for the selected source manual.</p></div></div><p class="job-note">Vehicle/model selection can produce an estimate only when the selected manual exposes one exact operation and one unambiguous Replace labor time.</p>`;
+    estimate.innerHTML = `<div class="estimate-heading"><div><p class="eyebrow">Selected vehicle and live source</p><h2>${live.operation}</h2><p>${live.vehicle}</p></div><div class="total"><span>Published baseline labor</span><strong>${live.laborHours} hr${price}</strong></div></div><div class="parts-grid"><div class="parts-group"><h3>Source</h3><p><a href="${live.sourceUrl}" target="_blank" rel="noreferrer">LEMON labor-times page</a></p><p>Published standard/book time for the selected source manual.</p></div>${evidenceHtml}</div><p class="job-note">Procedure additions are displayed only when the selected manual explicitly supports them; unavailable evidence creates no recommendation.</p>`;
   } catch (error) { catalogStatus.textContent = `Live labor lookup failed: ${error.message}`; }
 });
 populateLiveJobs();
