@@ -1,22 +1,36 @@
 # Mechanic Labor Planner
 
-A static, vehicle-specific labor-planning pilot. It does not provide generic estimates.
+A local, vehicle-specific labor-planning pilot. It does not provide generic estimates.
 
 ## Current verified coverage
 
-- VIN `2HNYD18836H516598`: 2006 Acura MDX Touring, J35A5 3.5L V6.
-- Reviewed jobs: front struts, valve-cover gaskets, and the full timing-belt service package.
-- Procedure evidence is currently verified only for these exact MDX manual operations: valve-cover gasket (spark plug seals and cover washer) and engine-path water pump (new O-ring (B)).
-- Other VINs and unsupported jobs show `No verified estimate available`; they do not fall back to generic labor, parts, or access assumptions.
+- VIN `2HNYD18836H516598`: 2006 Acura MDX Touring, J35A5 3.5L V6 remains the reviewed static-record pilot.
+- A selected LEMON manual with a Parts and Labor page is an alternative to VIN verification for live labor lookup.
+- Live source labor supports these Tier 1 job IDs when the selected manual exposes an exact published `Replace` row: front struts; rear struts/shocks; alternator; starter motor; radiator; wheel bearing/hub; serpentine belt; spark plugs; valve-cover gasket; timing belt; and water pump.
+- Same-named source operations can require a manual operation-path selection. The tool never selects between conflicting paths automatically.
+- Procedure evidence is currently verified only for these exact 2006 MDX V6-3.5L manual operations:
+  - valve-cover gasket: spark plug seals (`replace-if-removed`) and cover washer (`inspect`);
+  - engine-path water pump: new O-ring (B) (`required`).
+- Any job/manual/operation without exact source support remains unavailable; there is no generic labor, parts, or access fallback.
 
-Labor values are source-published standard/book times for the matched vehicle. Shop-policy packages, required disturbed gaskets, and access-aware recommendations are stored separately from source labor evidence.
+| Job family | Live labor behavior | Procedure evidence status |
+| --- | --- | --- |
+| Front/rear struts or shocks; wheel bearing/hub | Exact published rows; generic side wording stays generic | Labor only |
+| Alternator; starter; radiator; serpentine belt; spark plugs | Exact published `Replace` row when available | Labor only |
+| Valve-cover gasket | Exact published bank/side wording | Verified for the MDX operation listed above |
+| Timing belt | Exact published `Replace` row; no water-pump labor is silently added | Labor only |
+| Water pump | Exact operation path and published row required when paths conflict | Verified only for the MDX engine-path operation listed above |
+
+Labor values are source-published standard/book times for the selected vehicle/manual operation. Labor tables never establish required parts, disturbed gaskets, or access recommendations; those require explicit procedure evidence.
 
 ## Scope and limitations
 
 - This is not a diagnosis or final quote.
-- It has no backend, tracking, credentials, live parts pricing, or visitor-triggered manual scraping.
-- It does not copy or republish LEMON/CHARM manual content. Source links support reviewed vehicle/job records.
-- VIN matching is presently against the reviewed static records only. A VIN can be decoded elsewhere without having verified estimate coverage here.
+- It is a local private service with a small same-origin Python backend; it has no tracking, credentials, or live parts pricing.
+- It does not copy or republish LEMON/CHARM manual content. Source links support live selected-manual results and concise derived evidence.
+- VIN matching against reviewed static records remains available, but VIN is optional after selecting a labor-capable manual.
+- Source operation, row, and side/bank wording are displayed verbatim. `One Side` and `One Bank` are never represented as a specific left/right or front/rear result.
+- Procedure evidence is source-specific, not a generic parts list. An unavailable procedure route creates no recommendation.
 
 ## Run locally
 
