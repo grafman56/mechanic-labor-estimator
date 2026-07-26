@@ -186,7 +186,7 @@ getLiveLabor.addEventListener('click', async () => {
     const context = procedureContextGroup(evidence);
     const evidenceCards = groups.map((group) => `<div class="parts-group"><h3>${group.heading}</h3><p>${group.items.map((item) => `<a href="${item.source_url}" target="_blank" rel="noreferrer">${item.label}</a><br><span>${item.reason}</span>`).join('<br>')}</p></div>`);
     if (context) {
-      evidenceCards.push(`<div class="parts-group procedure-context"><h3>${context.heading}</h3><p>${context.items.map((item) => `<a href="${item.source_url}" target="_blank" rel="noreferrer">${item.reason}</a>`).join('<br>')}</p><p><span>${context.note}</span></p></div>`);
+      evidenceCards.push(`<details class="parts-group procedure-context"><summary><span>${context.heading}</span><small>${context.summary}</small></summary><div class="procedure-context-body"><p>${context.items.map((item) => `<a href="${item.source_url}" target="_blank" rel="noreferrer">${item.reason}</a>`).join('<br>')}</p><p><span>${context.note}</span></p></div></details>`);
     }
     const evidenceHtml = evidenceCards.join('');
     const price = live.laborCost === null ? '' : ` · ${currency.format(live.laborCost)}`;

@@ -23,8 +23,17 @@ PROCEDURE_INSTALLATION_PATHS = {
         'Service%20and%20Repair/Water%20Pump%20Replacement/'
     ),
 }
+PROCEDURE_CONTEXT_PATHS = {
+    (MDX_2006_V6_MANUAL_URL, 'valve-cover-gasket', MDX_2006_V6_VALVE_COVER_OPERATION_URL): (
+        'Repair%20and%20Diagnosis/Engine%2C%20Cooling%20and%20Exhaust/Engine/'
+        'Cylinder%20Head%20Assembly/Valve%20Cover/Service%20and%20Repair/'
+        'Cylinder%20Head%20Cover%20Removal/',
+        PROCEDURE_INSTALLATION_PATHS[(MDX_2006_V6_MANUAL_URL, 'valve-cover-gasket', MDX_2006_V6_VALVE_COVER_OPERATION_URL)],
+    ),
+}
 PROCEDURE_CONTEXT_KEYWORDS = {
     (MDX_2006_V6_MANUAL_URL, 'valve-cover-gasket', MDX_2006_V6_VALVE_COVER_OPERATION_URL): (
+        ('remove', 'intake manifold'),
         ('install', 'six ignition coils'),
         ('install', 'intake manifold'),
     ),
@@ -107,11 +116,13 @@ def lookup_job_procedure_evidence(manual_url, job_id, fetch_html, source_operati
     source_url = urljoin(safe_url, relative_path)
     try:
         items = extract_procedure_evidence(source_url, fetch_html)
-        context_steps = extract_keyword_context(
-            source_url,
-            fetch_html,
-            PROCEDURE_CONTEXT_KEYWORDS.get((safe_url, job_id, source_operation_url), ()),
-        )
+        context_steps = []
+        for context_path in PROCEDURE_CONTEXT_PATHS.get((safe_url, job_id, source_operation_url), (relative_path,)):
+            context_steps.extend(extract_keyword_context(
+                urljoin(safe_url, context_path),
+                fetch_html,
+                PROCEDURE_CONTEXT_KEYWORDS.get((safe_url, job_id, source_operation_url), ()),
+            ))
     except OSError:
         return {'status': 'unavailable', 'reason': 'Procedure source page is unavailable.'}
     if not items and not context_steps:

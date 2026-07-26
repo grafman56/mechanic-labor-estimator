@@ -71,6 +71,10 @@ button:not(:disabled):hover { transform: translateY(-1px); }
 .parts-group { border: 1px solid #e0e6e9; border-radius: 10px; background: #fafcfc; padding: 1rem; }
 .parts-group p:last-child { margin-bottom: 0; }
 .procedure-context { border-left: 3px solid #8ba6b5; background: #f4f8fa; }
+.procedure-context summary { display: flex; align-items: center; justify-content: space-between; gap: .75rem; cursor: pointer; color: #263d4d; font-weight: 800; }
+.procedure-context summary::marker { color: #537789; }
+.procedure-context summary small { color: var(--muted); font-size: .76rem; font-weight: 650; }
+.procedure-context-body { border-top: 1px solid #dbe5e9; margin-top: .8rem; padding-top: .8rem; }
 .procedure-context p { line-height: 1.5; }
 .parts-group span { color: var(--muted); font-size: .86rem; line-height: 1.4; }
 .estimate .job-note { margin-bottom: 0; }

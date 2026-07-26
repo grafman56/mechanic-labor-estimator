@@ -42,8 +42,10 @@ class ProcedureEvidenceTests(unittest.TestCase):
         manual_url = 'https://lemon-manuals.la/Acura/2006/MDX%20V6-3.5L/'
         operation_url = f'{manual_url}Parts%20and%20Labor/Engine%2C%20Cooling%20and%20Exhaust/Engine/Valve%20Cover%20Gasket/'
         source_url = f'{manual_url}Repair%20and%20Diagnosis/Engine%2C%20Cooling%20and%20Exhaust/Engine/Cylinder%20Head%20Assembly/Valve%20Cover/Service%20and%20Repair/Cylinder%20Head%20Cover%20Installation/'
+        removal_url = f'{manual_url}Repair%20and%20Diagnosis/Engine%2C%20Cooling%20and%20Exhaust/Engine/Cylinder%20Head%20Assembly/Valve%20Cover/Service%20and%20Repair/Cylinder%20Head%20Cover%20Removal/'
         pages = {
             f'{manual_url}Parts%20and%20Labor/': '<a href="Engine%2C%20Cooling%20and%20Exhaust/Engine/Valve%20Cover%20Gasket/">Valve Cover Gasket</a>',
+            removal_url: '<p>Remove the intake manifold.</p>',
             source_url: '''<p>Visually check the spark plug seals for damage. Replace if necessary.</p>
               <p>Install the six ignition coils.</p>
               <p>Install the intake manifold.</p>''',
@@ -57,6 +59,7 @@ class ProcedureEvidenceTests(unittest.TestCase):
                 'source_url': source_url,
             }],
             'context_steps': [
+                {'reason': 'Remove the intake manifold.', 'source_url': removal_url},
                 {'reason': 'Install the six ignition coils.', 'source_url': source_url},
                 {'reason': 'Install the intake manifold.', 'source_url': source_url},
             ],
