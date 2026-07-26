@@ -8,7 +8,7 @@ export function procedureContextGroup(result) {
   if (result?.status !== 'available' || !result.context_steps?.length) return null;
   return {
     heading: 'Source procedure context',
-    summary: `${result.context_steps.length} source procedure step${result.context_steps.length === 1 ? '' : 's'}`,
+    summary: `${result.context_steps.length} source procedure step${result.context_steps.length === 1 ? '' : 's'}: ${result.context_steps[0].reason}`,
     note: 'Informational procedure steps only. A removal or reinstallation, including a named component or fastener, does not establish replacement parts, additional labor, or a package recommendation.',
     items: result.context_steps.map(({ reason, source_url }) => ({ reason, source_url })),
   };
