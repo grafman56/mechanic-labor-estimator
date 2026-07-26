@@ -3,7 +3,7 @@ import { findCatalogEntry } from './src/catalog.js';
 import { manualSelectionOptions } from './src/catalog-selection.js';
 import { tier1Jobs } from './src/tier1-jobs.js';
 import { liveEstimateModel, supportsManualEstimate } from './src/live-estimate.js';
-import { availableManuals } from './src/manual-availability.js';
+import { availableManuals, manualAvailabilityStatus } from './src/manual-availability.js';
 import { loadMakeCatalog, loadManualCatalogIndex } from './src/manual-catalog.js';
 import { manualOperationOptions } from './src/live-operations.js';
 import { sourceScopeOptions } from './src/live-scopes.js';
@@ -107,7 +107,7 @@ async function loadCatalog() {
       getLiveLabor.dataset.url = entry?.manual_url ?? '';
       populateLiveScopes();
       render();
-      catalogStatus.innerHTML = entry ? `LEMON labor data available: <a href="${entry.manual_url}" target="_blank" rel="noreferrer">open matching manual</a>.` : 'No source manual with labor data is available for this selection.';
+      catalogStatus.textContent = manualAvailabilityStatus(candidates, manuals);
     };
     const updateModels = async () => {
       const { models } = manualSelectionOptions(catalog, {

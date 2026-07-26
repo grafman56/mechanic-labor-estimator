@@ -72,7 +72,9 @@ For the personal on-demand workflow, run the same-origin private server instead 
 python3 server.py
 ```
 
-It listens only on `127.0.0.1:8099`, serves the planner, and exposes restricted JSON endpoints. Live-source endpoint responses are marked `no-store`, and the browser requests procedure evidence with `cache: 'no-store'`, so a previous procedure lookup cannot hide newly available source context after a local restart.
+It listens only on `127.0.0.1:8099`, serves the planner, and exposes restricted JSON endpoints. Live-source endpoint responses are marked `no-store`, and the browser requests procedure evidence with `cache: 'no-store'`, so a previous procedure lookup cannot hide newly available source context after a local restart. The server keeps a private, in-memory 15-minute cache only for successful exact-manual Parts-and-Labor availability probes. It returns `checked_at` and `cached` with that availability response, but this cache never establishes an operation, labor value, procedure, part, or recommendation.
+
+The selector keeps complete source navigation data. After an exact make/year/model/configuration selection, it probes only that selection's candidate manual roots. A missing Parts-and-Labor page is displayed as source-configuration availability, not as a missing repair job. User-facing source-configuration wording is decoded directly from the selected manual URL; it does not reinterpret a navigation label as a confirmed engine, drivetrain, body style, or trim.
 
 - `GET /api/manual-metadata` verifies the selected manual and returns only its source URL/title.
 - `GET /api/vin-manuals` decodes a 17-character VIN through NHTSA vPIC, then checks LEMON’s make/year navigation live and returns only exact model manual candidates. It does not assume an engine match from a similarly named candidate; the caller must select the matching source configuration.
