@@ -55,7 +55,7 @@ Upload `index.html`, `app.js`, `styles.css`, and the `src/` and `data/` director
 
 `tools/lemon_catalog.py` crawls only LEMON's public navigation pages (make → year → model/engine); it does not fetch procedure pages or download manual archives. Its default delay is one second between year pages. The generated catalog means `manual available`, not `verified estimate available`.
 
-The selector combines `data/lemon-acura-catalog.json` (869 Acura year/model/engine entries) and `data/lemon-bmw-catalog.json` (the verified factory-default 2006 BMW 325Ci Convertible (E46) L6-2.5L (M54) manual). A catalog record means `manual available`, not `verified estimate available`. Rebuild the Acura catalog with:
+The selector combines `data/lemon-acura-catalog.json` (869 Acura year/model/engine entries) with small, separately tested factory-default records for BMW, Honda, Toyota, Ford, and Chevrolet. The currently reviewed cross-make records are: 2006 BMW 325Ci Convertible (E46) L6-2.5L (M54); 2006 Honda Accord L4-2.4L; 2010 Toyota Camry L4-2.5L (2AR-FE); 2012 Ford Fusion FWD L4-2.5L; and 2012 Chevrolet Malibu L4-2.4L. Each of the four newly added manuals had a live Parts and Labor page and an exact published alternator `Replace` row when checked on 2026-07-26. A catalog record means `manual available`, not broad estimate or procedure-evidence coverage. Rebuild the Acura catalog with:
 
 ```sh
 python3 -c "from tools.lemon_catalog import crawl_make, write_catalog; write_catalog(crawl_make('Acura'), 'data/lemon-acura-catalog.json')"

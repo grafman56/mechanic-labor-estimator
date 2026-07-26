@@ -7,8 +7,18 @@ test('combines the supported make catalogs for manual selection', async () => {
   const requests = [];
   const catalog = await loadManualCatalog(async (path) => {
     requests.push(path);
-    return path.includes('acura') ? [{ make: 'Acura' }] : [{ make: 'BMW' }];
+    return [{ make: path.match(/lemon-([a-z]+)-catalog/)[1] }];
   });
-  assert.deepEqual(requests, ['./data/lemon-acura-catalog.json', './data/lemon-bmw-catalog.json']);
-  assert.deepEqual(catalog, [{ make: 'Acura' }, { make: 'BMW' }]);
+  assert.deepEqual(requests, [
+    './data/lemon-acura-catalog.json',
+    './data/lemon-bmw-catalog.json',
+    './data/lemon-honda-catalog.json',
+    './data/lemon-toyota-catalog.json',
+    './data/lemon-ford-catalog.json',
+    './data/lemon-chevrolet-catalog.json',
+  ]);
+  assert.deepEqual(catalog, [
+    { make: 'acura' }, { make: 'bmw' }, { make: 'honda' },
+    { make: 'toyota' }, { make: 'ford' }, { make: 'chevrolet' },
+  ]);
 });
