@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { procedureEvidenceGroups } from '../src/procedure-evidence.js';
+import { procedureContextGroup, procedureEvidenceGroups } from '../src/procedure-evidence.js';
 
 test('groups only source-backed procedure evidence by its source classification', () => {
   assert.deepEqual(procedureEvidenceGroups({ status: 'available', items: [
@@ -16,4 +16,20 @@ test('groups only source-backed procedure evidence by its source classification'
       items: [{ label: 'Cover washer', reason: 'Inspect it.', source_url: 'https://example.test/a' }],
     },
   ]);
+});
+
+test('keeps procedure context separate from parts or labor evidence', () => {
+  assert.deepEqual(procedureContextGroup({ status: 'available', context_steps: [
+    { reason: 'Drain the engine coolant.', source_url: 'https://example.test/water-pump' },
+    { reason: 'Remove the timing belt.', source_url: 'https://example.test/water-pump' },
+  ] }), {
+    heading: 'Procedure context',
+    note: 'Informational procedure steps only. They do not add labor, parts, or a package recommendation.',
+    items: [
+      { reason: 'Drain the engine coolant.', source_url: 'https://example.test/water-pump' },
+      { reason: 'Remove the timing belt.', source_url: 'https://example.test/water-pump' },
+    ],
+  });
+  assert.equal(procedureContextGroup({ status: 'available', context_steps: [] }), null);
+  assert.equal(procedureContextGroup({ status: 'unavailable' }), null);
 });

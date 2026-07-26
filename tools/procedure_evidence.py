@@ -23,6 +23,13 @@ PROCEDURE_INSTALLATION_PATHS = {
         'Service%20and%20Repair/Water%20Pump%20Replacement/'
     ),
 }
+PROCEDURE_CONTEXT_SENTENCES = {
+    (MDX_2006_V6_MANUAL_URL, 'water-pump', MDX_2006_V6_WATER_PUMP_OPERATION_URL): (
+        'Drain the engine coolant.',
+        'Remove the timing belt.',
+        'Remove the timing belt adjuster.',
+    ),
+}
 
 
 class _TextParser(HTMLParser):
@@ -67,6 +74,17 @@ def extract_procedure_evidence(source_url, fetch_html):
     return items
 
 
+def extract_procedure_context(source_url, fetch_html, allowed_sentences):
+    parser = _TextParser()
+    parser.feed(fetch_html(source_url))
+    text = re.sub(r'\s+([.,])', r'\1', ' '.join(' '.join(parser.parts).split()))
+    return [
+        {'reason': sentence, 'source_url': source_url}
+        for sentence in allowed_sentences
+        if sentence in text
+    ]
+
+
 def lookup_job_procedure_evidence(manual_url, job_id, fetch_html, source_operation_url=None):
     safe_url = validate_manual_url(manual_url)
     if not safe_url:
@@ -82,8 +100,16 @@ def lookup_job_procedure_evidence(manual_url, job_id, fetch_html, source_operati
     source_url = urljoin(safe_url, relative_path)
     try:
         items = extract_procedure_evidence(source_url, fetch_html)
+        context_steps = extract_procedure_context(
+            source_url,
+            fetch_html,
+            PROCEDURE_CONTEXT_SENTENCES.get((safe_url, job_id, source_operation_url), ()),
+        )
     except OSError:
         return {'status': 'unavailable', 'reason': 'Procedure source page is unavailable.'}
-    if not items:
+    if not items and not context_steps:
         return {'status': 'unavailable', 'reason': 'No explicit procedure evidence was found.'}
-    return {'status': 'available', 'items': items}
+    result = {'status': 'available', 'items': items}
+    if context_steps:
+        result['context_steps'] = context_steps
+    return result

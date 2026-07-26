@@ -65,7 +65,11 @@ class ProcedureEvidenceTests(unittest.TestCase):
         source_url = f'{manual_url}Repair%20and%20Diagnosis/Engine%2C%20Cooling%20and%20Exhaust/Engine/Water%20Pump/Service%20and%20Repair/Water%20Pump%20Replacement/'
         pages = {
             f'{manual_url}Parts%20and%20Labor/': '<a href="Engine%2C%20Cooling%20and%20Exhaust/Engine/Water%20Pump/">Water Pump</a>',
-            source_url: '<p>Install the water pump with a new O-ring (B) in the reverse order of removal.</p>',
+            source_url: '''<p>Drain the engine coolant.</p>
+              <p>Remove the timing belt .</p>
+              <p>Remove the timing belt adjuster.</p>
+              <p>Install the water pump with a new O-ring (B) in the reverse order of removal.</p>
+              <p>Install the intake manifold.</p>''',
         }
         self.assertEqual(lookup_job_procedure_evidence(manual_url, 'water-pump', pages.__getitem__, source_operation_url=operation_url), {
             'status': 'available',
@@ -75,6 +79,11 @@ class ProcedureEvidenceTests(unittest.TestCase):
                 'reason': 'Install the water pump with a new O-ring (B) in the reverse order of removal.',
                 'source_url': source_url,
             }],
+            'context_steps': [
+                {'reason': 'Drain the engine coolant.', 'source_url': source_url},
+                {'reason': 'Remove the timing belt.', 'source_url': source_url},
+                {'reason': 'Remove the timing belt adjuster.', 'source_url': source_url},
+            ],
         })
 
     def test_reports_a_missing_procedure_page_as_unavailable(self):

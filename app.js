@@ -7,7 +7,7 @@ import { availableManuals } from './src/manual-availability.js';
 import { loadManualCatalog } from './src/manual-catalog.js';
 import { manualOperationOptions } from './src/live-operations.js';
 import { sourceScopeOptions } from './src/live-scopes.js';
-import { procedureEvidenceGroups } from './src/procedure-evidence.js';
+import { procedureContextGroup, procedureEvidenceGroups } from './src/procedure-evidence.js';
 
 const vinInput = document.querySelector('#vin');
 const rateInput = document.querySelector('#labor-rate');
@@ -183,7 +183,12 @@ getLiveLabor.addEventListener('click', async () => {
     })}`);
     const evidence = evidenceResponse.ok ? await evidenceResponse.json() : { status: 'unavailable' };
     const groups = procedureEvidenceGroups(evidence);
-    const evidenceHtml = groups.length ? `<div class="parts-group"><h3>Procedure evidence</h3>${groups.map((group) => `<p><strong>${group.heading}</strong><br>${group.items.map((item) => `<a href="${item.source_url}" target="_blank" rel="noreferrer">${item.label}</a><br><span>${item.reason}</span>`).join('<br>')}</p>`).join('')}</div>` : '';
+    const context = procedureContextGroup(evidence);
+    const evidenceCards = groups.map((group) => `<div class="parts-group"><h3>${group.heading}</h3><p>${group.items.map((item) => `<a href="${item.source_url}" target="_blank" rel="noreferrer">${item.label}</a><br><span>${item.reason}</span>`).join('<br>')}</p></div>`);
+    if (context) {
+      evidenceCards.push(`<div class="parts-group procedure-context"><h3>${context.heading}</h3><p>${context.items.map((item) => `<a href="${item.source_url}" target="_blank" rel="noreferrer">${item.reason}</a>`).join('<br>')}</p><p><span>${context.note}</span></p></div>`);
+    }
+    const evidenceHtml = evidenceCards.join('');
     const price = live.laborCost === null ? '' : ` · ${currency.format(live.laborCost)}`;
     catalogStatus.innerHTML = `Live source match: <a href="${live.sourceUrl}" target="_blank" rel="noreferrer">${live.operation} labor time</a> — ${live.laborHours} standard hr${price}.`;
     estimate.innerHTML = `<div class="estimate-heading"><div><p class="eyebrow">Selected vehicle and live source</p><h2>${live.operation}</h2><p>${live.vehicle}</p></div><div class="total"><span>Published baseline labor</span><strong>${live.laborHours} hr${price}</strong></div></div><div class="parts-grid"><div class="parts-group"><h3>Source</h3><p><a href="${live.sourceUrl}" target="_blank" rel="noreferrer">LEMON labor-times page</a></p><p>Published standard/book time for the selected source manual.</p></div>${evidenceHtml}</div><p class="job-note">Procedure additions are displayed only when the selected manual explicitly supports them; unavailable evidence creates no recommendation.</p>`;

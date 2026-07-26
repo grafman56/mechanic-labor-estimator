@@ -10,7 +10,7 @@ A local, vehicle-specific labor-planning pilot. It does not provide generic esti
 - Same-named source operations can require a manual operation-path selection. The tool never selects between conflicting paths automatically.
 - Procedure evidence is currently verified only for these exact 2006 MDX V6-3.5L manual operations:
   - valve-cover gasket: spark plug seals (`replace-if-removed`) and cover washer (`inspect`);
-  - engine-path water pump: new O-ring (B) (`required`).
+  - engine-path water pump: new O-ring (B) (`required`) plus informational context that the selected procedure drains engine coolant and removes the timing belt and timing-belt adjuster. These steps do not add labor, parts, or a timing-service package.
 - Any job/manual/operation without exact source support remains unavailable; there is no generic labor, parts, or access fallback.
 
 | Job family | Live labor behavior | Procedure evidence status |
@@ -20,7 +20,7 @@ A local, vehicle-specific labor-planning pilot. It does not provide generic esti
 | Engine air filter; cabin air filter | Exact published `Replace` row when available | Labor only |
 | Valve-cover gasket | Exact published bank/side wording | Verified for the MDX operation listed above |
 | Timing belt | Exact published `Replace` row; no water-pump labor is silently added | Labor only |
-| Water pump | Exact operation path and published row required when paths conflict | Verified only for the MDX engine-path operation listed above |
+| Water pump | Exact operation path and published row required when paths conflict | Verified only for the MDX engine-path operation listed above: O-ring evidence plus informational procedure context, not added timing-belt labor |
 
 Labor values are source-published standard/book times for the selected vehicle/manual operation. Labor tables never establish required parts, disturbed gaskets, or access recommendations; those require explicit procedure evidence.
 
@@ -75,7 +75,7 @@ It listens only on `127.0.0.1:8099`, serves the planner, and exposes restricted 
 - `GET /api/vin-manuals` decodes a 17-character VIN through NHTSA vPIC, then checks LEMON’s make/year navigation live and returns only exact model manual candidates. It does not assume an engine match from a similarly named candidate; the caller must select the matching source configuration.
 - `GET /api/live-job-labor` accepts a normalized Tier 1 job ID, an exact source operation path, and an exact source row, then returns only that published `Replace` standard-hour value.
 - `GET /api/live-job-rows` lists each distinct selected-manual operation path with its exact published replacement rows. Equivalent duplicate paths are collapsed only when every displayed row and hour agrees; conflicting paths require a manual operation choice.
-- `GET /api/procedure-evidence` accepts the same exact source operation and returns only explicit installation/removal evidence for specifically verified manual/operation pairs. It distinguishes `required`, `replace-if-removed`, and `inspect`; missing procedure evidence creates no recommendation.
+- `GET /api/procedure-evidence` accepts the same exact source operation and returns only explicit installation/removal evidence for specifically verified manual/operation pairs. It distinguishes `required`, `replace-if-removed`, and `inspect`; missing procedure evidence creates no recommendation. A route can also return bounded informational `context_steps` from the exact procedure. Context steps never add labor, parts, or a package recommendation.
 
 The live selector currently supports the small Tier 1 job catalog. It does not copy manual text, infer missing operations, automatically choose between conflicting duplicate source operations, or create an estimate when the required source page is absent. Do not expose this service publicly without adding authentication, request rate limits, and a persistent cache.
 

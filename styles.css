@@ -70,6 +70,8 @@ button:not(:disabled):hover { transform: translateY(-1px); }
 .parts-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: .9rem; margin-top: 1rem; }
 .parts-group { border: 1px solid #e0e6e9; border-radius: 10px; background: #fafcfc; padding: 1rem; }
 .parts-group p:last-child { margin-bottom: 0; }
+.procedure-context { border-left: 3px solid #8ba6b5; background: #f4f8fa; }
+.procedure-context p { line-height: 1.5; }
 .parts-group span { color: var(--muted); font-size: .86rem; line-height: 1.4; }
 .estimate .job-note { margin-bottom: 0; }
 .notice { margin-top: 1rem; border-left: 4px solid var(--accent); padding: 1.15rem 1.25rem; }
