@@ -33,6 +33,15 @@ class ServerCacheTests(unittest.TestCase):
         self.assertEqual(response.status, 200)
         self.assertEqual(response.getheader('Cache-Control'), 'no-store')
 
+    def test_planner_assets_are_not_cached(self):
+        connection = http.client.HTTPConnection('127.0.0.1', self.httpd.server_port)
+        connection.request('GET', '/app.js')
+        response = connection.getresponse()
+        response.read()
+
+        self.assertEqual(response.status, 200)
+        self.assertEqual(response.getheader('Cache-Control'), 'no-store')
+
 
 if __name__ == '__main__':
     unittest.main()

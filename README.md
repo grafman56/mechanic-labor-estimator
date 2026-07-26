@@ -69,7 +69,7 @@ For the personal on-demand workflow, run the same-origin private server instead 
 python3 server.py
 ```
 
-It listens only on `127.0.0.1:8099`, serves the planner, and exposes restricted endpoints for source-approved lookups:
+It listens only on `127.0.0.1:8099`, serves the planner, and exposes restricted JSON endpoints. Live-source endpoint responses are marked `no-store`, and the browser requests procedure evidence with `cache: 'no-store'`, so a previous procedure lookup cannot hide newly available source context after a local restart.
 
 - `GET /api/manual-metadata` verifies the selected manual and returns only its source URL/title.
 - `GET /api/vin-manuals` decodes a 17-character VIN through NHTSA vPIC, then checks LEMON’s make/year navigation live and returns only exact model manual candidates. It does not assume an engine match from a similarly named candidate; the caller must select the matching source configuration.

@@ -10,6 +10,10 @@ from tools.procedure_evidence import lookup_job_procedure_evidence
 
 
 class PlannerHandler(SimpleHTTPRequestHandler):
+    def end_headers(self):
+        self.send_header('Cache-Control', 'no-store')
+        super().end_headers()
+
     def do_GET(self):
         parsed = urlparse(self.path)
         if parsed.path not in ('/api/manual-metadata', '/api/manual-availability', '/api/live-job-rows', '/api/live-job-labor', '/api/procedure-evidence', '/api/vin-manuals'):
@@ -35,7 +39,6 @@ class PlannerHandler(SimpleHTTPRequestHandler):
         encoded = json.dumps(payload).encode()
         self.send_response(status)
         self.send_header('Content-Type', 'application/json')
-        self.send_header('Cache-Control', 'no-store')
         self.send_header('Content-Length', str(len(encoded)))
         self.end_headers()
         self.wfile.write(encoded)

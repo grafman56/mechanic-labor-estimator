@@ -8,6 +8,7 @@ import { loadManualCatalog } from './src/manual-catalog.js';
 import { manualOperationOptions } from './src/live-operations.js';
 import { sourceScopeOptions } from './src/live-scopes.js';
 import { procedureContextGroup, procedureEvidenceGroups } from './src/procedure-evidence.js';
+import { fetchProcedureEvidence } from './src/live-procedure-evidence.js';
 
 const vinInput = document.querySelector('#vin');
 const rateInput = document.querySelector('#labor-rate');
@@ -176,12 +177,11 @@ getLiveLabor.addEventListener('click', async () => {
       return;
     }
     const live = liveEstimateModel(result, selectedManual, rateInput.value);
-    const evidenceResponse = await fetch(`/api/procedure-evidence?${new URLSearchParams({
+    const evidence = await fetchProcedureEvidence(fetch, {
       url: getLiveLabor.dataset.url,
       job: liveJob.value,
       source_operation_url: liveOperation.value,
-    })}`);
-    const evidence = evidenceResponse.ok ? await evidenceResponse.json() : { status: 'unavailable' };
+    });
     const groups = procedureEvidenceGroups(evidence);
     const context = procedureContextGroup(evidence);
     const evidenceCards = groups.map((group) => `<div class="parts-group"><h3>${group.heading}</h3><p>${group.items.map((item) => `<a href="${item.source_url}" target="_blank" rel="noreferrer">${item.label}</a><br><span>${item.reason}</span>`).join('<br>')}</p></div>`);
