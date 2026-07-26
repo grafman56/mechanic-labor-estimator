@@ -1,0 +1,688 @@
+[
+  {
+    "make": "Hummer",
+    "year": 1992,
+    "model": "H1 2D",
+    "engine": "Utility",
+    "manual_url": "https://lemon-manuals.la/Hummer/1992/H1%202D%20Utility/"
+  },
+  {
+    "make": "Hummer",
+    "year": 1992,
+    "model": "H1 4D",
+    "engine": "Utility",
+    "manual_url": "https://lemon-manuals.la/Hummer/1992/H1%204D%20Utility/"
+  },
+  {
+    "make": "Hummer",
+    "year": 1993,
+    "model": "H1 2D",
+    "engine": "Utility",
+    "manual_url": "https://lemon-manuals.la/Hummer/1993/H1%202D%20Utility/"
+  },
+  {
+    "make": "Hummer",
+    "year": 1993,
+    "model": "H1 4D",
+    "engine": "Utility",
+    "manual_url": "https://lemon-manuals.la/Hummer/1993/H1%204D%20Utility/"
+  },
+  {
+    "make": "Hummer",
+    "year": 1994,
+    "model": "H1 2D",
+    "engine": "Utility",
+    "manual_url": "https://lemon-manuals.la/Hummer/1994/H1%202D%20Utility/"
+  },
+  {
+    "make": "Hummer",
+    "year": 1994,
+    "model": "H1 4D",
+    "engine": "Utility",
+    "manual_url": "https://lemon-manuals.la/Hummer/1994/H1%204D%20Utility/"
+  },
+  {
+    "make": "Hummer",
+    "year": 1995,
+    "model": "H1 2D Utility, 5.7",
+    "engine": "D",
+    "manual_url": "https://lemon-manuals.la/Hummer/1995/H1%202D%20Utility%2C%205.7%20D/"
+  },
+  {
+    "make": "Hummer",
+    "year": 1995,
+    "model": "H1 2D Utility, 6.5",
+    "engine": "Y",
+    "manual_url": "https://lemon-manuals.la/Hummer/1995/H1%202D%20Utility%2C%206.5%20Y/"
+  },
+  {
+    "make": "Hummer",
+    "year": 1995,
+    "model": "H1 4D Utility, 5.7",
+    "engine": "D",
+    "manual_url": "https://lemon-manuals.la/Hummer/1995/H1%204D%20Utility%2C%205.7%20D/"
+  },
+  {
+    "make": "Hummer",
+    "year": 1995,
+    "model": "H1 4D Utility, 6.5",
+    "engine": "Y",
+    "manual_url": "https://lemon-manuals.la/Hummer/1995/H1%204D%20Utility%2C%206.5%20Y/"
+  },
+  {
+    "make": "Hummer",
+    "year": 1996,
+    "model": "H1 2D Utility, 5.7",
+    "engine": "D",
+    "manual_url": "https://lemon-manuals.la/Hummer/1996/H1%202D%20Utility%2C%205.7%20D/"
+  },
+  {
+    "make": "Hummer",
+    "year": 1996,
+    "model": "H1 2D Utility, 6.5",
+    "engine": "Y",
+    "manual_url": "https://lemon-manuals.la/Hummer/1996/H1%202D%20Utility%2C%206.5%20Y/"
+  },
+  {
+    "make": "Hummer",
+    "year": 1996,
+    "model": "H1 2D Utility, 6.5",
+    "engine": "Z",
+    "manual_url": "https://lemon-manuals.la/Hummer/1996/H1%202D%20Utility%2C%206.5%20Z/"
+  },
+  {
+    "make": "Hummer",
+    "year": 1996,
+    "model": "H1 4D Utility, 5.7",
+    "engine": "D",
+    "manual_url": "https://lemon-manuals.la/Hummer/1996/H1%204D%20Utility%2C%205.7%20D/"
+  },
+  {
+    "make": "Hummer",
+    "year": 1996,
+    "model": "H1 4D Utility, 6.5",
+    "engine": "Y",
+    "manual_url": "https://lemon-manuals.la/Hummer/1996/H1%204D%20Utility%2C%206.5%20Y/"
+  },
+  {
+    "make": "Hummer",
+    "year": 1996,
+    "model": "H1 4D Utility, 6.5",
+    "engine": "Z",
+    "manual_url": "https://lemon-manuals.la/Hummer/1996/H1%204D%20Utility%2C%206.5%20Z/"
+  },
+  {
+    "make": "Hummer",
+    "year": 1997,
+    "model": "H1 2D Utility, 6.5",
+    "engine": "Y",
+    "manual_url": "https://lemon-manuals.la/Hummer/1997/H1%202D%20Utility%2C%206.5%20Y/"
+  },
+  {
+    "make": "Hummer",
+    "year": 1997,
+    "model": "H1 2D Utility, 6.5",
+    "engine": "Z",
+    "manual_url": "https://lemon-manuals.la/Hummer/1997/H1%202D%20Utility%2C%206.5%20Z/"
+  },
+  {
+    "make": "Hummer",
+    "year": 1997,
+    "model": "H1 4D Utility, 6.5",
+    "engine": "Y",
+    "manual_url": "https://lemon-manuals.la/Hummer/1997/H1%204D%20Utility%2C%206.5%20Y/"
+  },
+  {
+    "make": "Hummer",
+    "year": 1997,
+    "model": "H1 4D Utility, 6.5",
+    "engine": "Z",
+    "manual_url": "https://lemon-manuals.la/Hummer/1997/H1%204D%20Utility%2C%206.5%20Z/"
+  },
+  {
+    "make": "Hummer",
+    "year": 1998,
+    "model": "H1 2D Utility, 6.5",
+    "engine": "Y",
+    "manual_url": "https://lemon-manuals.la/Hummer/1998/H1%202D%20Utility%2C%206.5%20Y/"
+  },
+  {
+    "make": "Hummer",
+    "year": 1998,
+    "model": "H1 2D Utility, 6.5",
+    "engine": "Z",
+    "manual_url": "https://lemon-manuals.la/Hummer/1998/H1%202D%20Utility%2C%206.5%20Z/"
+  },
+  {
+    "make": "Hummer",
+    "year": 1998,
+    "model": "H1 4D Utility, 6.5",
+    "engine": "Y",
+    "manual_url": "https://lemon-manuals.la/Hummer/1998/H1%204D%20Utility%2C%206.5%20Y/"
+  },
+  {
+    "make": "Hummer",
+    "year": 1998,
+    "model": "H1 4D Utility, 6.5",
+    "engine": "Z",
+    "manual_url": "https://lemon-manuals.la/Hummer/1998/H1%204D%20Utility%2C%206.5%20Z/"
+  },
+  {
+    "make": "Hummer",
+    "year": 1998,
+    "model": "H1 V8-6.5L",
+    "engine": "DSL",
+    "manual_url": "https://lemon-manuals.la/Hummer/1998/H1%20V8-6.5L%20DSL/"
+  },
+  {
+    "make": "Hummer",
+    "year": 1998,
+    "model": "H1 V8-6.5L DSL",
+    "engine": "Turbo",
+    "manual_url": "https://lemon-manuals.la/Hummer/1998/H1%20V8-6.5L%20DSL%20Turbo/"
+  },
+  {
+    "make": "Hummer",
+    "year": 1999,
+    "model": "H1 2D",
+    "engine": "Utility",
+    "manual_url": "https://lemon-manuals.la/Hummer/1999/H1%202D%20Utility/"
+  },
+  {
+    "make": "Hummer",
+    "year": 1999,
+    "model": "H1 4D",
+    "engine": "Utility",
+    "manual_url": "https://lemon-manuals.la/Hummer/1999/H1%204D%20Utility/"
+  },
+  {
+    "make": "Hummer",
+    "year": 1999,
+    "model": "H1 V8-6.5L DSL",
+    "engine": "Turbo",
+    "manual_url": "https://lemon-manuals.la/Hummer/1999/H1%20V8-6.5L%20DSL%20Turbo/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2000,
+    "model": "H1 2D",
+    "engine": "Utility",
+    "manual_url": "https://lemon-manuals.la/Hummer/2000/H1%202D%20Utility/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2000,
+    "model": "H1 4D",
+    "engine": "Utility",
+    "manual_url": "https://lemon-manuals.la/Hummer/2000/H1%204D%20Utility/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2000,
+    "model": "H1 V8-6.5L DSL",
+    "engine": "Turbo",
+    "manual_url": "https://lemon-manuals.la/Hummer/2000/H1%20V8-6.5L%20DSL%20Turbo/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2001,
+    "model": "H1 2D Utility, 6.5",
+    "engine": "F",
+    "manual_url": "https://lemon-manuals.la/Hummer/2001/H1%202D%20Utility%2C%206.5%20F/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2001,
+    "model": "H1 2D Utility, 6.5",
+    "engine": "Z",
+    "manual_url": "https://lemon-manuals.la/Hummer/2001/H1%202D%20Utility%2C%206.5%20Z/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2001,
+    "model": "H1 4D Utility, 6.5",
+    "engine": "F",
+    "manual_url": "https://lemon-manuals.la/Hummer/2001/H1%204D%20Utility%2C%206.5%20F/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2001,
+    "model": "H1 4D Utility, 6.5",
+    "engine": "Z",
+    "manual_url": "https://lemon-manuals.la/Hummer/2001/H1%204D%20Utility%2C%206.5%20Z/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2001,
+    "model": "H1 V8-6.5L DSL",
+    "engine": "Turbo",
+    "manual_url": "https://lemon-manuals.la/Hummer/2001/H1%20V8-6.5L%20DSL%20Turbo/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2002,
+    "model": "H1 V8-6.5L DSL",
+    "engine": "Turbo",
+    "manual_url": "https://lemon-manuals.la/Hummer/2002/H1%20V8-6.5L%20DSL%20Turbo/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2003,
+    "model": "H1 V8-6.5L DSL",
+    "engine": "Turbo",
+    "manual_url": "https://lemon-manuals.la/Hummer/2003/H1%20V8-6.5L%20DSL%20Turbo/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2003,
+    "model": "H2",
+    "engine": "V8-6.0L",
+    "manual_url": "https://lemon-manuals.la/Hummer/2003/H2%20V8-6.0L/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2004,
+    "model": "H1 V8-6.5L DSL",
+    "engine": "Turbo",
+    "manual_url": "https://lemon-manuals.la/Hummer/2004/H1%20V8-6.5L%20DSL%20Turbo/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2004,
+    "model": "H2",
+    "engine": "V8-6.0L",
+    "manual_url": "https://lemon-manuals.la/Hummer/2004/H2%20V8-6.0L/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2004,
+    "model": "H2 4D Utility",
+    "engine": "Pickup",
+    "manual_url": "https://lemon-manuals.la/Hummer/2004/H2%204D%20Utility%20Pickup/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2004,
+    "model": "H2 4D Utility",
+    "engine": "Wagon",
+    "manual_url": "https://lemon-manuals.la/Hummer/2004/H2%204D%20Utility%20Wagon/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2005,
+    "model": "H1 V8-6.5L DSL",
+    "engine": "Turbo",
+    "manual_url": "https://lemon-manuals.la/Hummer/2005/H1%20V8-6.5L%20DSL%20Turbo/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2005,
+    "model": "H2",
+    "engine": "V8-6.0L",
+    "manual_url": "https://lemon-manuals.la/Hummer/2005/H2%20V8-6.0L/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2005,
+    "model": "H2 4D Utility",
+    "engine": "Pickup",
+    "manual_url": "https://lemon-manuals.la/Hummer/2005/H2%204D%20Utility%20Pickup/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2005,
+    "model": "H2 4D Utility",
+    "engine": "Wagon",
+    "manual_url": "https://lemon-manuals.la/Hummer/2005/H2%204D%20Utility%20Wagon/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2006,
+    "model": "H1 4D Utility",
+    "engine": "Pickup",
+    "manual_url": "https://lemon-manuals.la/Hummer/2006/H1%204D%20Utility%20Pickup/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2006,
+    "model": "H1 4D Utility",
+    "engine": "Wagon",
+    "manual_url": "https://lemon-manuals.la/Hummer/2006/H1%204D%20Utility%20Wagon/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2006,
+    "model": "H1 V8-6.6L DSL",
+    "engine": "Turbo",
+    "manual_url": "https://lemon-manuals.la/Hummer/2006/H1%20V8-6.6L%20DSL%20Turbo/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2006,
+    "model": "H2",
+    "engine": "V8-6.0L",
+    "manual_url": "https://lemon-manuals.la/Hummer/2006/H2%20V8-6.0L/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2006,
+    "model": "H2 4D Utility",
+    "engine": "Pickup",
+    "manual_url": "https://lemon-manuals.la/Hummer/2006/H2%204D%20Utility%20Pickup/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2006,
+    "model": "H2 4D Utility",
+    "engine": "Wagon",
+    "manual_url": "https://lemon-manuals.la/Hummer/2006/H2%204D%20Utility%20Wagon/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2006,
+    "model": "H3",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Hummer/2006/H3%20Automatic/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2006,
+    "model": "H3",
+    "engine": "L5-3.5L",
+    "manual_url": "https://lemon-manuals.la/Hummer/2006/H3%20L5-3.5L/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2006,
+    "model": "H3",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Hummer/2006/H3%20Standard/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2007,
+    "model": "H2",
+    "engine": "V8-6.0L",
+    "manual_url": "https://lemon-manuals.la/Hummer/2007/H2%20V8-6.0L/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2007,
+    "model": "H2 4D Utility",
+    "engine": "Pickup",
+    "manual_url": "https://lemon-manuals.la/Hummer/2007/H2%204D%20Utility%20Pickup/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2007,
+    "model": "H2 4D Utility",
+    "engine": "Wagon",
+    "manual_url": "https://lemon-manuals.la/Hummer/2007/H2%204D%20Utility%20Wagon/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2007,
+    "model": "H3",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Hummer/2007/H3%20Automatic/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2007,
+    "model": "H3",
+    "engine": "L5-3.7L",
+    "manual_url": "https://lemon-manuals.la/Hummer/2007/H3%20L5-3.7L/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2007,
+    "model": "H3",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Hummer/2007/H3%20Standard/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2008,
+    "model": "H2",
+    "engine": "V8-6.2L",
+    "manual_url": "https://lemon-manuals.la/Hummer/2008/H2%20V8-6.2L/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2008,
+    "model": "H2 4D Utility",
+    "engine": "Pickup",
+    "manual_url": "https://lemon-manuals.la/Hummer/2008/H2%204D%20Utility%20Pickup/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2008,
+    "model": "H2 4D Utility",
+    "engine": "Wagon",
+    "manual_url": "https://lemon-manuals.la/Hummer/2008/H2%204D%20Utility%20Wagon/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2008,
+    "model": "H3",
+    "engine": "Alpha",
+    "manual_url": "https://lemon-manuals.la/Hummer/2008/H3%20Alpha/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2008,
+    "model": "H3",
+    "engine": "L5-3.7L",
+    "manual_url": "https://lemon-manuals.la/Hummer/2008/H3%20L5-3.7L/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2008,
+    "model": "H3",
+    "engine": "V8-5.3L",
+    "manual_url": "https://lemon-manuals.la/Hummer/2008/H3%20V8-5.3L/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2008,
+    "model": "H3 Adventure,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Hummer/2008/H3%20Adventure%2C%20Automatic/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2008,
+    "model": "H3 Adventure,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Hummer/2008/H3%20Adventure%2C%20Standard/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2008,
+    "model": "H3 Base,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Hummer/2008/H3%20Base%2C%20Automatic/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2008,
+    "model": "H3 Base,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Hummer/2008/H3%20Base%2C%20Standard/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2008,
+    "model": "H3 Luxury,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Hummer/2008/H3%20Luxury%2C%20Automatic/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2008,
+    "model": "H3 Luxury,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Hummer/2008/H3%20Luxury%2C%20Standard/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2009,
+    "model": "H2",
+    "engine": "V8-6.2L",
+    "manual_url": "https://lemon-manuals.la/Hummer/2009/H2%20V8-6.2L/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2009,
+    "model": "H2 4D Utility",
+    "engine": "Pickup",
+    "manual_url": "https://lemon-manuals.la/Hummer/2009/H2%204D%20Utility%20Pickup/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2009,
+    "model": "H2 4D Utility",
+    "engine": "Wagon",
+    "manual_url": "https://lemon-manuals.la/Hummer/2009/H2%204D%20Utility%20Wagon/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2009,
+    "model": "H3",
+    "engine": "Alpha",
+    "manual_url": "https://lemon-manuals.la/Hummer/2009/H3%20Alpha/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2009,
+    "model": "H3",
+    "engine": "L5-3.7L",
+    "manual_url": "https://lemon-manuals.la/Hummer/2009/H3%20L5-3.7L/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2009,
+    "model": "H3",
+    "engine": "V8-5.3L",
+    "manual_url": "https://lemon-manuals.la/Hummer/2009/H3%20V8-5.3L/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2009,
+    "model": "H3 Adventure,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Hummer/2009/H3%20Adventure%2C%20Automatic/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2009,
+    "model": "H3 Adventure,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Hummer/2009/H3%20Adventure%2C%20Standard/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2009,
+    "model": "H3 Base,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Hummer/2009/H3%20Base%2C%20Automatic/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2009,
+    "model": "H3 Base,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Hummer/2009/H3%20Base%2C%20Standard/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2009,
+    "model": "H3 Luxury,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Hummer/2009/H3%20Luxury%2C%20Automatic/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2009,
+    "model": "H3 Luxury,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Hummer/2009/H3%20Luxury%2C%20Standard/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2009,
+    "model": "H3T",
+    "engine": "Alpha",
+    "manual_url": "https://lemon-manuals.la/Hummer/2009/H3T%20Alpha/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2009,
+    "model": "H3T Base,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Hummer/2009/H3T%20Base%2C%20Automatic/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2009,
+    "model": "H3T Base,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Hummer/2009/H3T%20Base%2C%20Standard/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2010,
+    "model": "H3",
+    "engine": "Alpha",
+    "manual_url": "https://lemon-manuals.la/Hummer/2010/H3%20Alpha/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2010,
+    "model": "H3",
+    "engine": "L5-3.7L",
+    "manual_url": "https://lemon-manuals.la/Hummer/2010/H3%20L5-3.7L/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2010,
+    "model": "H3",
+    "engine": "V8-5.3L",
+    "manual_url": "https://lemon-manuals.la/Hummer/2010/H3%20V8-5.3L/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2010,
+    "model": "H3 Base,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Hummer/2010/H3%20Base%2C%20Automatic/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2010,
+    "model": "H3 Base,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Hummer/2010/H3%20Base%2C%20Standard/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2010,
+    "model": "H3T",
+    "engine": "Alpha",
+    "manual_url": "https://lemon-manuals.la/Hummer/2010/H3T%20Alpha/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2010,
+    "model": "H3T Base,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Hummer/2010/H3T%20Base%2C%20Automatic/"
+  },
+  {
+    "make": "Hummer",
+    "year": 2010,
+    "model": "H3T Base,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Hummer/2010/H3T%20Base%2C%20Standard/"
+  }
+]

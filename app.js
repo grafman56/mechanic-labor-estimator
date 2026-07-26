@@ -1,10 +1,10 @@
 import { findVerifiedVehicle } from './src/mdx.js';
-import { catalogOptions, findCatalogEntry } from './src/catalog.js';
+import { findCatalogEntry } from './src/catalog.js';
 import { manualSelectionOptions } from './src/catalog-selection.js';
 import { tier1Jobs } from './src/tier1-jobs.js';
 import { liveEstimateModel, supportsManualEstimate } from './src/live-estimate.js';
 import { availableManuals } from './src/manual-availability.js';
-import { loadManualCatalog } from './src/manual-catalog.js';
+import { loadMakeCatalog, loadManualCatalogIndex } from './src/manual-catalog.js';
 import { manualOperationOptions } from './src/live-operations.js';
 import { sourceScopeOptions } from './src/live-scopes.js';
 import { jobAwarenessGroup } from './src/procedure-evidence.js';
@@ -76,12 +76,14 @@ function populateLiveJobs() {
 
 async function loadCatalog() {
   try {
-    const catalog = await loadManualCatalog(async (path) => {
+    const fetchJson = async (path) => {
       const response = await fetch(path);
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       return response.json();
-    });
-    fillSelect(catalogMake, catalogOptions(catalog, 'make'));
+    };
+    const catalogIndex = await loadManualCatalogIndex(fetchJson);
+    let catalog = [];
+    fillSelect(catalogMake, catalogIndex.map((entry) => entry.make));
     const updateEngines = async () => {
       const candidates = catalog.filter((entry) => (
         entry.make === catalogMake.value
@@ -107,18 +109,19 @@ async function loadCatalog() {
       render();
       catalogStatus.innerHTML = entry ? `LEMON labor data available: <a href="${entry.manual_url}" target="_blank" rel="noreferrer">open matching manual</a>.` : 'No source manual with labor data is available for this selection.';
     };
-    const updateModels = () => {
+    const updateModels = async () => {
       const { models } = manualSelectionOptions(catalog, {
         make: catalogMake.value,
         year: Number(catalogYear.value),
       });
       fillSelect(catalogModel, models);
-      updateEngines();
+      await updateEngines();
     };
-    const updateYears = () => {
+    const updateYears = async () => {
+      catalog = await loadMakeCatalog(fetchJson, catalogIndex, catalogMake.value);
       const { years } = manualSelectionOptions(catalog, { make: catalogMake.value });
       fillSelect(catalogYear, years);
-      updateModels();
+      await updateModels();
     };
     catalogMake.addEventListener('change', updateYears);
     catalogYear.addEventListener('change', updateModels);

@@ -1,15 +1,10 @@
-const catalogPaths = [
-  './data/lemon-acura-catalog.json',
-  './data/lemon-bmw-catalog.json',
-  './data/lemon-honda-catalog.json',
-  './data/lemon-toyota-catalog.json',
-  './data/lemon-ford-catalog.json',
-  './data/lemon-chevrolet-catalog.json',
-  './data/lemon-hyundai-catalog.json',
-  './data/lemon-kia-catalog.json',
-  './data/lemon-chrysler-catalog.json',
-];
+const catalogIndexPath = './data/lemon-catalog-index.json';
 
-export async function loadManualCatalog(fetchJson) {
-  return (await Promise.all(catalogPaths.map(fetchJson))).flat();
+export async function loadManualCatalogIndex(fetchJson) {
+  return fetchJson(catalogIndexPath);
+}
+
+export async function loadMakeCatalog(fetchJson, index, make) {
+  const entry = index.find((candidate) => candidate.make === make);
+  return entry ? fetchJson(entry.path) : [];
 }

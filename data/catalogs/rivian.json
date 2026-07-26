@@ -1,0 +1,51 @@
+[
+  {
+    "make": "Rivian",
+    "year": 2022,
+    "model": "R1S",
+    "engine": "Adventure",
+    "manual_url": "https://lemon-manuals.la/Rivian/2022/R1S%20Adventure/"
+  },
+  {
+    "make": "Rivian",
+    "year": 2022,
+    "model": "R1S",
+    "engine": "Explore",
+    "manual_url": "https://lemon-manuals.la/Rivian/2022/R1S%20Explore/"
+  },
+  {
+    "make": "Rivian",
+    "year": 2022,
+    "model": "R1S Launch",
+    "engine": "Edition",
+    "manual_url": "https://lemon-manuals.la/Rivian/2022/R1S%20Launch%20Edition/"
+  },
+  {
+    "make": "Rivian",
+    "year": 2023,
+    "model": "R1S",
+    "engine": "Adventure",
+    "manual_url": "https://lemon-manuals.la/Rivian/2023/R1S%20Adventure/"
+  },
+  {
+    "make": "Rivian",
+    "year": 2023,
+    "model": "R1S Launch",
+    "engine": "Edition",
+    "manual_url": "https://lemon-manuals.la/Rivian/2023/R1S%20Launch%20Edition/"
+  },
+  {
+    "make": "Rivian",
+    "year": 2024,
+    "model": "R1S",
+    "engine": "Adventure",
+    "manual_url": "https://lemon-manuals.la/Rivian/2024/R1S%20Adventure/"
+  },
+  {
+    "make": "Rivian",
+    "year": 2024,
+    "model": "R1S Launch",
+    "engine": "Edition",
+    "manual_url": "https://lemon-manuals.la/Rivian/2024/R1S%20Launch%20Edition/"
+  }
+]

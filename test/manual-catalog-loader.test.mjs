@@ -1,27 +1,36 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 
-import { loadManualCatalog } from '../src/manual-catalog.js';
+import { loadMakeCatalog, loadManualCatalogIndex } from '../src/manual-catalog.js';
 
-test('combines the supported make catalogs for manual selection', async () => {
+const index = [
+  { make: 'Acura', path: './data/catalogs/acura.json' },
+  { make: 'Dodge and Ram', path: './data/catalogs/dodge-and-ram.json' },
+];
+
+test('loads only the compact generated catalog index on startup', async () => {
   const requests = [];
-  const catalog = await loadManualCatalog(async (path) => {
+  const result = await loadManualCatalogIndex(async (path) => {
     requests.push(path);
-    return [{ make: path.match(/lemon-([a-z]+)-catalog/)[1] }];
+    return index;
   });
-  assert.deepEqual(requests, [
-    './data/lemon-acura-catalog.json',
-    './data/lemon-bmw-catalog.json',
-    './data/lemon-honda-catalog.json',
-    './data/lemon-toyota-catalog.json',
-    './data/lemon-ford-catalog.json',
-    './data/lemon-chevrolet-catalog.json',
-    './data/lemon-hyundai-catalog.json',
-    './data/lemon-kia-catalog.json',
-    './data/lemon-chrysler-catalog.json',
-  ]);
-  assert.deepEqual(catalog, [
-    { make: 'acura' }, { make: 'bmw' }, { make: 'honda' },
-    { make: 'toyota' }, { make: 'ford' }, { make: 'chevrolet' }, { make: 'hyundai' }, { make: 'kia' }, { make: 'chrysler' },
-  ]);
+  assert.deepEqual(requests, ['./data/lemon-catalog-index.json']);
+  assert.deepEqual(result, index);
+});
+
+test('loads only the selected make catalog from the generated index', async () => {
+  const requests = [];
+  const catalog = await loadMakeCatalog(async (path) => {
+    requests.push(path);
+    return [{ make: 'Dodge and Ram', year: 2012, model: 'Charger', engine: 'V6-3.6L' }];
+  }, index, 'Dodge and Ram');
+  assert.deepEqual(requests, ['./data/catalogs/dodge-and-ram.json']);
+  assert.deepEqual(catalog, [{ make: 'Dodge and Ram', year: 2012, model: 'Charger', engine: 'V6-3.6L' }]);
+});
+
+test('does not fetch a catalog for an unknown make', async () => {
+  const catalog = await loadMakeCatalog(async () => {
+    throw new Error('should not fetch');
+  }, index, 'Unknown');
+  assert.deepEqual(catalog, []);
 });

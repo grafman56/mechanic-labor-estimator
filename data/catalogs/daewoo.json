@@ -1,0 +1,842 @@
+[
+  {
+    "make": "Daewoo",
+    "year": 1999,
+    "model": "Lanos S Hatchback L4-1.6L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/1999/Lanos%20S%20Hatchback%20L4-1.6L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 1999,
+    "model": "Lanos S Sedan L4-1.6L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/1999/Lanos%20S%20Sedan%20L4-1.6L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 1999,
+    "model": "Lanos S, 2D Hatchback,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Daewoo/1999/Lanos%20S%2C%202D%20Hatchback%2C%20Automatic/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 1999,
+    "model": "Lanos S, 2D Hatchback,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Daewoo/1999/Lanos%20S%2C%202D%20Hatchback%2C%20Standard/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 1999,
+    "model": "Lanos S, 4D Sedan,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Daewoo/1999/Lanos%20S%2C%204D%20Sedan%2C%20Automatic/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 1999,
+    "model": "Lanos S, 4D Sedan,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Daewoo/1999/Lanos%20S%2C%204D%20Sedan%2C%20Standard/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 1999,
+    "model": "Lanos SE Hatchback L4-1.6L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/1999/Lanos%20SE%20Hatchback%20L4-1.6L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 1999,
+    "model": "Lanos SE Sedan L4-1.6L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/1999/Lanos%20SE%20Sedan%20L4-1.6L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 1999,
+    "model": "Lanos SE, 2D Hatchback,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Daewoo/1999/Lanos%20SE%2C%202D%20Hatchback%2C%20Automatic/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 1999,
+    "model": "Lanos SE, 2D Hatchback,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Daewoo/1999/Lanos%20SE%2C%202D%20Hatchback%2C%20Standard/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 1999,
+    "model": "Lanos SE, 4D Sedan,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Daewoo/1999/Lanos%20SE%2C%204D%20Sedan%2C%20Automatic/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 1999,
+    "model": "Lanos SE, 4D Sedan,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Daewoo/1999/Lanos%20SE%2C%204D%20Sedan%2C%20Standard/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 1999,
+    "model": "Lanos SX Hatchback L4-1.6L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/1999/Lanos%20SX%20Hatchback%20L4-1.6L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 1999,
+    "model": "Lanos SX Sedan L4-1.6L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/1999/Lanos%20SX%20Sedan%20L4-1.6L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 1999,
+    "model": "Lanos SX, 2D Hatchback,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Daewoo/1999/Lanos%20SX%2C%202D%20Hatchback%2C%20Automatic/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 1999,
+    "model": "Lanos SX, 2D Hatchback,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Daewoo/1999/Lanos%20SX%2C%202D%20Hatchback%2C%20Standard/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 1999,
+    "model": "Lanos SX, 4D Sedan,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Daewoo/1999/Lanos%20SX%2C%204D%20Sedan%2C%20Automatic/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 1999,
+    "model": "Lanos SX, 4D Sedan,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Daewoo/1999/Lanos%20SX%2C%204D%20Sedan%2C%20Standard/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 1999,
+    "model": "Leganza",
+    "engine": "CDX",
+    "manual_url": "https://lemon-manuals.la/Daewoo/1999/Leganza%20CDX/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 1999,
+    "model": "Leganza",
+    "engine": "SX",
+    "manual_url": "https://lemon-manuals.la/Daewoo/1999/Leganza%20SX/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 1999,
+    "model": "Leganza CDX L4-2.2L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/1999/Leganza%20CDX%20L4-2.2L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 1999,
+    "model": "Leganza SE L4-2.2L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/1999/Leganza%20SE%20L4-2.2L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 1999,
+    "model": "Leganza SE,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Daewoo/1999/Leganza%20SE%2C%20Automatic/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 1999,
+    "model": "Leganza SE,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Daewoo/1999/Leganza%20SE%2C%20Standard/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 1999,
+    "model": "Leganza SX L4-2.2L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/1999/Leganza%20SX%20L4-2.2L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 1999,
+    "model": "Nubira CDX Hatchback L4-2.0L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/1999/Nubira%20CDX%20Hatchback%20L4-2.0L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 1999,
+    "model": "Nubira CDX Sedan L4-2.0L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/1999/Nubira%20CDX%20Sedan%20L4-2.0L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 1999,
+    "model": "Nubira CDX Wagon L4-2.0L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/1999/Nubira%20CDX%20Wagon%20L4-2.0L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 1999,
+    "model": "Nubira CDX, 4D Hatchback,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Daewoo/1999/Nubira%20CDX%2C%204D%20Hatchback%2C%20Automatic/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 1999,
+    "model": "Nubira CDX, 4D Hatchback,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Daewoo/1999/Nubira%20CDX%2C%204D%20Hatchback%2C%20Standard/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 1999,
+    "model": "Nubira CDX, 4D Sedan,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Daewoo/1999/Nubira%20CDX%2C%204D%20Sedan%2C%20Automatic/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 1999,
+    "model": "Nubira CDX, 4D Sedan,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Daewoo/1999/Nubira%20CDX%2C%204D%20Sedan%2C%20Standard/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 1999,
+    "model": "Nubira CDX, 4D Wagon,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Daewoo/1999/Nubira%20CDX%2C%204D%20Wagon%2C%20Automatic/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 1999,
+    "model": "Nubira CDX, 4D Wagon,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Daewoo/1999/Nubira%20CDX%2C%204D%20Wagon%2C%20Standard/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 1999,
+    "model": "Nubira SX Hatchback L4-2.0L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/1999/Nubira%20SX%20Hatchback%20L4-2.0L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 1999,
+    "model": "Nubira SX Sedan L4-2.0L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/1999/Nubira%20SX%20Sedan%20L4-2.0L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 1999,
+    "model": "Nubira SX Wagon L4-2.0L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/1999/Nubira%20SX%20Wagon%20L4-2.0L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 1999,
+    "model": "Nubira SX, 4D Hatchback,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Daewoo/1999/Nubira%20SX%2C%204D%20Hatchback%2C%20Automatic/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 1999,
+    "model": "Nubira SX, 4D Hatchback,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Daewoo/1999/Nubira%20SX%2C%204D%20Hatchback%2C%20Standard/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 1999,
+    "model": "Nubira SX, 4D Sedan,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Daewoo/1999/Nubira%20SX%2C%204D%20Sedan%2C%20Automatic/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 1999,
+    "model": "Nubira SX, 4D Sedan,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Daewoo/1999/Nubira%20SX%2C%204D%20Sedan%2C%20Standard/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 1999,
+    "model": "Nubira SX, 4D Wagon,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Daewoo/1999/Nubira%20SX%2C%204D%20Wagon%2C%20Automatic/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 1999,
+    "model": "Nubira SX, 4D Wagon,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Daewoo/1999/Nubira%20SX%2C%204D%20Wagon%2C%20Standard/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2000,
+    "model": "Lanos S Hatchback L4-1.6L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2000/Lanos%20S%20Hatchback%20L4-1.6L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2000,
+    "model": "Lanos S Sedan L4-1.6L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2000/Lanos%20S%20Sedan%20L4-1.6L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2000,
+    "model": "Lanos S, 2D Hatchback,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2000/Lanos%20S%2C%202D%20Hatchback%2C%20Automatic/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2000,
+    "model": "Lanos S, 2D Hatchback,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2000/Lanos%20S%2C%202D%20Hatchback%2C%20Standard/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2000,
+    "model": "Lanos S, 4D Sedan,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2000/Lanos%20S%2C%204D%20Sedan%2C%20Automatic/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2000,
+    "model": "Lanos S, 4D Sedan,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2000/Lanos%20S%2C%204D%20Sedan%2C%20Standard/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2000,
+    "model": "Lanos SE Hatchback L4-1.6L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2000/Lanos%20SE%20Hatchback%20L4-1.6L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2000,
+    "model": "Lanos SE,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2000/Lanos%20SE%2C%20Automatic/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2000,
+    "model": "Lanos SE,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2000/Lanos%20SE%2C%20Standard/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2000,
+    "model": "Lanos SX Sedan L4-1.6L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2000/Lanos%20SX%20Sedan%20L4-1.6L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2000,
+    "model": "Lanos SX,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2000/Lanos%20SX%2C%20Automatic/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2000,
+    "model": "Lanos SX,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2000/Lanos%20SX%2C%20Standard/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2000,
+    "model": "Leganza",
+    "engine": "CDX",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2000/Leganza%20CDX/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2000,
+    "model": "Leganza",
+    "engine": "SX",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2000/Leganza%20SX/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2000,
+    "model": "Leganza CDX L4-2.2L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2000/Leganza%20CDX%20L4-2.2L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2000,
+    "model": "Leganza SE L4-2.2L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2000/Leganza%20SE%20L4-2.2L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2000,
+    "model": "Leganza SE,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2000/Leganza%20SE%2C%20Automatic/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2000,
+    "model": "Leganza SE,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2000/Leganza%20SE%2C%20Standard/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2000,
+    "model": "Leganza SX L4-2.2L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2000/Leganza%20SX%20L4-2.2L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2000,
+    "model": "Nubira CDX Sedan L4-2.0L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2000/Nubira%20CDX%20Sedan%20L4-2.0L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2000,
+    "model": "Nubira CDX Wagon L4-2.0L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2000/Nubira%20CDX%20Wagon%20L4-2.0L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2000,
+    "model": "Nubira CDX, 4D Sedan,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2000/Nubira%20CDX%2C%204D%20Sedan%2C%20Automatic/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2000,
+    "model": "Nubira CDX, 4D Sedan,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2000/Nubira%20CDX%2C%204D%20Sedan%2C%20Standard/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2000,
+    "model": "Nubira CDX, 4D Wagon,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2000/Nubira%20CDX%2C%204D%20Wagon%2C%20Automatic/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2000,
+    "model": "Nubira CDX, 4D Wagon,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2000/Nubira%20CDX%2C%204D%20Wagon%2C%20Standard/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2000,
+    "model": "Nubira SE Sedan L4-2.0L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2000/Nubira%20SE%20Sedan%20L4-2.0L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2000,
+    "model": "Nubira SE,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2000/Nubira%20SE%2C%20Automatic/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2000,
+    "model": "Nubira SE,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2000/Nubira%20SE%2C%20Standard/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2001,
+    "model": "Lanos S Hatchback L4-1.6L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2001/Lanos%20S%20Hatchback%20L4-1.6L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2001,
+    "model": "Lanos S Sedan L4-1.6L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2001/Lanos%20S%20Sedan%20L4-1.6L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2001,
+    "model": "Lanos S, 2D Hatchback,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2001/Lanos%20S%2C%202D%20Hatchback%2C%20Automatic/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2001,
+    "model": "Lanos S, 2D Hatchback,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2001/Lanos%20S%2C%202D%20Hatchback%2C%20Standard/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2001,
+    "model": "Lanos S, 4D Sedan,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2001/Lanos%20S%2C%204D%20Sedan%2C%20Automatic/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2001,
+    "model": "Lanos S, 4D Sedan,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2001/Lanos%20S%2C%204D%20Sedan%2C%20Standard/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2001,
+    "model": "Lanos SE Hatchback L4-1.6L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2001/Lanos%20SE%20Hatchback%20L4-1.6L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2001,
+    "model": "Lanos SX Sedan L4-1.6L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2001/Lanos%20SX%20Sedan%20L4-1.6L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2001,
+    "model": "Lanos Sport,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2001/Lanos%20Sport%2C%20Automatic/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2001,
+    "model": "Lanos Sport,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2001/Lanos%20Sport%2C%20Standard/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2001,
+    "model": "Leganza",
+    "engine": "CDX",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2001/Leganza%20CDX/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2001,
+    "model": "Leganza",
+    "engine": "SX",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2001/Leganza%20SX/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2001,
+    "model": "Leganza CDX L4-2.2L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2001/Leganza%20CDX%20L4-2.2L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2001,
+    "model": "Leganza SE L4-2.2L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2001/Leganza%20SE%20L4-2.2L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2001,
+    "model": "Leganza SE,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2001/Leganza%20SE%2C%20Automatic/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2001,
+    "model": "Leganza SE,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2001/Leganza%20SE%2C%20Standard/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2001,
+    "model": "Leganza SX L4-2.2L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2001/Leganza%20SX%20L4-2.2L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2001,
+    "model": "Nubira CDX Sedan L4-2.0L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2001/Nubira%20CDX%20Sedan%20L4-2.0L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2001,
+    "model": "Nubira CDX Wagon L4-2.0L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2001/Nubira%20CDX%20Wagon%20L4-2.0L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2001,
+    "model": "Nubira CDX, 4D Sedan,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2001/Nubira%20CDX%2C%204D%20Sedan%2C%20Automatic/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2001,
+    "model": "Nubira CDX, 4D Sedan,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2001/Nubira%20CDX%2C%204D%20Sedan%2C%20Standard/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2001,
+    "model": "Nubira CDX, 4D Wagon,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2001/Nubira%20CDX%2C%204D%20Wagon%2C%20Automatic/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2001,
+    "model": "Nubira CDX, 4D Wagon,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2001/Nubira%20CDX%2C%204D%20Wagon%2C%20Standard/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2001,
+    "model": "Nubira SE Sedan L4-2.0L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2001/Nubira%20SE%20Sedan%20L4-2.0L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2001,
+    "model": "Nubira SE,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2001/Nubira%20SE%2C%20Automatic/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2001,
+    "model": "Nubira SE,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2001/Nubira%20SE%2C%20Standard/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2002,
+    "model": "Lanos S Hatchback L4-1.6L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2002/Lanos%20S%20Hatchback%20L4-1.6L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2002,
+    "model": "Lanos S Sedan L4-1.6L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2002/Lanos%20S%20Sedan%20L4-1.6L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2002,
+    "model": "Lanos S, 2D Hatchback,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2002/Lanos%20S%2C%202D%20Hatchback%2C%20Automatic/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2002,
+    "model": "Lanos S, 2D Hatchback,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2002/Lanos%20S%2C%202D%20Hatchback%2C%20Standard/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2002,
+    "model": "Lanos S, 4D Sedan,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2002/Lanos%20S%2C%204D%20Sedan%2C%20Automatic/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2002,
+    "model": "Lanos S, 4D Sedan,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2002/Lanos%20S%2C%204D%20Sedan%2C%20Standard/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2002,
+    "model": "Lanos SE Hatchback L4-1.6L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2002/Lanos%20SE%20Hatchback%20L4-1.6L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2002,
+    "model": "Lanos SX Sedan L4-1.6L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2002/Lanos%20SX%20Sedan%20L4-1.6L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2002,
+    "model": "Lanos Sport,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2002/Lanos%20Sport%2C%20Automatic/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2002,
+    "model": "Lanos Sport,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2002/Lanos%20Sport%2C%20Standard/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2002,
+    "model": "Leganza",
+    "engine": "CDX",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2002/Leganza%20CDX/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2002,
+    "model": "Leganza CDX L4-2.2L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2002/Leganza%20CDX%20L4-2.2L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2002,
+    "model": "Leganza SE L4-2.2L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2002/Leganza%20SE%20L4-2.2L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2002,
+    "model": "Leganza SE,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2002/Leganza%20SE%2C%20Automatic/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2002,
+    "model": "Leganza SE,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2002/Leganza%20SE%2C%20Standard/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2002,
+    "model": "Leganza SX L4-2.2L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2002/Leganza%20SX%20L4-2.2L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2002,
+    "model": "Nubira CDX Sedan L4-2.0L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2002/Nubira%20CDX%20Sedan%20L4-2.0L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2002,
+    "model": "Nubira CDX Wagon L4-2.0L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2002/Nubira%20CDX%20Wagon%20L4-2.0L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2002,
+    "model": "Nubira CDX,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2002/Nubira%20CDX%2C%20Automatic/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2002,
+    "model": "Nubira CDX,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2002/Nubira%20CDX%2C%20Standard/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2002,
+    "model": "Nubira SE Sedan L4-2.0L DOHC D-TEC",
+    "engine": "MFI",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2002/Nubira%20SE%20Sedan%20L4-2.0L%20DOHC%20D-TEC%20MFI/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2002,
+    "model": "Nubira SE,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2002/Nubira%20SE%2C%20Automatic/"
+  },
+  {
+    "make": "Daewoo",
+    "year": 2002,
+    "model": "Nubira SE,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Daewoo/2002/Nubira%20SE%2C%20Standard/"
+  }
+]

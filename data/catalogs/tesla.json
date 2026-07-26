@@ -1,0 +1,989 @@
+[
+  {
+    "make": "Tesla",
+    "year": 2012,
+    "model": "Model",
+    "engine": "S",
+    "manual_url": "https://lemon-manuals.la/Tesla/2012/Model%20S/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2013,
+    "model": "Model",
+    "engine": "S",
+    "manual_url": "https://lemon-manuals.la/Tesla/2013/Model%20S/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2014,
+    "model": "Model S",
+    "engine": "60",
+    "manual_url": "https://lemon-manuals.la/Tesla/2014/Model%20S%2060/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2014,
+    "model": "Model S",
+    "engine": "85",
+    "manual_url": "https://lemon-manuals.la/Tesla/2014/Model%20S%2085/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2014,
+    "model": "Model S",
+    "engine": "P85",
+    "manual_url": "https://lemon-manuals.la/Tesla/2014/Model%20S%20P85/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2014,
+    "model": "Model S",
+    "engine": "P85D",
+    "manual_url": "https://lemon-manuals.la/Tesla/2014/Model%20S%20P85D/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2014,
+    "model": "Model S Base,",
+    "engine": "AWD",
+    "manual_url": "https://lemon-manuals.la/Tesla/2014/Model%20S%20Base%2C%20AWD/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2014,
+    "model": "Model S Base,",
+    "engine": "RWD",
+    "manual_url": "https://lemon-manuals.la/Tesla/2014/Model%20S%20Base%2C%20RWD/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2014,
+    "model": "Model S Signature,",
+    "engine": "AWD",
+    "manual_url": "https://lemon-manuals.la/Tesla/2014/Model%20S%20Signature%2C%20AWD/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2014,
+    "model": "Model S Signature,",
+    "engine": "RWD",
+    "manual_url": "https://lemon-manuals.la/Tesla/2014/Model%20S%20Signature%2C%20RWD/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2015,
+    "model": "Model S",
+    "engine": "60",
+    "manual_url": "https://lemon-manuals.la/Tesla/2015/Model%20S%2060/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2015,
+    "model": "Model S",
+    "engine": "70",
+    "manual_url": "https://lemon-manuals.la/Tesla/2015/Model%20S%2070/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2015,
+    "model": "Model S",
+    "engine": "70D",
+    "manual_url": "https://lemon-manuals.la/Tesla/2015/Model%20S%2070D/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2015,
+    "model": "Model S",
+    "engine": "85",
+    "manual_url": "https://lemon-manuals.la/Tesla/2015/Model%20S%2085/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2015,
+    "model": "Model S",
+    "engine": "85D",
+    "manual_url": "https://lemon-manuals.la/Tesla/2015/Model%20S%2085D/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2015,
+    "model": "Model S",
+    "engine": "90D",
+    "manual_url": "https://lemon-manuals.la/Tesla/2015/Model%20S%2090D/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2015,
+    "model": "Model S",
+    "engine": "P85D",
+    "manual_url": "https://lemon-manuals.la/Tesla/2015/Model%20S%20P85D/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2015,
+    "model": "Model S",
+    "engine": "P90D",
+    "manual_url": "https://lemon-manuals.la/Tesla/2015/Model%20S%20P90D/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2016,
+    "model": "Model S",
+    "engine": "60",
+    "manual_url": "https://lemon-manuals.la/Tesla/2016/Model%20S%2060/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2016,
+    "model": "Model S",
+    "engine": "60D",
+    "manual_url": "https://lemon-manuals.la/Tesla/2016/Model%20S%2060D/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2016,
+    "model": "Model S",
+    "engine": "70",
+    "manual_url": "https://lemon-manuals.la/Tesla/2016/Model%20S%2070/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2016,
+    "model": "Model S",
+    "engine": "70D",
+    "manual_url": "https://lemon-manuals.la/Tesla/2016/Model%20S%2070D/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2016,
+    "model": "Model S",
+    "engine": "75",
+    "manual_url": "https://lemon-manuals.la/Tesla/2016/Model%20S%2075/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2016,
+    "model": "Model S",
+    "engine": "75D",
+    "manual_url": "https://lemon-manuals.la/Tesla/2016/Model%20S%2075D/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2016,
+    "model": "Model S",
+    "engine": "85",
+    "manual_url": "https://lemon-manuals.la/Tesla/2016/Model%20S%2085/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2016,
+    "model": "Model S",
+    "engine": "85D",
+    "manual_url": "https://lemon-manuals.la/Tesla/2016/Model%20S%2085D/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2016,
+    "model": "Model S",
+    "engine": "90D",
+    "manual_url": "https://lemon-manuals.la/Tesla/2016/Model%20S%2090D/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2016,
+    "model": "Model S",
+    "engine": "P100D",
+    "manual_url": "https://lemon-manuals.la/Tesla/2016/Model%20S%20P100D/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2016,
+    "model": "Model S",
+    "engine": "P85D",
+    "manual_url": "https://lemon-manuals.la/Tesla/2016/Model%20S%20P85D/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2016,
+    "model": "Model S",
+    "engine": "P90D",
+    "manual_url": "https://lemon-manuals.la/Tesla/2016/Model%20S%20P90D/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2016,
+    "model": "Model X",
+    "engine": "90D",
+    "manual_url": "https://lemon-manuals.la/Tesla/2016/Model%20X%2090D/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2016,
+    "model": "Model X P90D",
+    "engine": "Founder",
+    "manual_url": "https://lemon-manuals.la/Tesla/2016/Model%20X%20P90D%20Founder/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2016,
+    "model": "Model X P90D",
+    "engine": "Signature",
+    "manual_url": "https://lemon-manuals.la/Tesla/2016/Model%20X%20P90D%20Signature/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2017,
+    "model": "Model 3",
+    "engine": "Base",
+    "manual_url": "https://lemon-manuals.la/Tesla/2017/Model%203%20Base/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2017,
+    "model": "Model 3 Long",
+    "engine": "Range",
+    "manual_url": "https://lemon-manuals.la/Tesla/2017/Model%203%20Long%20Range/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2017,
+    "model": "Model S",
+    "engine": "100D",
+    "manual_url": "https://lemon-manuals.la/Tesla/2017/Model%20S%20100D/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2017,
+    "model": "Model S",
+    "engine": "60",
+    "manual_url": "https://lemon-manuals.la/Tesla/2017/Model%20S%2060/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2017,
+    "model": "Model S",
+    "engine": "60D",
+    "manual_url": "https://lemon-manuals.la/Tesla/2017/Model%20S%2060D/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2017,
+    "model": "Model S",
+    "engine": "75",
+    "manual_url": "https://lemon-manuals.la/Tesla/2017/Model%20S%2075/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2017,
+    "model": "Model S",
+    "engine": "75D",
+    "manual_url": "https://lemon-manuals.la/Tesla/2017/Model%20S%2075D/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2017,
+    "model": "Model S",
+    "engine": "90D",
+    "manual_url": "https://lemon-manuals.la/Tesla/2017/Model%20S%2090D/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2017,
+    "model": "Model S",
+    "engine": "P100D",
+    "manual_url": "https://lemon-manuals.la/Tesla/2017/Model%20S%20P100D/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2017,
+    "model": "Model X",
+    "engine": "100D",
+    "manual_url": "https://lemon-manuals.la/Tesla/2017/Model%20X%20100D/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2017,
+    "model": "Model X",
+    "engine": "75D",
+    "manual_url": "https://lemon-manuals.la/Tesla/2017/Model%20X%2075D/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2017,
+    "model": "Model X",
+    "engine": "90D",
+    "manual_url": "https://lemon-manuals.la/Tesla/2017/Model%20X%2090D/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2017,
+    "model": "Model X",
+    "engine": "P100D",
+    "manual_url": "https://lemon-manuals.la/Tesla/2017/Model%20X%20P100D/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2018,
+    "model": "Model 3",
+    "engine": "Base",
+    "manual_url": "https://lemon-manuals.la/Tesla/2018/Model%203%20Base/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2018,
+    "model": "Model 3",
+    "engine": "Performance",
+    "manual_url": "https://lemon-manuals.la/Tesla/2018/Model%203%20Performance/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2018,
+    "model": "Model 3 Long Range,",
+    "engine": "AWD",
+    "manual_url": "https://lemon-manuals.la/Tesla/2018/Model%203%20Long%20Range%2C%20AWD/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2018,
+    "model": "Model 3 Long Range,",
+    "engine": "RWD",
+    "manual_url": "https://lemon-manuals.la/Tesla/2018/Model%203%20Long%20Range%2C%20RWD/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2018,
+    "model": "Model S",
+    "engine": "100D",
+    "manual_url": "https://lemon-manuals.la/Tesla/2018/Model%20S%20100D/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2018,
+    "model": "Model S",
+    "engine": "75D",
+    "manual_url": "https://lemon-manuals.la/Tesla/2018/Model%20S%2075D/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2018,
+    "model": "Model S",
+    "engine": "P100D",
+    "manual_url": "https://lemon-manuals.la/Tesla/2018/Model%20S%20P100D/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2018,
+    "model": "Model X",
+    "engine": "100D",
+    "manual_url": "https://lemon-manuals.la/Tesla/2018/Model%20X%20100D/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2018,
+    "model": "Model X",
+    "engine": "75D",
+    "manual_url": "https://lemon-manuals.la/Tesla/2018/Model%20X%2075D/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2018,
+    "model": "Model X",
+    "engine": "P100D",
+    "manual_url": "https://lemon-manuals.la/Tesla/2018/Model%20X%20P100D/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2019,
+    "model": "Model 3",
+    "engine": "Base",
+    "manual_url": "https://lemon-manuals.la/Tesla/2019/Model%203%20Base/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2019,
+    "model": "Model 3",
+    "engine": "Performance",
+    "manual_url": "https://lemon-manuals.la/Tesla/2019/Model%203%20Performance/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2019,
+    "model": "Model 3 Long",
+    "engine": "Range",
+    "manual_url": "https://lemon-manuals.la/Tesla/2019/Model%203%20Long%20Range/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2019,
+    "model": "Model 3 Mid",
+    "engine": "Range",
+    "manual_url": "https://lemon-manuals.la/Tesla/2019/Model%203%20Mid%20Range/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2019,
+    "model": "Model 3 Standard",
+    "engine": "Plus",
+    "manual_url": "https://lemon-manuals.la/Tesla/2019/Model%203%20Standard%20Plus/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2019,
+    "model": "Model S",
+    "engine": "100D",
+    "manual_url": "https://lemon-manuals.la/Tesla/2019/Model%20S%20100D/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2019,
+    "model": "Model S",
+    "engine": "75D",
+    "manual_url": "https://lemon-manuals.la/Tesla/2019/Model%20S%2075D/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2019,
+    "model": "Model S",
+    "engine": "P100D",
+    "manual_url": "https://lemon-manuals.la/Tesla/2019/Model%20S%20P100D/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2019,
+    "model": "Model S",
+    "engine": "Performance",
+    "manual_url": "https://lemon-manuals.la/Tesla/2019/Model%20S%20Performance/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2019,
+    "model": "Model S Long",
+    "engine": "Range",
+    "manual_url": "https://lemon-manuals.la/Tesla/2019/Model%20S%20Long%20Range/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2019,
+    "model": "Model S Standard",
+    "engine": "Range",
+    "manual_url": "https://lemon-manuals.la/Tesla/2019/Model%20S%20Standard%20Range/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2019,
+    "model": "Model X",
+    "engine": "100D",
+    "manual_url": "https://lemon-manuals.la/Tesla/2019/Model%20X%20100D/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2019,
+    "model": "Model X",
+    "engine": "75D",
+    "manual_url": "https://lemon-manuals.la/Tesla/2019/Model%20X%2075D/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2019,
+    "model": "Model X",
+    "engine": "P100D",
+    "manual_url": "https://lemon-manuals.la/Tesla/2019/Model%20X%20P100D/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2019,
+    "model": "Model X",
+    "engine": "Performance",
+    "manual_url": "https://lemon-manuals.la/Tesla/2019/Model%20X%20Performance/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2019,
+    "model": "Model X Long",
+    "engine": "Range",
+    "manual_url": "https://lemon-manuals.la/Tesla/2019/Model%20X%20Long%20Range/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2019,
+    "model": "Model X Standard",
+    "engine": "Range",
+    "manual_url": "https://lemon-manuals.la/Tesla/2019/Model%20X%20Standard%20Range/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2020,
+    "model": "Model 3",
+    "engine": "Performance",
+    "manual_url": "https://lemon-manuals.la/Tesla/2020/Model%203%20Performance/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2020,
+    "model": "Model 3 Base,",
+    "engine": "AWD",
+    "manual_url": "https://lemon-manuals.la/Tesla/2020/Model%203%20Base%2C%20AWD/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2020,
+    "model": "Model 3 Base,",
+    "engine": "RWD",
+    "manual_url": "https://lemon-manuals.la/Tesla/2020/Model%203%20Base%2C%20RWD/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2020,
+    "model": "Model 3 Long",
+    "engine": "Range",
+    "manual_url": "https://lemon-manuals.la/Tesla/2020/Model%203%20Long%20Range/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2020,
+    "model": "Model 3 Standard",
+    "engine": "Plus",
+    "manual_url": "https://lemon-manuals.la/Tesla/2020/Model%203%20Standard%20Plus/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2020,
+    "model": "Model S",
+    "engine": "Performance",
+    "manual_url": "https://lemon-manuals.la/Tesla/2020/Model%20S%20Performance/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2020,
+    "model": "Model S Long",
+    "engine": "Range",
+    "manual_url": "https://lemon-manuals.la/Tesla/2020/Model%20S%20Long%20Range/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2020,
+    "model": "Model S Long Range",
+    "engine": "Plus",
+    "manual_url": "https://lemon-manuals.la/Tesla/2020/Model%20S%20Long%20Range%20Plus/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2020,
+    "model": "Model X",
+    "engine": "Performance",
+    "manual_url": "https://lemon-manuals.la/Tesla/2020/Model%20X%20Performance/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2020,
+    "model": "Model X Long Range",
+    "engine": "Plus",
+    "manual_url": "https://lemon-manuals.la/Tesla/2020/Model%20X%20Long%20Range%20Plus/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2020,
+    "model": "Model Y",
+    "engine": "Performance",
+    "manual_url": "https://lemon-manuals.la/Tesla/2020/Model%20Y%20Performance/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2020,
+    "model": "Model Y Long Range,",
+    "engine": "AWD",
+    "manual_url": "https://lemon-manuals.la/Tesla/2020/Model%20Y%20Long%20Range%2C%20AWD/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2020,
+    "model": "Model Y Long Range,",
+    "engine": "RWD",
+    "manual_url": "https://lemon-manuals.la/Tesla/2020/Model%20Y%20Long%20Range%2C%20RWD/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2020,
+    "model": "Model Y Standard",
+    "engine": "Range",
+    "manual_url": "https://lemon-manuals.la/Tesla/2020/Model%20Y%20Standard%20Range/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2021,
+    "model": "Model 3",
+    "engine": "Performance",
+    "manual_url": "https://lemon-manuals.la/Tesla/2021/Model%203%20Performance/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2021,
+    "model": "Model 3 Long",
+    "engine": "Range",
+    "manual_url": "https://lemon-manuals.la/Tesla/2021/Model%203%20Long%20Range/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2021,
+    "model": "Model 3 Standard",
+    "engine": "Plus",
+    "manual_url": "https://lemon-manuals.la/Tesla/2021/Model%203%20Standard%20Plus/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2021,
+    "model": "Model S",
+    "engine": "Performance",
+    "manual_url": "https://lemon-manuals.la/Tesla/2021/Model%20S%20Performance/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2021,
+    "model": "Model S",
+    "engine": "Plaid",
+    "manual_url": "https://lemon-manuals.la/Tesla/2021/Model%20S%20Plaid/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2021,
+    "model": "Model S Long",
+    "engine": "Range",
+    "manual_url": "https://lemon-manuals.la/Tesla/2021/Model%20S%20Long%20Range/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2021,
+    "model": "Model S Long Range",
+    "engine": "Plus",
+    "manual_url": "https://lemon-manuals.la/Tesla/2021/Model%20S%20Long%20Range%20Plus/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2021,
+    "model": "Model X",
+    "engine": "Performance",
+    "manual_url": "https://lemon-manuals.la/Tesla/2021/Model%20X%20Performance/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2021,
+    "model": "Model X",
+    "engine": "Plaid",
+    "manual_url": "https://lemon-manuals.la/Tesla/2021/Model%20X%20Plaid/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2021,
+    "model": "Model X Long",
+    "engine": "Range",
+    "manual_url": "https://lemon-manuals.la/Tesla/2021/Model%20X%20Long%20Range/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2021,
+    "model": "Model X Long Range",
+    "engine": "Plus",
+    "manual_url": "https://lemon-manuals.la/Tesla/2021/Model%20X%20Long%20Range%20Plus/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2021,
+    "model": "Model Y",
+    "engine": "Performance",
+    "manual_url": "https://lemon-manuals.la/Tesla/2021/Model%20Y%20Performance/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2021,
+    "model": "Model Y Long Range,",
+    "engine": "AWD",
+    "manual_url": "https://lemon-manuals.la/Tesla/2021/Model%20Y%20Long%20Range%2C%20AWD/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2021,
+    "model": "Model Y Long Range,",
+    "engine": "RWD",
+    "manual_url": "https://lemon-manuals.la/Tesla/2021/Model%20Y%20Long%20Range%2C%20RWD/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2022,
+    "model": "Model 3",
+    "engine": "Base",
+    "manual_url": "https://lemon-manuals.la/Tesla/2022/Model%203%20Base/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2022,
+    "model": "Model 3",
+    "engine": "Performance",
+    "manual_url": "https://lemon-manuals.la/Tesla/2022/Model%203%20Performance/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2022,
+    "model": "Model 3 Long",
+    "engine": "Range",
+    "manual_url": "https://lemon-manuals.la/Tesla/2022/Model%203%20Long%20Range/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2022,
+    "model": "Model S",
+    "engine": "Base",
+    "manual_url": "https://lemon-manuals.la/Tesla/2022/Model%20S%20Base/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2022,
+    "model": "Model S",
+    "engine": "Plaid",
+    "manual_url": "https://lemon-manuals.la/Tesla/2022/Model%20S%20Plaid/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2022,
+    "model": "Model X",
+    "engine": "Base",
+    "manual_url": "https://lemon-manuals.la/Tesla/2022/Model%20X%20Base/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2022,
+    "model": "Model X",
+    "engine": "Plaid",
+    "manual_url": "https://lemon-manuals.la/Tesla/2022/Model%20X%20Plaid/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2022,
+    "model": "Model Y",
+    "engine": "Performance",
+    "manual_url": "https://lemon-manuals.la/Tesla/2022/Model%20Y%20Performance/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2022,
+    "model": "Model Y Long",
+    "engine": "Range",
+    "manual_url": "https://lemon-manuals.la/Tesla/2022/Model%20Y%20Long%20Range/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2023,
+    "model": "Model 3",
+    "engine": "Base",
+    "manual_url": "https://lemon-manuals.la/Tesla/2023/Model%203%20Base/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2023,
+    "model": "Model 3",
+    "engine": "Performance",
+    "manual_url": "https://lemon-manuals.la/Tesla/2023/Model%203%20Performance/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2023,
+    "model": "Model 3 Long",
+    "engine": "Range",
+    "manual_url": "https://lemon-manuals.la/Tesla/2023/Model%203%20Long%20Range/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2023,
+    "model": "Model S",
+    "engine": "Base",
+    "manual_url": "https://lemon-manuals.la/Tesla/2023/Model%20S%20Base/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2023,
+    "model": "Model S",
+    "engine": "Plaid",
+    "manual_url": "https://lemon-manuals.la/Tesla/2023/Model%20S%20Plaid/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2023,
+    "model": "Model X",
+    "engine": "Base",
+    "manual_url": "https://lemon-manuals.la/Tesla/2023/Model%20X%20Base/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2023,
+    "model": "Model X",
+    "engine": "Plaid",
+    "manual_url": "https://lemon-manuals.la/Tesla/2023/Model%20X%20Plaid/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2023,
+    "model": "Model Y",
+    "engine": "Performance",
+    "manual_url": "https://lemon-manuals.la/Tesla/2023/Model%20Y%20Performance/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2023,
+    "model": "Model Y Long",
+    "engine": "Range",
+    "manual_url": "https://lemon-manuals.la/Tesla/2023/Model%20Y%20Long%20Range/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2024,
+    "model": "Model 3",
+    "engine": "Base",
+    "manual_url": "https://lemon-manuals.la/Tesla/2024/Model%203%20Base/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2024,
+    "model": "Model 3",
+    "engine": "Performance",
+    "manual_url": "https://lemon-manuals.la/Tesla/2024/Model%203%20Performance/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2024,
+    "model": "Model 3 Long",
+    "engine": "Range",
+    "manual_url": "https://lemon-manuals.la/Tesla/2024/Model%203%20Long%20Range/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2024,
+    "model": "Model S",
+    "engine": "Base",
+    "manual_url": "https://lemon-manuals.la/Tesla/2024/Model%20S%20Base/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2024,
+    "model": "Model S",
+    "engine": "Plaid",
+    "manual_url": "https://lemon-manuals.la/Tesla/2024/Model%20S%20Plaid/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2024,
+    "model": "Model S Long",
+    "engine": "Range",
+    "manual_url": "https://lemon-manuals.la/Tesla/2024/Model%20S%20Long%20Range/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2024,
+    "model": "Model X",
+    "engine": "Base",
+    "manual_url": "https://lemon-manuals.la/Tesla/2024/Model%20X%20Base/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2024,
+    "model": "Model X",
+    "engine": "Plaid",
+    "manual_url": "https://lemon-manuals.la/Tesla/2024/Model%20X%20Plaid/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2024,
+    "model": "Model X Long",
+    "engine": "Range",
+    "manual_url": "https://lemon-manuals.la/Tesla/2024/Model%20X%20Long%20Range/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2024,
+    "model": "Model Y",
+    "engine": "Base",
+    "manual_url": "https://lemon-manuals.la/Tesla/2024/Model%20Y%20Base/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2024,
+    "model": "Model Y",
+    "engine": "Performance",
+    "manual_url": "https://lemon-manuals.la/Tesla/2024/Model%20Y%20Performance/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2024,
+    "model": "Model Y Long",
+    "engine": "Range",
+    "manual_url": "https://lemon-manuals.la/Tesla/2024/Model%20Y%20Long%20Range/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2025,
+    "model": "Model 3",
+    "engine": "Performance",
+    "manual_url": "https://lemon-manuals.la/Tesla/2025/Model%203%20Performance/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2025,
+    "model": "Model 3 Long Range,",
+    "engine": "AWD",
+    "manual_url": "https://lemon-manuals.la/Tesla/2025/Model%203%20Long%20Range%2C%20AWD/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2025,
+    "model": "Model 3 Long Range,",
+    "engine": "RWD",
+    "manual_url": "https://lemon-manuals.la/Tesla/2025/Model%203%20Long%20Range%2C%20RWD/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2025,
+    "model": "Model S",
+    "engine": "Base",
+    "manual_url": "https://lemon-manuals.la/Tesla/2025/Model%20S%20Base/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2025,
+    "model": "Model S",
+    "engine": "Plaid",
+    "manual_url": "https://lemon-manuals.la/Tesla/2025/Model%20S%20Plaid/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2025,
+    "model": "Model X",
+    "engine": "Base",
+    "manual_url": "https://lemon-manuals.la/Tesla/2025/Model%20X%20Base/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2025,
+    "model": "Model X",
+    "engine": "Plaid",
+    "manual_url": "https://lemon-manuals.la/Tesla/2025/Model%20X%20Plaid/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2025,
+    "model": "Model Y Launch",
+    "engine": "Edition",
+    "manual_url": "https://lemon-manuals.la/Tesla/2025/Model%20Y%20Launch%20Edition/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2025,
+    "model": "Model Y Long Range,",
+    "engine": "AWD",
+    "manual_url": "https://lemon-manuals.la/Tesla/2025/Model%20Y%20Long%20Range%2C%20AWD/"
+  },
+  {
+    "make": "Tesla",
+    "year": 2025,
+    "model": "Model Y Long Range,",
+    "engine": "RWD",
+    "manual_url": "https://lemon-manuals.la/Tesla/2025/Model%20Y%20Long%20Range%2C%20RWD/"
+  }
+]

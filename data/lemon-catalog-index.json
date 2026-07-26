@@ -1,0 +1,278 @@
+[
+  {
+    "make": "Acura",
+    "path": "./data/catalogs/acura.json"
+  },
+  {
+    "make": "Alfa Romeo",
+    "path": "./data/catalogs/alfa-romeo.json"
+  },
+  {
+    "make": "American Motors",
+    "path": "./data/catalogs/american-motors.json"
+  },
+  {
+    "make": "Audi",
+    "path": "./data/catalogs/audi.json"
+  },
+  {
+    "make": "Austin",
+    "path": "./data/catalogs/austin.json"
+  },
+  {
+    "make": "BMW",
+    "path": "./data/catalogs/bmw.json"
+  },
+  {
+    "make": "Buick",
+    "path": "./data/catalogs/buick.json"
+  },
+  {
+    "make": "Cadillac",
+    "path": "./data/catalogs/cadillac.json"
+  },
+  {
+    "make": "Checker",
+    "path": "./data/catalogs/checker.json"
+  },
+  {
+    "make": "Chevrolet",
+    "path": "./data/catalogs/chevrolet.json"
+  },
+  {
+    "make": "Chrysler",
+    "path": "./data/catalogs/chrysler.json"
+  },
+  {
+    "make": "Daewoo",
+    "path": "./data/catalogs/daewoo.json"
+  },
+  {
+    "make": "Daihatsu",
+    "path": "./data/catalogs/daihatsu.json"
+  },
+  {
+    "make": "Dodge and Ram",
+    "path": "./data/catalogs/dodge-and-ram.json"
+  },
+  {
+    "make": "Eagle",
+    "path": "./data/catalogs/eagle.json"
+  },
+  {
+    "make": "Fiat",
+    "path": "./data/catalogs/fiat.json"
+  },
+  {
+    "make": "Ford",
+    "path": "./data/catalogs/ford.json"
+  },
+  {
+    "make": "Freightliner",
+    "path": "./data/catalogs/freightliner.json"
+  },
+  {
+    "make": "GMC",
+    "path": "./data/catalogs/gmc.json"
+  },
+  {
+    "make": "General Motors",
+    "path": "./data/catalogs/general-motors.json"
+  },
+  {
+    "make": "Genesis",
+    "path": "./data/catalogs/genesis.json"
+  },
+  {
+    "make": "Geo",
+    "path": "./data/catalogs/geo.json"
+  },
+  {
+    "make": "Honda",
+    "path": "./data/catalogs/honda.json"
+  },
+  {
+    "make": "Hummer",
+    "path": "./data/catalogs/hummer.json"
+  },
+  {
+    "make": "Hyundai",
+    "path": "./data/catalogs/hyundai.json"
+  },
+  {
+    "make": "Infiniti",
+    "path": "./data/catalogs/infiniti.json"
+  },
+  {
+    "make": "International",
+    "path": "./data/catalogs/international.json"
+  },
+  {
+    "make": "Isuzu",
+    "path": "./data/catalogs/isuzu.json"
+  },
+  {
+    "make": "Jaguar",
+    "path": "./data/catalogs/jaguar.json"
+  },
+  {
+    "make": "Jeep",
+    "path": "./data/catalogs/jeep.json"
+  },
+  {
+    "make": "Kia",
+    "path": "./data/catalogs/kia.json"
+  },
+  {
+    "make": "Lancia",
+    "path": "./data/catalogs/lancia.json"
+  },
+  {
+    "make": "Land Rover",
+    "path": "./data/catalogs/land-rover.json"
+  },
+  {
+    "make": "Lexus",
+    "path": "./data/catalogs/lexus.json"
+  },
+  {
+    "make": "Lincoln",
+    "path": "./data/catalogs/lincoln.json"
+  },
+  {
+    "make": "MG",
+    "path": "./data/catalogs/mg.json"
+  },
+  {
+    "make": "Mazda",
+    "path": "./data/catalogs/mazda.json"
+  },
+  {
+    "make": "Mercedes Benz",
+    "path": "./data/catalogs/mercedes-benz.json"
+  },
+  {
+    "make": "Mercury",
+    "path": "./data/catalogs/mercury.json"
+  },
+  {
+    "make": "Merkur",
+    "path": "./data/catalogs/merkur.json"
+  },
+  {
+    "make": "Mini",
+    "path": "./data/catalogs/mini.json"
+  },
+  {
+    "make": "Mitsubishi",
+    "path": "./data/catalogs/mitsubishi.json"
+  },
+  {
+    "make": "Nissan-Datsun",
+    "path": "./data/catalogs/nissan-datsun.json"
+  },
+  {
+    "make": "Oldsmobile",
+    "path": "./data/catalogs/oldsmobile.json"
+  },
+  {
+    "make": "Opel",
+    "path": "./data/catalogs/opel.json"
+  },
+  {
+    "make": "Peugeot",
+    "path": "./data/catalogs/peugeot.json"
+  },
+  {
+    "make": "Plymouth",
+    "path": "./data/catalogs/plymouth.json"
+  },
+  {
+    "make": "Pontiac",
+    "path": "./data/catalogs/pontiac.json"
+  },
+  {
+    "make": "Porsche",
+    "path": "./data/catalogs/porsche.json"
+  },
+  {
+    "make": "Renault",
+    "path": "./data/catalogs/renault.json"
+  },
+  {
+    "make": "Rivian",
+    "path": "./data/catalogs/rivian.json"
+  },
+  {
+    "make": "SRT",
+    "path": "./data/catalogs/srt.json"
+  },
+  {
+    "make": "Saab",
+    "path": "./data/catalogs/saab.json"
+  },
+  {
+    "make": "Saturn",
+    "path": "./data/catalogs/saturn.json"
+  },
+  {
+    "make": "Scion",
+    "path": "./data/catalogs/scion.json"
+  },
+  {
+    "make": "Smart",
+    "path": "./data/catalogs/smart.json"
+  },
+  {
+    "make": "Sterling",
+    "path": "./data/catalogs/sterling.json"
+  },
+  {
+    "make": "Subaru",
+    "path": "./data/catalogs/subaru.json"
+  },
+  {
+    "make": "Suzuki",
+    "path": "./data/catalogs/suzuki.json"
+  },
+  {
+    "make": "Tesla",
+    "path": "./data/catalogs/tesla.json"
+  },
+  {
+    "make": "Toyota",
+    "path": "./data/catalogs/toyota.json"
+  },
+  {
+    "make": "Triumph",
+    "path": "./data/catalogs/triumph.json"
+  },
+  {
+    "make": "UD",
+    "path": "./data/catalogs/ud.json"
+  },
+  {
+    "make": "VinFast",
+    "path": "./data/catalogs/vinfast.json"
+  },
+  {
+    "make": "Volkswagen",
+    "path": "./data/catalogs/volkswagen.json"
+  },
+  {
+    "make": "Volvo",
+    "path": "./data/catalogs/volvo.json"
+  },
+  {
+    "make": "Workhorse",
+    "path": "./data/catalogs/workhorse.json"
+  },
+  {
+    "make": "Yugo",
+    "path": "./data/catalogs/yugo.json"
+  },
+  {
+    "make": "ZAP",
+    "path": "./data/catalogs/zap.json"
+  }
+]

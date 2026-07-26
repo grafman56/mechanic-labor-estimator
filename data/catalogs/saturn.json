@@ -1,0 +1,3726 @@
+[
+  {
+    "make": "Saturn",
+    "year": 1991,
+    "model": "SC",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/1991/SC%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1991,
+    "model": "SC",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/1991/SC%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1991,
+    "model": "SC L4-1.9L DOHC VIN",
+    "engine": "7",
+    "manual_url": "https://lemon-manuals.la/Saturn/1991/SC%20L4-1.9L%20DOHC%20VIN%207/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1991,
+    "model": "SL",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/1991/SL%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1991,
+    "model": "SL",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/1991/SL%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1991,
+    "model": "SL L4-1.9L DOHC VIN",
+    "engine": "7",
+    "manual_url": "https://lemon-manuals.la/Saturn/1991/SL%20L4-1.9L%20DOHC%20VIN%207/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1991,
+    "model": "SL L4-1.9L SOHC VIN",
+    "engine": "9",
+    "manual_url": "https://lemon-manuals.la/Saturn/1991/SL%20L4-1.9L%20SOHC%20VIN%209/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1991,
+    "model": "SL1",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/1991/SL1%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1991,
+    "model": "SL1",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/1991/SL1%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1991,
+    "model": "SL2",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/1991/SL2%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1991,
+    "model": "SL2",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/1991/SL2%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1992,
+    "model": "SC",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/1992/SC%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1992,
+    "model": "SC",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/1992/SC%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1992,
+    "model": "SC L4-1.9L DOHC VIN",
+    "engine": "7",
+    "manual_url": "https://lemon-manuals.la/Saturn/1992/SC%20L4-1.9L%20DOHC%20VIN%207/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1992,
+    "model": "SL",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/1992/SL%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1992,
+    "model": "SL",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/1992/SL%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1992,
+    "model": "SL L4-1.9L DOHC VIN",
+    "engine": "7",
+    "manual_url": "https://lemon-manuals.la/Saturn/1992/SL%20L4-1.9L%20DOHC%20VIN%207/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1992,
+    "model": "SL L4-1.9L SOHC VIN",
+    "engine": "9",
+    "manual_url": "https://lemon-manuals.la/Saturn/1992/SL%20L4-1.9L%20SOHC%20VIN%209/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1992,
+    "model": "SL1",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/1992/SL1%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1992,
+    "model": "SL1",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/1992/SL1%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1992,
+    "model": "SL2",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/1992/SL2%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1992,
+    "model": "SL2",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/1992/SL2%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1993,
+    "model": "SC L4-1.9L DOHC VIN",
+    "engine": "7",
+    "manual_url": "https://lemon-manuals.la/Saturn/1993/SC%20L4-1.9L%20DOHC%20VIN%207/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1993,
+    "model": "SC L4-1.9L SOHC VIN",
+    "engine": "9",
+    "manual_url": "https://lemon-manuals.la/Saturn/1993/SC%20L4-1.9L%20SOHC%20VIN%209/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1993,
+    "model": "SC1",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/1993/SC1%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1993,
+    "model": "SC1",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/1993/SC1%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1993,
+    "model": "SC2",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/1993/SC2%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1993,
+    "model": "SC2",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/1993/SC2%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1993,
+    "model": "SL L4-1.9L DOHC VIN",
+    "engine": "7",
+    "manual_url": "https://lemon-manuals.la/Saturn/1993/SL%20L4-1.9L%20DOHC%20VIN%207/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1993,
+    "model": "SL L4-1.9L SOHC VIN",
+    "engine": "9",
+    "manual_url": "https://lemon-manuals.la/Saturn/1993/SL%20L4-1.9L%20SOHC%20VIN%209/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1993,
+    "model": "SL1",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/1993/SL1%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1993,
+    "model": "SL1",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/1993/SL1%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1993,
+    "model": "SL2",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/1993/SL2%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1993,
+    "model": "SL2",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/1993/SL2%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1993,
+    "model": "SW L4-1.9L DOHC VIN",
+    "engine": "7",
+    "manual_url": "https://lemon-manuals.la/Saturn/1993/SW%20L4-1.9L%20DOHC%20VIN%207/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1993,
+    "model": "SW L4-1.9L SOHC VIN",
+    "engine": "9",
+    "manual_url": "https://lemon-manuals.la/Saturn/1993/SW%20L4-1.9L%20SOHC%20VIN%209/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1993,
+    "model": "SW1",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/1993/SW1%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1993,
+    "model": "SW1",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/1993/SW1%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1993,
+    "model": "SW2",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/1993/SW2%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1993,
+    "model": "SW2",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/1993/SW2%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1994,
+    "model": "Coupe L4-1.9L DOHC VIN",
+    "engine": "7",
+    "manual_url": "https://lemon-manuals.la/Saturn/1994/Coupe%20L4-1.9L%20DOHC%20VIN%207/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1994,
+    "model": "Coupe L4-1.9L SOHC VIN",
+    "engine": "9",
+    "manual_url": "https://lemon-manuals.la/Saturn/1994/Coupe%20L4-1.9L%20SOHC%20VIN%209/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1994,
+    "model": "SC1",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/1994/SC1%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1994,
+    "model": "SC1",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/1994/SC1%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1994,
+    "model": "SC2",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/1994/SC2%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1994,
+    "model": "SC2",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/1994/SC2%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1994,
+    "model": "SL1",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/1994/SL1%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1994,
+    "model": "SL1",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/1994/SL1%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1994,
+    "model": "SL2",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/1994/SL2%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1994,
+    "model": "SL2",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/1994/SL2%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1994,
+    "model": "SW1",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/1994/SW1%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1994,
+    "model": "SW1",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/1994/SW1%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1994,
+    "model": "SW2",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/1994/SW2%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1994,
+    "model": "SW2",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/1994/SW2%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1994,
+    "model": "Sedan L4-1.9L DOHC VIN",
+    "engine": "7",
+    "manual_url": "https://lemon-manuals.la/Saturn/1994/Sedan%20L4-1.9L%20DOHC%20VIN%207/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1994,
+    "model": "Sedan L4-1.9L SOHC VIN",
+    "engine": "9",
+    "manual_url": "https://lemon-manuals.la/Saturn/1994/Sedan%20L4-1.9L%20SOHC%20VIN%209/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1994,
+    "model": "Wagon L4-1.9L DOHC VIN",
+    "engine": "7",
+    "manual_url": "https://lemon-manuals.la/Saturn/1994/Wagon%20L4-1.9L%20DOHC%20VIN%207/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1994,
+    "model": "Wagon L4-1.9L SOHC VIN",
+    "engine": "9",
+    "manual_url": "https://lemon-manuals.la/Saturn/1994/Wagon%20L4-1.9L%20SOHC%20VIN%209/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1995,
+    "model": "Coupe L4-1.9L DOHC VIN",
+    "engine": "7",
+    "manual_url": "https://lemon-manuals.la/Saturn/1995/Coupe%20L4-1.9L%20DOHC%20VIN%207/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1995,
+    "model": "Coupe L4-1.9L SOHC VIN",
+    "engine": "8",
+    "manual_url": "https://lemon-manuals.la/Saturn/1995/Coupe%20L4-1.9L%20SOHC%20VIN%208/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1995,
+    "model": "SC1",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/1995/SC1%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1995,
+    "model": "SC1",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/1995/SC1%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1995,
+    "model": "SC2",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/1995/SC2%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1995,
+    "model": "SC2",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/1995/SC2%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1995,
+    "model": "SL1",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/1995/SL1%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1995,
+    "model": "SL1",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/1995/SL1%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1995,
+    "model": "SL2",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/1995/SL2%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1995,
+    "model": "SL2",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/1995/SL2%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1995,
+    "model": "SW1",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/1995/SW1%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1995,
+    "model": "SW1",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/1995/SW1%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1995,
+    "model": "SW2",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/1995/SW2%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1995,
+    "model": "SW2",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/1995/SW2%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1995,
+    "model": "Sedan L4-1.9L DOHC VIN",
+    "engine": "7",
+    "manual_url": "https://lemon-manuals.la/Saturn/1995/Sedan%20L4-1.9L%20DOHC%20VIN%207/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1995,
+    "model": "Sedan L4-1.9L SOHC VIN",
+    "engine": "8",
+    "manual_url": "https://lemon-manuals.la/Saturn/1995/Sedan%20L4-1.9L%20SOHC%20VIN%208/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1995,
+    "model": "Wagon L4-1.9L DOHC VIN",
+    "engine": "7",
+    "manual_url": "https://lemon-manuals.la/Saturn/1995/Wagon%20L4-1.9L%20DOHC%20VIN%207/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1995,
+    "model": "Wagon L4-1.9L SOHC VIN",
+    "engine": "8",
+    "manual_url": "https://lemon-manuals.la/Saturn/1995/Wagon%20L4-1.9L%20SOHC%20VIN%208/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1996,
+    "model": "SC1",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/1996/SC1%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1996,
+    "model": "SC1",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/1996/SC1%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1996,
+    "model": "SC1 L4-1.9L SOHC VIN",
+    "engine": "8",
+    "manual_url": "https://lemon-manuals.la/Saturn/1996/SC1%20L4-1.9L%20SOHC%20VIN%208/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1996,
+    "model": "SC2 Automatic,",
+    "engine": "MP6",
+    "manual_url": "https://lemon-manuals.la/Saturn/1996/SC2%20Automatic%2C%20MP6/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1996,
+    "model": "SC2 Automatic,",
+    "engine": "MP7",
+    "manual_url": "https://lemon-manuals.la/Saturn/1996/SC2%20Automatic%2C%20MP7/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1996,
+    "model": "SC2 L4-1.9L DOHC VIN",
+    "engine": "7",
+    "manual_url": "https://lemon-manuals.la/Saturn/1996/SC2%20L4-1.9L%20DOHC%20VIN%207/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1996,
+    "model": "SC2 Standard,",
+    "engine": "MP2",
+    "manual_url": "https://lemon-manuals.la/Saturn/1996/SC2%20Standard%2C%20MP2/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1996,
+    "model": "SC2 Standard,",
+    "engine": "MP3",
+    "manual_url": "https://lemon-manuals.la/Saturn/1996/SC2%20Standard%2C%20MP3/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1996,
+    "model": "SL L4-1.9L SOHC VIN",
+    "engine": "8",
+    "manual_url": "https://lemon-manuals.la/Saturn/1996/SL%20L4-1.9L%20SOHC%20VIN%208/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1996,
+    "model": "SL1",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/1996/SL1%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1996,
+    "model": "SL1",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/1996/SL1%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1996,
+    "model": "SL1 L4-1.9L SOHC VIN",
+    "engine": "8",
+    "manual_url": "https://lemon-manuals.la/Saturn/1996/SL1%20L4-1.9L%20SOHC%20VIN%208/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1996,
+    "model": "SL2 Automatic,",
+    "engine": "MP6",
+    "manual_url": "https://lemon-manuals.la/Saturn/1996/SL2%20Automatic%2C%20MP6/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1996,
+    "model": "SL2 Automatic,",
+    "engine": "MP7",
+    "manual_url": "https://lemon-manuals.la/Saturn/1996/SL2%20Automatic%2C%20MP7/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1996,
+    "model": "SL2 L4-1.9L DOHC VIN",
+    "engine": "7",
+    "manual_url": "https://lemon-manuals.la/Saturn/1996/SL2%20L4-1.9L%20DOHC%20VIN%207/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1996,
+    "model": "SL2 Standard,",
+    "engine": "MP2",
+    "manual_url": "https://lemon-manuals.la/Saturn/1996/SL2%20Standard%2C%20MP2/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1996,
+    "model": "SL2 Standard,",
+    "engine": "MP3",
+    "manual_url": "https://lemon-manuals.la/Saturn/1996/SL2%20Standard%2C%20MP3/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1996,
+    "model": "SW1",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/1996/SW1%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1996,
+    "model": "SW1",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/1996/SW1%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1996,
+    "model": "SW1 L4-1.9L SOHC VIN",
+    "engine": "8",
+    "manual_url": "https://lemon-manuals.la/Saturn/1996/SW1%20L4-1.9L%20SOHC%20VIN%208/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1996,
+    "model": "SW2",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/1996/SW2%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1996,
+    "model": "SW2",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/1996/SW2%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1996,
+    "model": "SW2 L4-1.9L DOHC VIN",
+    "engine": "7",
+    "manual_url": "https://lemon-manuals.la/Saturn/1996/SW2%20L4-1.9L%20DOHC%20VIN%207/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1997,
+    "model": "SC1",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/1997/SC1%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1997,
+    "model": "SC1",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/1997/SC1%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1997,
+    "model": "SC1 L4-1.9L SOHC VIN",
+    "engine": "8",
+    "manual_url": "https://lemon-manuals.la/Saturn/1997/SC1%20L4-1.9L%20SOHC%20VIN%208/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1997,
+    "model": "SC2 Automatic,",
+    "engine": "MP6",
+    "manual_url": "https://lemon-manuals.la/Saturn/1997/SC2%20Automatic%2C%20MP6/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1997,
+    "model": "SC2 Automatic,",
+    "engine": "MP7",
+    "manual_url": "https://lemon-manuals.la/Saturn/1997/SC2%20Automatic%2C%20MP7/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1997,
+    "model": "SC2 L4-1.9L DOHC VIN",
+    "engine": "7",
+    "manual_url": "https://lemon-manuals.la/Saturn/1997/SC2%20L4-1.9L%20DOHC%20VIN%207/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1997,
+    "model": "SC2 Standard,",
+    "engine": "MP2",
+    "manual_url": "https://lemon-manuals.la/Saturn/1997/SC2%20Standard%2C%20MP2/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1997,
+    "model": "SC2 Standard,",
+    "engine": "MP3",
+    "manual_url": "https://lemon-manuals.la/Saturn/1997/SC2%20Standard%2C%20MP3/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1997,
+    "model": "SL L4-1.9L SOHC VIN",
+    "engine": "8",
+    "manual_url": "https://lemon-manuals.la/Saturn/1997/SL%20L4-1.9L%20SOHC%20VIN%208/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1997,
+    "model": "SL1",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/1997/SL1%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1997,
+    "model": "SL1",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/1997/SL1%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1997,
+    "model": "SL1 L4-1.9L SOHC VIN",
+    "engine": "8",
+    "manual_url": "https://lemon-manuals.la/Saturn/1997/SL1%20L4-1.9L%20SOHC%20VIN%208/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1997,
+    "model": "SL2 Automatic,",
+    "engine": "MP6",
+    "manual_url": "https://lemon-manuals.la/Saturn/1997/SL2%20Automatic%2C%20MP6/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1997,
+    "model": "SL2 Automatic,",
+    "engine": "MP7",
+    "manual_url": "https://lemon-manuals.la/Saturn/1997/SL2%20Automatic%2C%20MP7/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1997,
+    "model": "SL2 L4-1.9L DOHC VIN",
+    "engine": "7",
+    "manual_url": "https://lemon-manuals.la/Saturn/1997/SL2%20L4-1.9L%20DOHC%20VIN%207/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1997,
+    "model": "SL2 Standard,",
+    "engine": "MP2",
+    "manual_url": "https://lemon-manuals.la/Saturn/1997/SL2%20Standard%2C%20MP2/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1997,
+    "model": "SL2 Standard,",
+    "engine": "MP3",
+    "manual_url": "https://lemon-manuals.la/Saturn/1997/SL2%20Standard%2C%20MP3/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1997,
+    "model": "SW1",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/1997/SW1%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1997,
+    "model": "SW1",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/1997/SW1%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1997,
+    "model": "SW1 L4-1.9L SOHC VIN",
+    "engine": "8",
+    "manual_url": "https://lemon-manuals.la/Saturn/1997/SW1%20L4-1.9L%20SOHC%20VIN%208/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1997,
+    "model": "SW2",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/1997/SW2%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1997,
+    "model": "SW2",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/1997/SW2%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1997,
+    "model": "SW2 L4-1.9L DOHC VIN",
+    "engine": "7",
+    "manual_url": "https://lemon-manuals.la/Saturn/1997/SW2%20L4-1.9L%20DOHC%20VIN%207/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1998,
+    "model": "SC1",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/1998/SC1%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1998,
+    "model": "SC1",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/1998/SC1%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1998,
+    "model": "SC1 L4-1.9L SOHC VIN",
+    "engine": "8",
+    "manual_url": "https://lemon-manuals.la/Saturn/1998/SC1%20L4-1.9L%20SOHC%20VIN%208/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1998,
+    "model": "SC2 Automatic,",
+    "engine": "MP6",
+    "manual_url": "https://lemon-manuals.la/Saturn/1998/SC2%20Automatic%2C%20MP6/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1998,
+    "model": "SC2 Automatic,",
+    "engine": "MP7",
+    "manual_url": "https://lemon-manuals.la/Saturn/1998/SC2%20Automatic%2C%20MP7/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1998,
+    "model": "SC2 L4-1.9L DOHC VIN",
+    "engine": "7",
+    "manual_url": "https://lemon-manuals.la/Saturn/1998/SC2%20L4-1.9L%20DOHC%20VIN%207/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1998,
+    "model": "SC2 Standard,",
+    "engine": "MP2",
+    "manual_url": "https://lemon-manuals.la/Saturn/1998/SC2%20Standard%2C%20MP2/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1998,
+    "model": "SC2 Standard,",
+    "engine": "MP3",
+    "manual_url": "https://lemon-manuals.la/Saturn/1998/SC2%20Standard%2C%20MP3/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1998,
+    "model": "SL L4-1.9L SOHC VIN",
+    "engine": "8",
+    "manual_url": "https://lemon-manuals.la/Saturn/1998/SL%20L4-1.9L%20SOHC%20VIN%208/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1998,
+    "model": "SL1",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/1998/SL1%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1998,
+    "model": "SL1",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/1998/SL1%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1998,
+    "model": "SL1 L4-1.9L SOHC VIN",
+    "engine": "8",
+    "manual_url": "https://lemon-manuals.la/Saturn/1998/SL1%20L4-1.9L%20SOHC%20VIN%208/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1998,
+    "model": "SL2 Automatic,",
+    "engine": "MP6",
+    "manual_url": "https://lemon-manuals.la/Saturn/1998/SL2%20Automatic%2C%20MP6/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1998,
+    "model": "SL2 Automatic,",
+    "engine": "MP7",
+    "manual_url": "https://lemon-manuals.la/Saturn/1998/SL2%20Automatic%2C%20MP7/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1998,
+    "model": "SL2 L4-1.9L DOHC VIN",
+    "engine": "7",
+    "manual_url": "https://lemon-manuals.la/Saturn/1998/SL2%20L4-1.9L%20DOHC%20VIN%207/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1998,
+    "model": "SL2 Standard,",
+    "engine": "MP2",
+    "manual_url": "https://lemon-manuals.la/Saturn/1998/SL2%20Standard%2C%20MP2/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1998,
+    "model": "SL2 Standard,",
+    "engine": "MP3",
+    "manual_url": "https://lemon-manuals.la/Saturn/1998/SL2%20Standard%2C%20MP3/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1998,
+    "model": "SW1",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/1998/SW1%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1998,
+    "model": "SW1",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/1998/SW1%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1998,
+    "model": "SW1 L4-1.9L SOHC VIN",
+    "engine": "8",
+    "manual_url": "https://lemon-manuals.la/Saturn/1998/SW1%20L4-1.9L%20SOHC%20VIN%208/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1998,
+    "model": "SW2",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/1998/SW2%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1998,
+    "model": "SW2",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/1998/SW2%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1998,
+    "model": "SW2 L4-1.9L DOHC VIN",
+    "engine": "7",
+    "manual_url": "https://lemon-manuals.la/Saturn/1998/SW2%20L4-1.9L%20DOHC%20VIN%207/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1999,
+    "model": "SC1 2D Coupe,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/1999/SC1%202D%20Coupe%2C%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1999,
+    "model": "SC1 2D Coupe,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/1999/SC1%202D%20Coupe%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1999,
+    "model": "SC1 3D Coupe,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/1999/SC1%203D%20Coupe%2C%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1999,
+    "model": "SC1 3D Coupe,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/1999/SC1%203D%20Coupe%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1999,
+    "model": "SC1 L4-1.9L SOHC VIN",
+    "engine": "8",
+    "manual_url": "https://lemon-manuals.la/Saturn/1999/SC1%20L4-1.9L%20SOHC%20VIN%208/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1999,
+    "model": "SC2 2D Coupe, Automatic,",
+    "engine": "MP6",
+    "manual_url": "https://lemon-manuals.la/Saturn/1999/SC2%202D%20Coupe%2C%20Automatic%2C%20MP6/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1999,
+    "model": "SC2 2D Coupe, Automatic,",
+    "engine": "MP7",
+    "manual_url": "https://lemon-manuals.la/Saturn/1999/SC2%202D%20Coupe%2C%20Automatic%2C%20MP7/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1999,
+    "model": "SC2 2D Coupe, Standard,",
+    "engine": "MP2",
+    "manual_url": "https://lemon-manuals.la/Saturn/1999/SC2%202D%20Coupe%2C%20Standard%2C%20MP2/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1999,
+    "model": "SC2 2D Coupe, Standard,",
+    "engine": "MP3",
+    "manual_url": "https://lemon-manuals.la/Saturn/1999/SC2%202D%20Coupe%2C%20Standard%2C%20MP3/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1999,
+    "model": "SC2 3D Coupe, Automatic,",
+    "engine": "MP6",
+    "manual_url": "https://lemon-manuals.la/Saturn/1999/SC2%203D%20Coupe%2C%20Automatic%2C%20MP6/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1999,
+    "model": "SC2 3D Coupe, Automatic,",
+    "engine": "MP7",
+    "manual_url": "https://lemon-manuals.la/Saturn/1999/SC2%203D%20Coupe%2C%20Automatic%2C%20MP7/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1999,
+    "model": "SC2 3D Coupe, Standard,",
+    "engine": "MP2",
+    "manual_url": "https://lemon-manuals.la/Saturn/1999/SC2%203D%20Coupe%2C%20Standard%2C%20MP2/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1999,
+    "model": "SC2 3D Coupe, Standard,",
+    "engine": "MP3",
+    "manual_url": "https://lemon-manuals.la/Saturn/1999/SC2%203D%20Coupe%2C%20Standard%2C%20MP3/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1999,
+    "model": "SC2 L4-1.9L DOHC VIN",
+    "engine": "7",
+    "manual_url": "https://lemon-manuals.la/Saturn/1999/SC2%20L4-1.9L%20DOHC%20VIN%207/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1999,
+    "model": "SL L4-1.9L SOHC VIN",
+    "engine": "8",
+    "manual_url": "https://lemon-manuals.la/Saturn/1999/SL%20L4-1.9L%20SOHC%20VIN%208/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1999,
+    "model": "SL1",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/1999/SL1%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1999,
+    "model": "SL1",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/1999/SL1%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1999,
+    "model": "SL1 L4-1.9L SOHC VIN",
+    "engine": "8",
+    "manual_url": "https://lemon-manuals.la/Saturn/1999/SL1%20L4-1.9L%20SOHC%20VIN%208/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1999,
+    "model": "SL2 Automatic,",
+    "engine": "MP6",
+    "manual_url": "https://lemon-manuals.la/Saturn/1999/SL2%20Automatic%2C%20MP6/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1999,
+    "model": "SL2 Automatic,",
+    "engine": "MP7",
+    "manual_url": "https://lemon-manuals.la/Saturn/1999/SL2%20Automatic%2C%20MP7/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1999,
+    "model": "SL2 L4-1.9L DOHC VIN",
+    "engine": "7",
+    "manual_url": "https://lemon-manuals.la/Saturn/1999/SL2%20L4-1.9L%20DOHC%20VIN%207/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1999,
+    "model": "SL2 Standard,",
+    "engine": "MP2",
+    "manual_url": "https://lemon-manuals.la/Saturn/1999/SL2%20Standard%2C%20MP2/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1999,
+    "model": "SL2 Standard,",
+    "engine": "MP3",
+    "manual_url": "https://lemon-manuals.la/Saturn/1999/SL2%20Standard%2C%20MP3/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1999,
+    "model": "SW1",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/1999/SW1%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1999,
+    "model": "SW1",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/1999/SW1%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1999,
+    "model": "SW1 L4-1.9L SOHC VIN",
+    "engine": "8",
+    "manual_url": "https://lemon-manuals.la/Saturn/1999/SW1%20L4-1.9L%20SOHC%20VIN%208/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1999,
+    "model": "SW2",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/1999/SW2%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1999,
+    "model": "SW2",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/1999/SW2%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 1999,
+    "model": "SW2 L4-1.9L DOHC VIN",
+    "engine": "7",
+    "manual_url": "https://lemon-manuals.la/Saturn/1999/SW2%20L4-1.9L%20DOHC%20VIN%207/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2000,
+    "model": "LS",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2000/LS%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2000,
+    "model": "LS",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2000/LS%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2000,
+    "model": "LS L4-2.2L VIN",
+    "engine": "F",
+    "manual_url": "https://lemon-manuals.la/Saturn/2000/LS%20L4-2.2L%20VIN%20F/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2000,
+    "model": "LS1",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2000/LS1%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2000,
+    "model": "LS1",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2000/LS1%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2000,
+    "model": "LS1 L4-2.2L VIN",
+    "engine": "F",
+    "manual_url": "https://lemon-manuals.la/Saturn/2000/LS1%20L4-2.2L%20VIN%20F/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2000,
+    "model": "LS2",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2000/LS2%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2000,
+    "model": "LS2",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2000/LS2%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2000,
+    "model": "LS2 V6-3.0L VIN",
+    "engine": "R",
+    "manual_url": "https://lemon-manuals.la/Saturn/2000/LS2%20V6-3.0L%20VIN%20R/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2000,
+    "model": "LW1",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2000/LW1%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2000,
+    "model": "LW1",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2000/LW1%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2000,
+    "model": "LW1 L4-2.2L VIN",
+    "engine": "F",
+    "manual_url": "https://lemon-manuals.la/Saturn/2000/LW1%20L4-2.2L%20VIN%20F/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2000,
+    "model": "LW2",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2000/LW2%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2000,
+    "model": "LW2",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2000/LW2%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2000,
+    "model": "LW2 V6-3.0L VIN",
+    "engine": "R",
+    "manual_url": "https://lemon-manuals.la/Saturn/2000/LW2%20V6-3.0L%20VIN%20R/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2000,
+    "model": "SC1",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2000/SC1%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2000,
+    "model": "SC1",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2000/SC1%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2000,
+    "model": "SC1 L4-1.9L SOHC VIN",
+    "engine": "8",
+    "manual_url": "https://lemon-manuals.la/Saturn/2000/SC1%20L4-1.9L%20SOHC%20VIN%208/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2000,
+    "model": "SC2 Automatic,",
+    "engine": "MP6",
+    "manual_url": "https://lemon-manuals.la/Saturn/2000/SC2%20Automatic%2C%20MP6/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2000,
+    "model": "SC2 Automatic,",
+    "engine": "MP7",
+    "manual_url": "https://lemon-manuals.la/Saturn/2000/SC2%20Automatic%2C%20MP7/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2000,
+    "model": "SC2 L4-1.9L DOHC VIN",
+    "engine": "7",
+    "manual_url": "https://lemon-manuals.la/Saturn/2000/SC2%20L4-1.9L%20DOHC%20VIN%207/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2000,
+    "model": "SC2 Standard,",
+    "engine": "MP2",
+    "manual_url": "https://lemon-manuals.la/Saturn/2000/SC2%20Standard%2C%20MP2/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2000,
+    "model": "SC2 Standard,",
+    "engine": "MP3",
+    "manual_url": "https://lemon-manuals.la/Saturn/2000/SC2%20Standard%2C%20MP3/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2000,
+    "model": "SL L4-1.9L SOHC VIN",
+    "engine": "8",
+    "manual_url": "https://lemon-manuals.la/Saturn/2000/SL%20L4-1.9L%20SOHC%20VIN%208/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2000,
+    "model": "SL1",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2000/SL1%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2000,
+    "model": "SL1",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2000/SL1%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2000,
+    "model": "SL1 L4-1.9L SOHC VIN",
+    "engine": "8",
+    "manual_url": "https://lemon-manuals.la/Saturn/2000/SL1%20L4-1.9L%20SOHC%20VIN%208/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2000,
+    "model": "SL2 Automatic,",
+    "engine": "MP6",
+    "manual_url": "https://lemon-manuals.la/Saturn/2000/SL2%20Automatic%2C%20MP6/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2000,
+    "model": "SL2 Automatic,",
+    "engine": "MP7",
+    "manual_url": "https://lemon-manuals.la/Saturn/2000/SL2%20Automatic%2C%20MP7/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2000,
+    "model": "SL2 L4-1.9L DOHC VIN",
+    "engine": "7",
+    "manual_url": "https://lemon-manuals.la/Saturn/2000/SL2%20L4-1.9L%20DOHC%20VIN%207/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2000,
+    "model": "SL2 Standard,",
+    "engine": "MP2",
+    "manual_url": "https://lemon-manuals.la/Saturn/2000/SL2%20Standard%2C%20MP2/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2000,
+    "model": "SL2 Standard,",
+    "engine": "MP3",
+    "manual_url": "https://lemon-manuals.la/Saturn/2000/SL2%20Standard%2C%20MP3/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2000,
+    "model": "SW1 L4-1.9L SOHC VIN",
+    "engine": "8",
+    "manual_url": "https://lemon-manuals.la/Saturn/2000/SW1%20L4-1.9L%20SOHC%20VIN%208/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2000,
+    "model": "SW2",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2000/SW2%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2000,
+    "model": "SW2",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2000/SW2%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2000,
+    "model": "SW2 L4-1.9L DOHC VIN",
+    "engine": "7",
+    "manual_url": "https://lemon-manuals.la/Saturn/2000/SW2%20L4-1.9L%20DOHC%20VIN%207/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2001,
+    "model": "L100",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2001/L100%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2001,
+    "model": "L100",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2001/L100%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2001,
+    "model": "L100 L4-2.2L VIN",
+    "engine": "F",
+    "manual_url": "https://lemon-manuals.la/Saturn/2001/L100%20L4-2.2L%20VIN%20F/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2001,
+    "model": "L200",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2001/L200%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2001,
+    "model": "L200",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2001/L200%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2001,
+    "model": "L200 L4-2.2L VIN",
+    "engine": "F",
+    "manual_url": "https://lemon-manuals.la/Saturn/2001/L200%20L4-2.2L%20VIN%20F/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2001,
+    "model": "L300 V6-3.0L VIN",
+    "engine": "R",
+    "manual_url": "https://lemon-manuals.la/Saturn/2001/L300%20V6-3.0L%20VIN%20R/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2001,
+    "model": "LW200 L4-2.2L VIN",
+    "engine": "F",
+    "manual_url": "https://lemon-manuals.la/Saturn/2001/LW200%20L4-2.2L%20VIN%20F/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2001,
+    "model": "LW300 V6-3.0L VIN",
+    "engine": "R",
+    "manual_url": "https://lemon-manuals.la/Saturn/2001/LW300%20V6-3.0L%20VIN%20R/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2001,
+    "model": "SC1",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2001/SC1%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2001,
+    "model": "SC1",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2001/SC1%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2001,
+    "model": "SC1 L4-1.9L SOHC VIN",
+    "engine": "8",
+    "manual_url": "https://lemon-manuals.la/Saturn/2001/SC1%20L4-1.9L%20SOHC%20VIN%208/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2001,
+    "model": "SC2 Automatic,",
+    "engine": "MP6",
+    "manual_url": "https://lemon-manuals.la/Saturn/2001/SC2%20Automatic%2C%20MP6/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2001,
+    "model": "SC2 Automatic,",
+    "engine": "MP7",
+    "manual_url": "https://lemon-manuals.la/Saturn/2001/SC2%20Automatic%2C%20MP7/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2001,
+    "model": "SC2 L4-1.9L DOHC VIN",
+    "engine": "7",
+    "manual_url": "https://lemon-manuals.la/Saturn/2001/SC2%20L4-1.9L%20DOHC%20VIN%207/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2001,
+    "model": "SC2 Standard,",
+    "engine": "MP2",
+    "manual_url": "https://lemon-manuals.la/Saturn/2001/SC2%20Standard%2C%20MP2/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2001,
+    "model": "SC2 Standard,",
+    "engine": "MP3",
+    "manual_url": "https://lemon-manuals.la/Saturn/2001/SC2%20Standard%2C%20MP3/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2001,
+    "model": "SL L4-1.9L SOHC VIN",
+    "engine": "8",
+    "manual_url": "https://lemon-manuals.la/Saturn/2001/SL%20L4-1.9L%20SOHC%20VIN%208/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2001,
+    "model": "SL1",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2001/SL1%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2001,
+    "model": "SL1",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2001/SL1%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2001,
+    "model": "SL1 L4-1.9L SOHC VIN",
+    "engine": "8",
+    "manual_url": "https://lemon-manuals.la/Saturn/2001/SL1%20L4-1.9L%20SOHC%20VIN%208/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2001,
+    "model": "SL2 Automatic,",
+    "engine": "MP6",
+    "manual_url": "https://lemon-manuals.la/Saturn/2001/SL2%20Automatic%2C%20MP6/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2001,
+    "model": "SL2 Automatic,",
+    "engine": "MP7",
+    "manual_url": "https://lemon-manuals.la/Saturn/2001/SL2%20Automatic%2C%20MP7/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2001,
+    "model": "SL2 L4-1.9L DOHC VIN",
+    "engine": "7",
+    "manual_url": "https://lemon-manuals.la/Saturn/2001/SL2%20L4-1.9L%20DOHC%20VIN%207/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2001,
+    "model": "SL2 Standard,",
+    "engine": "MP2",
+    "manual_url": "https://lemon-manuals.la/Saturn/2001/SL2%20Standard%2C%20MP2/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2001,
+    "model": "SL2 Standard,",
+    "engine": "MP3",
+    "manual_url": "https://lemon-manuals.la/Saturn/2001/SL2%20Standard%2C%20MP3/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2001,
+    "model": "SW1 L4-1.9L SOHC VIN",
+    "engine": "8",
+    "manual_url": "https://lemon-manuals.la/Saturn/2001/SW1%20L4-1.9L%20SOHC%20VIN%208/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2001,
+    "model": "SW2",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2001/SW2%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2001,
+    "model": "SW2",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2001/SW2%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2001,
+    "model": "SW2 L4-1.9L DOHC VIN",
+    "engine": "7",
+    "manual_url": "https://lemon-manuals.la/Saturn/2001/SW2%20L4-1.9L%20DOHC%20VIN%207/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2002,
+    "model": "L100 L4-2.2L VIN",
+    "engine": "F",
+    "manual_url": "https://lemon-manuals.la/Saturn/2002/L100%20L4-2.2L%20VIN%20F/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2002,
+    "model": "L200",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2002/L200%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2002,
+    "model": "L200",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2002/L200%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2002,
+    "model": "L200 L4-2.2L VIN",
+    "engine": "F",
+    "manual_url": "https://lemon-manuals.la/Saturn/2002/L200%20L4-2.2L%20VIN%20F/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2002,
+    "model": "L300 V6-3.0L VIN",
+    "engine": "R",
+    "manual_url": "https://lemon-manuals.la/Saturn/2002/L300%20V6-3.0L%20VIN%20R/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2002,
+    "model": "LW100 L4-2.2L VIN",
+    "engine": "F",
+    "manual_url": "https://lemon-manuals.la/Saturn/2002/LW100%20L4-2.2L%20VIN%20F/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2002,
+    "model": "LW200",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2002/LW200%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2002,
+    "model": "LW200",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2002/LW200%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2002,
+    "model": "LW200 L4-2.2L VIN",
+    "engine": "F",
+    "manual_url": "https://lemon-manuals.la/Saturn/2002/LW200%20L4-2.2L%20VIN%20F/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2002,
+    "model": "LW300 V6-3.0L VIN",
+    "engine": "R",
+    "manual_url": "https://lemon-manuals.la/Saturn/2002/LW300%20V6-3.0L%20VIN%20R/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2002,
+    "model": "SC1",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2002/SC1%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2002,
+    "model": "SC1",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2002/SC1%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2002,
+    "model": "SC1 L4-1.9L SOHC VIN",
+    "engine": "8",
+    "manual_url": "https://lemon-manuals.la/Saturn/2002/SC1%20L4-1.9L%20SOHC%20VIN%208/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2002,
+    "model": "SC2 Automatic,",
+    "engine": "MP6",
+    "manual_url": "https://lemon-manuals.la/Saturn/2002/SC2%20Automatic%2C%20MP6/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2002,
+    "model": "SC2 Automatic,",
+    "engine": "MP7",
+    "manual_url": "https://lemon-manuals.la/Saturn/2002/SC2%20Automatic%2C%20MP7/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2002,
+    "model": "SC2 L4-1.9L DOHC VIN",
+    "engine": "7",
+    "manual_url": "https://lemon-manuals.la/Saturn/2002/SC2%20L4-1.9L%20DOHC%20VIN%207/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2002,
+    "model": "SC2 Standard,",
+    "engine": "MP2",
+    "manual_url": "https://lemon-manuals.la/Saturn/2002/SC2%20Standard%2C%20MP2/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2002,
+    "model": "SC2 Standard,",
+    "engine": "MP3",
+    "manual_url": "https://lemon-manuals.la/Saturn/2002/SC2%20Standard%2C%20MP3/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2002,
+    "model": "SL L4-1.9L SOHC VIN",
+    "engine": "8",
+    "manual_url": "https://lemon-manuals.la/Saturn/2002/SL%20L4-1.9L%20SOHC%20VIN%208/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2002,
+    "model": "SL1",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2002/SL1%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2002,
+    "model": "SL1",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2002/SL1%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2002,
+    "model": "SL1 L4-1.9L SOHC VIN",
+    "engine": "8",
+    "manual_url": "https://lemon-manuals.la/Saturn/2002/SL1%20L4-1.9L%20SOHC%20VIN%208/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2002,
+    "model": "SL2 Automatic,",
+    "engine": "MP6",
+    "manual_url": "https://lemon-manuals.la/Saturn/2002/SL2%20Automatic%2C%20MP6/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2002,
+    "model": "SL2 Automatic,",
+    "engine": "MP7",
+    "manual_url": "https://lemon-manuals.la/Saturn/2002/SL2%20Automatic%2C%20MP7/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2002,
+    "model": "SL2 L4-1.9L DOHC VIN",
+    "engine": "7",
+    "manual_url": "https://lemon-manuals.la/Saturn/2002/SL2%20L4-1.9L%20DOHC%20VIN%207/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2002,
+    "model": "SL2 Standard,",
+    "engine": "MP2",
+    "manual_url": "https://lemon-manuals.la/Saturn/2002/SL2%20Standard%2C%20MP2/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2002,
+    "model": "SL2 Standard,",
+    "engine": "MP3",
+    "manual_url": "https://lemon-manuals.la/Saturn/2002/SL2%20Standard%2C%20MP3/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2002,
+    "model": "VUE L4-2.2L VIN",
+    "engine": "D",
+    "manual_url": "https://lemon-manuals.la/Saturn/2002/VUE%20L4-2.2L%20VIN%20D/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2002,
+    "model": "VUE V6-3.0L VIN",
+    "engine": "B",
+    "manual_url": "https://lemon-manuals.la/Saturn/2002/VUE%20V6-3.0L%20VIN%20B/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2002,
+    "model": "Vue 2.2 D,",
+    "engine": "AWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2002/Vue%202.2%20D%2C%20AWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2002,
+    "model": "Vue 2.2 D, FWD,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2002/Vue%202.2%20D%2C%20FWD%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2002,
+    "model": "Vue 2.2 D, FWD, Automatic",
+    "engine": "CVT",
+    "manual_url": "https://lemon-manuals.la/Saturn/2002/Vue%202.2%20D%2C%20FWD%2C%20Automatic%20CVT/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2002,
+    "model": "Vue 3.0",
+    "engine": "B",
+    "manual_url": "https://lemon-manuals.la/Saturn/2002/Vue%203.0%20B/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2003,
+    "model": "ION L4-2.2L VIN",
+    "engine": "F",
+    "manual_url": "https://lemon-manuals.la/Saturn/2003/ION%20L4-2.2L%20VIN%20F/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2003,
+    "model": "Ion 1",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2003/Ion%201%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2003,
+    "model": "Ion 1",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2003/Ion%201%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2003,
+    "model": "Ion 2 4D Coupe,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2003/Ion%202%204D%20Coupe%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2003,
+    "model": "Ion 2 4D Coupe, Automatic",
+    "engine": "CVT",
+    "manual_url": "https://lemon-manuals.la/Saturn/2003/Ion%202%204D%20Coupe%2C%20Automatic%20CVT/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2003,
+    "model": "Ion 2 4D Sedan,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2003/Ion%202%204D%20Sedan%2C%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2003,
+    "model": "Ion 2 4D Sedan,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2003/Ion%202%204D%20Sedan%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2003,
+    "model": "Ion 3 4D Coupe,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2003/Ion%203%204D%20Coupe%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2003,
+    "model": "Ion 3 4D Coupe, Automatic",
+    "engine": "CVT",
+    "manual_url": "https://lemon-manuals.la/Saturn/2003/Ion%203%204D%20Coupe%2C%20Automatic%20CVT/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2003,
+    "model": "Ion 3 4D Sedan,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2003/Ion%203%204D%20Sedan%2C%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2003,
+    "model": "Ion 3 4D Sedan,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2003/Ion%203%204D%20Sedan%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2003,
+    "model": "L200",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2003/L200%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2003,
+    "model": "L200",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2003/L200%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2003,
+    "model": "L200 L4-2.2L VIN",
+    "engine": "F",
+    "manual_url": "https://lemon-manuals.la/Saturn/2003/L200%20L4-2.2L%20VIN%20F/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2003,
+    "model": "L300 V6-3.0L VIN",
+    "engine": "R",
+    "manual_url": "https://lemon-manuals.la/Saturn/2003/L300%20V6-3.0L%20VIN%20R/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2003,
+    "model": "LW200 L4-2.2L VIN",
+    "engine": "F",
+    "manual_url": "https://lemon-manuals.la/Saturn/2003/LW200%20L4-2.2L%20VIN%20F/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2003,
+    "model": "LW300 V6-3.0L VIN",
+    "engine": "R",
+    "manual_url": "https://lemon-manuals.la/Saturn/2003/LW300%20V6-3.0L%20VIN%20R/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2003,
+    "model": "VUE L4-2.2L VIN",
+    "engine": "D",
+    "manual_url": "https://lemon-manuals.la/Saturn/2003/VUE%20L4-2.2L%20VIN%20D/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2003,
+    "model": "VUE V6-3.0L VIN",
+    "engine": "B",
+    "manual_url": "https://lemon-manuals.la/Saturn/2003/VUE%20V6-3.0L%20VIN%20B/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2003,
+    "model": "Vue 2.2 D,",
+    "engine": "AWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2003/Vue%202.2%20D%2C%20AWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2003,
+    "model": "Vue 2.2 D, FWD,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2003/Vue%202.2%20D%2C%20FWD%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2003,
+    "model": "Vue 2.2 D, FWD, Automatic",
+    "engine": "CVT",
+    "manual_url": "https://lemon-manuals.la/Saturn/2003/Vue%202.2%20D%2C%20FWD%2C%20Automatic%20CVT/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2003,
+    "model": "Vue 3.0 B,",
+    "engine": "AWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2003/Vue%203.0%20B%2C%20AWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2003,
+    "model": "Vue 3.0 B,",
+    "engine": "FWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2003/Vue%203.0%20B%2C%20FWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2004,
+    "model": "ION L4-2.0L SC VIN",
+    "engine": "P",
+    "manual_url": "https://lemon-manuals.la/Saturn/2004/ION%20L4-2.0L%20SC%20VIN%20P/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2004,
+    "model": "ION L4-2.2L VIN",
+    "engine": "F",
+    "manual_url": "https://lemon-manuals.la/Saturn/2004/ION%20L4-2.2L%20VIN%20F/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2004,
+    "model": "Ion 1",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2004/Ion%201%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2004,
+    "model": "Ion 1",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2004/Ion%201%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2004,
+    "model": "Ion 2 4D Coupe,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2004/Ion%202%204D%20Coupe%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2004,
+    "model": "Ion 2 4D Coupe, Automatic",
+    "engine": "CVT",
+    "manual_url": "https://lemon-manuals.la/Saturn/2004/Ion%202%204D%20Coupe%2C%20Automatic%20CVT/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2004,
+    "model": "Ion 2 4D Sedan,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2004/Ion%202%204D%20Sedan%2C%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2004,
+    "model": "Ion 2 4D Sedan,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2004/Ion%202%204D%20Sedan%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2004,
+    "model": "Ion 3 4D Coupe,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2004/Ion%203%204D%20Coupe%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2004,
+    "model": "Ion 3 4D Coupe, Automatic",
+    "engine": "CVT",
+    "manual_url": "https://lemon-manuals.la/Saturn/2004/Ion%203%204D%20Coupe%2C%20Automatic%20CVT/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2004,
+    "model": "Ion 3 4D Sedan,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2004/Ion%203%204D%20Sedan%2C%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2004,
+    "model": "Ion 3 4D Sedan,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2004/Ion%203%204D%20Sedan%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2004,
+    "model": "Ion Red",
+    "engine": "Line",
+    "manual_url": "https://lemon-manuals.la/Saturn/2004/Ion%20Red%20Line/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2004,
+    "model": "L Series L4-2.2L VIN",
+    "engine": "F",
+    "manual_url": "https://lemon-manuals.la/Saturn/2004/L%20Series%20L4-2.2L%20VIN%20F/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2004,
+    "model": "L Series V6-3.0L VIN",
+    "engine": "R",
+    "manual_url": "https://lemon-manuals.la/Saturn/2004/L%20Series%20V6-3.0L%20VIN%20R/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2004,
+    "model": "L300 4D Sedan, 2.2",
+    "engine": "F",
+    "manual_url": "https://lemon-manuals.la/Saturn/2004/L300%204D%20Sedan%2C%202.2%20F/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2004,
+    "model": "L300 4D Sedan, 3.0",
+    "engine": "R",
+    "manual_url": "https://lemon-manuals.la/Saturn/2004/L300%204D%20Sedan%2C%203.0%20R/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2004,
+    "model": "L300 4D Wagon, 2.2",
+    "engine": "F",
+    "manual_url": "https://lemon-manuals.la/Saturn/2004/L300%204D%20Wagon%2C%202.2%20F/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2004,
+    "model": "L300 4D Wagon, 3.0",
+    "engine": "R",
+    "manual_url": "https://lemon-manuals.la/Saturn/2004/L300%204D%20Wagon%2C%203.0%20R/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2004,
+    "model": "VUE 2WD L4-2.2L VIN",
+    "engine": "D",
+    "manual_url": "https://lemon-manuals.la/Saturn/2004/VUE%202WD%20L4-2.2L%20VIN%20D/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2004,
+    "model": "VUE 2WD V6-3.5L VIN",
+    "engine": "4",
+    "manual_url": "https://lemon-manuals.la/Saturn/2004/VUE%202WD%20V6-3.5L%20VIN%204/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2004,
+    "model": "VUE AWD L4-2.2L VIN",
+    "engine": "D",
+    "manual_url": "https://lemon-manuals.la/Saturn/2004/VUE%20AWD%20L4-2.2L%20VIN%20D/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2004,
+    "model": "VUE AWD V6-3.5L VIN",
+    "engine": "4",
+    "manual_url": "https://lemon-manuals.la/Saturn/2004/VUE%20AWD%20V6-3.5L%20VIN%204/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2004,
+    "model": "Vue Base, 2.2 D,",
+    "engine": "AWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2004/Vue%20Base%2C%202.2%20D%2C%20AWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2004,
+    "model": "Vue Base, 2.2 D, FWD,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2004/Vue%20Base%2C%202.2%20D%2C%20FWD%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2004,
+    "model": "Vue Base, 2.2 D, FWD, Automatic",
+    "engine": "CVT",
+    "manual_url": "https://lemon-manuals.la/Saturn/2004/Vue%20Base%2C%202.2%20D%2C%20FWD%2C%20Automatic%20CVT/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2004,
+    "model": "Vue Base, 3.5 4,",
+    "engine": "AWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2004/Vue%20Base%2C%203.5%204%2C%20AWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2004,
+    "model": "Vue Base, 3.5 4,",
+    "engine": "FWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2004/Vue%20Base%2C%203.5%204%2C%20FWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2004,
+    "model": "Vue Red Line,",
+    "engine": "AWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2004/Vue%20Red%20Line%2C%20AWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2004,
+    "model": "Vue Red Line,",
+    "engine": "FWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2004/Vue%20Red%20Line%2C%20FWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2005,
+    "model": "ION L4-2.0L SC VIN",
+    "engine": "P",
+    "manual_url": "https://lemon-manuals.la/Saturn/2005/ION%20L4-2.0L%20SC%20VIN%20P/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2005,
+    "model": "ION L4-2.2L VIN",
+    "engine": "F",
+    "manual_url": "https://lemon-manuals.la/Saturn/2005/ION%20L4-2.2L%20VIN%20F/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2005,
+    "model": "Ion 1",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2005/Ion%201%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2005,
+    "model": "Ion 1",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2005/Ion%201%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2005,
+    "model": "Ion 2 4D Coupe,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2005/Ion%202%204D%20Coupe%2C%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2005,
+    "model": "Ion 2 4D Coupe,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2005/Ion%202%204D%20Coupe%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2005,
+    "model": "Ion 2 4D Sedan,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2005/Ion%202%204D%20Sedan%2C%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2005,
+    "model": "Ion 2 4D Sedan,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2005/Ion%202%204D%20Sedan%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2005,
+    "model": "Ion 3 4D Coupe,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2005/Ion%203%204D%20Coupe%2C%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2005,
+    "model": "Ion 3 4D Coupe,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2005/Ion%203%204D%20Coupe%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2005,
+    "model": "Ion 3 4D Sedan,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2005/Ion%203%204D%20Sedan%2C%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2005,
+    "model": "Ion 3 4D Sedan,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2005/Ion%203%204D%20Sedan%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2005,
+    "model": "Ion Red",
+    "engine": "Line",
+    "manual_url": "https://lemon-manuals.la/Saturn/2005/Ion%20Red%20Line/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2005,
+    "model": "L Series V6-3.0L VIN",
+    "engine": "R",
+    "manual_url": "https://lemon-manuals.la/Saturn/2005/L%20Series%20V6-3.0L%20VIN%20R/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2005,
+    "model": "RELAY AWD V6-3.5L VIN",
+    "engine": "8",
+    "manual_url": "https://lemon-manuals.la/Saturn/2005/RELAY%20AWD%20V6-3.5L%20VIN%208/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2005,
+    "model": "RELAY FWD V6-3.5L VIN",
+    "engine": "8",
+    "manual_url": "https://lemon-manuals.la/Saturn/2005/RELAY%20FWD%20V6-3.5L%20VIN%208/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2005,
+    "model": "Relay",
+    "engine": "AWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2005/Relay%20AWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2005,
+    "model": "Relay",
+    "engine": "FWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2005/Relay%20FWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2005,
+    "model": "VUE 2WD L4-2.2L VIN",
+    "engine": "D",
+    "manual_url": "https://lemon-manuals.la/Saturn/2005/VUE%202WD%20L4-2.2L%20VIN%20D/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2005,
+    "model": "VUE 2WD V6-3.5L VIN",
+    "engine": "4",
+    "manual_url": "https://lemon-manuals.la/Saturn/2005/VUE%202WD%20V6-3.5L%20VIN%204/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2005,
+    "model": "VUE AWD L4-2.2L VIN",
+    "engine": "D",
+    "manual_url": "https://lemon-manuals.la/Saturn/2005/VUE%20AWD%20L4-2.2L%20VIN%20D/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2005,
+    "model": "VUE AWD V6-3.5L VIN",
+    "engine": "4",
+    "manual_url": "https://lemon-manuals.la/Saturn/2005/VUE%20AWD%20V6-3.5L%20VIN%204/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2005,
+    "model": "Vue Base, 2.2 D,",
+    "engine": "AWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2005/Vue%20Base%2C%202.2%20D%2C%20AWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2005,
+    "model": "Vue Base, 2.2 D, FWD,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2005/Vue%20Base%2C%202.2%20D%2C%20FWD%2C%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2005,
+    "model": "Vue Base, 2.2 D, FWD,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2005/Vue%20Base%2C%202.2%20D%2C%20FWD%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2005,
+    "model": "Vue Base, 3.5 4,",
+    "engine": "AWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2005/Vue%20Base%2C%203.5%204%2C%20AWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2005,
+    "model": "Vue Base, 3.5 4,",
+    "engine": "FWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2005/Vue%20Base%2C%203.5%204%2C%20FWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2005,
+    "model": "Vue Red Line,",
+    "engine": "AWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2005/Vue%20Red%20Line%2C%20AWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2005,
+    "model": "Vue Red Line,",
+    "engine": "FWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2005/Vue%20Red%20Line%2C%20FWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2006,
+    "model": "ION L4-2.0L SC VIN",
+    "engine": "P",
+    "manual_url": "https://lemon-manuals.la/Saturn/2006/ION%20L4-2.0L%20SC%20VIN%20P/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2006,
+    "model": "ION L4-2.2L VIN",
+    "engine": "F",
+    "manual_url": "https://lemon-manuals.la/Saturn/2006/ION%20L4-2.2L%20VIN%20F/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2006,
+    "model": "ION L4-2.4L VIN",
+    "engine": "B",
+    "manual_url": "https://lemon-manuals.la/Saturn/2006/ION%20L4-2.4L%20VIN%20B/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2006,
+    "model": "Ion 2 4D Coupe,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2006/Ion%202%204D%20Coupe%2C%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2006,
+    "model": "Ion 2 4D Coupe,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2006/Ion%202%204D%20Coupe%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2006,
+    "model": "Ion 2 4D Sedan,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2006/Ion%202%204D%20Sedan%2C%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2006,
+    "model": "Ion 2 4D Sedan,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2006/Ion%202%204D%20Sedan%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2006,
+    "model": "Ion 3 4D Coupe, 2.2 F,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2006/Ion%203%204D%20Coupe%2C%202.2%20F%2C%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2006,
+    "model": "Ion 3 4D Coupe, 2.2 F,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2006/Ion%203%204D%20Coupe%2C%202.2%20F%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2006,
+    "model": "Ion 3 4D Coupe, 2.4 B,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2006/Ion%203%204D%20Coupe%2C%202.4%20B%2C%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2006,
+    "model": "Ion 3 4D Coupe, 2.4 B,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2006/Ion%203%204D%20Coupe%2C%202.4%20B%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2006,
+    "model": "Ion 3 4D Sedan, 2.2 F,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2006/Ion%203%204D%20Sedan%2C%202.2%20F%2C%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2006,
+    "model": "Ion 3 4D Sedan, 2.2 F,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2006/Ion%203%204D%20Sedan%2C%202.2%20F%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2006,
+    "model": "Ion 3 4D Sedan, 2.4 B,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2006/Ion%203%204D%20Sedan%2C%202.4%20B%2C%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2006,
+    "model": "Ion 3 4D Sedan, 2.4 B,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2006/Ion%203%204D%20Sedan%2C%202.4%20B%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2006,
+    "model": "Ion Red",
+    "engine": "Line",
+    "manual_url": "https://lemon-manuals.la/Saturn/2006/Ion%20Red%20Line/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2006,
+    "model": "RELAY AWD V6-3.5L VIN",
+    "engine": "L",
+    "manual_url": "https://lemon-manuals.la/Saturn/2006/RELAY%20AWD%20V6-3.5L%20VIN%20L/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2006,
+    "model": "RELAY FWD V6-3.5L VIN",
+    "engine": "L",
+    "manual_url": "https://lemon-manuals.la/Saturn/2006/RELAY%20FWD%20V6-3.5L%20VIN%20L/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2006,
+    "model": "RELAY FWD V6-3.9L VIN",
+    "engine": "1",
+    "manual_url": "https://lemon-manuals.la/Saturn/2006/RELAY%20FWD%20V6-3.9L%20VIN%201/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2006,
+    "model": "Relay 3.5 L,",
+    "engine": "AWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2006/Relay%203.5%20L%2C%20AWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2006,
+    "model": "Relay 3.5 L,",
+    "engine": "FWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2006/Relay%203.5%20L%2C%20FWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2006,
+    "model": "Relay 3.9 1,",
+    "engine": "AWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2006/Relay%203.9%201%2C%20AWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2006,
+    "model": "Relay 3.9 1,",
+    "engine": "FWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2006/Relay%203.9%201%2C%20FWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2006,
+    "model": "VUE 2WD L4-2.2L VIN",
+    "engine": "D",
+    "manual_url": "https://lemon-manuals.la/Saturn/2006/VUE%202WD%20L4-2.2L%20VIN%20D/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2006,
+    "model": "VUE 2WD V6-3.5L VIN",
+    "engine": "4",
+    "manual_url": "https://lemon-manuals.la/Saturn/2006/VUE%202WD%20V6-3.5L%20VIN%204/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2006,
+    "model": "VUE AWD L4-2.2L VIN",
+    "engine": "D",
+    "manual_url": "https://lemon-manuals.la/Saturn/2006/VUE%20AWD%20L4-2.2L%20VIN%20D/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2006,
+    "model": "VUE AWD V6-3.5L VIN",
+    "engine": "4",
+    "manual_url": "https://lemon-manuals.la/Saturn/2006/VUE%20AWD%20V6-3.5L%20VIN%204/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2006,
+    "model": "Vue Base, 2.2 D,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2006/Vue%20Base%2C%202.2%20D%2C%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2006,
+    "model": "Vue Base, 2.2 D,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2006/Vue%20Base%2C%202.2%20D%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2006,
+    "model": "Vue Base, 3.5 4,",
+    "engine": "AWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2006/Vue%20Base%2C%203.5%204%2C%20AWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2006,
+    "model": "Vue Base, 3.5 4,",
+    "engine": "FWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2006/Vue%20Base%2C%203.5%204%2C%20FWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2006,
+    "model": "Vue Red Line,",
+    "engine": "AWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2006/Vue%20Red%20Line%2C%20AWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2006,
+    "model": "Vue Red Line,",
+    "engine": "FWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2006/Vue%20Red%20Line%2C%20FWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "Aura",
+    "engine": "V6-3.5L",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/Aura%20V6-3.5L/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "Aura",
+    "engine": "V6-3.6L",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/Aura%20V6-3.6L/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "Aura",
+    "engine": "XE",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/Aura%20XE/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "Aura",
+    "engine": "XR",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/Aura%20XR/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "Aura Green",
+    "engine": "Line",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/Aura%20Green%20Line/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "Aura L4-2.4L",
+    "engine": "Hybrid",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/Aura%20L4-2.4L%20Hybrid/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "ION",
+    "engine": "L4-2.2L",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/ION%20L4-2.2L/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "ION",
+    "engine": "L4-2.4L",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/ION%20L4-2.4L/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "ION L4-2.0L",
+    "engine": "SC",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/ION%20L4-2.0L%20SC/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "Ion 2 4D Coupe,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/Ion%202%204D%20Coupe%2C%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "Ion 2 4D Coupe,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/Ion%202%204D%20Coupe%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "Ion 2 4D Sedan,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/Ion%202%204D%20Sedan%2C%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "Ion 2 4D Sedan,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/Ion%202%204D%20Sedan%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "Ion 3 4D Coupe, 2.2 F,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/Ion%203%204D%20Coupe%2C%202.2%20F%2C%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "Ion 3 4D Coupe, 2.2 F,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/Ion%203%204D%20Coupe%2C%202.2%20F%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "Ion 3 4D Coupe, 2.4 B,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/Ion%203%204D%20Coupe%2C%202.4%20B%2C%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "Ion 3 4D Coupe, 2.4 B,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/Ion%203%204D%20Coupe%2C%202.4%20B%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "Ion 3 4D Sedan, 2.2 F,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/Ion%203%204D%20Sedan%2C%202.2%20F%2C%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "Ion 3 4D Sedan, 2.2 F,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/Ion%203%204D%20Sedan%2C%202.2%20F%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "Ion 3 4D Sedan, 2.4 B,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/Ion%203%204D%20Sedan%2C%202.4%20B%2C%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "Ion 3 4D Sedan, 2.4 B,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/Ion%203%204D%20Sedan%2C%202.4%20B%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "Ion Red",
+    "engine": "Line",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/Ion%20Red%20Line/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "Outlook",
+    "engine": "V6-3.6L",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/Outlook%20V6-3.6L/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "Outlook XE,",
+    "engine": "AWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/Outlook%20XE%2C%20AWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "Outlook XE,",
+    "engine": "FWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/Outlook%20XE%2C%20FWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "Outlook XR,",
+    "engine": "AWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/Outlook%20XR%2C%20AWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "Outlook XR,",
+    "engine": "FWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/Outlook%20XR%2C%20FWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "RELAY AWD",
+    "engine": "V6-3.9L",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/RELAY%20AWD%20V6-3.9L/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "RELAY FWD",
+    "engine": "V6-3.9L",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/RELAY%20FWD%20V6-3.9L/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "Relay 3.9",
+    "engine": "1",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/Relay%203.9%201/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "Relay 3.9",
+    "engine": "W",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/Relay%203.9%20W/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "Sky",
+    "engine": "L4-2.4L",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/Sky%20L4-2.4L/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "Sky Base,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/Sky%20Base%2C%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "Sky Base,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/Sky%20Base%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "Sky L4-2.0L",
+    "engine": "Turbo",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/Sky%20L4-2.0L%20Turbo/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "Sky Red Line,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/Sky%20Red%20Line%2C%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "Sky Red Line,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/Sky%20Red%20Line%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "VUE AWD",
+    "engine": "V6-3.5L",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/VUE%20AWD%20V6-3.5L/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "VUE FWD",
+    "engine": "L4-2.2L",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/VUE%20FWD%20L4-2.2L/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "VUE FWD",
+    "engine": "V6-3.5L",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/VUE%20FWD%20V6-3.5L/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "VUE FWD L4-2.4L",
+    "engine": "Hybrid",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/VUE%20FWD%20L4-2.4L%20Hybrid/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "Vue Base, 2.2 D,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/Vue%20Base%2C%202.2%20D%2C%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "Vue Base, 2.2 D,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/Vue%20Base%2C%202.2%20D%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "Vue Base, 3.5 4,",
+    "engine": "AWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/Vue%20Base%2C%203.5%204%2C%20AWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "Vue Base, 3.5 4,",
+    "engine": "FWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/Vue%20Base%2C%203.5%204%2C%20FWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "Vue Green",
+    "engine": "Line",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/Vue%20Green%20Line/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "Vue Red Line,",
+    "engine": "AWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/Vue%20Red%20Line%2C%20AWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2007,
+    "model": "Vue Red Line,",
+    "engine": "FWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2007/Vue%20Red%20Line%2C%20FWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2008,
+    "model": "Astra",
+    "engine": "L4-1.8L",
+    "manual_url": "https://lemon-manuals.la/Saturn/2008/Astra%20L4-1.8L/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2008,
+    "model": "Astra XE,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2008/Astra%20XE%2C%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2008,
+    "model": "Astra XE,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2008/Astra%20XE%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2008,
+    "model": "Astra XR, 2D Hatchback,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2008/Astra%20XR%2C%202D%20Hatchback%2C%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2008,
+    "model": "Astra XR, 2D Hatchback,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2008/Astra%20XR%2C%202D%20Hatchback%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2008,
+    "model": "Astra XR, 4D Hatchback,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2008/Astra%20XR%2C%204D%20Hatchback%2C%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2008,
+    "model": "Astra XR, 4D Hatchback,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2008/Astra%20XR%2C%204D%20Hatchback%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2008,
+    "model": "Aura",
+    "engine": "L4-2.4L",
+    "manual_url": "https://lemon-manuals.la/Saturn/2008/Aura%20L4-2.4L/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2008,
+    "model": "Aura",
+    "engine": "V6-3.5L",
+    "manual_url": "https://lemon-manuals.la/Saturn/2008/Aura%20V6-3.5L/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2008,
+    "model": "Aura",
+    "engine": "V6-3.6L",
+    "manual_url": "https://lemon-manuals.la/Saturn/2008/Aura%20V6-3.6L/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2008,
+    "model": "Aura",
+    "engine": "XR",
+    "manual_url": "https://lemon-manuals.la/Saturn/2008/Aura%20XR/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2008,
+    "model": "Aura Green",
+    "engine": "Line",
+    "manual_url": "https://lemon-manuals.la/Saturn/2008/Aura%20Green%20Line/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2008,
+    "model": "Aura L4-2.4L",
+    "engine": "Hybrid",
+    "manual_url": "https://lemon-manuals.la/Saturn/2008/Aura%20L4-2.4L%20Hybrid/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2008,
+    "model": "Aura XE, 2.4",
+    "engine": "B",
+    "manual_url": "https://lemon-manuals.la/Saturn/2008/Aura%20XE%2C%202.4%20B/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2008,
+    "model": "Aura XE, 3.5",
+    "engine": "N",
+    "manual_url": "https://lemon-manuals.la/Saturn/2008/Aura%20XE%2C%203.5%20N/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2008,
+    "model": "Outlook AWD",
+    "engine": "V6-3.6L",
+    "manual_url": "https://lemon-manuals.la/Saturn/2008/Outlook%20AWD%20V6-3.6L/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2008,
+    "model": "Outlook FWD",
+    "engine": "V6-3.6L",
+    "manual_url": "https://lemon-manuals.la/Saturn/2008/Outlook%20FWD%20V6-3.6L/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2008,
+    "model": "Outlook XE,",
+    "engine": "AWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2008/Outlook%20XE%2C%20AWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2008,
+    "model": "Outlook XE,",
+    "engine": "FWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2008/Outlook%20XE%2C%20FWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2008,
+    "model": "Outlook XR,",
+    "engine": "AWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2008/Outlook%20XR%2C%20AWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2008,
+    "model": "Outlook XR,",
+    "engine": "FWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2008/Outlook%20XR%2C%20FWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2008,
+    "model": "Sky",
+    "engine": "L4-2.4L",
+    "manual_url": "https://lemon-manuals.la/Saturn/2008/Sky%20L4-2.4L/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2008,
+    "model": "Sky Base,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2008/Sky%20Base%2C%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2008,
+    "model": "Sky Base,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2008/Sky%20Base%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2008,
+    "model": "Sky L4-2.0L",
+    "engine": "Turbo",
+    "manual_url": "https://lemon-manuals.la/Saturn/2008/Sky%20L4-2.0L%20Turbo/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2008,
+    "model": "Sky Red Line,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2008/Sky%20Red%20Line%2C%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2008,
+    "model": "Sky Red Line,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2008/Sky%20Red%20Line%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2008,
+    "model": "VUE AWD",
+    "engine": "V6-3.5L",
+    "manual_url": "https://lemon-manuals.la/Saturn/2008/VUE%20AWD%20V6-3.5L/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2008,
+    "model": "VUE AWD",
+    "engine": "V6-3.6L",
+    "manual_url": "https://lemon-manuals.la/Saturn/2008/VUE%20AWD%20V6-3.6L/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2008,
+    "model": "VUE FWD",
+    "engine": "L4-2.4L",
+    "manual_url": "https://lemon-manuals.la/Saturn/2008/VUE%20FWD%20L4-2.4L/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2008,
+    "model": "VUE FWD",
+    "engine": "V6-3.5L",
+    "manual_url": "https://lemon-manuals.la/Saturn/2008/VUE%20FWD%20V6-3.5L/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2008,
+    "model": "VUE FWD",
+    "engine": "V6-3.6L",
+    "manual_url": "https://lemon-manuals.la/Saturn/2008/VUE%20FWD%20V6-3.6L/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2008,
+    "model": "VUE FWD L4-2.4L",
+    "engine": "Hybrid",
+    "manual_url": "https://lemon-manuals.la/Saturn/2008/VUE%20FWD%20L4-2.4L%20Hybrid/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2008,
+    "model": "Vue Green",
+    "engine": "Line",
+    "manual_url": "https://lemon-manuals.la/Saturn/2008/Vue%20Green%20Line/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2008,
+    "model": "Vue Red Line,",
+    "engine": "AWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2008/Vue%20Red%20Line%2C%20AWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2008,
+    "model": "Vue Red Line,",
+    "engine": "FWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2008/Vue%20Red%20Line%2C%20FWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2008,
+    "model": "Vue XE, 2.4",
+    "engine": "P",
+    "manual_url": "https://lemon-manuals.la/Saturn/2008/Vue%20XE%2C%202.4%20P/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2008,
+    "model": "Vue XE, 3.5",
+    "engine": "N",
+    "manual_url": "https://lemon-manuals.la/Saturn/2008/Vue%20XE%2C%203.5%20N/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2008,
+    "model": "Vue XR,",
+    "engine": "AWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2008/Vue%20XR%2C%20AWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2008,
+    "model": "Vue XR,",
+    "engine": "FWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2008/Vue%20XR%2C%20FWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2009,
+    "model": "Astra",
+    "engine": "L4-1.8L",
+    "manual_url": "https://lemon-manuals.la/Saturn/2009/Astra%20L4-1.8L/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2009,
+    "model": "Astra XE,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2009/Astra%20XE%2C%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2009,
+    "model": "Astra XE,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2009/Astra%20XE%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2009,
+    "model": "Astra XR, 2D Hatchback,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2009/Astra%20XR%2C%202D%20Hatchback%2C%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2009,
+    "model": "Astra XR, 2D Hatchback,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2009/Astra%20XR%2C%202D%20Hatchback%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2009,
+    "model": "Astra XR, 4D Hatchback,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2009/Astra%20XR%2C%204D%20Hatchback%2C%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2009,
+    "model": "Astra XR, 4D Hatchback,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2009/Astra%20XR%2C%204D%20Hatchback%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2009,
+    "model": "Aura",
+    "engine": "L4-2.4L",
+    "manual_url": "https://lemon-manuals.la/Saturn/2009/Aura%20L4-2.4L/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2009,
+    "model": "Aura",
+    "engine": "V6-3.6L",
+    "manual_url": "https://lemon-manuals.la/Saturn/2009/Aura%20V6-3.6L/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2009,
+    "model": "Aura",
+    "engine": "XE",
+    "manual_url": "https://lemon-manuals.la/Saturn/2009/Aura%20XE/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2009,
+    "model": "Aura Green",
+    "engine": "Line",
+    "manual_url": "https://lemon-manuals.la/Saturn/2009/Aura%20Green%20Line/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2009,
+    "model": "Aura L4-2.4L",
+    "engine": "Hybrid",
+    "manual_url": "https://lemon-manuals.la/Saturn/2009/Aura%20L4-2.4L%20Hybrid/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2009,
+    "model": "Aura XR, 2.4",
+    "engine": "B",
+    "manual_url": "https://lemon-manuals.la/Saturn/2009/Aura%20XR%2C%202.4%20B/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2009,
+    "model": "Aura XR, 3.6",
+    "engine": "7",
+    "manual_url": "https://lemon-manuals.la/Saturn/2009/Aura%20XR%2C%203.6%207/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2009,
+    "model": "Outlook AWD",
+    "engine": "V6-3.6L",
+    "manual_url": "https://lemon-manuals.la/Saturn/2009/Outlook%20AWD%20V6-3.6L/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2009,
+    "model": "Outlook FWD",
+    "engine": "V6-3.6L",
+    "manual_url": "https://lemon-manuals.la/Saturn/2009/Outlook%20FWD%20V6-3.6L/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2009,
+    "model": "Outlook XE,",
+    "engine": "AWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2009/Outlook%20XE%2C%20AWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2009,
+    "model": "Outlook XE,",
+    "engine": "FWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2009/Outlook%20XE%2C%20FWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2009,
+    "model": "Outlook XR,",
+    "engine": "AWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2009/Outlook%20XR%2C%20AWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2009,
+    "model": "Outlook XR,",
+    "engine": "FWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2009/Outlook%20XR%2C%20FWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2009,
+    "model": "Sky",
+    "engine": "L4-2.4L",
+    "manual_url": "https://lemon-manuals.la/Saturn/2009/Sky%20L4-2.4L/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2009,
+    "model": "Sky Base,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2009/Sky%20Base%2C%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2009,
+    "model": "Sky Base,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2009/Sky%20Base%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2009,
+    "model": "Sky L4-2.0L",
+    "engine": "Turbo",
+    "manual_url": "https://lemon-manuals.la/Saturn/2009/Sky%20L4-2.0L%20Turbo/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2009,
+    "model": "Sky Red Line,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2009/Sky%20Red%20Line%2C%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2009,
+    "model": "Sky Red Line,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2009/Sky%20Red%20Line%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2009,
+    "model": "VUE AWD",
+    "engine": "V6-3.5L",
+    "manual_url": "https://lemon-manuals.la/Saturn/2009/VUE%20AWD%20V6-3.5L/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2009,
+    "model": "VUE AWD",
+    "engine": "V6-3.6L",
+    "manual_url": "https://lemon-manuals.la/Saturn/2009/VUE%20AWD%20V6-3.6L/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2009,
+    "model": "VUE FWD",
+    "engine": "L4-2.4L",
+    "manual_url": "https://lemon-manuals.la/Saturn/2009/VUE%20FWD%20L4-2.4L/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2009,
+    "model": "VUE FWD",
+    "engine": "V6-3.5L",
+    "manual_url": "https://lemon-manuals.la/Saturn/2009/VUE%20FWD%20V6-3.5L/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2009,
+    "model": "VUE FWD",
+    "engine": "V6-3.6L",
+    "manual_url": "https://lemon-manuals.la/Saturn/2009/VUE%20FWD%20V6-3.6L/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2009,
+    "model": "VUE FWD L4-2.4L",
+    "engine": "Hybrid",
+    "manual_url": "https://lemon-manuals.la/Saturn/2009/VUE%20FWD%20L4-2.4L%20Hybrid/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2009,
+    "model": "VUE FWD V6-3.6L",
+    "engine": "Hybrid",
+    "manual_url": "https://lemon-manuals.la/Saturn/2009/VUE%20FWD%20V6-3.6L%20Hybrid/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2009,
+    "model": "Vue Green Line, 2.4",
+    "engine": "Z",
+    "manual_url": "https://lemon-manuals.la/Saturn/2009/Vue%20Green%20Line%2C%202.4%20Z/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2009,
+    "model": "Vue Green Line, 3.6",
+    "engine": "B",
+    "manual_url": "https://lemon-manuals.la/Saturn/2009/Vue%20Green%20Line%2C%203.6%20B/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2009,
+    "model": "Vue Red Line,",
+    "engine": "AWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2009/Vue%20Red%20Line%2C%20AWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2009,
+    "model": "Vue Red Line,",
+    "engine": "FWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2009/Vue%20Red%20Line%2C%20FWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2009,
+    "model": "Vue XE, 2.4",
+    "engine": "P",
+    "manual_url": "https://lemon-manuals.la/Saturn/2009/Vue%20XE%2C%202.4%20P/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2009,
+    "model": "Vue XE, 3.5",
+    "engine": "N",
+    "manual_url": "https://lemon-manuals.la/Saturn/2009/Vue%20XE%2C%203.5%20N/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2009,
+    "model": "Vue XR, 2.4",
+    "engine": "P",
+    "manual_url": "https://lemon-manuals.la/Saturn/2009/Vue%20XR%2C%202.4%20P/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2009,
+    "model": "Vue XR, 3.6 7,",
+    "engine": "AWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2009/Vue%20XR%2C%203.6%207%2C%20AWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2009,
+    "model": "Vue XR, 3.6 7,",
+    "engine": "FWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2009/Vue%20XR%2C%203.6%207%2C%20FWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2010,
+    "model": "Outlook XE,",
+    "engine": "AWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2010/Outlook%20XE%2C%20AWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2010,
+    "model": "Outlook XE,",
+    "engine": "FWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2010/Outlook%20XE%2C%20FWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2010,
+    "model": "Outlook XR,",
+    "engine": "AWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2010/Outlook%20XR%2C%20AWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2010,
+    "model": "Outlook XR,",
+    "engine": "FWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2010/Outlook%20XR%2C%20FWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2010,
+    "model": "Sky Base,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2010/Sky%20Base%2C%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2010,
+    "model": "Sky Base,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2010/Sky%20Base%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2010,
+    "model": "Sky Red Line,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Saturn/2010/Sky%20Red%20Line%2C%20Automatic/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2010,
+    "model": "Sky Red Line,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Saturn/2010/Sky%20Red%20Line%2C%20Standard/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2010,
+    "model": "Vue XE, 2.4",
+    "engine": "1",
+    "manual_url": "https://lemon-manuals.la/Saturn/2010/Vue%20XE%2C%202.4%201/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2010,
+    "model": "Vue XE, 3.5",
+    "engine": "N",
+    "manual_url": "https://lemon-manuals.la/Saturn/2010/Vue%20XE%2C%203.5%20N/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2010,
+    "model": "Vue XR, 2.4",
+    "engine": "1",
+    "manual_url": "https://lemon-manuals.la/Saturn/2010/Vue%20XR%2C%202.4%201/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2010,
+    "model": "Vue XR, 3.6 7,",
+    "engine": "AWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2010/Vue%20XR%2C%203.6%207%2C%20AWD/"
+  },
+  {
+    "make": "Saturn",
+    "year": 2010,
+    "model": "Vue XR, 3.6 7,",
+    "engine": "FWD",
+    "manual_url": "https://lemon-manuals.la/Saturn/2010/Vue%20XR%2C%203.6%207%2C%20FWD/"
+  }
+]

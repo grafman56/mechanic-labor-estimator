@@ -1,0 +1,891 @@
+[
+  {
+    "make": "MG",
+    "year": 1960,
+    "model": "MGA",
+    "engine": "Base",
+    "manual_url": "https://lemon-manuals.la/MG/1960/MGA%20Base/"
+  },
+  {
+    "make": "MG",
+    "year": 1960,
+    "model": "MGA Twin",
+    "engine": "Cam",
+    "manual_url": "https://lemon-manuals.la/MG/1960/MGA%20Twin%20Cam/"
+  },
+  {
+    "make": "MG",
+    "year": 1961,
+    "model": "MGA",
+    "engine": "Base",
+    "manual_url": "https://lemon-manuals.la/MG/1961/MGA%20Base/"
+  },
+  {
+    "make": "MG",
+    "year": 1961,
+    "model": "MGA Twin",
+    "engine": "Cam",
+    "manual_url": "https://lemon-manuals.la/MG/1961/MGA%20Twin%20Cam/"
+  },
+  {
+    "make": "MG",
+    "year": 1961,
+    "model": "Magnette 1.5L Eng, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1961/Magnette%201.5L%20Eng%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1961,
+    "model": "Magnette 1.5L Eng, Not Available",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1961/Magnette%201.5L%20Eng%2C%20Not%20Available%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1961,
+    "model": "Magnette 1.6L Eng, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1961/Magnette%201.6L%20Eng%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1961,
+    "model": "Magnette 1.6L Eng, Not Available",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1961/Magnette%201.6L%20Eng%2C%20Not%20Available%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1962,
+    "model": "MGB Base, Eng CD",
+    "engine": "18G",
+    "manual_url": "https://lemon-manuals.la/MG/1962/MGB%20Base%2C%20Eng%20CD%2018G/"
+  },
+  {
+    "make": "MG",
+    "year": 1962,
+    "model": "MGB Base, Eng CD",
+    "engine": "18GA",
+    "manual_url": "https://lemon-manuals.la/MG/1962/MGB%20Base%2C%20Eng%20CD%2018GA/"
+  },
+  {
+    "make": "MG",
+    "year": 1962,
+    "model": "MGB GT, Eng CD",
+    "engine": "18G",
+    "manual_url": "https://lemon-manuals.la/MG/1962/MGB%20GT%2C%20Eng%20CD%2018G/"
+  },
+  {
+    "make": "MG",
+    "year": 1962,
+    "model": "MGB GT, Eng CD",
+    "engine": "18GA",
+    "manual_url": "https://lemon-manuals.la/MG/1962/MGB%20GT%2C%20Eng%20CD%2018GA/"
+  },
+  {
+    "make": "MG",
+    "year": 1962,
+    "model": "Magnette 1.5L",
+    "engine": "Eng",
+    "manual_url": "https://lemon-manuals.la/MG/1962/Magnette%201.5L%20Eng/"
+  },
+  {
+    "make": "MG",
+    "year": 1962,
+    "model": "Magnette 1.6L",
+    "engine": "Eng",
+    "manual_url": "https://lemon-manuals.la/MG/1962/Magnette%201.6L%20Eng/"
+  },
+  {
+    "make": "MG",
+    "year": 1962,
+    "model": "Midget 0.9L Eng, Not Available",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1962/Midget%200.9L%20Eng%2C%20Not%20Available%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1962,
+    "model": "Midget 0.9L Eng, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1962/Midget%200.9L%20Eng%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1962,
+    "model": "Midget 1.0L Eng, Not Available",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1962/Midget%201.0L%20Eng%2C%20Not%20Available%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1962,
+    "model": "Midget 1.0L Eng, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1962/Midget%201.0L%20Eng%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1963,
+    "model": "1100 Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1963/1100%20Automatic%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1963,
+    "model": "1100 Not Available",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1963/1100%20Not%20Available%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1963,
+    "model": "MGB Base, Eng CD 18G, Not Available",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1963/MGB%20Base%2C%20Eng%20CD%2018G%2C%20Not%20Available%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1963,
+    "model": "MGB Base, Eng CD 18G, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1963/MGB%20Base%2C%20Eng%20CD%2018G%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1963,
+    "model": "MGB Base, Eng CD 18GA, Not Available",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1963/MGB%20Base%2C%20Eng%20CD%2018GA%2C%20Not%20Available%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1963,
+    "model": "MGB Base, Eng CD 18GA, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1963/MGB%20Base%2C%20Eng%20CD%2018GA%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1963,
+    "model": "MGB GT, Eng CD",
+    "engine": "18G",
+    "manual_url": "https://lemon-manuals.la/MG/1963/MGB%20GT%2C%20Eng%20CD%2018G/"
+  },
+  {
+    "make": "MG",
+    "year": 1963,
+    "model": "MGB GT, Eng CD",
+    "engine": "18GA",
+    "manual_url": "https://lemon-manuals.la/MG/1963/MGB%20GT%2C%20Eng%20CD%2018GA/"
+  },
+  {
+    "make": "MG",
+    "year": 1963,
+    "model": "Midget Eng CD 10CC, Not Available",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1963/Midget%20Eng%20CD%2010CC%2C%20Not%20Available%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1963,
+    "model": "Midget Eng CD 10CC, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1963/Midget%20Eng%20CD%2010CC%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1963,
+    "model": "Midget Eng CD 10CG, Not Available",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1963/Midget%20Eng%20CD%2010CG%2C%20Not%20Available%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1963,
+    "model": "Midget Eng CD 10CG, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1963/Midget%20Eng%20CD%2010CG%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1963,
+    "model": "Midget _NA_, Not Available",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1963/Midget%20_NA_%2C%20Not%20Available%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1963,
+    "model": "Midget _NA_, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1963/Midget%20_NA_%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1964,
+    "model": "1100 Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1964/1100%20Automatic%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1964,
+    "model": "1100 Not Available",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1964/1100%20Not%20Available%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1964,
+    "model": "MGB Base, Eng CD 18G, Not Available",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1964/MGB%20Base%2C%20Eng%20CD%2018G%2C%20Not%20Available%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1964,
+    "model": "MGB Base, Eng CD 18G, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1964/MGB%20Base%2C%20Eng%20CD%2018G%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1964,
+    "model": "MGB Base, Eng CD 18GA, Not Available",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1964/MGB%20Base%2C%20Eng%20CD%2018GA%2C%20Not%20Available%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1964,
+    "model": "MGB Base, Eng CD 18GA, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1964/MGB%20Base%2C%20Eng%20CD%2018GA%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1964,
+    "model": "MGB GT, Eng CD",
+    "engine": "18G",
+    "manual_url": "https://lemon-manuals.la/MG/1964/MGB%20GT%2C%20Eng%20CD%2018G/"
+  },
+  {
+    "make": "MG",
+    "year": 1964,
+    "model": "MGB GT, Eng CD",
+    "engine": "18GA",
+    "manual_url": "https://lemon-manuals.la/MG/1964/MGB%20GT%2C%20Eng%20CD%2018GA/"
+  },
+  {
+    "make": "MG",
+    "year": 1964,
+    "model": "Midget Eng CD 10CC, Not Available",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1964/Midget%20Eng%20CD%2010CC%2C%20Not%20Available%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1964,
+    "model": "Midget Eng CD 10CC, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1964/Midget%20Eng%20CD%2010CC%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1964,
+    "model": "Midget Eng CD 10CG, Not Available",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1964/Midget%20Eng%20CD%2010CG%2C%20Not%20Available%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1964,
+    "model": "Midget Eng CD 10CG, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1964/Midget%20Eng%20CD%2010CG%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1964,
+    "model": "Midget _NA_, Not Available",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1964/Midget%20_NA_%2C%20Not%20Available%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1964,
+    "model": "Midget _NA_, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1964/Midget%20_NA_%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1965,
+    "model": "1100 Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1965/1100%20Automatic%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1965,
+    "model": "1100 Not Available",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1965/1100%20Not%20Available%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1965,
+    "model": "MGB",
+    "engine": "GT",
+    "manual_url": "https://lemon-manuals.la/MG/1965/MGB%20GT/"
+  },
+  {
+    "make": "MG",
+    "year": 1965,
+    "model": "MGB Base, Not Available",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1965/MGB%20Base%2C%20Not%20Available%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1965,
+    "model": "MGB Base, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1965/MGB%20Base%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1965,
+    "model": "Midget Eng CD 10CC, Not Available",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1965/Midget%20Eng%20CD%2010CC%2C%20Not%20Available%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1965,
+    "model": "Midget Eng CD 10CC, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1965/Midget%20Eng%20CD%2010CC%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1965,
+    "model": "Midget _NA_, Not Available",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1965/Midget%20_NA_%2C%20Not%20Available%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1965,
+    "model": "Midget _NA_, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1965/Midget%20_NA_%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1966,
+    "model": "1100 Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1966/1100%20Automatic%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1966,
+    "model": "1100 Not Available",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1966/1100%20Not%20Available%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1966,
+    "model": "MGB",
+    "engine": "GT",
+    "manual_url": "https://lemon-manuals.la/MG/1966/MGB%20GT/"
+  },
+  {
+    "make": "MG",
+    "year": 1966,
+    "model": "MGB Base, Not Available",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1966/MGB%20Base%2C%20Not%20Available%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1966,
+    "model": "MGB Base, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1966/MGB%20Base%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1966,
+    "model": "Midget Eng CD 10CC, Not Available",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1966/Midget%20Eng%20CD%2010CC%2C%20Not%20Available%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1966,
+    "model": "Midget Eng CD 10CC, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1966/Midget%20Eng%20CD%2010CC%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1966,
+    "model": "Midget _NA_, Not Available",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1966/Midget%20_NA_%2C%20Not%20Available%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1966,
+    "model": "Midget _NA_, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1966/Midget%20_NA_%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1967,
+    "model": "1100 Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1967/1100%20Automatic%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1967,
+    "model": "1100 Not Available",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1967/1100%20Not%20Available%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1967,
+    "model": "MGB",
+    "engine": "GT",
+    "manual_url": "https://lemon-manuals.la/MG/1967/MGB%20GT/"
+  },
+  {
+    "make": "MG",
+    "year": 1967,
+    "model": "MGB Base, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1967/MGB%20Base%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1967,
+    "model": "MGB Base, Not Available",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1967/MGB%20Base%2C%20Not%20Available%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1967,
+    "model": "MGB Base, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1967/MGB%20Base%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1967,
+    "model": "Midget Eng CD 12CC, Not Available",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1967/Midget%20Eng%20CD%2012CC%2C%20Not%20Available%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1967,
+    "model": "Midget Eng CD 12CC, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1967/Midget%20Eng%20CD%2012CC%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1967,
+    "model": "Midget Eng CD 12CE, Not Available",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1967/Midget%20Eng%20CD%2012CE%2C%20Not%20Available%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1967,
+    "model": "Midget Eng CD 12CE, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1967/Midget%20Eng%20CD%2012CE%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1968,
+    "model": "1300 Eng CD",
+    "engine": "12CD",
+    "manual_url": "https://lemon-manuals.la/MG/1968/1300%20Eng%20CD%2012CD/"
+  },
+  {
+    "make": "MG",
+    "year": 1968,
+    "model": "1300 Eng CD",
+    "engine": "12G",
+    "manual_url": "https://lemon-manuals.la/MG/1968/1300%20Eng%20CD%2012G/"
+  },
+  {
+    "make": "MG",
+    "year": 1968,
+    "model": "1300 Eng CD",
+    "engine": "12H",
+    "manual_url": "https://lemon-manuals.la/MG/1968/1300%20Eng%20CD%2012H/"
+  },
+  {
+    "make": "MG",
+    "year": 1968,
+    "model": "MGB",
+    "engine": "GT",
+    "manual_url": "https://lemon-manuals.la/MG/1968/MGB%20GT/"
+  },
+  {
+    "make": "MG",
+    "year": 1968,
+    "model": "MGB Base, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1968/MGB%20Base%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1968,
+    "model": "MGB Base, Not Available",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1968/MGB%20Base%2C%20Not%20Available%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1968,
+    "model": "MGB Base, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1968/MGB%20Base%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1968,
+    "model": "Midget Not Available",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1968/Midget%20Not%20Available%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1968,
+    "model": "Midget Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1968/Midget%20Standard%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1969,
+    "model": "1300 Eng CD",
+    "engine": "12CD",
+    "manual_url": "https://lemon-manuals.la/MG/1969/1300%20Eng%20CD%2012CD/"
+  },
+  {
+    "make": "MG",
+    "year": 1969,
+    "model": "1300 Eng CD",
+    "engine": "12G",
+    "manual_url": "https://lemon-manuals.la/MG/1969/1300%20Eng%20CD%2012G/"
+  },
+  {
+    "make": "MG",
+    "year": 1969,
+    "model": "1300 Eng CD",
+    "engine": "12H",
+    "manual_url": "https://lemon-manuals.la/MG/1969/1300%20Eng%20CD%2012H/"
+  },
+  {
+    "make": "MG",
+    "year": 1969,
+    "model": "MGB",
+    "engine": "GT",
+    "manual_url": "https://lemon-manuals.la/MG/1969/MGB%20GT/"
+  },
+  {
+    "make": "MG",
+    "year": 1969,
+    "model": "MGB Base, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1969/MGB%20Base%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1969,
+    "model": "MGB Base, Not Available",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1969/MGB%20Base%2C%20Not%20Available%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1969,
+    "model": "MGB Base, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1969/MGB%20Base%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1969,
+    "model": "Midget Not Available",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1969/Midget%20Not%20Available%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1969,
+    "model": "Midget Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1969/Midget%20Standard%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1970,
+    "model": "MGB Base, Eng CD 18GH, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1970/MGB%20Base%2C%20Eng%20CD%2018GH%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1970,
+    "model": "MGB Base, Eng CD 18GH, Not Available",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1970/MGB%20Base%2C%20Eng%20CD%2018GH%2C%20Not%20Available%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1970,
+    "model": "MGB Base, Eng CD 18GH, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1970/MGB%20Base%2C%20Eng%20CD%2018GH%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1970,
+    "model": "MGB Base, Eng CD 18GJ, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1970/MGB%20Base%2C%20Eng%20CD%2018GJ%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1970,
+    "model": "MGB Base, Eng CD 18GJ, Not Available",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1970/MGB%20Base%2C%20Eng%20CD%2018GJ%2C%20Not%20Available%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1970,
+    "model": "MGB Base, Eng CD 18GJ, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1970/MGB%20Base%2C%20Eng%20CD%2018GJ%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1970,
+    "model": "MGB GT, Eng CD",
+    "engine": "18GH",
+    "manual_url": "https://lemon-manuals.la/MG/1970/MGB%20GT%2C%20Eng%20CD%2018GH/"
+  },
+  {
+    "make": "MG",
+    "year": 1970,
+    "model": "MGB GT, Eng CD",
+    "engine": "18GJ",
+    "manual_url": "https://lemon-manuals.la/MG/1970/MGB%20GT%2C%20Eng%20CD%2018GJ/"
+  },
+  {
+    "make": "MG",
+    "year": 1970,
+    "model": "Midget Not Available",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1970/Midget%20Not%20Available%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1970,
+    "model": "Midget Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1970/Midget%20Standard%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1971,
+    "model": "MGB",
+    "engine": "GT",
+    "manual_url": "https://lemon-manuals.la/MG/1971/MGB%20GT/"
+  },
+  {
+    "make": "MG",
+    "year": 1971,
+    "model": "MGB Base, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1971/MGB%20Base%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1971,
+    "model": "MGB Base, Not Available",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1971/MGB%20Base%2C%20Not%20Available%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1971,
+    "model": "MGB Base, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1971/MGB%20Base%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1971,
+    "model": "Midget Not Available",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1971/Midget%20Not%20Available%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1971,
+    "model": "Midget Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1971/Midget%20Standard%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1972,
+    "model": "MGB",
+    "engine": "GT",
+    "manual_url": "https://lemon-manuals.la/MG/1972/MGB%20GT/"
+  },
+  {
+    "make": "MG",
+    "year": 1972,
+    "model": "MGB Base, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1972/MGB%20Base%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1972,
+    "model": "MGB Base, Not Available",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1972/MGB%20Base%2C%20Not%20Available%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1972,
+    "model": "MGB Base, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1972/MGB%20Base%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1972,
+    "model": "Midget Not Available",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1972/Midget%20Not%20Available%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1972,
+    "model": "Midget Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1972/Midget%20Standard%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1973,
+    "model": "MGB",
+    "engine": "GT",
+    "manual_url": "https://lemon-manuals.la/MG/1973/MGB%20GT/"
+  },
+  {
+    "make": "MG",
+    "year": 1973,
+    "model": "MGB Base, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1973/MGB%20Base%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1973,
+    "model": "MGB Base, Not Available",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1973/MGB%20Base%2C%20Not%20Available%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1973,
+    "model": "MGB Base, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1973/MGB%20Base%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1973,
+    "model": "Midget Not Available",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1973/Midget%20Not%20Available%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1973,
+    "model": "Midget Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/MG/1973/Midget%20Standard%20Trans/"
+  },
+  {
+    "make": "MG",
+    "year": 1974,
+    "model": "MGB",
+    "engine": "GT",
+    "manual_url": "https://lemon-manuals.la/MG/1974/MGB%20GT/"
+  },
+  {
+    "make": "MG",
+    "year": 1974,
+    "model": "MGB Base, 1.8L Eng VIN",
+    "engine": "H",
+    "manual_url": "https://lemon-manuals.la/MG/1974/MGB%20Base%2C%201.8L%20Eng%20VIN%20H/"
+  },
+  {
+    "make": "MG",
+    "year": 1974,
+    "model": "MGB Base, 3.5L",
+    "engine": "Eng",
+    "manual_url": "https://lemon-manuals.la/MG/1974/MGB%20Base%2C%203.5L%20Eng/"
+  },
+  {
+    "make": "MG",
+    "year": 1975,
+    "model": "MGB 1.8L Eng VIN",
+    "engine": "H",
+    "manual_url": "https://lemon-manuals.la/MG/1975/MGB%201.8L%20Eng%20VIN%20H/"
+  },
+  {
+    "make": "MG",
+    "year": 1975,
+    "model": "MGB 3.5L",
+    "engine": "Eng",
+    "manual_url": "https://lemon-manuals.la/MG/1975/MGB%203.5L%20Eng/"
+  },
+  {
+    "make": "MG",
+    "year": 1976,
+    "model": "MGB 1.8L Eng VIN",
+    "engine": "H",
+    "manual_url": "https://lemon-manuals.la/MG/1976/MGB%201.8L%20Eng%20VIN%20H/"
+  },
+  {
+    "make": "MG",
+    "year": 1976,
+    "model": "MGB 3.5L",
+    "engine": "Eng",
+    "manual_url": "https://lemon-manuals.la/MG/1976/MGB%203.5L%20Eng/"
+  }
+]
