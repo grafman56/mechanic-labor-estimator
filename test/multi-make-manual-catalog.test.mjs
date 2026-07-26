@@ -11,6 +11,7 @@ const verifiedCatalogs = {
   ford: [{ make: 'Ford', year: 2012, model: 'Fusion FWD', engine: 'L4-2.5L', manual_url: 'https://lemon-manuals.la/Ford/2012/Fusion%20FWD%20L4-2.5L/' }],
   chevrolet: [{ make: 'Chevrolet', year: 2012, model: 'Malibu', engine: 'L4-2.4L', manual_url: 'https://lemon-manuals.la/Chevrolet/2012/Malibu%20L4-2.4L/' }],
   hyundai: [{ make: 'Hyundai', year: 2012, model: 'Sonata', engine: 'L4-2.4L', manual_url: 'https://lemon-manuals.la/Hyundai/2012/Sonata%20L4-2.4L/' }],
+  kia: [{ make: 'Kia', year: 2012, model: 'Optima', engine: 'L4-2.4L', manual_url: 'https://lemon-manuals.la/Kia/2012/Optima%20L4-2.4L/' }],
 };
 
 for (const [fileMake, expectedCatalog] of Object.entries(verifiedCatalogs)) {
