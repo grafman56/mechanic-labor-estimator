@@ -5,5 +5,12 @@
     "model": "Fusion FWD",
     "engine": "L4-2.5L",
     "manual_url": "https://lemon-manuals.la/Ford/2012/Fusion%20FWD%20L4-2.5L/"
+  },
+  {
+    "make": "Ford",
+    "year": 2012,
+    "model": "Focus",
+    "engine": "L4-2.0L",
+    "manual_url": "https://lemon-manuals.la/Ford/2012/Focus%20L4-2.0L/"
   }
 ]
