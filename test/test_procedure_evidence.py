@@ -33,7 +33,9 @@ class ProcedureEvidenceTests(unittest.TestCase):
         source_url = f'{manual_url}Repair%20and%20Diagnosis/Engine%2C%20Cooling%20and%20Exhaust/Engine/Cylinder%20Head%20Assembly/Valve%20Cover/Service%20and%20Repair/Cylinder%20Head%20Cover%20Installation/'
         pages = {
             f'{manual_url}Parts%20and%20Labor/': '<a href="Engine%2C%20Cooling%20and%20Exhaust/Engine/Valve%20Cover%20Gasket/">Valve Cover Gasket</a>',
-            source_url: '<p>Visually check the spark plug seals for damage. Replace if necessary.</p>',
+            source_url: '''<p>Visually check the spark plug seals for damage. Replace if necessary.</p>
+              <p>Install the six ignition coils.</p>
+              <p>Install the intake manifold.</p>''',
         }
         self.assertEqual(lookup_job_procedure_evidence(manual_url, 'valve-cover-gasket', pages.__getitem__, source_operation_url=operation_url), {
             'status': 'available',
@@ -43,6 +45,10 @@ class ProcedureEvidenceTests(unittest.TestCase):
                 'reason': 'Visually check the spark plug seals for damage. Replace if necessary.',
                 'source_url': source_url,
             }],
+            'context_steps': [
+                {'reason': 'Install the six ignition coils.', 'source_url': source_url},
+                {'reason': 'Install the intake manifold.', 'source_url': source_url},
+            ],
         })
 
     def test_refuses_procedure_evidence_for_an_unselected_or_unknown_operation(self):

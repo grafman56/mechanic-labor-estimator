@@ -7,8 +7,8 @@ const headings = {
 export function procedureContextGroup(result) {
   if (result?.status !== 'available' || !result.context_steps?.length) return null;
   return {
-    heading: 'Procedure context',
-    note: 'Informational procedure steps only. They do not add labor, parts, or a package recommendation.',
+    heading: 'Source procedure context',
+    note: 'Informational procedure steps only. A removal or reinstallation does not establish replacement parts, additional labor, or a package recommendation.',
     items: result.context_steps.map(({ reason, source_url }) => ({ reason, source_url })),
   };
 }

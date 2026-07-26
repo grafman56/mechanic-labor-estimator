@@ -24,6 +24,10 @@ PROCEDURE_INSTALLATION_PATHS = {
     ),
 }
 PROCEDURE_CONTEXT_SENTENCES = {
+    (MDX_2006_V6_MANUAL_URL, 'valve-cover-gasket', MDX_2006_V6_VALVE_COVER_OPERATION_URL): (
+        'Install the six ignition coils.',
+        'Install the intake manifold.',
+    ),
     (MDX_2006_V6_MANUAL_URL, 'water-pump', MDX_2006_V6_WATER_PUMP_OPERATION_URL): (
         'Drain the engine coolant.',
         'Remove the timing belt.',
