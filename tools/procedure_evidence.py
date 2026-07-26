@@ -23,15 +23,16 @@ PROCEDURE_INSTALLATION_PATHS = {
         'Service%20and%20Repair/Water%20Pump%20Replacement/'
     ),
 }
-PROCEDURE_CONTEXT_SENTENCES = {
+PROCEDURE_CONTEXT_KEYWORDS = {
     (MDX_2006_V6_MANUAL_URL, 'valve-cover-gasket', MDX_2006_V6_VALVE_COVER_OPERATION_URL): (
-        'Install the six ignition coils.',
-        'Install the intake manifold.',
+        ('install', 'six ignition coils'),
+        ('install', 'intake manifold'),
     ),
     (MDX_2006_V6_MANUAL_URL, 'water-pump', MDX_2006_V6_WATER_PUMP_OPERATION_URL): (
-        'Drain the engine coolant.',
-        'Remove the timing belt.',
-        'Remove the timing belt adjuster.',
+        ('drain', 'engine coolant'),
+        ('remove', 'timing belt'),
+        ('remove', 'timing belt adjuster'),
+        ('remove', 'water pump'),
     ),
 }
 
@@ -78,15 +79,17 @@ def extract_procedure_evidence(source_url, fetch_html):
     return items
 
 
-def extract_procedure_context(source_url, fetch_html, allowed_sentences):
+def extract_keyword_context(source_url, fetch_html, keyword_rules):
     parser = _TextParser()
     parser.feed(fetch_html(source_url))
     text = re.sub(r'\s+([.,])', r'\1', ' '.join(' '.join(parser.parts).split()))
-    return [
-        {'reason': sentence, 'source_url': source_url}
-        for sentence in allowed_sentences
-        if sentence in text
-    ]
+    sentences = [sentence for sentence in re.split(r'(?<=[.!?])\s+', text) if sentence]
+    items = []
+    for keywords in keyword_rules:
+        match = next((sentence for sentence in sentences if all(keyword.casefold() in sentence.casefold() for keyword in keywords)), None)
+        if match:
+            items.append({'reason': match, 'source_url': source_url})
+    return items
 
 
 def lookup_job_procedure_evidence(manual_url, job_id, fetch_html, source_operation_url=None):
@@ -104,10 +107,10 @@ def lookup_job_procedure_evidence(manual_url, job_id, fetch_html, source_operati
     source_url = urljoin(safe_url, relative_path)
     try:
         items = extract_procedure_evidence(source_url, fetch_html)
-        context_steps = extract_procedure_context(
+        context_steps = extract_keyword_context(
             source_url,
             fetch_html,
-            PROCEDURE_CONTEXT_SENTENCES.get((safe_url, job_id, source_operation_url), ()),
+            PROCEDURE_CONTEXT_KEYWORDS.get((safe_url, job_id, source_operation_url), ()),
         )
     except OSError:
         return {'status': 'unavailable', 'reason': 'Procedure source page is unavailable.'}

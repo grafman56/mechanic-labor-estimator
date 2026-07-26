@@ -24,7 +24,7 @@ test('keeps procedure context separate from parts or labor evidence', () => {
     { reason: 'Remove the timing belt.', source_url: 'https://example.test/water-pump' },
   ] }), {
     heading: 'Source procedure context',
-    note: 'Informational procedure steps only. A removal or reinstallation does not establish replacement parts, additional labor, or a package recommendation.',
+    note: 'Informational procedure steps only. A removal or reinstallation, including a named component or fastener, does not establish replacement parts, additional labor, or a package recommendation.',
     items: [
       { reason: 'Drain the engine coolant.', source_url: 'https://example.test/water-pump' },
       { reason: 'Remove the timing belt.', source_url: 'https://example.test/water-pump' },

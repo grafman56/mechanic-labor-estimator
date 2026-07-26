@@ -1,9 +1,20 @@
 import unittest
 
-from tools.procedure_evidence import extract_procedure_evidence, lookup_job_procedure_evidence
+from tools.procedure_evidence import extract_keyword_context, extract_procedure_evidence, lookup_job_procedure_evidence
 
 
 class ProcedureEvidenceTests(unittest.TestCase):
+    def test_extracts_only_complete_sentences_matching_all_context_keywords(self):
+        source_url = 'https://lemon-manuals.la/example/water-pump/'
+        pages = {
+            source_url: '''<p>Remove the water pump (A) by removing the five bolts .</p>
+              <p>Remove the timing belt.</p>
+              <p>Install the water pump with a new O-ring.</p>''',
+        }
+        self.assertEqual(extract_keyword_context(source_url, pages.__getitem__, (('remove', 'water pump'),)), [
+            {'reason': 'Remove the water pump (A) by removing the five bolts.', 'source_url': source_url},
+        ])
+
     def test_classifies_only_explicit_inspection_and_replace_if_needed_language(self):
         source_url = 'https://lemon-manuals.la/Acura/2006/MDX%20V6-3.5L/Repair%20and%20Diagnosis/Valve%20Cover/Installation/'
         pages = {
@@ -74,6 +85,7 @@ class ProcedureEvidenceTests(unittest.TestCase):
             source_url: '''<p>Drain the engine coolant.</p>
               <p>Remove the timing belt .</p>
               <p>Remove the timing belt adjuster.</p>
+              <p>Remove the water pump (A) by removing the five bolts.</p>
               <p>Install the water pump with a new O-ring (B) in the reverse order of removal.</p>
               <p>Install the intake manifold.</p>''',
         }
@@ -89,6 +101,7 @@ class ProcedureEvidenceTests(unittest.TestCase):
                 {'reason': 'Drain the engine coolant.', 'source_url': source_url},
                 {'reason': 'Remove the timing belt.', 'source_url': source_url},
                 {'reason': 'Remove the timing belt adjuster.', 'source_url': source_url},
+                {'reason': 'Remove the water pump (A) by removing the five bolts.', 'source_url': source_url},
             ],
         })
 
