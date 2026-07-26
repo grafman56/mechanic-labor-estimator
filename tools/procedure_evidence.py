@@ -34,6 +34,7 @@ PROCEDURE_CONTEXT_PATHS = {
 PROCEDURE_CONTEXT_KEYWORDS = {
     (MDX_2006_V6_MANUAL_URL, 'valve-cover-gasket', MDX_2006_V6_VALVE_COVER_OPERATION_URL): (
         ('remove', 'intake manifold'),
+        ('remove', 'six ignition coils'),
         ('install', 'six ignition coils'),
         ('install', 'intake manifold'),
     ),

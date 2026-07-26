@@ -14,6 +14,24 @@ export function procedureContextGroup(result) {
   };
 }
 
+export function jobAwarenessGroup(result) {
+  const evidenceGroups = procedureEvidenceGroups(result);
+  const context = procedureContextGroup(result);
+  const evidenceCount = evidenceGroups.reduce((count, group) => count + group.items.length, 0);
+  const contextCount = context?.items.length ?? 0;
+  if (!evidenceCount && !contextCount) return null;
+  const summaryParts = [
+    evidenceCount ? `${evidenceCount} procedure note${evidenceCount === 1 ? '' : 's'}` : '',
+    contextCount ? `${contextCount} source procedure step${contextCount === 1 ? '' : 's'}` : '',
+  ].filter(Boolean);
+  return {
+    heading: 'Source-backed job awareness',
+    summary: `${summaryParts.join(', ')}${context ? `: ${context.items[0].reason}` : ''}`,
+    evidenceGroups,
+    context,
+  };
+}
+
 export function procedureEvidenceGroups(result) {
   if (result?.status !== 'available') return [];
   return Object.entries(headings)

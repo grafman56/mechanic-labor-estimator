@@ -9,16 +9,17 @@ A local, vehicle-specific labor-planning pilot. It does not provide generic esti
 - Live source labor supports these Tier 1 job IDs when the selected manual exposes an exact published `Replace` row: front struts; rear struts/shocks; alternator; starter motor; radiator; wheel bearing/hub; serpentine belt; spark plugs; oil and filter service; engine air filter; cabin air filter; valve-cover gasket; timing belt; and water pump.
 - Same-named source operations can require a manual operation-path selection. The tool never selects between conflicting paths automatically.
 - Procedure evidence is currently verified only for these exact 2006 MDX V6-3.5L manual operations:
-  - valve-cover gasket: spark plug seals (`replace-if-removed`) and cover washer (C) (`inspect`), plus informational source context that the matched removal procedure removes the intake manifold and the matched installation procedure installs the six ignition coils and intake manifold. The checked valve-cover procedure pages do not explicitly require a new intake-manifold gasket, so this is not a gasket, parts, or added-labor recommendation.
+  - valve-cover gasket: spark plug seals (`replace-if-removed`) and cover washer (C) (`inspect`), plus informational source context that the matched removal procedure removes the intake manifold and six ignition coils, and the matched installation procedure installs the six ignition coils and intake manifold. The checked valve-cover procedure pages do not explicitly require a new intake-manifold gasket, so this is not a gasket, parts, or added-labor recommendation.
   - engine-path water pump: new O-ring (B) (`required`) plus informational context that the selected procedure drains engine coolant, removes the timing belt and timing-belt adjuster, and removes the water pump by five bolts. These steps do not establish replacement coolant, belt, adjuster, pump, or bolts, and do not add labor or a timing-service package.
 - Any job/manual/operation without exact source support remains unavailable; there is no generic labor, parts, or access fallback.
+- When procedure evidence or context exists, the result renders as one expandable **Source-backed job awareness** section. Its closed summary retains the count and first exact source step; its expanded body keeps evidence classifications and context separate.
 
 | Job family | Live labor behavior | Procedure evidence status |
 | --- | --- | --- |
 | Front/rear struts or shocks; wheel bearing/hub | Exact published rows; generic side wording stays generic | Labor only |
 | Alternator; starter; radiator; serpentine belt; spark plugs | Exact published `Replace` row when available | Labor only |
 | Engine air filter; cabin air filter | Exact published `Replace` row when available | Labor only |
-| Valve-cover gasket | Exact published bank/side wording | Verified for the MDX operation listed above: explicit seal/washer evidence plus intake-manifold removal/reinstallation context only. The checked procedure pages do not establish a new intake-manifold gasket or added labor. |
+| Valve-cover gasket | Exact published bank/side wording | Verified for the MDX operation listed above: explicit seal/washer evidence plus intake-manifold and ignition-coil removal/reinstallation context only. The checked procedure pages do not establish a new intake-manifold gasket or added labor. |
 | Timing belt | Exact published `Replace` row; no water-pump labor is silently added | Labor only |
 | Water pump | Exact operation path and published row required when paths conflict | Verified only for the MDX engine-path operation listed above: O-ring evidence plus informational procedure context, not added timing-belt labor |
 
@@ -55,7 +56,7 @@ Upload `index.html`, `app.js`, `styles.css`, and the `src/` and `data/` director
 
 `tools/lemon_catalog.py` crawls only LEMON's public navigation pages (make → year → model/engine); it does not fetch procedure pages or download manual archives. Its default delay is one second between year pages. The generated catalog means `manual available`, not `verified estimate available`.
 
-The selector combines `data/lemon-acura-catalog.json` (869 Acura year/model/engine entries) with small, separately tested factory-default records for BMW, Honda, Toyota, Ford, and Chevrolet. The currently reviewed cross-make records are: 2006 BMW 325Ci Convertible (E46) L6-2.5L (M54); 2006 Honda Accord L4-2.4L; 2010 Toyota Camry L4-2.5L (2AR-FE); 2012 Ford Fusion FWD L4-2.5L; and 2012 Chevrolet Malibu L4-2.4L. Each of the four newly added manuals had a live Parts and Labor page and an exact published alternator `Replace` row when checked on 2026-07-26. A catalog record means `manual available`, not broad estimate or procedure-evidence coverage. Rebuild the Acura catalog with:
+The selector combines `data/lemon-acura-catalog.json` (869 Acura year/model/engine entries) with small, separately tested factory-default records for BMW, Honda, Toyota, Ford, Chevrolet, and Hyundai. The currently reviewed cross-make records are: 2006 BMW 325Ci Convertible (E46) L6-2.5L (M54); 2006 Honda Accord L4-2.4L; 2008 Honda Civic L4-1.8L; 2010 Toyota Camry L4-2.5L (2AR-FE); 2012 Ford Fusion FWD L4-2.5L; 2012 Chevrolet Malibu L4-2.4L; and 2012 Hyundai Sonata L4-2.4L. The Civic and Sonata each had a live Parts and Labor page and an exact published alternator `Replace` row when checked on 2026-07-26: `0.8` and `1.2` standard hours respectively. A catalog record means `manual available`, not broad estimate or procedure-evidence coverage. Rebuild the Acura catalog with:
 
 ```sh
 python3 -c "from tools.lemon_catalog import crawl_make, write_catalog; write_catalog(crawl_make('Acura'), 'data/lemon-acura-catalog.json')"

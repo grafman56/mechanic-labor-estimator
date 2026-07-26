@@ -5,6 +5,7 @@ const catalogPaths = [
   './data/lemon-toyota-catalog.json',
   './data/lemon-ford-catalog.json',
   './data/lemon-chevrolet-catalog.json',
+  './data/lemon-hyundai-catalog.json',
 ];
 
 export async function loadManualCatalog(fetchJson) {

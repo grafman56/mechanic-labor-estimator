@@ -16,9 +16,10 @@ test('combines the supported make catalogs for manual selection', async () => {
     './data/lemon-toyota-catalog.json',
     './data/lemon-ford-catalog.json',
     './data/lemon-chevrolet-catalog.json',
+    './data/lemon-hyundai-catalog.json',
   ]);
   assert.deepEqual(catalog, [
     { make: 'acura' }, { make: 'bmw' }, { make: 'honda' },
-    { make: 'toyota' }, { make: 'ford' }, { make: 'chevrolet' },
+    { make: 'toyota' }, { make: 'ford' }, { make: 'chevrolet' }, { make: 'hyundai' },
   ]);
 });
