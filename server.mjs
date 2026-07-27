@@ -6,6 +6,7 @@ import { fileURLToPath } from 'node:url';
 import { authorizeBasic, hostedAuthConfig } from './src/server/auth.mjs';
 import { FixedWindowRateLimiter, rateLimitConfig } from './src/server/rate-limit.mjs';
 import { decodeVinAndFindManuals } from './src/server/vin-lookup.mjs';
+import { manualMetadata } from './src/server/manual-lookup.mjs';
 
 const root = resolve(fileURLToPath(new URL('.', import.meta.url)));
 const port = Number.parseInt(process.env.PORT ?? '8099', 10);
@@ -61,6 +62,14 @@ const server = createServer(async (request, response) => {
     if (apiUrl.pathname === '/api/vin-manuals') {
       try {
         sendJson(response, 200, await decodeVinAndFindManuals(apiUrl.searchParams.get('vin')));
+      } catch (error) {
+        sendJson(response, 400, { error: error.message });
+      }
+      return;
+    }
+    if (apiUrl.pathname === '/api/manual-metadata') {
+      try {
+        sendJson(response, 200, await manualMetadata(apiUrl.searchParams.get('url')));
       } catch (error) {
         sendJson(response, 400, { error: error.message });
       }
