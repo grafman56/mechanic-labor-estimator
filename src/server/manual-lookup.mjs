@@ -39,3 +39,14 @@ export async function manualMetadata(value, { requestText = defaultRequestText }
   if (!manualUrl) throw new Error('Unsupported manual URL');
   return { source_url: manualUrl, title: extractTitle(await requestText(manualUrl)) };
 }
+
+export async function manualAvailability(value, { requestText = defaultRequestText } = {}) {
+  const manualUrl = validateManualUrl(value);
+  if (!manualUrl) throw new Error('Unsupported manual URL');
+  try {
+    await requestText(new URL('Parts%20and%20Labor/', manualUrl).href);
+    return true;
+  } catch {
+    return false;
+  }
+}

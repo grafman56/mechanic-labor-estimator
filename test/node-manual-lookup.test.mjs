@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { manualMetadata, validateManualUrl } from '../src/server/manual-lookup.mjs';
+import { manualAvailability, manualMetadata, validateManualUrl } from '../src/server/manual-lookup.mjs';
 
 const manualUrl = 'https://lemon-manuals.la/Acura/2006/MDX%20V6-3.5L/';
 
@@ -38,4 +38,17 @@ test('rejects an invalid manual URL before a source request', async () => {
     /Unsupported manual URL/,
   );
   assert.equal(requests, 0);
+});
+
+test('checks only the selected manual Parts and Labor page for availability', async () => {
+  const available = await manualAvailability(manualUrl, {
+    requestText: async (url) => {
+      assert.equal(url, `${manualUrl}Parts%20and%20Labor/`);
+      return '<title>Parts and Labor</title>';
+    },
+  });
+  assert.equal(available, true);
+
+  const unavailable = await manualAvailability(manualUrl, { requestText: async () => { throw new Error('not found'); } });
+  assert.equal(unavailable, false);
 });

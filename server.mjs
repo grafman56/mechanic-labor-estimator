@@ -6,13 +6,15 @@ import { fileURLToPath } from 'node:url';
 import { authorizeBasic, hostedAuthConfig } from './src/server/auth.mjs';
 import { FixedWindowRateLimiter, rateLimitConfig } from './src/server/rate-limit.mjs';
 import { decodeVinAndFindManuals } from './src/server/vin-lookup.mjs';
-import { manualMetadata } from './src/server/manual-lookup.mjs';
+import { ManualAvailabilityCache } from './src/server/manual-availability-cache.mjs';
+import { manualAvailability, manualMetadata, validateManualUrl } from './src/server/manual-lookup.mjs';
 
 const root = resolve(fileURLToPath(new URL('.', import.meta.url)));
 const port = Number.parseInt(process.env.PORT ?? '8099', 10);
 const host = process.env.HOST ?? '0.0.0.0';
 const authConfig = hostedAuthConfig(process.env, host === '127.0.0.1' || host === '::1');
 const rateLimiter = new FixedWindowRateLimiter(rateLimitConfig(process.env));
+const manualAvailabilityCache = new ManualAvailabilityCache();
 const mimeTypes = new Map([
   ['.css', 'text/css; charset=utf-8'],
   ['.html', 'text/html; charset=utf-8'],
@@ -70,6 +72,16 @@ const server = createServer(async (request, response) => {
     if (apiUrl.pathname === '/api/manual-metadata') {
       try {
         sendJson(response, 200, await manualMetadata(apiUrl.searchParams.get('url')));
+      } catch (error) {
+        sendJson(response, 400, { error: error.message });
+      }
+      return;
+    }
+    if (apiUrl.pathname === '/api/manual-availability') {
+      try {
+        const manualUrl = validateManualUrl(apiUrl.searchParams.get('url'));
+        if (!manualUrl) throw new Error('Unsupported manual URL');
+        sendJson(response, 200, await manualAvailabilityCache.lookup(manualUrl, manualAvailability));
       } catch (error) {
         sendJson(response, 400, { error: error.message });
       }
