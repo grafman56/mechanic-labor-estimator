@@ -89,6 +89,17 @@ def extract_procedure_evidence(source_url, fetch_html):
     return items
 
 
+def _context_kind(keywords):
+    keyword_set = {keyword.casefold() for keyword in keywords}
+    if 'remove' in keyword_set:
+        return 'removal-access'
+    if 'install' in keyword_set:
+        return 'reinstallation'
+    if 'drain' in keyword_set:
+        return 'drain-handling'
+    return 'other'
+
+
 def extract_keyword_context(source_url, fetch_html, keyword_rules):
     parser = _TextParser()
     parser.feed(fetch_html(source_url))
@@ -98,7 +109,7 @@ def extract_keyword_context(source_url, fetch_html, keyword_rules):
     for keywords in keyword_rules:
         match = next((sentence for sentence in sentences if all(keyword.casefold() in sentence.casefold() for keyword in keywords)), None)
         if match:
-            items.append({'reason': match, 'source_url': source_url})
+            items.append({'kind': _context_kind(keywords), 'reason': match, 'source_url': source_url})
     return items
 
 

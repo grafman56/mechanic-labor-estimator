@@ -7,7 +7,7 @@ import { availableManuals, manualAvailabilityStatus } from './src/manual-availab
 import { loadMakeCatalog, loadManualCatalogIndex } from './src/manual-catalog.js';
 import { manualOperationOptions } from './src/live-operations.js';
 import { sourceScopeOptions } from './src/live-scopes.js';
-import { jobAwarenessGroup } from './src/procedure-evidence.js';
+import { jobAwarenessGroup, procedureContextGroups } from './src/procedure-evidence.js';
 import { fetchProcedureEvidence } from './src/live-procedure-evidence.js';
 
 const vinInput = document.querySelector('#vin');
@@ -186,7 +186,8 @@ getLiveLabor.addEventListener('click', async () => {
       source_operation_url: liveOperation.value,
     });
     const awareness = jobAwarenessGroup(evidence);
-    const awarenessHtml = awareness ? `<details class="job-awareness"><summary><span>${awareness.heading}</span><small>${awareness.summary}</small></summary><div class="parts-grid job-awareness-body">${awareness.evidenceGroups.map((group) => `<div class="parts-group"><h3>${group.heading}</h3><p>${group.items.map((item) => `<a href="${item.source_url}" target="_blank" rel="noreferrer">${item.label}</a><br><span>${item.reason}</span>`).join('<br>')}</p></div>`).join('')}${awareness.context ? `<div class="parts-group procedure-context"><h3>${awareness.context.heading}</h3><p>${awareness.context.items.map((item) => `<a href="${item.source_url}" target="_blank" rel="noreferrer">${item.reason}</a>`).join('<br>')}</p><p><span>${awareness.context.note}</span></p></div>` : ''}</div></details>` : '';
+    const contextGroups = awareness?.context ? procedureContextGroups(awareness.context.items) : [];
+    const awarenessHtml = awareness ? `<details class="job-awareness"><summary><span>${awareness.heading}</span><small>${awareness.summary}</small></summary><div class="parts-grid job-awareness-body">${awareness.unavailable ? `<div class="parts-group procedure-unavailable"><h3>Procedure coverage</h3><p>${awareness.unavailable}</p><p><span>Labor availability and procedure awareness are separate source states.</span></p></div>` : `${awareness.evidenceGroups.map((group) => `<div class="parts-group"><h3>${group.heading}</h3><p>${group.items.map((item) => `<a href="${item.source_url}" target="_blank" rel="noreferrer">${item.label}</a><br><span>${item.reason}</span>`).join('<br>')}</p></div>`).join('')}${contextGroups.map((group) => `<div class="parts-group procedure-context"><h3>${group.heading}</h3><p>${group.items.map((item) => `<a href="${item.source_url}" target="_blank" rel="noreferrer">${item.reason}</a>`).join('<br>')}</p></div>`).join('')}${awareness.context ? `<div class="parts-group procedure-context-note"><p><span>${awareness.context.note}</span></p></div>` : ''}`}</div></details>` : '';
     const price = live.laborCost === null ? '' : ` · ${currency.format(live.laborCost)}`;
     catalogStatus.innerHTML = `Live source match: <a href="${live.sourceUrl}" target="_blank" rel="noreferrer">${live.operation} labor time</a> — ${live.laborHours} standard hr${price}.`;
     estimate.innerHTML = `<div class="estimate-heading"><div><p class="eyebrow">Selected vehicle and live source</p><h2>${live.operation}</h2><p>${live.vehicle}</p></div><div class="total"><span>Published baseline labor</span><strong>${live.laborHours} hr${price}</strong></div></div><div class="parts-grid"><div class="parts-group"><h3>Source</h3><p><a href="${live.sourceUrl}" target="_blank" rel="noreferrer">LEMON labor-times page</a></p><p>Published standard/book time for the selected source manual.</p></div></div>${awarenessHtml}<p class="job-note">Procedure additions are displayed only when the selected manual explicitly supports them; unavailable evidence creates no recommendation.</p>`;

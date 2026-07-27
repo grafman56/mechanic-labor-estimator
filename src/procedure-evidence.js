@@ -4,6 +4,22 @@ const headings = {
   inspect: 'Inspection or measurement called out',
 };
 
+const contextHeadings = {
+  'removal-access': 'Source removal and access context',
+  reinstallation: 'Source reinstallation context',
+  'drain-handling': 'Source drain and handling context',
+  other: 'Source procedure context',
+};
+
+export function procedureContextGroups(contextSteps) {
+  return Object.entries(contextHeadings)
+    .map(([kind, heading]) => ({
+      heading,
+      items: contextSteps.filter((item) => (item.kind ?? 'other') === kind),
+    }))
+    .filter((group) => group.items.length);
+}
+
 export function procedureContextGroup(result) {
   if (result?.status !== 'available' || !result.context_steps?.length) return null;
   return {
@@ -15,6 +31,13 @@ export function procedureContextGroup(result) {
 }
 
 export function jobAwarenessGroup(result) {
+  if (result?.status === 'unavailable') {
+    return {
+      heading: 'Source-backed job awareness',
+      summary: 'Procedure awareness not reviewed for this exact operation.',
+      unavailable: 'No source-backed procedure awareness has been reviewed for this exact manual and operation.',
+    };
+  }
   const evidenceGroups = procedureEvidenceGroups(result);
   const context = procedureContextGroup(result);
   const evidenceCount = evidenceGroups.reduce((count, group) => count + group.items.length, 0);

@@ -12,7 +12,7 @@ class ProcedureEvidenceTests(unittest.TestCase):
               <p>Install the water pump with a new O-ring.</p>''',
         }
         self.assertEqual(extract_keyword_context(source_url, pages.__getitem__, (('remove', 'water pump'),)), [
-            {'reason': 'Remove the water pump (A) by removing the five bolts.', 'source_url': source_url},
+            {'kind': 'removal-access', 'reason': 'Remove the water pump (A) by removing the five bolts.', 'source_url': source_url},
         ])
 
     def test_classifies_only_explicit_inspection_and_replace_if_needed_language(self):
@@ -59,10 +59,10 @@ class ProcedureEvidenceTests(unittest.TestCase):
                 'source_url': source_url,
             }],
             'context_steps': [
-                {'reason': 'Remove the intake manifold.', 'source_url': removal_url},
-                {'reason': 'Remove the six ignition coils.', 'source_url': removal_url},
-                {'reason': 'Install the six ignition coils.', 'source_url': source_url},
-                {'reason': 'Install the intake manifold.', 'source_url': source_url},
+                {'kind': 'removal-access', 'reason': 'Remove the intake manifold.', 'source_url': removal_url},
+                {'kind': 'removal-access', 'reason': 'Remove the six ignition coils.', 'source_url': removal_url},
+                {'kind': 'reinstallation', 'reason': 'Install the six ignition coils.', 'source_url': source_url},
+                {'kind': 'reinstallation', 'reason': 'Install the intake manifold.', 'source_url': source_url},
             ],
         })
 
@@ -102,10 +102,10 @@ class ProcedureEvidenceTests(unittest.TestCase):
                 'source_url': source_url,
             }],
             'context_steps': [
-                {'reason': 'Drain the engine coolant.', 'source_url': source_url},
-                {'reason': 'Remove the timing belt.', 'source_url': source_url},
-                {'reason': 'Remove the timing belt adjuster.', 'source_url': source_url},
-                {'reason': 'Remove the water pump (A) by removing the five bolts.', 'source_url': source_url},
+                {'kind': 'drain-handling', 'reason': 'Drain the engine coolant.', 'source_url': source_url},
+                {'kind': 'removal-access', 'reason': 'Remove the timing belt.', 'source_url': source_url},
+                {'kind': 'removal-access', 'reason': 'Remove the timing belt adjuster.', 'source_url': source_url},
+                {'kind': 'removal-access', 'reason': 'Remove the water pump (A) by removing the five bolts.', 'source_url': source_url},
             ],
         })
 
