@@ -23,6 +23,7 @@ function staticPath(requestUrl) {
   const pathname = new URL(requestUrl, 'http://localhost').pathname;
   const requested = pathname === '/' ? 'index.html' : pathname.slice(1);
   if (!requested || requested.split('/').some((part) => part.startsWith('.'))) return null;
+  if (!mimeTypes.has(extname(requested))) return null;
   const candidate = resolve(root, normalize(requested));
   return relative(root, candidate).startsWith('..') ? null : candidate;
 }
