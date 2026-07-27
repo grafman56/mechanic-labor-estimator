@@ -10,6 +10,7 @@ import { ManualAvailabilityCache } from './src/server/manual-availability-cache.
 import { manualAvailability, manualMetadata, validateManualUrl } from './src/server/manual-lookup.mjs';
 import { lookupJobOperationRows } from './src/server/live-job-rows.mjs';
 import { lookupJobLabor } from './src/server/live-job-labor.mjs';
+import { lookupJobProcedureEvidence } from './src/server/procedure-evidence.mjs';
 
 const root = resolve(fileURLToPath(new URL('.', import.meta.url)));
 const port = Number.parseInt(process.env.PORT ?? '8099', 10);
@@ -45,6 +46,10 @@ function sendJson(response, status, payload) {
 
 const server = createServer(async (request, response) => {
   response.setHeader('Cache-Control', 'no-store');
+  response.setHeader('X-Content-Type-Options', 'nosniff');
+  response.setHeader('Referrer-Policy', 'no-referrer');
+  response.setHeader('X-Frame-Options', 'DENY');
+  response.setHeader('Content-Security-Policy', "default-src 'self'; base-uri 'none'; frame-ancestors 'none'; form-action 'self'; object-src 'none'; script-src 'self'; style-src 'self'");
   if (!authorizeBasic(request.headers.authorization, authConfig)) {
     response.writeHead(401, { 'WWW-Authenticate': 'Basic realm="Mechanic Labor Planner"' });
     response.end();
@@ -110,6 +115,18 @@ const server = createServer(async (request, response) => {
             source_row: apiUrl.searchParams.get('source_row') || undefined,
             source_operation_url: apiUrl.searchParams.get('source_operation_url') || undefined,
           },
+        ));
+      } catch (error) {
+        sendJson(response, 400, { error: error.message });
+      }
+      return;
+    }
+    if (apiUrl.pathname === '/api/procedure-evidence') {
+      try {
+        sendJson(response, 200, await lookupJobProcedureEvidence(
+          apiUrl.searchParams.get('url'),
+          apiUrl.searchParams.get('job'),
+          { source_operation_url: apiUrl.searchParams.get('source_operation_url') || undefined },
         ));
       } catch (error) {
         sendJson(response, 400, { error: error.message });
