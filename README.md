@@ -52,6 +52,8 @@ Open `http://127.0.0.1:8099/`. The planner requires this private same-origin ser
 
 A static host such as Hostinger can serve the user interface and generated catalog files, but it cannot provide the private `/api/` source-lookup endpoints. Do not deploy this planner publicly. Keep it on localhost unless authentication, rate limiting, and a reviewed persistent-cache policy are added.
 
+The pending hosted Node deployment limits each direct connection address to 20 `/api/` requests per 60 seconds by default. Hostinger hPanel may set the non-secret `PLANNER_RATE_LIMIT_REQUESTS` and `PLANNER_RATE_LIMIT_WINDOW_SECONDS` environment variables to positive integers for the invite-only test. The limiter does not trust `X-Forwarded-For`; it applies before API route handling and does not limit static assets.
+
 ## Vehicle/manual catalog
 
 `tools/lemon_catalog.py` crawls only LEMON's public navigation pages (make → year → model/engine); it does not fetch procedure pages or download manual archives. The full generated catalog currently contains 69 discovered make roots, 303,014 year/model/engine manual-navigation records, and two roots with no model records (`General Motors`, `ZAP`). It means `manual navigation available`, not `verified estimate available`.

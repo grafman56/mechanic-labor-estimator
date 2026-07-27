@@ -4,11 +4,13 @@ import { createServer } from 'node:http';
 import { extname, normalize, relative, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { authorizeBasic, hostedAuthConfig } from './src/server/auth.mjs';
+import { FixedWindowRateLimiter, rateLimitConfig } from './src/server/rate-limit.mjs';
 
 const root = resolve(fileURLToPath(new URL('.', import.meta.url)));
 const port = Number.parseInt(process.env.PORT ?? '8099', 10);
 const host = process.env.HOST ?? '0.0.0.0';
 const authConfig = hostedAuthConfig(process.env, host === '127.0.0.1' || host === '::1');
+const rateLimiter = new FixedWindowRateLimiter(rateLimitConfig(process.env));
 const mimeTypes = new Map([
   ['.css', 'text/css; charset=utf-8'],
   ['.html', 'text/html; charset=utf-8'],
@@ -25,12 +27,24 @@ function staticPath(requestUrl) {
   return relative(root, candidate).startsWith('..') ? null : candidate;
 }
 
+function isApiRequest(requestUrl) {
+  return new URL(requestUrl, 'http://localhost').pathname.startsWith('/api/');
+}
+
 const server = createServer(async (request, response) => {
   response.setHeader('Cache-Control', 'no-store');
   if (!authorizeBasic(request.headers.authorization, authConfig)) {
     response.writeHead(401, { 'WWW-Authenticate': 'Basic realm="Mechanic Labor Planner"' });
     response.end();
     return;
+  }
+  if (isApiRequest(request.url)) {
+    const result = rateLimiter.check(request.socket.remoteAddress ?? 'unknown');
+    if (!result.allowed) {
+      response.writeHead(429, { 'Retry-After': String(result.retryAfterSeconds) });
+      response.end();
+      return;
+    }
   }
   if (request.method !== 'GET' && request.method !== 'HEAD') {
     response.writeHead(405, { Allow: 'GET, HEAD' });

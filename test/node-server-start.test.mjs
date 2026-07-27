@@ -57,3 +57,31 @@ test('requires the configured test credential in hosted mode', async (t) => {
   assert.equal(denied.headers['www-authenticate'], 'Basic realm="Mechanic Labor Planner"');
   assert.equal(allowed.status, 200);
 });
+
+test('rate limits API requests before route handling without limiting static assets', async (t) => {
+  const port = 19101;
+  const child = spawn(process.execPath, ['server.mjs'], {
+    cwd: new URL('..', import.meta.url),
+    env: {
+      ...process.env,
+      PORT: String(port),
+      HOST: '127.0.0.1',
+      PLANNER_ALLOW_UNAUTHENTICATED_LOCAL: '1',
+      PLANNER_RATE_LIMIT_REQUESTS: '1',
+      PLANNER_RATE_LIMIT_WINDOW_SECONDS: '60',
+    },
+    stdio: ['ignore', 'pipe', 'pipe'],
+  });
+  t.after(() => child.kill());
+  await once(child.stdout, 'data');
+
+  const firstApiResponse = await get(port, '/api/vin-manuals?vin=bad');
+  const limitedApiResponse = await get(port, '/api/vin-manuals?vin=bad');
+  const staticResponse = await get(port, '/');
+
+  assert.equal(firstApiResponse.status, 404);
+  assert.equal(limitedApiResponse.status, 429);
+  assert.equal(limitedApiResponse.headers['retry-after'], '60');
+  assert.equal(limitedApiResponse.headers['cache-control'], 'no-store');
+  assert.equal(staticResponse.status, 200);
+});
