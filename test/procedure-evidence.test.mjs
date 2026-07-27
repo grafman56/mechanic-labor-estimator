@@ -59,11 +59,11 @@ test('groups exact source context by removal, reinstallation, and drain handling
 test('shows an explicit not-reviewed awareness state for an exact operation', () => {
   assert.deepEqual(jobAwarenessGroup({
     status: 'unavailable',
-    reason: 'No exact procedure path is configured for this manual operation.',
+    reason: 'No matching source repair procedure was found for this exact manual operation.',
   }), {
     heading: 'Source-backed job awareness',
-    summary: 'Procedure awareness not reviewed for this exact operation.',
-    unavailable: 'No source-backed procedure awareness has been reviewed for this exact manual and operation.',
+    summary: 'Procedure awareness unavailable for this exact operation.',
+    unavailable: 'No matching source repair procedure was found for this exact manual operation.',
   });
 });
 

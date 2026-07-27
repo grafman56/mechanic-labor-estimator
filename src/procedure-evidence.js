@@ -34,8 +34,8 @@ export function jobAwarenessGroup(result) {
   if (result?.status === 'unavailable') {
     return {
       heading: 'Source-backed job awareness',
-      summary: 'Procedure awareness not reviewed for this exact operation.',
-      unavailable: 'No source-backed procedure awareness has been reviewed for this exact manual and operation.',
+      summary: 'Procedure awareness unavailable for this exact operation.',
+      unavailable: result.reason ?? 'No source-backed procedure awareness was found for this exact manual and operation.',
     };
   }
   const evidenceGroups = procedureEvidenceGroups(result);

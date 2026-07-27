@@ -109,6 +109,30 @@ class ProcedureEvidenceTests(unittest.TestCase):
             ],
         })
 
+    def test_discovers_bounded_removal_context_from_the_selected_manual_operation(self):
+        manual_url = 'https://lemon-manuals.la/Ford/2012/Fusion%20L4-2.5L/'
+        operation_url = f'{manual_url}Parts%20and%20Labor/Engine%2C%20Cooling%20and%20Exhaust/Charging%20System/Alternator/'
+        repair_url = f'{manual_url}Repair%20and%20Diagnosis/Engine%2C%20Cooling%20and%20Exhaust/Charging%20System/Alternator/'
+        alternator_url = f'{repair_url}Service%20and%20Repair/Alternator%20Replacement/'
+        pages = {
+            f'{manual_url}Parts%20and%20Labor/': '<a href="Engine%2C%20Cooling%20and%20Exhaust/Charging%20System/Alternator/">Alternator</a>',
+            repair_url: '''<a href="Description%20and%20Operation/">Alternator</a>
+              <a href="Service%20and%20Repair/Alternator%20Replacement/">Alternator Replacement</a>
+              <a href="Service%20and%20Repair/Overhaul/">Overhaul</a>
+              <a href="../../Engine/Water%20Pump/Service%20and%20Repair/Water%20Pump%20Replacement/">Water Pump Replacement</a>''',
+            alternator_url: '<p>Disconnect the battery ground cable.</p><p>Remove the drive belt.</p><p>Install the alternator.</p>',
+        }
+        self.assertEqual(lookup_job_procedure_evidence(manual_url, 'alternator', pages.__getitem__, source_operation_url=operation_url), {
+            'status': 'available',
+            'items': [],
+            'context_steps': [
+                {'kind': 'removal-access', 'reason': 'Disconnect the battery ground cable.', 'source_url': alternator_url},
+                {'kind': 'removal-access', 'reason': 'Remove the drive belt.', 'source_url': alternator_url},
+                {'kind': 'reinstallation', 'reason': 'Install the alternator.', 'source_url': alternator_url},
+            ],
+        })
+
+
     def test_reports_a_missing_procedure_page_as_unavailable(self):
         manual_url = 'https://lemon-manuals.la/Acura/2006/MDX%20V6-3.5L/'
         operation_url = f'{manual_url}Parts%20and%20Labor/Engine%2C%20Cooling%20and%20Exhaust/Engine/Water%20Pump/'

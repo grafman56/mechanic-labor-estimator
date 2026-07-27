@@ -1,6 +1,6 @@
 import re
 from html.parser import HTMLParser
-from urllib.parse import urljoin
+from urllib.parse import unquote, urljoin, urlparse
 
 from tools.manual_lookup import lookup_job_candidates, validate_manual_url
 
@@ -45,6 +45,22 @@ PROCEDURE_CONTEXT_KEYWORDS = {
         ('remove', 'water pump'),
     ),
 }
+
+
+class _ProcedureLinkParser(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.href = None
+        self.links = []
+
+    def handle_starttag(self, tag, attrs):
+        if tag == 'a':
+            self.href = dict(attrs).get('href')
+
+    def handle_data(self, data):
+        if self.href and data.strip():
+            self.links.append((data.strip(), self.href))
+            self.href = None
 
 
 class _TextParser(HTMLParser):
@@ -113,6 +129,59 @@ def extract_keyword_context(source_url, fetch_html, keyword_rules):
     return items
 
 
+def discover_operation_procedure_urls(manual_url, source_operation_url, fetch_html, maximum=3):
+    relative_operation_path = source_operation_url.removeprefix(manual_url)
+    if not relative_operation_path.startswith('Parts%20and%20Labor/'):
+        return []
+    repair_operation_url = urljoin(manual_url, relative_operation_path.replace(
+        'Parts%20and%20Labor/', 'Repair%20and%20Diagnosis/', 1,
+    ))
+    parser = _ProcedureLinkParser()
+    parser.feed(fetch_html(repair_operation_url))
+    procedures = []
+    for _, href in parser.links:
+        source_url = urljoin(repair_operation_url, href)
+        decoded_path = unquote(urlparse(source_url).path).casefold()
+        procedure_name = unquote(urlparse(source_url).path.rsplit('/', 2)[-2]).casefold()
+        if not source_url.startswith(repair_operation_url):
+            continue
+        if '/service and repair/' not in decoded_path:
+            continue
+        if not any(term in procedure_name for term in ('replacement', 'removal and installation', 'remove and install')):
+            continue
+        if source_url not in procedures:
+            procedures.append(source_url)
+        if len(procedures) == maximum:
+            break
+    return procedures
+
+
+def extract_operation_context(source_url, fetch_html):
+    parser = _TextParser()
+    parser.feed(fetch_html(source_url))
+    text = re.sub(r'\s+([.,])', r'\1', ' '.join(' '.join(parser.parts).split()))
+    sentences = [sentence for sentence in re.split(r'(?<=[.!?])\s+', text) if sentence]
+    steps = []
+    for sentence in sentences:
+        verb = re.match(r'^(remove|disconnect|release|drain|install|reinstall)\b', sentence, re.I)
+        if not verb:
+            continue
+        kind = 'reinstallation' if verb.group(1).casefold() in ('install', 'reinstall') else (
+            'drain-handling' if verb.group(1).casefold() == 'drain' else 'removal-access'
+        )
+        steps.append({'kind': kind, 'reason': sentence, 'source_url': source_url})
+    return steps
+
+
+def discover_operation_context(manual_url, source_operation_url, fetch_html):
+    steps = []
+    for source_url in discover_operation_procedure_urls(manual_url, source_operation_url, fetch_html):
+        for step in extract_operation_context(source_url, fetch_html):
+            if step not in steps:
+                steps.append(step)
+    return steps
+
+
 def lookup_job_procedure_evidence(manual_url, job_id, fetch_html, source_operation_url=None):
     safe_url = validate_manual_url(manual_url)
     if not safe_url:
@@ -120,11 +189,18 @@ def lookup_job_procedure_evidence(manual_url, job_id, fetch_html, source_operati
     if not source_operation_url:
         return {'status': 'unavailable', 'reason': 'An exact selected source operation is required for procedure evidence.'}
     candidates = lookup_job_candidates(safe_url, job_id, fetch_html)['candidates']
-    if source_operation_url not in {candidate['source_url'] for candidate in candidates}:
+    selected_candidate = next((candidate for candidate in candidates if candidate['source_url'] == source_operation_url), None)
+    if not selected_candidate:
         return {'status': 'unavailable', 'reason': 'Selected source operation is unavailable for this manual.'}
     relative_path = PROCEDURE_INSTALLATION_PATHS.get((safe_url, job_id, source_operation_url))
     if not relative_path:
-        return {'status': 'unavailable', 'reason': 'No exact procedure path is configured for this manual operation.'}
+        try:
+            context_steps = discover_operation_context(safe_url, source_operation_url, fetch_html)
+        except OSError:
+            return {'status': 'unavailable', 'reason': 'Procedure source page is unavailable.'}
+        if not context_steps:
+            return {'status': 'unavailable', 'reason': 'No matching source repair procedure was found for this exact manual operation.'}
+        return {'status': 'available', 'items': [], 'context_steps': context_steps}
     source_url = urljoin(safe_url, relative_path)
     try:
         items = extract_procedure_evidence(source_url, fetch_html)
