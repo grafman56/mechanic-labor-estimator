@@ -1,4 +1,3 @@
-import { findVerifiedVehicle } from './src/mdx.js';
 import { findCatalogEntry } from './src/catalog.js';
 import { manualSelectionOptions } from './src/catalog-selection.js';
 import { tier1Jobs } from './src/tier1-jobs.js';
@@ -7,10 +6,11 @@ import { availableManuals, manualAvailabilityStatus } from './src/manual-availab
 import { loadMakeCatalog, loadManualCatalogIndex } from './src/manual-catalog.js';
 import { manualOperationOptions } from './src/live-operations.js';
 import { sourceScopeOptions } from './src/live-scopes.js';
-import { jobAwarenessGroup, procedureContextGroups } from './src/procedure-evidence.js';
+import { jobAwarenessGroup, procedureContextDisplayGroups } from './src/procedure-evidence.js';
 import { fetchProcedureEvidence } from './src/live-procedure-evidence.js';
 
 const vinInput = document.querySelector('#vin');
+const vinManual = document.querySelector('#vin-manual');
 const rateInput = document.querySelector('#labor-rate');
 const estimate = document.querySelector('#estimate');
 const catalogMake = document.querySelector('#catalog-make');
@@ -146,11 +146,81 @@ function render() {
   renderUnavailable(vinInput.value.trim());
 }
 
-vinInput.addEventListener('input', () => {
-  selectedManual = findVerifiedVehicle(vinInput.value);
+function resetVinManual(message) {
+  vinManual.replaceChildren(new Option(message, ''));
+  vinManual.disabled = true;
+  vinManual.dataset.candidates = '[]';
+}
+
+async function selectVinManual() {
+  const candidate = JSON.parse(vinManual.dataset.candidates || '[]')
+    .find((entry) => entry.manual_url === vinManual.value);
+  selectedManual = null;
+  if (!candidate) {
+    populateLiveScopes();
+    render();
+    return;
+  }
+  catalogStatus.textContent = 'Checking selected VIN source configuration for Parts and Labor…';
+  try {
+    const response = await fetch(`/api/manual-availability?url=${encodeURIComponent(candidate.manual_url)}`);
+    const availability = await response.json();
+    if (!response.ok || !availability.available) {
+      catalogStatus.textContent = 'Selected VIN source configuration has no available Parts and Labor page.';
+      getLiveLabor.disabled = true;
+      return;
+    }
+    selectedManual = candidate;
+    checkManual.disabled = false;
+    getLiveLabor.disabled = false;
+    checkManual.dataset.url = candidate.manual_url;
+    getLiveLabor.dataset.url = candidate.manual_url;
+    catalogStatus.textContent = `VIN-decoded source configuration selected: ${candidate.model} · ${candidate.engine}.`;
+  } catch (error) {
+    catalogStatus.textContent = `VIN source-configuration check failed: ${error.message}`;
+  }
   populateLiveScopes();
   render();
-});
+}
+
+async function lookupVinManuals() {
+  const vin = vinInput.value.trim().toUpperCase();
+  selectedManual = null;
+  checkManual.disabled = true;
+  getLiveLabor.disabled = true;
+  if (!/^[A-HJ-NPR-Z0-9]{17}$/.test(vin)) {
+    resetVinManual('Enter a valid 17-character VIN to find source-manual candidates');
+    populateLiveScopes();
+    render();
+    return;
+  }
+  catalogStatus.textContent = 'Decoding VIN and finding exact source-manual candidates…';
+  resetVinManual('Loading VIN source-manual candidates…');
+  try {
+    const response = await fetch(`/api/vin-manuals?vin=${encodeURIComponent(vin)}`);
+    const result = await response.json();
+    if (!response.ok) throw new Error(result.error);
+    if (vinInput.value.trim().toUpperCase() !== vin) return;
+    const candidates = result.manual_candidates ?? [];
+    vinManual.replaceChildren(
+      new Option('Select an exact source configuration', ''),
+      ...candidates.map((candidate) => new Option(`${candidate.model} · ${candidate.engine}`, candidate.manual_url)),
+    );
+    vinManual.dataset.candidates = JSON.stringify(candidates);
+    vinManual.disabled = candidates.length === 0;
+    catalogStatus.textContent = candidates.length
+      ? `VIN decoded as ${result.vehicle.year} ${result.vehicle.make} ${result.vehicle.model}. Select the matching source configuration; VIN decoding does not prove an engine or trim match.`
+      : `VIN decoded as ${result.vehicle.year} ${result.vehicle.make} ${result.vehicle.model}, but no exact source-manual candidate was found.`;
+  } catch (error) {
+    resetVinManual('VIN source-manual lookup unavailable');
+    catalogStatus.textContent = `VIN lookup failed: ${error.message}`;
+  }
+  populateLiveScopes();
+  render();
+}
+
+vinInput.addEventListener('input', lookupVinManuals);
+vinManual.addEventListener('change', selectVinManual);
 checkManual.addEventListener('click', async () => {
   catalogStatus.textContent = 'Checking live manual…';
   try {
@@ -186,8 +256,8 @@ getLiveLabor.addEventListener('click', async () => {
       source_operation_url: liveOperation.value,
     });
     const awareness = jobAwarenessGroup(evidence);
-    const contextGroups = awareness?.context ? procedureContextGroups(awareness.context.items) : [];
-    const awarenessHtml = awareness ? `<details class="job-awareness"><summary><span>${awareness.heading}</span><small>${awareness.summary}</small></summary><div class="parts-grid job-awareness-body">${awareness.unavailable ? `<div class="parts-group procedure-unavailable"><h3>Procedure coverage</h3><p>${awareness.unavailable}</p><p><span>Labor availability and procedure awareness are separate source states.</span></p></div>` : `${awareness.evidenceGroups.map((group) => `<div class="parts-group"><h3>${group.heading}</h3><p>${group.items.map((item) => `<a href="${item.source_url}" target="_blank" rel="noreferrer">${item.label}</a><br><span>${item.reason}</span>`).join('<br>')}</p></div>`).join('')}${contextGroups.map((group) => `<div class="parts-group procedure-context"><h3>${group.heading}</h3><p>${group.items.map((item) => `<a href="${item.source_url}" target="_blank" rel="noreferrer">${item.reason}</a>`).join('<br>')}</p></div>`).join('')}${awareness.context ? `<div class="parts-group procedure-context-note"><p><span>${awareness.context.note}</span></p></div>` : ''}`}</div></details>` : '';
+    const contextGroups = awareness?.context ? procedureContextDisplayGroups(awareness.context.items) : [];
+    const awarenessHtml = awareness ? `<details class="job-awareness"><summary><span>${awareness.heading}</span><small>${awareness.summary}</small></summary><div class="parts-grid job-awareness-body">${awareness.unavailable ? `<div class="parts-group procedure-unavailable"><h3>Procedure coverage</h3><p>${awareness.unavailable}</p><p><span>Labor availability and procedure awareness are separate source states.</span></p></div>` : `${awareness.evidenceGroups.map((group) => `<div class="parts-group"><h3>${group.heading}</h3><p>${group.items.map((item) => `<a href="${item.source_url}" target="_blank" rel="noreferrer">${item.label}</a><br><span>${item.reason}</span>`).join('<br>')}</p></div>`).join('')}${contextGroups.map((group) => `<div class="parts-group procedure-context"><h3>${group.heading} (${group.total})</h3><p>${group.visibleItems.map((item) => `<a href="${item.source_url}" target="_blank" rel="noreferrer">${item.reason}</a>`).join('<br>')}</p>${group.remainingItems.length ? `<details class="procedure-context-more"><summary>Show ${group.remainingItems.length} remaining source step${group.remainingItems.length === 1 ? '' : 's'}</summary><p>${group.remainingItems.map((item) => `<a href="${item.source_url}" target="_blank" rel="noreferrer">${item.reason}</a>`).join('<br>')}</p></details>` : ''}</div>`).join('')}${awareness.context ? `<div class="parts-group procedure-context-note"><p><span>${awareness.context.note}</span></p></div>` : ''}`}</div></details>` : '';
     const price = live.laborCost === null ? '' : ` · ${currency.format(live.laborCost)}`;
     catalogStatus.innerHTML = `Live source match: <a href="${live.sourceUrl}" target="_blank" rel="noreferrer">${live.operation} labor time</a> — ${live.laborHours} standard hr${price}.`;
     estimate.innerHTML = `<div class="estimate-heading"><div><p class="eyebrow">Selected vehicle and live source</p><h2>${live.operation}</h2><p>${live.vehicle}</p></div><div class="total"><span>Published baseline labor</span><strong>${live.laborHours} hr${price}</strong></div></div><div class="parts-grid"><div class="parts-group"><h3>Source</h3><p><a href="${live.sourceUrl}" target="_blank" rel="noreferrer">LEMON labor-times page</a></p><p>Published standard/book time for the selected source manual.</p></div></div>${awarenessHtml}<p class="job-note">Procedure additions are displayed only when the selected manual explicitly supports them; unavailable evidence creates no recommendation.</p>`;

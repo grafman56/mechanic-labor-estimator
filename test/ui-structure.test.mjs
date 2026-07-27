@@ -13,6 +13,11 @@ test('groups the estimator into a three-step source-backed workflow', () => {
   assert.match(html, /id="estimate" class="estimate" aria-live="polite" aria-atomic="true"/);
 });
 
+test('provides an explicit source-manual selection after a VIN lookup', () => {
+  assert.match(html, /id="vin-manual"/);
+  assert.match(html, /Select exact source configuration/);
+});
+
 test('marks live source status as a polite status region', () => {
   assert.match(html, /id="catalog-status" class="job-note" role="status" aria-live="polite"/);
   assert.match(html, /Published wording is kept exactly as the selected manual provides it\./);

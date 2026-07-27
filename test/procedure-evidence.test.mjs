@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { jobAwarenessGroup, procedureContextGroup, procedureContextGroups, procedureEvidenceGroups } from '../src/procedure-evidence.js';
+import { jobAwarenessGroup, procedureContextDisplayGroups, procedureContextGroup, procedureContextGroups, procedureEvidenceGroups } from '../src/procedure-evidence.js';
 
 test('groups only source-backed procedure evidence by its source classification', () => {
   assert.deepEqual(procedureEvidenceGroups({ status: 'available', items: [
@@ -54,6 +54,20 @@ test('groups exact source context by removal, reinstallation, and drain handling
       items: [{ kind: 'drain-handling', reason: 'Drain the engine coolant.', source_url: 'https://example.test/drain' }],
     },
   ]);
+});
+
+test('caps visible context steps while retaining the exact remaining source steps', () => {
+  const contextSteps = Array.from({ length: 6 }, (_, index) => ({
+    kind: 'removal-access',
+    reason: `Remove source component ${index + 1}.`,
+    source_url: `https://example.test/removal/${index + 1}`,
+  }));
+  assert.deepEqual(procedureContextDisplayGroups(contextSteps, 4), [{
+    heading: 'Source removal and access context',
+    total: 6,
+    visibleItems: contextSteps.slice(0, 4),
+    remainingItems: contextSteps.slice(4),
+  }]);
 });
 
 test('shows an explicit not-reviewed awareness state for an exact operation', () => {

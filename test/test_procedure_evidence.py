@@ -1,6 +1,6 @@
 import unittest
 
-from tools.procedure_evidence import extract_keyword_context, extract_procedure_evidence, lookup_job_procedure_evidence
+from tools.procedure_evidence import discover_operation_context, extract_keyword_context, extract_operation_context, extract_procedure_evidence, lookup_job_procedure_evidence
 
 
 class ProcedureEvidenceTests(unittest.TestCase):
@@ -150,6 +150,51 @@ class ProcedureEvidenceTests(unittest.TestCase):
         source_url = 'https://lemon-manuals.la/example/'
         pages = {source_url: '<p>Install the intake manifold.</p>'}
         self.assertEqual(extract_procedure_evidence(source_url, pages.__getitem__), [])
+    def test_keeps_additional_explicit_process_verbs_as_context_only(self):
+        source_url = 'https://lemon-manuals.la/example/alternator/replacement/'
+        pages = {
+            source_url: '''<p>Detach the electrical connector.</p>
+              <p>Unfasten the bracket.</p>
+              <p>Support the engine.</p>
+              <p>Lower the vehicle.</p>
+              <p>Evacuate the refrigerant.</p>
+              <p>Recover the refrigerant.</p>''',
+        }
+        self.assertEqual(extract_operation_context(source_url, pages.__getitem__), [
+            {'kind': 'removal-access', 'reason': 'Detach the electrical connector.', 'source_url': source_url},
+            {'kind': 'removal-access', 'reason': 'Unfasten the bracket.', 'source_url': source_url},
+            {'kind': 'removal-access', 'reason': 'Support the engine.', 'source_url': source_url},
+            {'kind': 'removal-access', 'reason': 'Lower the vehicle.', 'source_url': source_url},
+            {'kind': 'drain-handling', 'reason': 'Evacuate the refrigerant.', 'source_url': source_url},
+            {'kind': 'drain-handling', 'reason': 'Recover the refrigerant.', 'source_url': source_url},
+        ])
+    def test_caps_discovered_context_steps_across_a_selected_operation(self):
+        manual_url = 'https://lemon-manuals.la/Ford/2012/Fusion%20L4-2.5L/'
+        operation_url = f'{manual_url}Parts%20and%20Labor/Engine/Alternator/'
+        repair_url = f'{manual_url}Repair%20and%20Diagnosis/Engine/Alternator/'
+        procedure_url = f'{repair_url}Service%20and%20Repair/Alternator%20Replacement/'
+        pages = {
+            repair_url: '<a href="Service%20and%20Repair/Alternator%20Replacement/">Alternator Replacement</a>',
+            procedure_url: ''.join(f'<p>Remove source component {number}.</p>' for number in range(1, 30)),
+        }
+        steps = discover_operation_context(manual_url, operation_url, pages.__getitem__)
+        self.assertEqual(len(steps), 24)
+        self.assertEqual(steps[-1]['reason'], 'Remove source component 24.')
+    def test_deduplicates_a_source_sentence_across_selected_operation_procedures(self):
+        manual_url = 'https://lemon-manuals.la/Ford/2012/Fusion%20L4-2.5L/'
+        operation_url = f'{manual_url}Parts%20and%20Labor/Engine/Alternator/'
+        repair_url = f'{manual_url}Repair%20and%20Diagnosis/Engine/Alternator/'
+        first_url = f'{repair_url}Service%20and%20Repair/Alternator%20Replacement/'
+        second_url = f'{repair_url}Service%20and%20Repair/Alternator%20Removal%20and%20Installation/'
+        pages = {
+            repair_url: '''<a href="Service%20and%20Repair/Alternator%20Replacement/">Alternator Replacement</a>
+              <a href="Service%20and%20Repair/Alternator%20Removal%20and%20Installation/">Alternator Removal and Installation</a>''',
+            first_url: '<p>Disconnect the battery ground cable.</p>',
+            second_url: '<p>Disconnect the battery ground cable.</p>',
+        }
+        self.assertEqual(discover_operation_context(manual_url, operation_url, pages.__getitem__), [
+            {'kind': 'removal-access', 'reason': 'Disconnect the battery ground cable.', 'source_url': first_url},
+        ])
 
 
 if __name__ == '__main__':
