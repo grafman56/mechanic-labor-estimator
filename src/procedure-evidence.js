@@ -20,6 +20,15 @@ export function procedureContextGroups(contextSteps) {
     .filter((group) => group.items.length);
 }
 
+export function procedureContextDisplayGroups(contextSteps, visibleLimit = 5) {
+  return procedureContextGroups(contextSteps).map(({ heading, items }) => ({
+    heading,
+    total: items.length,
+    visibleItems: items.slice(0, visibleLimit),
+    remainingItems: items.slice(visibleLimit),
+  }));
+}
+
 export function procedureContextGroup(result) {
   if (result?.status !== 'available' || !result.context_steps?.length) return null;
   return {

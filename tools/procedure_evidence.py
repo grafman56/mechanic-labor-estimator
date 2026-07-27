@@ -45,6 +45,7 @@ PROCEDURE_CONTEXT_KEYWORDS = {
         ('remove', 'water pump'),
     ),
 }
+MAX_DISCOVERED_CONTEXT_STEPS = 24
 
 
 class _ProcedureLinkParser(HTMLParser):
@@ -163,11 +164,12 @@ def extract_operation_context(source_url, fetch_html):
     sentences = [sentence for sentence in re.split(r'(?<=[.!?])\s+', text) if sentence]
     steps = []
     for sentence in sentences:
-        verb = re.match(r'^(remove|disconnect|release|drain|install|reinstall)\b', sentence, re.I)
+        verb = re.match(r'^(remove|disconnect|release|detach|unfasten|support|lower|drain|evacuate|recover|install|reinstall)\b', sentence, re.I)
         if not verb:
             continue
-        kind = 'reinstallation' if verb.group(1).casefold() in ('install', 'reinstall') else (
-            'drain-handling' if verb.group(1).casefold() == 'drain' else 'removal-access'
+        normalized_verb = verb.group(1).casefold()
+        kind = 'reinstallation' if normalized_verb in ('install', 'reinstall') else (
+            'drain-handling' if normalized_verb in ('drain', 'evacuate', 'recover') else 'removal-access'
         )
         steps.append({'kind': kind, 'reason': sentence, 'source_url': source_url})
     return steps
@@ -177,8 +179,13 @@ def discover_operation_context(manual_url, source_operation_url, fetch_html):
     steps = []
     for source_url in discover_operation_procedure_urls(manual_url, source_operation_url, fetch_html):
         for step in extract_operation_context(source_url, fetch_html):
-            if step not in steps:
+            if not any(
+                existing['kind'] == step['kind'] and existing['reason'] == step['reason']
+                for existing in steps
+            ):
                 steps.append(step)
+            if len(steps) == MAX_DISCOVERED_CONTEXT_STEPS:
+                return steps
     return steps
 
 

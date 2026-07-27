@@ -12,7 +12,7 @@ A local, vehicle-specific labor-planning pilot. It does not provide generic esti
   - valve-cover gasket: spark plug seals (`replace-if-removed`) and cover washer (C) (`inspect`), plus informational source context that the matched removal procedure removes the intake manifold and six ignition coils, and the matched installation procedure installs the six ignition coils and intake manifold. The checked valve-cover procedure pages do not explicitly require a new intake-manifold gasket, so this is not a gasket, parts, or added-labor recommendation.
   - engine-path water pump: new O-ring (B) (`required`) plus informational context that the selected procedure drains engine coolant, removes the timing belt and timing-belt adjuster, and removes the water pump by five bolts. These steps do not establish replacement coolant, belt, adjuster, pump, or bolts, and do not add labor or a timing-service package.
 - Any job/manual/operation without exact source support remains unavailable; there is no generic labor, parts, or access fallback.
-- When procedure evidence or context exists, the result renders as one expandable **Source-backed job awareness** section. Its closed summary retains the count and first exact source step; its expanded body separates explicit evidence from source removal/access, reinstallation, and drain/handling context. For any exact selected operation without a curated procedure route, the private server follows that operation’s matching Repair and Diagnosis component page and reads only direct `Service and Repair` replacement or removal-and-installation pages. It retains only concise source sentences beginning with remove, disconnect, release, drain, install, or reinstall. Other service pages, including overhauls, are excluded. A missing matching source procedure is displayed as unavailable; it never implies that no access work exists.
+- When procedure evidence or context exists, the result renders as one expandable **Source-backed job awareness** section. Its closed summary retains the count and first exact source step; its expanded body separates explicit evidence from source removal/access, reinstallation, and drain/handling context. For any exact selected operation without a curated procedure route, the private server follows that operation’s matching Repair and Diagnosis component page and reads only direct `Service and Repair` replacement or removal-and-installation pages. It retains only concise source sentences beginning with remove, disconnect, release, detach, unfasten, support, lower, drain, evacuate, recover, install, or reinstall. Other service pages, including overhauls, are excluded. Discovery returns at most 24 deduplicated source steps; each category initially displays five with an explicit disclosure for the remaining exact source steps. A missing matching source procedure is displayed as unavailable; it never implies that no access work exists.
 
 | Job family | Live labor behavior | Procedure evidence status |
 | --- | --- | --- |
@@ -37,20 +37,20 @@ Labor values are source-published standard/book times for the selected vehicle/m
 ## Run locally
 
 ```sh
-python3 -m http.server 8099 --bind 127.0.0.1
+python3 server.py
 ```
 
-Open `http://127.0.0.1:8099/`.
+Open `http://127.0.0.1:8099/`. The planner requires this private same-origin server for live manual, labor, and procedure lookups; `python3 -m http.server` is not a supported live-lookup mode.
 
 ## Test
 
 ```sh
-npm test
+./verify.sh
 ```
 
-## Deploy to Hostinger
+## Static deployment
 
-Upload `index.html`, `app.js`, `styles.css`, and the `src/` and `data/` directories together. No build step is required.
+A static host such as Hostinger can serve the user interface and generated catalog files, but it cannot provide the private `/api/` source-lookup endpoints. Do not deploy this planner publicly. Keep it on localhost unless authentication, rate limiting, and a reviewed persistent-cache policy are added.
 
 ## Vehicle/manual catalog
 
@@ -80,7 +80,7 @@ The selector keeps complete source navigation data. After an exact make/year/mod
 - `GET /api/vin-manuals` decodes a 17-character VIN through NHTSA vPIC, then checks LEMON’s make/year navigation live and returns only exact model manual candidates. It does not assume an engine match from a similarly named candidate; the caller must select the matching source configuration.
 - `GET /api/live-job-labor` accepts a normalized Tier 1 job ID, an exact source operation path, and an exact source row, then returns only that published `Replace` standard-hour value.
 - `GET /api/live-job-rows` lists each distinct selected-manual operation path with its exact published replacement rows. Equivalent duplicate paths are collapsed only when every displayed row and hour agrees; conflicting paths require a manual operation choice.
-- `GET /api/procedure-evidence` accepts the same exact source operation and returns only explicit installation/removal evidence for specifically verified manual/operation pairs. It distinguishes `required`, `replace-if-removed`, and `inspect`; it classifies reviewed informational sentences as source removal/access, reinstallation, or drain/handling context. If no curated route exists, it derives the exact selected operation’s Repair and Diagnosis component page, follows at most three direct replacement or removal-and-installation procedure links, and returns only sentences beginning with `remove`, `disconnect`, `release`, `drain`, `install`, or `reinstall`. It excludes overhauls and never searches another manual or operation. Missing source context creates no recommendation and is displayed as unavailable, not as proof that no preparatory work exists. Context never establishes a replacement part, labor increase, or package recommendation.
+- `GET /api/procedure-evidence` accepts the same exact source operation and returns only explicit installation/removal evidence for specifically verified manual/operation pairs. It distinguishes `required`, `replace-if-removed`, and `inspect`; it classifies reviewed informational sentences as source removal/access, reinstallation, or drain/handling context. If no curated route exists, it derives the exact selected operation’s Repair and Diagnosis component page, follows at most three direct replacement or removal-and-installation procedure links, and returns at most 24 deduplicated sentences beginning with `remove`, `disconnect`, `release`, `detach`, `unfasten`, `support`, `lower`, `drain`, `evacuate`, `recover`, `install`, or `reinstall`. It excludes overhauls and never searches another manual or operation. Missing source context creates no recommendation and is displayed as unavailable, not as proof that no preparatory work exists. Context never establishes a replacement part, labor increase, or package recommendation.
 
 The live selector currently supports the small Tier 1 job catalog. It does not copy manual text, infer missing operations, automatically choose between conflicting duplicate source operations, or create an estimate when the required source page is absent. Do not expose this service publicly without adding authentication, request rate limits, and a persistent cache.
 
