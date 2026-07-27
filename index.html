@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Private source-backed automotive labor planning for an exact selected vehicle manual.">
+  <title>Mechanic Labor Planner</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <p class="eyebrow">Private source-backed planner</p>
+      <h1>Mechanic Labor Planner</h1>
+      <p class="intro">Select an exact vehicle manual and published repair operation to retrieve book labor time. This tool shows no generic labor, parts, or access fallback.</p>
+      <div class="trust-line" aria-label="Planner limits">
+        <span>Factory-default manual</span>
+        <span>Published labor row</span>
+        <span>Private local service</span>
+      </div>
+    </header>
+
+    <ol class="workflow" aria-label="Estimate workflow">
+      <li><span>1</span><strong>Choose vehicle</strong><small>VIN or source manual</small></li>
+      <li><span>2</span><strong>Choose repair</strong><small>Exact operation and row</small></li>
+      <li><span>3</span><strong>Review result</strong><small>Published hours and evidence</small></li>
+    </ol>
+
+    <section class="controls" aria-label="Estimate controls">
+      <fieldset class="control-group vehicle-group">
+        <legend>1. Choose vehicle identity</legend>
+        <p class="group-note">Use a reviewed VIN, or select a factory-default LEMON manual. A manual with labor data is enough to begin a live lookup.</p>
+
+        <div class="form-grid">
+          <label class="wide" for="vin">Vehicle identification number (VIN)
+            <input id="vin" type="text" maxlength="17" autocapitalize="characters" autocomplete="off" placeholder="Enter a reviewed 17-character VIN">
+          </label>
+        </div>
+
+        <div class="divider"><span>or select a source manual</span></div>
+        <div class="form-grid vehicle-fields">
+          <label for="catalog-make">Make
+            <select id="catalog-make" disabled><option>Acura</option></select>
+          </label>
+          <label for="catalog-year">Year
+            <select id="catalog-year"><option>Loading catalog…</option></select>
+          </label>
+          <label for="catalog-model">Model
+            <select id="catalog-model" disabled></select>
+          </label>
+          <label for="catalog-engine">Engine / configuration
+            <select id="catalog-engine" disabled></select>
+          </label>
+        </div>
+        <p id="catalog-status" class="job-note" role="status" aria-live="polite">This confirms manual availability, not estimate coverage.</p>
+        <button id="check-manual" class="secondary-action" type="button" disabled>Open and verify live manual</button>
+      </fieldset>
+
+      <fieldset class="control-group repair-group">
+        <legend>2. Choose published labor operation</legend>
+        <p class="group-note">Published wording is kept exactly as the selected manual provides it. Some manuals require an operation path or replacement-row selection.</p>
+
+        <div class="form-grid repair-fields">
+          <label for="live-job">Live repair job
+            <select id="live-job" disabled></select>
+          </label>
+          <label for="live-operation">Manual operation
+            <select id="live-operation" disabled></select>
+          </label>
+          <label class="wide" for="live-scope">Published replacement row
+            <select id="live-scope" disabled></select>
+          </label>
+          <label for="labor-rate">Shop labor rate <span class="label-detail">per hour</span>
+            <span class="rate-input"><span>$</span><input id="labor-rate" type="number" min="1" step="1" value="125" inputmode="decimal"></span>
+          </label>
+        </div>
+        <button id="get-live-labor" class="primary-action" type="button" disabled>Get published labor time</button>
+      </fieldset>
+    </section>
+
+    <section id="estimate" class="estimate" aria-live="polite" aria-atomic="true"></section>
+
+    <section class="notice">
+      <h2>Before authorizing work</h2>
+      <p>Vehicle configuration, condition, access, corrosion, previous repairs, and diagnosis can change labor. Verify the exact procedure and parts for the vehicle before quoting or beginning work.</p>
+    </section>
+  </main>
+  <footer>Source approach: selected-manual research with exact published labor operations. This private planner is not a diagnosis, a final quote, or a substitute for inspection.</footer>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

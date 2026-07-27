@@ -1,0 +1,2403 @@
+[
+  {
+    "make": "Eagle",
+    "year": 1982,
+    "model": "Concord L4-151 2.5L VIN B",
+    "engine": "2-bbl",
+    "manual_url": "https://lemon-manuals.la/Eagle/1982/Concord%20L4-151%202.5L%20VIN%20B%202-bbl/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1982,
+    "model": "Concord L6-258 4.2L VIN C",
+    "engine": "2-bbl",
+    "manual_url": "https://lemon-manuals.la/Eagle/1982/Concord%20L6-258%204.2L%20VIN%20C%202-bbl/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1982,
+    "model": "Eagle L4-151",
+    "engine": "2.5L",
+    "manual_url": "https://lemon-manuals.la/Eagle/1982/Eagle%20L4-151%202.5L/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1982,
+    "model": "Eagle L6-258",
+    "engine": "4.2L",
+    "manual_url": "https://lemon-manuals.la/Eagle/1982/Eagle%20L6-258%204.2L/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1982,
+    "model": "Spirit L4-151 2.5L VIN B",
+    "engine": "2-bbl",
+    "manual_url": "https://lemon-manuals.la/Eagle/1982/Spirit%20L4-151%202.5L%20VIN%20B%202-bbl/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1982,
+    "model": "Spirit L6-258 4.2L VIN C",
+    "engine": "2-bbl",
+    "manual_url": "https://lemon-manuals.la/Eagle/1982/Spirit%20L6-258%204.2L%20VIN%20C%202-bbl/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1983,
+    "model": "Concord L6-258 4.2L VIN C",
+    "engine": "2-bbl",
+    "manual_url": "https://lemon-manuals.la/Eagle/1983/Concord%20L6-258%204.2L%20VIN%20C%202-bbl/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1983,
+    "model": "Eagle L4-150",
+    "engine": "2.5L",
+    "manual_url": "https://lemon-manuals.la/Eagle/1983/Eagle%20L4-150%202.5L/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1983,
+    "model": "Eagle L4-151",
+    "engine": "2.5L",
+    "manual_url": "https://lemon-manuals.la/Eagle/1983/Eagle%20L4-151%202.5L/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1983,
+    "model": "Eagle L6-258",
+    "engine": "4.2L",
+    "manual_url": "https://lemon-manuals.la/Eagle/1983/Eagle%20L6-258%204.2L/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1983,
+    "model": "Spirit L6-258 4.2L VIN C",
+    "engine": "2-bbl",
+    "manual_url": "https://lemon-manuals.la/Eagle/1983/Spirit%20L6-258%204.2L%20VIN%20C%202-bbl/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1984,
+    "model": "Eagle Sedan L4-150",
+    "engine": "2.5L",
+    "manual_url": "https://lemon-manuals.la/Eagle/1984/Eagle%20Sedan%20L4-150%202.5L/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1984,
+    "model": "Eagle Sedan L6-258",
+    "engine": "4.2L",
+    "manual_url": "https://lemon-manuals.la/Eagle/1984/Eagle%20Sedan%20L6-258%204.2L/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1984,
+    "model": "Eagle Wagon L4-150",
+    "engine": "2.5L",
+    "manual_url": "https://lemon-manuals.la/Eagle/1984/Eagle%20Wagon%20L4-150%202.5L/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1984,
+    "model": "Eagle Wagon L6-258",
+    "engine": "4.2L",
+    "manual_url": "https://lemon-manuals.la/Eagle/1984/Eagle%20Wagon%20L6-258%204.2L/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1985,
+    "model": "Eagle Sedan L6-258",
+    "engine": "4.2L",
+    "manual_url": "https://lemon-manuals.la/Eagle/1985/Eagle%20Sedan%20L6-258%204.2L/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1985,
+    "model": "Eagle Wagon L6-258",
+    "engine": "4.2L",
+    "manual_url": "https://lemon-manuals.la/Eagle/1985/Eagle%20Wagon%20L6-258%204.2L/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1986,
+    "model": "Eagle Sedan L6-258",
+    "engine": "4.2L",
+    "manual_url": "https://lemon-manuals.la/Eagle/1986/Eagle%20Sedan%20L6-258%204.2L/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1986,
+    "model": "Eagle Wagon L6-258",
+    "engine": "4.2L",
+    "manual_url": "https://lemon-manuals.la/Eagle/1986/Eagle%20Wagon%20L6-258%204.2L/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1987,
+    "model": "Eagle Sedan L6-258",
+    "engine": "4.2L",
+    "manual_url": "https://lemon-manuals.la/Eagle/1987/Eagle%20Sedan%20L6-258%204.2L/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1987,
+    "model": "Eagle Wagon L6-258",
+    "engine": "4.2L",
+    "manual_url": "https://lemon-manuals.la/Eagle/1987/Eagle%20Wagon%20L6-258%204.2L/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1988,
+    "model": "Eagle Sedan L6-258",
+    "engine": "4.2L",
+    "manual_url": "https://lemon-manuals.la/Eagle/1988/Eagle%20Sedan%20L6-258%204.2L/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1988,
+    "model": "Eagle Wagon L6-258",
+    "engine": "4.2L",
+    "manual_url": "https://lemon-manuals.la/Eagle/1988/Eagle%20Wagon%20L6-258%204.2L/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1988,
+    "model": "Medallion DL, 4D Sedan,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1988/Medallion%20DL%2C%204D%20Sedan%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1988,
+    "model": "Medallion DL, 4D Sedan,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1988/Medallion%20DL%2C%204D%20Sedan%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1988,
+    "model": "Medallion DL, 4D Wagon,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1988/Medallion%20DL%2C%204D%20Wagon%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1988,
+    "model": "Medallion DL, 4D Wagon,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1988/Medallion%20DL%2C%204D%20Wagon%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1988,
+    "model": "Medallion L4-2165cc",
+    "engine": "2.2L",
+    "manual_url": "https://lemon-manuals.la/Eagle/1988/Medallion%20L4-2165cc%202.2L/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1988,
+    "model": "Medallion LX,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1988/Medallion%20LX%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1988,
+    "model": "Medallion LX,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1988/Medallion%20LX%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1988,
+    "model": "Medallion Wagon L4-2165cc",
+    "engine": "2.2L",
+    "manual_url": "https://lemon-manuals.la/Eagle/1988/Medallion%20Wagon%20L4-2165cc%202.2L/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1988,
+    "model": "Premier",
+    "engine": "ES",
+    "manual_url": "https://lemon-manuals.la/Eagle/1988/Premier%20ES/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1988,
+    "model": "Premier L4-150",
+    "engine": "2.5L",
+    "manual_url": "https://lemon-manuals.la/Eagle/1988/Premier%20L4-150%202.5L/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1988,
+    "model": "Premier LX, 2.5",
+    "engine": "Z",
+    "manual_url": "https://lemon-manuals.la/Eagle/1988/Premier%20LX%2C%202.5%20Z/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1988,
+    "model": "Premier LX, 3.0",
+    "engine": "J",
+    "manual_url": "https://lemon-manuals.la/Eagle/1988/Premier%20LX%2C%203.0%20J/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1988,
+    "model": "Premier V6-182 3.0L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1988/Premier%20V6-182%203.0L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1989,
+    "model": "Medallion DL, 4D",
+    "engine": "Wagon",
+    "manual_url": "https://lemon-manuals.la/Eagle/1989/Medallion%20DL%2C%204D%20Wagon/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1989,
+    "model": "Medallion DL, 4D Sedan,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1989/Medallion%20DL%2C%204D%20Sedan%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1989,
+    "model": "Medallion DL, 4D Sedan,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1989/Medallion%20DL%2C%204D%20Sedan%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1989,
+    "model": "Medallion L4-2165cc",
+    "engine": "2.2L",
+    "manual_url": "https://lemon-manuals.la/Eagle/1989/Medallion%20L4-2165cc%202.2L/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1989,
+    "model": "Medallion LX, 4D",
+    "engine": "Wagon",
+    "manual_url": "https://lemon-manuals.la/Eagle/1989/Medallion%20LX%2C%204D%20Wagon/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1989,
+    "model": "Medallion LX, 4D Sedan,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1989/Medallion%20LX%2C%204D%20Sedan%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1989,
+    "model": "Medallion LX, 4D Sedan,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1989/Medallion%20LX%2C%204D%20Sedan%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1989,
+    "model": "Medallion Wagon L4-2165cc",
+    "engine": "2.2L",
+    "manual_url": "https://lemon-manuals.la/Eagle/1989/Medallion%20Wagon%20L4-2165cc%202.2L/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1989,
+    "model": "Premier",
+    "engine": "ES",
+    "manual_url": "https://lemon-manuals.la/Eagle/1989/Premier%20ES/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1989,
+    "model": "Premier L4-150",
+    "engine": "2.5L",
+    "manual_url": "https://lemon-manuals.la/Eagle/1989/Premier%20L4-150%202.5L/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1989,
+    "model": "Premier LX, 2.5",
+    "engine": "H",
+    "manual_url": "https://lemon-manuals.la/Eagle/1989/Premier%20LX%2C%202.5%20H/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1989,
+    "model": "Premier LX, 3.0",
+    "engine": "U",
+    "manual_url": "https://lemon-manuals.la/Eagle/1989/Premier%20LX%2C%203.0%20U/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1989,
+    "model": "Premier V6-182 3.0L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1989/Premier%20V6-182%203.0L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1989,
+    "model": "Summit DL,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1989/Summit%20DL%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1989,
+    "model": "Summit DL,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1989/Summit%20DL%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1989,
+    "model": "Summit L4-1468cc 1.5L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1989/Summit%20L4-1468cc%201.5L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1989,
+    "model": "Summit L4-1597cc 1.6L",
+    "engine": "DOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1989/Summit%20L4-1597cc%201.6L%20DOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1989,
+    "model": "Summit LX, 1.5 X,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1989/Summit%20LX%2C%201.5%20X%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1989,
+    "model": "Summit LX, 1.5 X,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1989/Summit%20LX%2C%201.5%20X%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1989,
+    "model": "Summit LX, 1.6 Y,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1989/Summit%20LX%2C%201.6%20Y%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1989,
+    "model": "Summit LX, 1.6 Y,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1989/Summit%20LX%2C%201.6%20Y%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1990,
+    "model": "Premier",
+    "engine": "ES",
+    "manual_url": "https://lemon-manuals.la/Eagle/1990/Premier%20ES/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1990,
+    "model": "Premier",
+    "engine": "LX",
+    "manual_url": "https://lemon-manuals.la/Eagle/1990/Premier%20LX/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1990,
+    "model": "Premier ES",
+    "engine": "Limited",
+    "manual_url": "https://lemon-manuals.la/Eagle/1990/Premier%20ES%20Limited/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1990,
+    "model": "Premier L4-153 2.5L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1990/Premier%20L4-153%202.5L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1990,
+    "model": "Premier V6-182 3.0L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1990/Premier%20V6-182%203.0L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1990,
+    "model": "Summit Base,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1990/Summit%20Base%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1990,
+    "model": "Summit Base,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1990/Summit%20Base%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1990,
+    "model": "Summit DL,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1990/Summit%20DL%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1990,
+    "model": "Summit DL,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1990/Summit%20DL%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1990,
+    "model": "Summit ES,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1990/Summit%20ES%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1990,
+    "model": "Summit ES,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1990/Summit%20ES%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1990,
+    "model": "Summit L4-1468cc 1.5L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1990/Summit%20L4-1468cc%201.5L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1990,
+    "model": "Summit L4-1597cc 1.6L",
+    "engine": "DOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1990/Summit%20L4-1597cc%201.6L%20DOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1990,
+    "model": "Summit LX, 1.5 X,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1990/Summit%20LX%2C%201.5%20X%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1990,
+    "model": "Summit LX, 1.5 X,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1990/Summit%20LX%2C%201.5%20X%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1990,
+    "model": "Summit LX, 1.6 Y,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1990/Summit%20LX%2C%201.6%20Y%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1990,
+    "model": "Summit LX, 1.6 Y,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1990/Summit%20LX%2C%201.6%20Y%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1990,
+    "model": "Talon AWD L4-1997cc 2.0L DOHC",
+    "engine": "Turbo",
+    "manual_url": "https://lemon-manuals.la/Eagle/1990/Talon%20AWD%20L4-1997cc%202.0L%20DOHC%20Turbo/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1990,
+    "model": "Talon Base,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1990/Talon%20Base%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1990,
+    "model": "Talon Base,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1990/Talon%20Base%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1990,
+    "model": "Talon FWD L4-1997cc 2.0L",
+    "engine": "DOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1990/Talon%20FWD%20L4-1997cc%202.0L%20DOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1990,
+    "model": "Talon FWD L4-1997cc 2.0L DOHC",
+    "engine": "Turbo",
+    "manual_url": "https://lemon-manuals.la/Eagle/1990/Talon%20FWD%20L4-1997cc%202.0L%20DOHC%20Turbo/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1990,
+    "model": "Talon TSi,",
+    "engine": "AWD",
+    "manual_url": "https://lemon-manuals.la/Eagle/1990/Talon%20TSi%2C%20AWD/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1990,
+    "model": "Talon TSi,",
+    "engine": "FWD",
+    "manual_url": "https://lemon-manuals.la/Eagle/1990/Talon%20TSi%2C%20FWD/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1991,
+    "model": "Premier",
+    "engine": "ES",
+    "manual_url": "https://lemon-manuals.la/Eagle/1991/Premier%20ES/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1991,
+    "model": "Premier",
+    "engine": "LX",
+    "manual_url": "https://lemon-manuals.la/Eagle/1991/Premier%20LX/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1991,
+    "model": "Premier ES",
+    "engine": "Limited",
+    "manual_url": "https://lemon-manuals.la/Eagle/1991/Premier%20ES%20Limited/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1991,
+    "model": "Premier V6-182 3.0L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1991/Premier%20V6-182%203.0L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1991,
+    "model": "Summit Base, 2D Hatchback,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1991/Summit%20Base%2C%202D%20Hatchback%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1991,
+    "model": "Summit Base, 2D Hatchback,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1991/Summit%20Base%2C%202D%20Hatchback%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1991,
+    "model": "Summit Base, 4D Sedan,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1991/Summit%20Base%2C%204D%20Sedan%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1991,
+    "model": "Summit Base, 4D Sedan,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1991/Summit%20Base%2C%204D%20Sedan%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1991,
+    "model": "Summit ES, 2D Hatchback,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1991/Summit%20ES%2C%202D%20Hatchback%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1991,
+    "model": "Summit ES, 2D Hatchback,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1991/Summit%20ES%2C%202D%20Hatchback%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1991,
+    "model": "Summit ES, 4D Sedan,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1991/Summit%20ES%2C%204D%20Sedan%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1991,
+    "model": "Summit ES, 4D Sedan,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1991/Summit%20ES%2C%204D%20Sedan%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1991,
+    "model": "Summit L4-1468cc 1.5L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1991/Summit%20L4-1468cc%201.5L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1991,
+    "model": "Talon AWD L4-1997cc 2.0L DOHC",
+    "engine": "Turbo",
+    "manual_url": "https://lemon-manuals.la/Eagle/1991/Talon%20AWD%20L4-1997cc%202.0L%20DOHC%20Turbo/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1991,
+    "model": "Talon Base,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1991/Talon%20Base%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1991,
+    "model": "Talon Base,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1991/Talon%20Base%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1991,
+    "model": "Talon FWD L4-1753cc 1.8L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1991/Talon%20FWD%20L4-1753cc%201.8L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1991,
+    "model": "Talon FWD L4-1997cc 2.0L",
+    "engine": "DOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1991/Talon%20FWD%20L4-1997cc%202.0L%20DOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1991,
+    "model": "Talon FWD L4-1997cc 2.0L DOHC",
+    "engine": "Turbo",
+    "manual_url": "https://lemon-manuals.la/Eagle/1991/Talon%20FWD%20L4-1997cc%202.0L%20DOHC%20Turbo/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1991,
+    "model": "Talon TSi, AWD,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1991/Talon%20TSi%2C%20AWD%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1991,
+    "model": "Talon TSi, AWD,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1991/Talon%20TSi%2C%20AWD%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1991,
+    "model": "Talon TSi, FWD,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1991/Talon%20TSi%2C%20FWD%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1991,
+    "model": "Talon TSi, FWD,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1991/Talon%20TSi%2C%20FWD%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1992,
+    "model": "Premier",
+    "engine": "ES",
+    "manual_url": "https://lemon-manuals.la/Eagle/1992/Premier%20ES/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1992,
+    "model": "Premier",
+    "engine": "LX",
+    "manual_url": "https://lemon-manuals.la/Eagle/1992/Premier%20LX/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1992,
+    "model": "Premier ES",
+    "engine": "Limited",
+    "manual_url": "https://lemon-manuals.la/Eagle/1992/Premier%20ES%20Limited/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1992,
+    "model": "Premier V6-182 3.0L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1992/Premier%20V6-182%203.0L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1992,
+    "model": "Summit Base, 2D Hatchback,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1992/Summit%20Base%2C%202D%20Hatchback%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1992,
+    "model": "Summit Base, 2D Hatchback,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1992/Summit%20Base%2C%202D%20Hatchback%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1992,
+    "model": "Summit Base, 4D Sedan,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1992/Summit%20Base%2C%204D%20Sedan%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1992,
+    "model": "Summit Base, 4D Sedan,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1992/Summit%20Base%2C%204D%20Sedan%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1992,
+    "model": "Summit ES, 2D Hatchback,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1992/Summit%20ES%2C%202D%20Hatchback%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1992,
+    "model": "Summit ES, 2D Hatchback,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1992/Summit%20ES%2C%202D%20Hatchback%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1992,
+    "model": "Summit ES, 4D Sedan,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1992/Summit%20ES%2C%204D%20Sedan%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1992,
+    "model": "Summit ES, 4D Sedan,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1992/Summit%20ES%2C%204D%20Sedan%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1992,
+    "model": "Summit L4-1468cc 1.5L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1992/Summit%20L4-1468cc%201.5L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1992,
+    "model": "Summit Vista AWD L4-1795cc 1.8L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1992/Summit%20Vista%20AWD%20L4-1795cc%201.8L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1992,
+    "model": "Summit Vista AWD L4-2350cc 2.4L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1992/Summit%20Vista%20AWD%20L4-2350cc%202.4L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1992,
+    "model": "Summit Vista FWD L4-1795cc 1.8L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1992/Summit%20Vista%20FWD%20L4-1795cc%201.8L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1992,
+    "model": "Summit Vista FWD L4-2350cc 2.4L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1992/Summit%20Vista%20FWD%20L4-2350cc%202.4L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1992,
+    "model": "Summit Wagon Base, 1.8 D,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1992/Summit%20Wagon%20Base%2C%201.8%20D%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1992,
+    "model": "Summit Wagon Base, 1.8 D,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1992/Summit%20Wagon%20Base%2C%201.8%20D%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1992,
+    "model": "Summit Wagon Base, 2.4 W,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1992/Summit%20Wagon%20Base%2C%202.4%20W%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1992,
+    "model": "Summit Wagon Base, 2.4 W,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1992/Summit%20Wagon%20Base%2C%202.4%20W%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1992,
+    "model": "Summit Wagon DL, 1.8 D,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1992/Summit%20Wagon%20DL%2C%201.8%20D%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1992,
+    "model": "Summit Wagon DL, 1.8 D,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1992/Summit%20Wagon%20DL%2C%201.8%20D%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1992,
+    "model": "Summit Wagon DL, 2.4 W,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1992/Summit%20Wagon%20DL%2C%202.4%20W%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1992,
+    "model": "Summit Wagon DL, 2.4 W,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1992/Summit%20Wagon%20DL%2C%202.4%20W%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1992,
+    "model": "Summit Wagon LX, 1.8 D,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1992/Summit%20Wagon%20LX%2C%201.8%20D%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1992,
+    "model": "Summit Wagon LX, 1.8 D,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1992/Summit%20Wagon%20LX%2C%201.8%20D%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1992,
+    "model": "Summit Wagon LX, 2.4 W,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1992/Summit%20Wagon%20LX%2C%202.4%20W%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1992,
+    "model": "Summit Wagon LX, 2.4 W,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1992/Summit%20Wagon%20LX%2C%202.4%20W%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1992,
+    "model": "Talon AWD L4-1997cc 2.0L DOHC",
+    "engine": "Turbo",
+    "manual_url": "https://lemon-manuals.la/Eagle/1992/Talon%20AWD%20L4-1997cc%202.0L%20DOHC%20Turbo/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1992,
+    "model": "Talon Base,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1992/Talon%20Base%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1992,
+    "model": "Talon Base,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1992/Talon%20Base%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1992,
+    "model": "Talon FWD L4-1753cc 1.8L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1992/Talon%20FWD%20L4-1753cc%201.8L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1992,
+    "model": "Talon FWD L4-1997cc 2.0L",
+    "engine": "DOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1992/Talon%20FWD%20L4-1997cc%202.0L%20DOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1992,
+    "model": "Talon FWD L4-1997cc 2.0L DOHC",
+    "engine": "Turbo",
+    "manual_url": "https://lemon-manuals.la/Eagle/1992/Talon%20FWD%20L4-1997cc%202.0L%20DOHC%20Turbo/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1992,
+    "model": "Talon TSi, AWD,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1992/Talon%20TSi%2C%20AWD%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1992,
+    "model": "Talon TSi, AWD,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1992/Talon%20TSi%2C%20AWD%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1992,
+    "model": "Talon TSi, FWD,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1992/Talon%20TSi%2C%20FWD%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1992,
+    "model": "Talon TSi, FWD,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1992/Talon%20TSi%2C%20FWD%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1993,
+    "model": "Summit DL, 2D",
+    "engine": "Coupe",
+    "manual_url": "https://lemon-manuals.la/Eagle/1993/Summit%20DL%2C%202D%20Coupe/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1993,
+    "model": "Summit DL, 4D Sedan, 1.5",
+    "engine": "A",
+    "manual_url": "https://lemon-manuals.la/Eagle/1993/Summit%20DL%2C%204D%20Sedan%2C%201.5%20A/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1993,
+    "model": "Summit DL, 4D Sedan, 1.8 C,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1993/Summit%20DL%2C%204D%20Sedan%2C%201.8%20C%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1993,
+    "model": "Summit DL, 4D Sedan, 1.8 C,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1993/Summit%20DL%2C%204D%20Sedan%2C%201.8%20C%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1993,
+    "model": "Summit ES, 2D Coupe,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1993/Summit%20ES%2C%202D%20Coupe%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1993,
+    "model": "Summit ES, 2D Coupe,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1993/Summit%20ES%2C%202D%20Coupe%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1993,
+    "model": "Summit ES, 4D Sedan,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1993/Summit%20ES%2C%204D%20Sedan%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1993,
+    "model": "Summit ES, 4D Sedan,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1993/Summit%20ES%2C%204D%20Sedan%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1993,
+    "model": "Summit L4-1468cc 1.5L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1993/Summit%20L4-1468cc%201.5L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1993,
+    "model": "Summit L4-1795cc 1.8L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1993/Summit%20L4-1795cc%201.8L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1993,
+    "model": "Summit Vista AWD L4-1795cc 1.8L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1993/Summit%20Vista%20AWD%20L4-1795cc%201.8L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1993,
+    "model": "Summit Vista AWD L4-2350cc 2.4L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1993/Summit%20Vista%20AWD%20L4-2350cc%202.4L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1993,
+    "model": "Summit Vista FWD L4-1795cc 1.8L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1993/Summit%20Vista%20FWD%20L4-1795cc%201.8L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1993,
+    "model": "Summit Vista FWD L4-2350cc 2.4L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1993/Summit%20Vista%20FWD%20L4-2350cc%202.4L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1993,
+    "model": "Summit Wagon AWD, 1.8 C,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1993/Summit%20Wagon%20AWD%2C%201.8%20C%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1993,
+    "model": "Summit Wagon AWD, 1.8 C,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1993/Summit%20Wagon%20AWD%2C%201.8%20C%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1993,
+    "model": "Summit Wagon AWD, 2.4 G,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1993/Summit%20Wagon%20AWD%2C%202.4%20G%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1993,
+    "model": "Summit Wagon AWD, 2.4 G,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1993/Summit%20Wagon%20AWD%2C%202.4%20G%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1993,
+    "model": "Summit Wagon DL, 1.8",
+    "engine": "C",
+    "manual_url": "https://lemon-manuals.la/Eagle/1993/Summit%20Wagon%20DL%2C%201.8%20C/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1993,
+    "model": "Summit Wagon DL, 2.4 G,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1993/Summit%20Wagon%20DL%2C%202.4%20G%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1993,
+    "model": "Summit Wagon DL, 2.4 G,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1993/Summit%20Wagon%20DL%2C%202.4%20G%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1993,
+    "model": "Summit Wagon LX,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1993/Summit%20Wagon%20LX%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1993,
+    "model": "Summit Wagon LX,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1993/Summit%20Wagon%20LX%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1993,
+    "model": "Talon AWD L4-1997cc 2.0L DOHC",
+    "engine": "Turbo",
+    "manual_url": "https://lemon-manuals.la/Eagle/1993/Talon%20AWD%20L4-1997cc%202.0L%20DOHC%20Turbo/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1993,
+    "model": "Talon DL,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1993/Talon%20DL%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1993,
+    "model": "Talon DL,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1993/Talon%20DL%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1993,
+    "model": "Talon ES,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1993/Talon%20ES%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1993,
+    "model": "Talon ES,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1993/Talon%20ES%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1993,
+    "model": "Talon FWD L4-1753cc 1.8L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1993/Talon%20FWD%20L4-1753cc%201.8L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1993,
+    "model": "Talon FWD L4-1997cc 2.0L",
+    "engine": "DOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1993/Talon%20FWD%20L4-1997cc%202.0L%20DOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1993,
+    "model": "Talon FWD L4-1997cc 2.0L DOHC",
+    "engine": "Turbo",
+    "manual_url": "https://lemon-manuals.la/Eagle/1993/Talon%20FWD%20L4-1997cc%202.0L%20DOHC%20Turbo/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1993,
+    "model": "Talon TSi, AWD,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1993/Talon%20TSi%2C%20AWD%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1993,
+    "model": "Talon TSi, AWD,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1993/Talon%20TSi%2C%20AWD%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1993,
+    "model": "Talon TSi, FWD,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1993/Talon%20TSi%2C%20FWD%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1993,
+    "model": "Talon TSi, FWD,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1993/Talon%20TSi%2C%20FWD%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1993,
+    "model": "Vision",
+    "engine": "ESi",
+    "manual_url": "https://lemon-manuals.la/Eagle/1993/Vision%20ESi/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1993,
+    "model": "Vision",
+    "engine": "TSi",
+    "manual_url": "https://lemon-manuals.la/Eagle/1993/Vision%20TSi/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1993,
+    "model": "Vision V6-201",
+    "engine": "3.3L",
+    "manual_url": "https://lemon-manuals.la/Eagle/1993/Vision%20V6-201%203.3L/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1993,
+    "model": "Vision V6-215 3.5L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1993/Vision%20V6-215%203.5L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Summit DL, 2D",
+    "engine": "Coupe",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Summit%20DL%2C%202D%20Coupe/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Summit DL, 4D Sedan,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Summit%20DL%2C%204D%20Sedan%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Summit DL, 4D Sedan,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Summit%20DL%2C%204D%20Sedan%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Summit ES, 2D Coupe,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Summit%20ES%2C%202D%20Coupe%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Summit ES, 2D Coupe,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Summit%20ES%2C%202D%20Coupe%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Summit ES, 4D Sedan,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Summit%20ES%2C%204D%20Sedan%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Summit ES, 4D Sedan,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Summit%20ES%2C%204D%20Sedan%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Summit ESi, 2D Coupe,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Summit%20ESi%2C%202D%20Coupe%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Summit ESi, 2D Coupe,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Summit%20ESi%2C%202D%20Coupe%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Summit ESi, 4D Sedan,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Summit%20ESi%2C%204D%20Sedan%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Summit ESi, 4D Sedan,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Summit%20ESi%2C%204D%20Sedan%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Summit L4-1468cc 1.5L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Summit%20L4-1468cc%201.5L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Summit L4-1795cc 1.8L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Summit%20L4-1795cc%201.8L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Summit LX,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Summit%20LX%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Summit LX,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Summit%20LX%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Summit Wagon AWD L4-1795cc 1.8L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Summit%20Wagon%20AWD%20L4-1795cc%201.8L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Summit Wagon AWD L4-2350cc 2.4L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Summit%20Wagon%20AWD%20L4-2350cc%202.4L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Summit Wagon AWD,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Summit%20Wagon%20AWD%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Summit Wagon AWD,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Summit%20Wagon%20AWD%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Summit Wagon DL, 1.8 C,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Summit%20Wagon%20DL%2C%201.8%20C%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Summit Wagon DL, 1.8 C,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Summit%20Wagon%20DL%2C%201.8%20C%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Summit Wagon DL, 2.4 G,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Summit%20Wagon%20DL%2C%202.4%20G%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Summit Wagon DL, 2.4 G,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Summit%20Wagon%20DL%2C%202.4%20G%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Summit Wagon FWD L4-1795cc 1.8L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Summit%20Wagon%20FWD%20L4-1795cc%201.8L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Summit Wagon FWD L4-2350cc 2.4L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Summit%20Wagon%20FWD%20L4-2350cc%202.4L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Summit Wagon LX,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Summit%20Wagon%20LX%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Summit Wagon LX,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Summit%20Wagon%20LX%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Talon AWD L4-1997cc 2.0L DOHC",
+    "engine": "Turbo",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Talon%20AWD%20L4-1997cc%202.0L%20DOHC%20Turbo/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Talon DL,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Talon%20DL%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Talon DL,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Talon%20DL%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Talon ES,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Talon%20ES%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Talon ES,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Talon%20ES%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Talon FWD L4-1753cc 1.8L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Talon%20FWD%20L4-1753cc%201.8L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Talon FWD L4-1997cc 2.0L",
+    "engine": "DOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Talon%20FWD%20L4-1997cc%202.0L%20DOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Talon FWD L4-1997cc 2.0L DOHC",
+    "engine": "Turbo",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Talon%20FWD%20L4-1997cc%202.0L%20DOHC%20Turbo/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Talon TSi, AWD,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Talon%20TSi%2C%20AWD%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Talon TSi, AWD,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Talon%20TSi%2C%20AWD%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Talon TSi, FWD,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Talon%20TSi%2C%20FWD%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Talon TSi, FWD,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Talon%20TSi%2C%20FWD%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Vision",
+    "engine": "TSi",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Vision%20TSi/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Vision ESi, 3.3",
+    "engine": "T",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Vision%20ESi%2C%203.3%20T/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Vision ESi, 3.3",
+    "engine": "U",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Vision%20ESi%2C%203.3%20U/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Vision V6-201",
+    "engine": "3.3L",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Vision%20V6-201%203.3L/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1994,
+    "model": "Vision V6-215 3.5L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1994/Vision%20V6-215%203.5L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1995,
+    "model": "Summit",
+    "engine": "DL",
+    "manual_url": "https://lemon-manuals.la/Eagle/1995/Summit%20DL/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1995,
+    "model": "Summit ESi, 2D Coupe, 1.5",
+    "engine": "A",
+    "manual_url": "https://lemon-manuals.la/Eagle/1995/Summit%20ESi%2C%202D%20Coupe%2C%201.5%20A/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1995,
+    "model": "Summit ESi, 2D Coupe, 1.8 C,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1995/Summit%20ESi%2C%202D%20Coupe%2C%201.8%20C%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1995,
+    "model": "Summit ESi, 2D Coupe, 1.8 C,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1995/Summit%20ESi%2C%202D%20Coupe%2C%201.8%20C%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1995,
+    "model": "Summit ESi, 4D Sedan,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1995/Summit%20ESi%2C%204D%20Sedan%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1995,
+    "model": "Summit ESi, 4D Sedan,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1995/Summit%20ESi%2C%204D%20Sedan%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1995,
+    "model": "Summit L4-1468cc 1.5L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1995/Summit%20L4-1468cc%201.5L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1995,
+    "model": "Summit L4-1795cc 1.8L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1995/Summit%20L4-1795cc%201.8L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1995,
+    "model": "Summit LX, 2D Coupe,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1995/Summit%20LX%2C%202D%20Coupe%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1995,
+    "model": "Summit LX, 2D Coupe,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1995/Summit%20LX%2C%202D%20Coupe%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1995,
+    "model": "Summit LX, 4D Sedan,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1995/Summit%20LX%2C%204D%20Sedan%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1995,
+    "model": "Summit LX, 4D Sedan,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1995/Summit%20LX%2C%204D%20Sedan%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1995,
+    "model": "Summit Wagon AWD L4-1795cc 1.8L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1995/Summit%20Wagon%20AWD%20L4-1795cc%201.8L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1995,
+    "model": "Summit Wagon AWD L4-2350cc 2.4L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1995/Summit%20Wagon%20AWD%20L4-2350cc%202.4L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1995,
+    "model": "Summit Wagon AWD,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1995/Summit%20Wagon%20AWD%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1995,
+    "model": "Summit Wagon AWD,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1995/Summit%20Wagon%20AWD%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1995,
+    "model": "Summit Wagon DL, 1.8 C,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1995/Summit%20Wagon%20DL%2C%201.8%20C%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1995,
+    "model": "Summit Wagon DL, 1.8 C,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1995/Summit%20Wagon%20DL%2C%201.8%20C%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1995,
+    "model": "Summit Wagon DL, 2.4 G,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1995/Summit%20Wagon%20DL%2C%202.4%20G%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1995,
+    "model": "Summit Wagon DL, 2.4 G,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1995/Summit%20Wagon%20DL%2C%202.4%20G%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1995,
+    "model": "Summit Wagon FWD L4-1795cc 1.8L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1995/Summit%20Wagon%20FWD%20L4-1795cc%201.8L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1995,
+    "model": "Summit Wagon FWD L4-2350cc 2.4L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1995/Summit%20Wagon%20FWD%20L4-2350cc%202.4L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1995,
+    "model": "Summit Wagon LX,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1995/Summit%20Wagon%20LX%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1995,
+    "model": "Summit Wagon LX,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1995/Summit%20Wagon%20LX%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1995,
+    "model": "Talon AWD L4-1997cc 2.0L",
+    "engine": "DOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1995/Talon%20AWD%20L4-1997cc%202.0L%20DOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1995,
+    "model": "Talon AWD L4-1997cc 2.0L DOHC",
+    "engine": "Turbo",
+    "manual_url": "https://lemon-manuals.la/Eagle/1995/Talon%20AWD%20L4-1997cc%202.0L%20DOHC%20Turbo/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1995,
+    "model": "Talon ESi,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1995/Talon%20ESi%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1995,
+    "model": "Talon ESi, Standard,",
+    "engine": "A578",
+    "manual_url": "https://lemon-manuals.la/Eagle/1995/Talon%20ESi%2C%20Standard%2C%20A578/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1995,
+    "model": "Talon ESi, Standard,",
+    "engine": "T350",
+    "manual_url": "https://lemon-manuals.la/Eagle/1995/Talon%20ESi%2C%20Standard%2C%20T350/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1995,
+    "model": "Talon FWD L4-1997cc 2.0L",
+    "engine": "DOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1995/Talon%20FWD%20L4-1997cc%202.0L%20DOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1995,
+    "model": "Talon FWD L4-1997cc 2.0L DOHC",
+    "engine": "Turbo",
+    "manual_url": "https://lemon-manuals.la/Eagle/1995/Talon%20FWD%20L4-1997cc%202.0L%20DOHC%20Turbo/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1995,
+    "model": "Talon TSi, AWD,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1995/Talon%20TSi%2C%20AWD%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1995,
+    "model": "Talon TSi, AWD,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1995/Talon%20TSi%2C%20AWD%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1995,
+    "model": "Talon TSi, FWD,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1995/Talon%20TSi%2C%20FWD%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1995,
+    "model": "Talon TSi, FWD,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1995/Talon%20TSi%2C%20FWD%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1995,
+    "model": "Vision",
+    "engine": "ESi",
+    "manual_url": "https://lemon-manuals.la/Eagle/1995/Vision%20ESi/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1995,
+    "model": "Vision",
+    "engine": "TSi",
+    "manual_url": "https://lemon-manuals.la/Eagle/1995/Vision%20TSi/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1995,
+    "model": "Vision V6-201",
+    "engine": "3.3L",
+    "manual_url": "https://lemon-manuals.la/Eagle/1995/Vision%20V6-201%203.3L/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1995,
+    "model": "Vision V6-215 3.5L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1995/Vision%20V6-215%203.5L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Summit",
+    "engine": "Base",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Summit%20Base/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Summit DL,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Summit%20DL%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Summit DL,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Summit%20DL%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Summit ES, 1.5",
+    "engine": "A",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Summit%20ES%2C%201.5%20A/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Summit ES, 1.8",
+    "engine": "C",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Summit%20ES%2C%201.8%20C/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Summit ESi, 2D Coupe,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Summit%20ESi%2C%202D%20Coupe%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Summit ESi, 2D Coupe,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Summit%20ESi%2C%202D%20Coupe%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Summit ESi, 4D Sedan, 1.5",
+    "engine": "A",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Summit%20ESi%2C%204D%20Sedan%2C%201.5%20A/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Summit ESi, 4D Sedan, 1.8 C,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Summit%20ESi%2C%204D%20Sedan%2C%201.8%20C%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Summit ESi, 4D Sedan, 1.8 C,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Summit%20ESi%2C%204D%20Sedan%2C%201.8%20C%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Summit L4-1468cc 1.5L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Summit%20L4-1468cc%201.5L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Summit L4-1795cc 1.8L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Summit%20L4-1795cc%201.8L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Summit LX, 1.5",
+    "engine": "A",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Summit%20LX%2C%201.5%20A/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Summit LX, 1.8 C,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Summit%20LX%2C%201.8%20C%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Summit LX, 1.8 C,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Summit%20LX%2C%201.8%20C%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Summit Wagon AWD L4-2350cc 2.4L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Summit%20Wagon%20AWD%20L4-2350cc%202.4L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Summit Wagon AWD,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Summit%20Wagon%20AWD%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Summit Wagon AWD,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Summit%20Wagon%20AWD%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Summit Wagon DL, 1.8 C,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Summit%20Wagon%20DL%2C%201.8%20C%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Summit Wagon DL, 1.8 C,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Summit%20Wagon%20DL%2C%201.8%20C%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Summit Wagon DL, 2.4 G,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Summit%20Wagon%20DL%2C%202.4%20G%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Summit Wagon DL, 2.4 G,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Summit%20Wagon%20DL%2C%202.4%20G%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Summit Wagon FWD L4-1795cc 1.8L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Summit%20Wagon%20FWD%20L4-1795cc%201.8L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Summit Wagon FWD L4-2350cc 2.4L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Summit%20Wagon%20FWD%20L4-2350cc%202.4L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Summit Wagon LX,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Summit%20Wagon%20LX%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Summit Wagon LX,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Summit%20Wagon%20LX%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Talon AWD L4-1997cc 2.0L DOHC",
+    "engine": "Turbo",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Talon%20AWD%20L4-1997cc%202.0L%20DOHC%20Turbo/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Talon Base,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Talon%20Base%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Talon Base, Standard,",
+    "engine": "A578",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Talon%20Base%2C%20Standard%2C%20A578/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Talon Base, Standard,",
+    "engine": "T350",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Talon%20Base%2C%20Standard%2C%20T350/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Talon ESi,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Talon%20ESi%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Talon ESi, Standard,",
+    "engine": "A578",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Talon%20ESi%2C%20Standard%2C%20A578/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Talon ESi, Standard,",
+    "engine": "T350",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Talon%20ESi%2C%20Standard%2C%20T350/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Talon FWD L4-1997cc 2.0L",
+    "engine": "DOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Talon%20FWD%20L4-1997cc%202.0L%20DOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Talon FWD L4-1997cc 2.0L DOHC",
+    "engine": "Turbo",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Talon%20FWD%20L4-1997cc%202.0L%20DOHC%20Turbo/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Talon TSi, AWD,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Talon%20TSi%2C%20AWD%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Talon TSi, AWD,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Talon%20TSi%2C%20AWD%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Talon TSi, FWD,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Talon%20TSi%2C%20FWD%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Talon TSi, FWD, Standard,",
+    "engine": "A578",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Talon%20TSi%2C%20FWD%2C%20Standard%2C%20A578/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Talon TSi, FWD, Standard,",
+    "engine": "T350",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Talon%20TSi%2C%20FWD%2C%20Standard%2C%20T350/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Vision",
+    "engine": "TSi",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Vision%20TSi/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Vision ESi, 3.3",
+    "engine": "T",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Vision%20ESi%2C%203.3%20T/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Vision ESi, 3.5",
+    "engine": "F",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Vision%20ESi%2C%203.5%20F/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Vision V6-201",
+    "engine": "3.3L",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Vision%20V6-201%203.3L/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1996,
+    "model": "Vision V6-215 3.5L",
+    "engine": "SOHC",
+    "manual_url": "https://lemon-manuals.la/Eagle/1996/Vision%20V6-215%203.5L%20SOHC/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1997,
+    "model": "Talon AWD L4-1997cc 2.0L DOHC Turbo VIN F",
+    "engine": "SMFI",
+    "manual_url": "https://lemon-manuals.la/Eagle/1997/Talon%20AWD%20L4-1997cc%202.0L%20DOHC%20Turbo%20VIN%20F%20SMFI/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1997,
+    "model": "Talon Base,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1997/Talon%20Base%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1997,
+    "model": "Talon Base, Standard,",
+    "engine": "A578",
+    "manual_url": "https://lemon-manuals.la/Eagle/1997/Talon%20Base%2C%20Standard%2C%20A578/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1997,
+    "model": "Talon Base, Standard,",
+    "engine": "T350",
+    "manual_url": "https://lemon-manuals.la/Eagle/1997/Talon%20Base%2C%20Standard%2C%20T350/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1997,
+    "model": "Talon ESi,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1997/Talon%20ESi%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1997,
+    "model": "Talon ESi, Standard,",
+    "engine": "A578",
+    "manual_url": "https://lemon-manuals.la/Eagle/1997/Talon%20ESi%2C%20Standard%2C%20A578/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1997,
+    "model": "Talon ESi, Standard,",
+    "engine": "T350",
+    "manual_url": "https://lemon-manuals.la/Eagle/1997/Talon%20ESi%2C%20Standard%2C%20T350/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1997,
+    "model": "Talon FWD L4-1997cc 2.0L DOHC Turbo VIN F",
+    "engine": "SMFI",
+    "manual_url": "https://lemon-manuals.la/Eagle/1997/Talon%20FWD%20L4-1997cc%202.0L%20DOHC%20Turbo%20VIN%20F%20SMFI/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1997,
+    "model": "Talon FWD L4-1997cc 2.0L DOHC VIN Y",
+    "engine": "SMFI",
+    "manual_url": "https://lemon-manuals.la/Eagle/1997/Talon%20FWD%20L4-1997cc%202.0L%20DOHC%20VIN%20Y%20SMFI/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1997,
+    "model": "Talon TSi, AWD,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1997/Talon%20TSi%2C%20AWD%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1997,
+    "model": "Talon TSi, AWD,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1997/Talon%20TSi%2C%20AWD%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1997,
+    "model": "Talon TSi, FWD,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1997/Talon%20TSi%2C%20FWD%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1997,
+    "model": "Talon TSi, FWD, Standard,",
+    "engine": "A578",
+    "manual_url": "https://lemon-manuals.la/Eagle/1997/Talon%20TSi%2C%20FWD%2C%20Standard%2C%20A578/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1997,
+    "model": "Talon TSi, FWD, Standard,",
+    "engine": "T350",
+    "manual_url": "https://lemon-manuals.la/Eagle/1997/Talon%20TSi%2C%20FWD%2C%20Standard%2C%20T350/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1997,
+    "model": "Vision",
+    "engine": "TSi",
+    "manual_url": "https://lemon-manuals.la/Eagle/1997/Vision%20TSi/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1997,
+    "model": "Vision ESi, 3.3",
+    "engine": "T",
+    "manual_url": "https://lemon-manuals.la/Eagle/1997/Vision%20ESi%2C%203.3%20T/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1997,
+    "model": "Vision ESi, 3.5",
+    "engine": "F",
+    "manual_url": "https://lemon-manuals.la/Eagle/1997/Vision%20ESi%2C%203.5%20F/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1997,
+    "model": "Vision V6-201 3.3L VIN T",
+    "engine": "SFI",
+    "manual_url": "https://lemon-manuals.la/Eagle/1997/Vision%20V6-201%203.3L%20VIN%20T%20SFI/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1997,
+    "model": "Vision V6-3.5L VIN",
+    "engine": "F",
+    "manual_url": "https://lemon-manuals.la/Eagle/1997/Vision%20V6-3.5L%20VIN%20F/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1998,
+    "model": "Talon AWD L4-1997cc 2.0L DOHC Turbo VIN F",
+    "engine": "SMFI",
+    "manual_url": "https://lemon-manuals.la/Eagle/1998/Talon%20AWD%20L4-1997cc%202.0L%20DOHC%20Turbo%20VIN%20F%20SMFI/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1998,
+    "model": "Talon Base,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1998/Talon%20Base%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1998,
+    "model": "Talon Base, Standard,",
+    "engine": "A578",
+    "manual_url": "https://lemon-manuals.la/Eagle/1998/Talon%20Base%2C%20Standard%2C%20A578/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1998,
+    "model": "Talon Base, Standard,",
+    "engine": "T350",
+    "manual_url": "https://lemon-manuals.la/Eagle/1998/Talon%20Base%2C%20Standard%2C%20T350/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1998,
+    "model": "Talon ESi,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1998/Talon%20ESi%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1998,
+    "model": "Talon ESi, Standard,",
+    "engine": "A578",
+    "manual_url": "https://lemon-manuals.la/Eagle/1998/Talon%20ESi%2C%20Standard%2C%20A578/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1998,
+    "model": "Talon ESi, Standard,",
+    "engine": "T350",
+    "manual_url": "https://lemon-manuals.la/Eagle/1998/Talon%20ESi%2C%20Standard%2C%20T350/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1998,
+    "model": "Talon FWD L4-1997cc 2.0L DOHC Turbo VIN F",
+    "engine": "SMFI",
+    "manual_url": "https://lemon-manuals.la/Eagle/1998/Talon%20FWD%20L4-1997cc%202.0L%20DOHC%20Turbo%20VIN%20F%20SMFI/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1998,
+    "model": "Talon FWD L4-1997cc 2.0L DOHC VIN Y",
+    "engine": "SMFI",
+    "manual_url": "https://lemon-manuals.la/Eagle/1998/Talon%20FWD%20L4-1997cc%202.0L%20DOHC%20VIN%20Y%20SMFI/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1998,
+    "model": "Talon TSi, AWD,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1998/Talon%20TSi%2C%20AWD%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1998,
+    "model": "Talon TSi, AWD,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Eagle/1998/Talon%20TSi%2C%20AWD%2C%20Standard/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1998,
+    "model": "Talon TSi, FWD,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Eagle/1998/Talon%20TSi%2C%20FWD%2C%20Automatic/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1998,
+    "model": "Talon TSi, FWD, Standard,",
+    "engine": "A578",
+    "manual_url": "https://lemon-manuals.la/Eagle/1998/Talon%20TSi%2C%20FWD%2C%20Standard%2C%20A578/"
+  },
+  {
+    "make": "Eagle",
+    "year": 1998,
+    "model": "Talon TSi, FWD, Standard,",
+    "engine": "T350",
+    "manual_url": "https://lemon-manuals.la/Eagle/1998/Talon%20TSi%2C%20FWD%2C%20Standard%2C%20T350/"
+  }
+]

@@ -1,0 +1,4524 @@
+[
+  {
+    "make": "Mini",
+    "year": 2002,
+    "model": "Cooper",
+    "engine": "S",
+    "manual_url": "https://lemon-manuals.la/Mini/2002/Cooper%20S/"
+  },
+  {
+    "make": "Mini",
+    "year": 2002,
+    "model": "Cooper (R50) L4-1.6L",
+    "engine": "(W10)",
+    "manual_url": "https://lemon-manuals.la/Mini/2002/Cooper%20%28R50%29%20L4-1.6L%20%28W10%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2002,
+    "model": "Cooper Base,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Mini/2002/Cooper%20Base%2C%20Standard/"
+  },
+  {
+    "make": "Mini",
+    "year": 2002,
+    "model": "Cooper Base, Automatic",
+    "engine": "CVT",
+    "manual_url": "https://lemon-manuals.la/Mini/2002/Cooper%20Base%2C%20Automatic%20CVT/"
+  },
+  {
+    "make": "Mini",
+    "year": 2002,
+    "model": "Cooper S (R53) L4-1.6L SC",
+    "engine": "(W11)",
+    "manual_url": "https://lemon-manuals.la/Mini/2002/Cooper%20S%20%28R53%29%20L4-1.6L%20SC%20%28W11%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2003,
+    "model": "Cooper",
+    "engine": "S",
+    "manual_url": "https://lemon-manuals.la/Mini/2003/Cooper%20S/"
+  },
+  {
+    "make": "Mini",
+    "year": 2003,
+    "model": "Cooper (R50) L4-1.6L",
+    "engine": "(W10)",
+    "manual_url": "https://lemon-manuals.la/Mini/2003/Cooper%20%28R50%29%20L4-1.6L%20%28W10%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2003,
+    "model": "Cooper Base,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Mini/2003/Cooper%20Base%2C%20Standard/"
+  },
+  {
+    "make": "Mini",
+    "year": 2003,
+    "model": "Cooper Base, Automatic",
+    "engine": "CVT",
+    "manual_url": "https://lemon-manuals.la/Mini/2003/Cooper%20Base%2C%20Automatic%20CVT/"
+  },
+  {
+    "make": "Mini",
+    "year": 2003,
+    "model": "Cooper S (R53) L4-1.6L SC",
+    "engine": "(W11)",
+    "manual_url": "https://lemon-manuals.la/Mini/2003/Cooper%20S%20%28R53%29%20L4-1.6L%20SC%20%28W11%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2004,
+    "model": "Cooper",
+    "engine": "S",
+    "manual_url": "https://lemon-manuals.la/Mini/2004/Cooper%20S/"
+  },
+  {
+    "make": "Mini",
+    "year": 2004,
+    "model": "Cooper (R50) L4-1.6L",
+    "engine": "(W10)",
+    "manual_url": "https://lemon-manuals.la/Mini/2004/Cooper%20%28R50%29%20L4-1.6L%20%28W10%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2004,
+    "model": "Cooper Base,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Mini/2004/Cooper%20Base%2C%20Standard/"
+  },
+  {
+    "make": "Mini",
+    "year": 2004,
+    "model": "Cooper Base, Automatic",
+    "engine": "CVT",
+    "manual_url": "https://lemon-manuals.la/Mini/2004/Cooper%20Base%2C%20Automatic%20CVT/"
+  },
+  {
+    "make": "Mini",
+    "year": 2004,
+    "model": "Cooper S (R53) L4-1.6L SC",
+    "engine": "(W11)",
+    "manual_url": "https://lemon-manuals.la/Mini/2004/Cooper%20S%20%28R53%29%20L4-1.6L%20SC%20%28W11%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2005,
+    "model": "Cooper (R50) L4-1.6L",
+    "engine": "(W10)",
+    "manual_url": "https://lemon-manuals.la/Mini/2005/Cooper%20%28R50%29%20L4-1.6L%20%28W10%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2005,
+    "model": "Cooper Base, 2D Convertible,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Mini/2005/Cooper%20Base%2C%202D%20Convertible%2C%20Standard/"
+  },
+  {
+    "make": "Mini",
+    "year": 2005,
+    "model": "Cooper Base, 2D Convertible, Automatic",
+    "engine": "CVT",
+    "manual_url": "https://lemon-manuals.la/Mini/2005/Cooper%20Base%2C%202D%20Convertible%2C%20Automatic%20CVT/"
+  },
+  {
+    "make": "Mini",
+    "year": 2005,
+    "model": "Cooper Base, 2D Hatchback,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Mini/2005/Cooper%20Base%2C%202D%20Hatchback%2C%20Standard/"
+  },
+  {
+    "make": "Mini",
+    "year": 2005,
+    "model": "Cooper Base, 2D Hatchback, Automatic",
+    "engine": "CVT",
+    "manual_url": "https://lemon-manuals.la/Mini/2005/Cooper%20Base%2C%202D%20Hatchback%2C%20Automatic%20CVT/"
+  },
+  {
+    "make": "Mini",
+    "year": 2005,
+    "model": "Cooper Convertible (R52) L4-1.6L",
+    "engine": "(W10)",
+    "manual_url": "https://lemon-manuals.la/Mini/2005/Cooper%20Convertible%20%28R52%29%20L4-1.6L%20%28W10%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2005,
+    "model": "Cooper S (R53) L4-1.6L SC",
+    "engine": "(W11)",
+    "manual_url": "https://lemon-manuals.la/Mini/2005/Cooper%20S%20%28R53%29%20L4-1.6L%20SC%20%28W11%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2005,
+    "model": "Cooper S Convertible (R52) L4-1.6L SC",
+    "engine": "(W11)",
+    "manual_url": "https://lemon-manuals.la/Mini/2005/Cooper%20S%20Convertible%20%28R52%29%20L4-1.6L%20SC%20%28W11%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2005,
+    "model": "Cooper S, 2D Convertible,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Mini/2005/Cooper%20S%2C%202D%20Convertible%2C%20Automatic/"
+  },
+  {
+    "make": "Mini",
+    "year": 2005,
+    "model": "Cooper S, 2D Convertible,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Mini/2005/Cooper%20S%2C%202D%20Convertible%2C%20Standard/"
+  },
+  {
+    "make": "Mini",
+    "year": 2005,
+    "model": "Cooper S, 2D Hatchback,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Mini/2005/Cooper%20S%2C%202D%20Hatchback%2C%20Automatic/"
+  },
+  {
+    "make": "Mini",
+    "year": 2005,
+    "model": "Cooper S, 2D Hatchback,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Mini/2005/Cooper%20S%2C%202D%20Hatchback%2C%20Standard/"
+  },
+  {
+    "make": "Mini",
+    "year": 2006,
+    "model": "Cooper (R50) L4-1.6L",
+    "engine": "(W10)",
+    "manual_url": "https://lemon-manuals.la/Mini/2006/Cooper%20%28R50%29%20L4-1.6L%20%28W10%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2006,
+    "model": "Cooper Base, 2D Convertible,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Mini/2006/Cooper%20Base%2C%202D%20Convertible%2C%20Standard/"
+  },
+  {
+    "make": "Mini",
+    "year": 2006,
+    "model": "Cooper Base, 2D Convertible, Automatic",
+    "engine": "CVT",
+    "manual_url": "https://lemon-manuals.la/Mini/2006/Cooper%20Base%2C%202D%20Convertible%2C%20Automatic%20CVT/"
+  },
+  {
+    "make": "Mini",
+    "year": 2006,
+    "model": "Cooper Base, 2D Hatchback,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Mini/2006/Cooper%20Base%2C%202D%20Hatchback%2C%20Standard/"
+  },
+  {
+    "make": "Mini",
+    "year": 2006,
+    "model": "Cooper Base, 2D Hatchback, Automatic",
+    "engine": "CVT",
+    "manual_url": "https://lemon-manuals.la/Mini/2006/Cooper%20Base%2C%202D%20Hatchback%2C%20Automatic%20CVT/"
+  },
+  {
+    "make": "Mini",
+    "year": 2006,
+    "model": "Cooper Convertible (R52) L4-1.6L",
+    "engine": "(W10)",
+    "manual_url": "https://lemon-manuals.la/Mini/2006/Cooper%20Convertible%20%28R52%29%20L4-1.6L%20%28W10%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2006,
+    "model": "Cooper S (R53) L4-1.6L SC",
+    "engine": "(W11)",
+    "manual_url": "https://lemon-manuals.la/Mini/2006/Cooper%20S%20%28R53%29%20L4-1.6L%20SC%20%28W11%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2006,
+    "model": "Cooper S Convertible (R52) L4-1.6L SC",
+    "engine": "(W11)",
+    "manual_url": "https://lemon-manuals.la/Mini/2006/Cooper%20S%20Convertible%20%28R52%29%20L4-1.6L%20SC%20%28W11%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2006,
+    "model": "Cooper S, 2D Convertible,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Mini/2006/Cooper%20S%2C%202D%20Convertible%2C%20Automatic/"
+  },
+  {
+    "make": "Mini",
+    "year": 2006,
+    "model": "Cooper S, 2D Convertible,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Mini/2006/Cooper%20S%2C%202D%20Convertible%2C%20Standard/"
+  },
+  {
+    "make": "Mini",
+    "year": 2006,
+    "model": "Cooper S, 2D Hatchback,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Mini/2006/Cooper%20S%2C%202D%20Hatchback%2C%20Automatic/"
+  },
+  {
+    "make": "Mini",
+    "year": 2006,
+    "model": "Cooper S, 2D Hatchback,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Mini/2006/Cooper%20S%2C%202D%20Hatchback%2C%20Standard/"
+  },
+  {
+    "make": "Mini",
+    "year": 2007,
+    "model": "Cooper (R56) L4-1.6L",
+    "engine": "(N12)",
+    "manual_url": "https://lemon-manuals.la/Mini/2007/Cooper%20%28R56%29%20L4-1.6L%20%28N12%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2007,
+    "model": "Cooper Base, 2D Convertible,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Mini/2007/Cooper%20Base%2C%202D%20Convertible%2C%20Standard/"
+  },
+  {
+    "make": "Mini",
+    "year": 2007,
+    "model": "Cooper Base, 2D Convertible, Automatic",
+    "engine": "CVT",
+    "manual_url": "https://lemon-manuals.la/Mini/2007/Cooper%20Base%2C%202D%20Convertible%2C%20Automatic%20CVT/"
+  },
+  {
+    "make": "Mini",
+    "year": 2007,
+    "model": "Cooper Base, 2D Hatchback,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Mini/2007/Cooper%20Base%2C%202D%20Hatchback%2C%20Automatic/"
+  },
+  {
+    "make": "Mini",
+    "year": 2007,
+    "model": "Cooper Base, 2D Hatchback,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Mini/2007/Cooper%20Base%2C%202D%20Hatchback%2C%20Standard/"
+  },
+  {
+    "make": "Mini",
+    "year": 2007,
+    "model": "Cooper Convertible (R52) L4-1.6L",
+    "engine": "(W10)",
+    "manual_url": "https://lemon-manuals.la/Mini/2007/Cooper%20Convertible%20%28R52%29%20L4-1.6L%20%28W10%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2007,
+    "model": "Cooper S (R56) L4-1.6L Turbo",
+    "engine": "(N14)",
+    "manual_url": "https://lemon-manuals.la/Mini/2007/Cooper%20S%20%28R56%29%20L4-1.6L%20Turbo%20%28N14%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2007,
+    "model": "Cooper S Convertible (R52) L4-1.6L SC",
+    "engine": "(W11)",
+    "manual_url": "https://lemon-manuals.la/Mini/2007/Cooper%20S%20Convertible%20%28R52%29%20L4-1.6L%20SC%20%28W11%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2007,
+    "model": "Cooper S, 2D Convertible,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Mini/2007/Cooper%20S%2C%202D%20Convertible%2C%20Automatic/"
+  },
+  {
+    "make": "Mini",
+    "year": 2007,
+    "model": "Cooper S, 2D Convertible,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Mini/2007/Cooper%20S%2C%202D%20Convertible%2C%20Standard/"
+  },
+  {
+    "make": "Mini",
+    "year": 2007,
+    "model": "Cooper S, 2D Hatchback,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Mini/2007/Cooper%20S%2C%202D%20Hatchback%2C%20Automatic/"
+  },
+  {
+    "make": "Mini",
+    "year": 2007,
+    "model": "Cooper S, 2D Hatchback,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Mini/2007/Cooper%20S%2C%202D%20Hatchback%2C%20Standard/"
+  },
+  {
+    "make": "Mini",
+    "year": 2008,
+    "model": "Cooper (R56) L4-1.6L",
+    "engine": "(N12)",
+    "manual_url": "https://lemon-manuals.la/Mini/2008/Cooper%20%28R56%29%20L4-1.6L%20%28N12%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2008,
+    "model": "Cooper Base, 2D Convertible,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Mini/2008/Cooper%20Base%2C%202D%20Convertible%2C%20Standard/"
+  },
+  {
+    "make": "Mini",
+    "year": 2008,
+    "model": "Cooper Base, 2D Convertible, Automatic",
+    "engine": "CVT",
+    "manual_url": "https://lemon-manuals.la/Mini/2008/Cooper%20Base%2C%202D%20Convertible%2C%20Automatic%20CVT/"
+  },
+  {
+    "make": "Mini",
+    "year": 2008,
+    "model": "Cooper Base, 2D Hatchback,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Mini/2008/Cooper%20Base%2C%202D%20Hatchback%2C%20Automatic/"
+  },
+  {
+    "make": "Mini",
+    "year": 2008,
+    "model": "Cooper Base, 2D Hatchback,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Mini/2008/Cooper%20Base%2C%202D%20Hatchback%2C%20Standard/"
+  },
+  {
+    "make": "Mini",
+    "year": 2008,
+    "model": "Cooper Clubman (R55) L4-1.6L",
+    "engine": "(N12)",
+    "manual_url": "https://lemon-manuals.la/Mini/2008/Cooper%20Clubman%20%28R55%29%20L4-1.6L%20%28N12%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2008,
+    "model": "Cooper Clubman,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Mini/2008/Cooper%20Clubman%2C%20Automatic/"
+  },
+  {
+    "make": "Mini",
+    "year": 2008,
+    "model": "Cooper Clubman,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Mini/2008/Cooper%20Clubman%2C%20Standard/"
+  },
+  {
+    "make": "Mini",
+    "year": 2008,
+    "model": "Cooper Convertible (R52) L4-1.6L",
+    "engine": "(W10)",
+    "manual_url": "https://lemon-manuals.la/Mini/2008/Cooper%20Convertible%20%28R52%29%20L4-1.6L%20%28W10%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2008,
+    "model": "Cooper S (R56) L4-1.6L Turbo",
+    "engine": "(N14)",
+    "manual_url": "https://lemon-manuals.la/Mini/2008/Cooper%20S%20%28R56%29%20L4-1.6L%20Turbo%20%28N14%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2008,
+    "model": "Cooper S Clubman (R55) L4-1.6L Turbo",
+    "engine": "(N14)",
+    "manual_url": "https://lemon-manuals.la/Mini/2008/Cooper%20S%20Clubman%20%28R55%29%20L4-1.6L%20Turbo%20%28N14%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2008,
+    "model": "Cooper S Clubman,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Mini/2008/Cooper%20S%20Clubman%2C%20Automatic/"
+  },
+  {
+    "make": "Mini",
+    "year": 2008,
+    "model": "Cooper S Clubman,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Mini/2008/Cooper%20S%20Clubman%2C%20Standard/"
+  },
+  {
+    "make": "Mini",
+    "year": 2008,
+    "model": "Cooper S Convertible (R52) L4-1.6L SC",
+    "engine": "(W11)",
+    "manual_url": "https://lemon-manuals.la/Mini/2008/Cooper%20S%20Convertible%20%28R52%29%20L4-1.6L%20SC%20%28W11%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2008,
+    "model": "Cooper S, 2D Convertible,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Mini/2008/Cooper%20S%2C%202D%20Convertible%2C%20Automatic/"
+  },
+  {
+    "make": "Mini",
+    "year": 2008,
+    "model": "Cooper S, 2D Convertible,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Mini/2008/Cooper%20S%2C%202D%20Convertible%2C%20Standard/"
+  },
+  {
+    "make": "Mini",
+    "year": 2008,
+    "model": "Cooper S, 2D Hatchback,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Mini/2008/Cooper%20S%2C%202D%20Hatchback%2C%20Automatic/"
+  },
+  {
+    "make": "Mini",
+    "year": 2008,
+    "model": "Cooper S, 2D Hatchback,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Mini/2008/Cooper%20S%2C%202D%20Hatchback%2C%20Standard/"
+  },
+  {
+    "make": "Mini",
+    "year": 2009,
+    "model": "Cooper (R56) L4-1.6L",
+    "engine": "(N12)",
+    "manual_url": "https://lemon-manuals.la/Mini/2009/Cooper%20%28R56%29%20L4-1.6L%20%28N12%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2009,
+    "model": "Cooper Base, 2D Convertible,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Mini/2009/Cooper%20Base%2C%202D%20Convertible%2C%20Automatic/"
+  },
+  {
+    "make": "Mini",
+    "year": 2009,
+    "model": "Cooper Base, 2D Convertible,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Mini/2009/Cooper%20Base%2C%202D%20Convertible%2C%20Standard/"
+  },
+  {
+    "make": "Mini",
+    "year": 2009,
+    "model": "Cooper Base, 2D Hatchback,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Mini/2009/Cooper%20Base%2C%202D%20Hatchback%2C%20Automatic/"
+  },
+  {
+    "make": "Mini",
+    "year": 2009,
+    "model": "Cooper Base, 2D Hatchback,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Mini/2009/Cooper%20Base%2C%202D%20Hatchback%2C%20Standard/"
+  },
+  {
+    "make": "Mini",
+    "year": 2009,
+    "model": "Cooper Clubman (R55) L4-1.6L",
+    "engine": "(N12)",
+    "manual_url": "https://lemon-manuals.la/Mini/2009/Cooper%20Clubman%20%28R55%29%20L4-1.6L%20%28N12%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2009,
+    "model": "Cooper Clubman,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Mini/2009/Cooper%20Clubman%2C%20Automatic/"
+  },
+  {
+    "make": "Mini",
+    "year": 2009,
+    "model": "Cooper Clubman,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Mini/2009/Cooper%20Clubman%2C%20Standard/"
+  },
+  {
+    "make": "Mini",
+    "year": 2009,
+    "model": "Cooper Convertible (R57) L4-1.6L",
+    "engine": "(N12)",
+    "manual_url": "https://lemon-manuals.la/Mini/2009/Cooper%20Convertible%20%28R57%29%20L4-1.6L%20%28N12%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2009,
+    "model": "Cooper JCW (R56) L4-1.6L Turbo",
+    "engine": "(N14)",
+    "manual_url": "https://lemon-manuals.la/Mini/2009/Cooper%20JCW%20%28R56%29%20L4-1.6L%20Turbo%20%28N14%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2009,
+    "model": "Cooper JCW Clubman (R55) L4-1.6L Turbo",
+    "engine": "(N14)",
+    "manual_url": "https://lemon-manuals.la/Mini/2009/Cooper%20JCW%20Clubman%20%28R55%29%20L4-1.6L%20Turbo%20%28N14%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2009,
+    "model": "Cooper JCW Convertible (R57) L4-1.6L Turbo",
+    "engine": "(N14)",
+    "manual_url": "https://lemon-manuals.la/Mini/2009/Cooper%20JCW%20Convertible%20%28R57%29%20L4-1.6L%20Turbo%20%28N14%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2009,
+    "model": "Cooper S (R56) L4-1.6L Turbo",
+    "engine": "(N14)",
+    "manual_url": "https://lemon-manuals.la/Mini/2009/Cooper%20S%20%28R56%29%20L4-1.6L%20Turbo%20%28N14%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2009,
+    "model": "Cooper S Clubman (R55) L4-1.6L Turbo",
+    "engine": "(N14)",
+    "manual_url": "https://lemon-manuals.la/Mini/2009/Cooper%20S%20Clubman%20%28R55%29%20L4-1.6L%20Turbo%20%28N14%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2009,
+    "model": "Cooper S Clubman,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Mini/2009/Cooper%20S%20Clubman%2C%20Automatic/"
+  },
+  {
+    "make": "Mini",
+    "year": 2009,
+    "model": "Cooper S Clubman,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Mini/2009/Cooper%20S%20Clubman%2C%20Standard/"
+  },
+  {
+    "make": "Mini",
+    "year": 2009,
+    "model": "Cooper S Convertible (R57) L4-1.6L Turbo",
+    "engine": "(N14)",
+    "manual_url": "https://lemon-manuals.la/Mini/2009/Cooper%20S%20Convertible%20%28R57%29%20L4-1.6L%20Turbo%20%28N14%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2009,
+    "model": "Cooper S, 2D Convertible,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Mini/2009/Cooper%20S%2C%202D%20Convertible%2C%20Automatic/"
+  },
+  {
+    "make": "Mini",
+    "year": 2009,
+    "model": "Cooper S, 2D Convertible,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Mini/2009/Cooper%20S%2C%202D%20Convertible%2C%20Standard/"
+  },
+  {
+    "make": "Mini",
+    "year": 2009,
+    "model": "Cooper S, 2D Hatchback,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Mini/2009/Cooper%20S%2C%202D%20Hatchback%2C%20Automatic/"
+  },
+  {
+    "make": "Mini",
+    "year": 2009,
+    "model": "Cooper S, 2D Hatchback,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Mini/2009/Cooper%20S%2C%202D%20Hatchback%2C%20Standard/"
+  },
+  {
+    "make": "Mini",
+    "year": 2009,
+    "model": "Cooper Works",
+    "engine": "Clubman",
+    "manual_url": "https://lemon-manuals.la/Mini/2009/Cooper%20Works%20Clubman/"
+  },
+  {
+    "make": "Mini",
+    "year": 2009,
+    "model": "Cooper Works, 2D",
+    "engine": "Convertible",
+    "manual_url": "https://lemon-manuals.la/Mini/2009/Cooper%20Works%2C%202D%20Convertible/"
+  },
+  {
+    "make": "Mini",
+    "year": 2009,
+    "model": "Cooper Works, 2D",
+    "engine": "Hatchback",
+    "manual_url": "https://lemon-manuals.la/Mini/2009/Cooper%20Works%2C%202D%20Hatchback/"
+  },
+  {
+    "make": "Mini",
+    "year": 2010,
+    "model": "Cooper (R56) L4-1.6L",
+    "engine": "(N12)",
+    "manual_url": "https://lemon-manuals.la/Mini/2010/Cooper%20%28R56%29%20L4-1.6L%20%28N12%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2010,
+    "model": "Cooper Base, 2D Convertible,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Mini/2010/Cooper%20Base%2C%202D%20Convertible%2C%20Automatic/"
+  },
+  {
+    "make": "Mini",
+    "year": 2010,
+    "model": "Cooper Base, 2D Convertible,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Mini/2010/Cooper%20Base%2C%202D%20Convertible%2C%20Standard/"
+  },
+  {
+    "make": "Mini",
+    "year": 2010,
+    "model": "Cooper Base, 2D Hatchback,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Mini/2010/Cooper%20Base%2C%202D%20Hatchback%2C%20Automatic/"
+  },
+  {
+    "make": "Mini",
+    "year": 2010,
+    "model": "Cooper Base, 2D Hatchback,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Mini/2010/Cooper%20Base%2C%202D%20Hatchback%2C%20Standard/"
+  },
+  {
+    "make": "Mini",
+    "year": 2010,
+    "model": "Cooper Clubman (R55) L4-1.6L",
+    "engine": "(N12)",
+    "manual_url": "https://lemon-manuals.la/Mini/2010/Cooper%20Clubman%20%28R55%29%20L4-1.6L%20%28N12%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2010,
+    "model": "Cooper Clubman,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Mini/2010/Cooper%20Clubman%2C%20Automatic/"
+  },
+  {
+    "make": "Mini",
+    "year": 2010,
+    "model": "Cooper Clubman,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Mini/2010/Cooper%20Clubman%2C%20Standard/"
+  },
+  {
+    "make": "Mini",
+    "year": 2010,
+    "model": "Cooper Convertible (R57) L4-1.6L",
+    "engine": "(N12)",
+    "manual_url": "https://lemon-manuals.la/Mini/2010/Cooper%20Convertible%20%28R57%29%20L4-1.6L%20%28N12%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2010,
+    "model": "Cooper JCW (R56) L4-1.6L Turbo",
+    "engine": "(N14)",
+    "manual_url": "https://lemon-manuals.la/Mini/2010/Cooper%20JCW%20%28R56%29%20L4-1.6L%20Turbo%20%28N14%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2010,
+    "model": "Cooper JCW Clubman (R55) L4-1.6L Turbo",
+    "engine": "(N14)",
+    "manual_url": "https://lemon-manuals.la/Mini/2010/Cooper%20JCW%20Clubman%20%28R55%29%20L4-1.6L%20Turbo%20%28N14%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2010,
+    "model": "Cooper JCW Convertible (R57) L4-1.6L Turbo",
+    "engine": "(N14)",
+    "manual_url": "https://lemon-manuals.la/Mini/2010/Cooper%20JCW%20Convertible%20%28R57%29%20L4-1.6L%20Turbo%20%28N14%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2010,
+    "model": "Cooper S (R56) L4-1.6L Turbo",
+    "engine": "(N14)",
+    "manual_url": "https://lemon-manuals.la/Mini/2010/Cooper%20S%20%28R56%29%20L4-1.6L%20Turbo%20%28N14%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2010,
+    "model": "Cooper S Clubman (R55) L4-1.6L Turbo",
+    "engine": "(N14)",
+    "manual_url": "https://lemon-manuals.la/Mini/2010/Cooper%20S%20Clubman%20%28R55%29%20L4-1.6L%20Turbo%20%28N14%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2010,
+    "model": "Cooper S Clubman,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Mini/2010/Cooper%20S%20Clubman%2C%20Automatic/"
+  },
+  {
+    "make": "Mini",
+    "year": 2010,
+    "model": "Cooper S Clubman,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Mini/2010/Cooper%20S%20Clubman%2C%20Standard/"
+  },
+  {
+    "make": "Mini",
+    "year": 2010,
+    "model": "Cooper S Convertible (R57) L4-1.6L Turbo",
+    "engine": "(N14)",
+    "manual_url": "https://lemon-manuals.la/Mini/2010/Cooper%20S%20Convertible%20%28R57%29%20L4-1.6L%20Turbo%20%28N14%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2010,
+    "model": "Cooper S, 2D Convertible,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Mini/2010/Cooper%20S%2C%202D%20Convertible%2C%20Automatic/"
+  },
+  {
+    "make": "Mini",
+    "year": 2010,
+    "model": "Cooper S, 2D Convertible,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Mini/2010/Cooper%20S%2C%202D%20Convertible%2C%20Standard/"
+  },
+  {
+    "make": "Mini",
+    "year": 2010,
+    "model": "Cooper S, 2D Hatchback,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Mini/2010/Cooper%20S%2C%202D%20Hatchback%2C%20Automatic/"
+  },
+  {
+    "make": "Mini",
+    "year": 2010,
+    "model": "Cooper S, 2D Hatchback,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Mini/2010/Cooper%20S%2C%202D%20Hatchback%2C%20Standard/"
+  },
+  {
+    "make": "Mini",
+    "year": 2010,
+    "model": "Cooper Works",
+    "engine": "Clubman",
+    "manual_url": "https://lemon-manuals.la/Mini/2010/Cooper%20Works%20Clubman/"
+  },
+  {
+    "make": "Mini",
+    "year": 2010,
+    "model": "Cooper Works, 2D",
+    "engine": "Convertible",
+    "manual_url": "https://lemon-manuals.la/Mini/2010/Cooper%20Works%2C%202D%20Convertible/"
+  },
+  {
+    "make": "Mini",
+    "year": 2010,
+    "model": "Cooper Works, 2D",
+    "engine": "Hatchback",
+    "manual_url": "https://lemon-manuals.la/Mini/2010/Cooper%20Works%2C%202D%20Hatchback/"
+  },
+  {
+    "make": "Mini",
+    "year": 2011,
+    "model": "Cooper (R56) L4-1.6L",
+    "engine": "(N16)",
+    "manual_url": "https://lemon-manuals.la/Mini/2011/Cooper%20%28R56%29%20L4-1.6L%20%28N16%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2011,
+    "model": "Cooper Base, 2D Convertible,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Mini/2011/Cooper%20Base%2C%202D%20Convertible%2C%20Automatic/"
+  },
+  {
+    "make": "Mini",
+    "year": 2011,
+    "model": "Cooper Base, 2D Convertible,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Mini/2011/Cooper%20Base%2C%202D%20Convertible%2C%20Standard/"
+  },
+  {
+    "make": "Mini",
+    "year": 2011,
+    "model": "Cooper Base, 2D Hatchback,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Mini/2011/Cooper%20Base%2C%202D%20Hatchback%2C%20Automatic/"
+  },
+  {
+    "make": "Mini",
+    "year": 2011,
+    "model": "Cooper Base, 2D Hatchback,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Mini/2011/Cooper%20Base%2C%202D%20Hatchback%2C%20Standard/"
+  },
+  {
+    "make": "Mini",
+    "year": 2011,
+    "model": "Cooper Clubman (R55) L4-1.6L",
+    "engine": "(N16)",
+    "manual_url": "https://lemon-manuals.la/Mini/2011/Cooper%20Clubman%20%28R55%29%20L4-1.6L%20%28N16%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2011,
+    "model": "Cooper Clubman,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Mini/2011/Cooper%20Clubman%2C%20Automatic/"
+  },
+  {
+    "make": "Mini",
+    "year": 2011,
+    "model": "Cooper Clubman,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Mini/2011/Cooper%20Clubman%2C%20Standard/"
+  },
+  {
+    "make": "Mini",
+    "year": 2011,
+    "model": "Cooper Convertible (R57) L4-1.6L",
+    "engine": "(N16)",
+    "manual_url": "https://lemon-manuals.la/Mini/2011/Cooper%20Convertible%20%28R57%29%20L4-1.6L%20%28N16%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2011,
+    "model": "Cooper Countryman (R60) L4-1.6L",
+    "engine": "(N16)",
+    "manual_url": "https://lemon-manuals.la/Mini/2011/Cooper%20Countryman%20%28R60%29%20L4-1.6L%20%28N16%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2011,
+    "model": "Cooper Countryman,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Mini/2011/Cooper%20Countryman%2C%20Automatic/"
+  },
+  {
+    "make": "Mini",
+    "year": 2011,
+    "model": "Cooper Countryman,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Mini/2011/Cooper%20Countryman%2C%20Standard/"
+  },
+  {
+    "make": "Mini",
+    "year": 2011,
+    "model": "Cooper JCW (R56) L4-1.6L Turbo",
+    "engine": "(N14)",
+    "manual_url": "https://lemon-manuals.la/Mini/2011/Cooper%20JCW%20%28R56%29%20L4-1.6L%20Turbo%20%28N14%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2011,
+    "model": "Cooper JCW Clubman (R55) L4-1.6L Turbo",
+    "engine": "(N14)",
+    "manual_url": "https://lemon-manuals.la/Mini/2011/Cooper%20JCW%20Clubman%20%28R55%29%20L4-1.6L%20Turbo%20%28N14%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2011,
+    "model": "Cooper JCW Convertible (R57) L4-1.6L Turbo",
+    "engine": "(N14)",
+    "manual_url": "https://lemon-manuals.la/Mini/2011/Cooper%20JCW%20Convertible%20%28R57%29%20L4-1.6L%20Turbo%20%28N14%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2011,
+    "model": "Cooper S (R56) L4-1.6L Turbo",
+    "engine": "(N18)",
+    "manual_url": "https://lemon-manuals.la/Mini/2011/Cooper%20S%20%28R56%29%20L4-1.6L%20Turbo%20%28N18%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2011,
+    "model": "Cooper S Clubman (R55) L4-1.6L Turbo",
+    "engine": "(N18)",
+    "manual_url": "https://lemon-manuals.la/Mini/2011/Cooper%20S%20Clubman%20%28R55%29%20L4-1.6L%20Turbo%20%28N18%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2011,
+    "model": "Cooper S Clubman,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Mini/2011/Cooper%20S%20Clubman%2C%20Automatic/"
+  },
+  {
+    "make": "Mini",
+    "year": 2011,
+    "model": "Cooper S Clubman,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Mini/2011/Cooper%20S%20Clubman%2C%20Standard/"
+  },
+  {
+    "make": "Mini",
+    "year": 2011,
+    "model": "Cooper S Convertible (R57) L4-1.6L Turbo",
+    "engine": "(N18)",
+    "manual_url": "https://lemon-manuals.la/Mini/2011/Cooper%20S%20Convertible%20%28R57%29%20L4-1.6L%20Turbo%20%28N18%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2011,
+    "model": "Cooper S Countryman (R60) L4-1.6L Turbo",
+    "engine": "(N18)",
+    "manual_url": "https://lemon-manuals.la/Mini/2011/Cooper%20S%20Countryman%20%28R60%29%20L4-1.6L%20Turbo%20%28N18%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2011,
+    "model": "Cooper S Countryman ALL4 (R60) L4-1.6L Turbo",
+    "engine": "(N18)",
+    "manual_url": "https://lemon-manuals.la/Mini/2011/Cooper%20S%20Countryman%20ALL4%20%28R60%29%20L4-1.6L%20Turbo%20%28N18%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2011,
+    "model": "Cooper S Countryman ALL4,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Mini/2011/Cooper%20S%20Countryman%20ALL4%2C%20Automatic/"
+  },
+  {
+    "make": "Mini",
+    "year": 2011,
+    "model": "Cooper S Countryman ALL4,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Mini/2011/Cooper%20S%20Countryman%20ALL4%2C%20Standard/"
+  },
+  {
+    "make": "Mini",
+    "year": 2011,
+    "model": "Cooper S Countryman,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Mini/2011/Cooper%20S%20Countryman%2C%20Automatic/"
+  },
+  {
+    "make": "Mini",
+    "year": 2011,
+    "model": "Cooper S Countryman,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Mini/2011/Cooper%20S%20Countryman%2C%20Standard/"
+  },
+  {
+    "make": "Mini",
+    "year": 2011,
+    "model": "Cooper S, 2D Convertible,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Mini/2011/Cooper%20S%2C%202D%20Convertible%2C%20Automatic/"
+  },
+  {
+    "make": "Mini",
+    "year": 2011,
+    "model": "Cooper S, 2D Convertible,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Mini/2011/Cooper%20S%2C%202D%20Convertible%2C%20Standard/"
+  },
+  {
+    "make": "Mini",
+    "year": 2011,
+    "model": "Cooper S, 2D Hatchback,",
+    "engine": "Automatic",
+    "manual_url": "https://lemon-manuals.la/Mini/2011/Cooper%20S%2C%202D%20Hatchback%2C%20Automatic/"
+  },
+  {
+    "make": "Mini",
+    "year": 2011,
+    "model": "Cooper S, 2D Hatchback,",
+    "engine": "Standard",
+    "manual_url": "https://lemon-manuals.la/Mini/2011/Cooper%20S%2C%202D%20Hatchback%2C%20Standard/"
+  },
+  {
+    "make": "Mini",
+    "year": 2011,
+    "model": "Cooper Works",
+    "engine": "Clubman",
+    "manual_url": "https://lemon-manuals.la/Mini/2011/Cooper%20Works%20Clubman/"
+  },
+  {
+    "make": "Mini",
+    "year": 2011,
+    "model": "Cooper Works, 2D",
+    "engine": "Convertible",
+    "manual_url": "https://lemon-manuals.la/Mini/2011/Cooper%20Works%2C%202D%20Convertible/"
+  },
+  {
+    "make": "Mini",
+    "year": 2011,
+    "model": "Cooper Works, 2D",
+    "engine": "Hatchback",
+    "manual_url": "https://lemon-manuals.la/Mini/2011/Cooper%20Works%2C%202D%20Hatchback/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Cooper (R56) L4-1.6L",
+    "engine": "(N16)",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Cooper%20%28R56%29%20L4-1.6L%20%28N16%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Cooper Base, 2D Convertible, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Cooper%20Base%2C%202D%20Convertible%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Cooper Base, 2D Convertible, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Cooper%20Base%2C%202D%20Convertible%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Cooper Base, 2D Coupe, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Cooper%20Base%2C%202D%20Coupe%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Cooper Base, 2D Coupe, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Cooper%20Base%2C%202D%20Coupe%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Cooper Base, 2D Hatchback, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Cooper%20Base%2C%202D%20Hatchback%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Cooper Base, 2D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Cooper%20Base%2C%202D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Cooper Clubman (R55) L4-1.6L",
+    "engine": "(N16)",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Cooper%20Clubman%20%28R55%29%20L4-1.6L%20%28N16%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Cooper Clubman, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Cooper%20Clubman%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Cooper Clubman, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Cooper%20Clubman%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Cooper Convertible (R57) L4-1.6L",
+    "engine": "(N16)",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Cooper%20Convertible%20%28R57%29%20L4-1.6L%20%28N16%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Cooper Countryman (R60) L4-1.6L",
+    "engine": "(N16)",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Cooper%20Countryman%20%28R60%29%20L4-1.6L%20%28N16%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Cooper Countryman, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Cooper%20Countryman%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Cooper Countryman, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Cooper%20Countryman%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Cooper JCW (R56) L4-1.6L Turbo",
+    "engine": "(N14)",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Cooper%20JCW%20%28R56%29%20L4-1.6L%20Turbo%20%28N14%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Cooper JCW Clubman (R55) L4-1.6L Turbo",
+    "engine": "(N14)",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Cooper%20JCW%20Clubman%20%28R55%29%20L4-1.6L%20Turbo%20%28N14%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Cooper JCW Convertible (R57) L4-1.6L Turbo",
+    "engine": "(N14)",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Cooper%20JCW%20Convertible%20%28R57%29%20L4-1.6L%20Turbo%20%28N14%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Cooper JCW Roadster (R59) L4-1.6L Turbo",
+    "engine": "(N14)",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Cooper%20JCW%20Roadster%20%28R59%29%20L4-1.6L%20Turbo%20%28N14%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Cooper Roadster (R59) L4-1.6L",
+    "engine": "(N16)",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Cooper%20Roadster%20%28R59%29%20L4-1.6L%20%28N16%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Cooper S (R56) L4-1.6L Turbo",
+    "engine": "(N18)",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Cooper%20S%20%28R56%29%20L4-1.6L%20Turbo%20%28N18%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Cooper S Clubman (R55) L4-1.6L Turbo",
+    "engine": "(N18)",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Cooper%20S%20Clubman%20%28R55%29%20L4-1.6L%20Turbo%20%28N18%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Cooper S Clubman, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Cooper%20S%20Clubman%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Cooper S Clubman, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Cooper%20S%20Clubman%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Cooper S Convertible (R57) L4-1.6L Turbo",
+    "engine": "(N18)",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Cooper%20S%20Convertible%20%28R57%29%20L4-1.6L%20Turbo%20%28N18%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Cooper S Countryman (R60) L4-1.6L Turbo",
+    "engine": "(N18)",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Cooper%20S%20Countryman%20%28R60%29%20L4-1.6L%20Turbo%20%28N18%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Cooper S Countryman ALL4 (R60) L4-1.6L Turbo",
+    "engine": "(N18)",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Cooper%20S%20Countryman%20ALL4%20%28R60%29%20L4-1.6L%20Turbo%20%28N18%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Cooper S Countryman ALL4, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Cooper%20S%20Countryman%20ALL4%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Cooper S Countryman ALL4, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Cooper%20S%20Countryman%20ALL4%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Cooper S Countryman, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Cooper%20S%20Countryman%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Cooper S Countryman, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Cooper%20S%20Countryman%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Cooper S Roadster (R59) L4-1.6L Turbo",
+    "engine": "(N18)",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Cooper%20S%20Roadster%20%28R59%29%20L4-1.6L%20Turbo%20%28N18%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Cooper S, 2D Convertible, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Cooper%20S%2C%202D%20Convertible%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Cooper S, 2D Convertible, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Cooper%20S%2C%202D%20Convertible%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Cooper S, 2D Coupe, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Cooper%20S%2C%202D%20Coupe%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Cooper S, 2D Coupe, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Cooper%20S%2C%202D%20Coupe%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Cooper S, 2D Hatchback, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Cooper%20S%2C%202D%20Hatchback%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Cooper S, 2D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Cooper%20S%2C%202D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Cooper Works",
+    "engine": "Clubman",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Cooper%20Works%20Clubman/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Cooper Works, 2D",
+    "engine": "Convertible",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Cooper%20Works%2C%202D%20Convertible/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Cooper Works, 2D",
+    "engine": "Coupe",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Cooper%20Works%2C%202D%20Coupe/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Cooper Works, 2D",
+    "engine": "Hatchback",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Cooper%20Works%2C%202D%20Hatchback/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Coupe (R58) L4-1.6L",
+    "engine": "(N16)",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Coupe%20%28R58%29%20L4-1.6L%20%28N16%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Coupe JCW (R58) L4-1.6L Turbo",
+    "engine": "(N14)",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Coupe%20JCW%20%28R58%29%20L4-1.6L%20Turbo%20%28N14%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2012,
+    "model": "Coupe S (R58) L4-1.6L Turbo",
+    "engine": "(N18)",
+    "manual_url": "https://lemon-manuals.la/Mini/2012/Coupe%20S%20%28R58%29%20L4-1.6L%20Turbo%20%28N18%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper (R56) L4-1.6L",
+    "engine": "(N16)",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20%28R56%29%20L4-1.6L%20%28N16%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper Base, 2D Convertible, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20Base%2C%202D%20Convertible%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper Base, 2D Convertible, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20Base%2C%202D%20Convertible%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper Base, 2D Coupe, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20Base%2C%202D%20Coupe%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper Base, 2D Coupe, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20Base%2C%202D%20Coupe%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper Base, 2D Hatchback, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20Base%2C%202D%20Hatchback%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper Base, 2D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20Base%2C%202D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper Clubman (R55) L4-1.6L",
+    "engine": "(N16)",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20Clubman%20%28R55%29%20L4-1.6L%20%28N16%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper Clubman, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20Clubman%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper Clubman, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20Clubman%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper Convertible (R57) L4-1.6L",
+    "engine": "(N16)",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20Convertible%20%28R57%29%20L4-1.6L%20%28N16%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper Countryman (R60) L4-1.6L",
+    "engine": "(N16)",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20Countryman%20%28R60%29%20L4-1.6L%20%28N16%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper Countryman, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20Countryman%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper Countryman, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20Countryman%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper JCW",
+    "engine": "GP",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20JCW%20GP/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper JCW (R56) L4-1.6L Turbo",
+    "engine": "(N18)",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20JCW%20%28R56%29%20L4-1.6L%20Turbo%20%28N18%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper JCW Clubman (R55) L4-1.6L Turbo",
+    "engine": "(N18)",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20JCW%20Clubman%20%28R55%29%20L4-1.6L%20Turbo%20%28N18%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper JCW Clubman, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20JCW%20Clubman%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper JCW Clubman, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20JCW%20Clubman%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper JCW Convertible (R57) L4-1.6L Turbo",
+    "engine": "(N18)",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20JCW%20Convertible%20%28R57%29%20L4-1.6L%20Turbo%20%28N18%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper JCW Countryman (R60) L4-1.6L Turbo",
+    "engine": "(N18)",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20JCW%20Countryman%20%28R60%29%20L4-1.6L%20Turbo%20%28N18%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper JCW Countryman, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20JCW%20Countryman%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper JCW Countryman, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20JCW%20Countryman%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper JCW Paceman (R61) L4-1.6L Turbo",
+    "engine": "(N18)",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20JCW%20Paceman%20%28R61%29%20L4-1.6L%20Turbo%20%28N18%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper JCW Paceman, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20JCW%20Paceman%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper JCW Paceman, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20JCW%20Paceman%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper JCW Roadster (R59) L4-1.6L Turbo",
+    "engine": "(N18)",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20JCW%20Roadster%20%28R59%29%20L4-1.6L%20Turbo%20%28N18%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper JCW, 2D Convertible, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20JCW%2C%202D%20Convertible%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper JCW, 2D Convertible, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20JCW%2C%202D%20Convertible%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper JCW, 2D Coupe, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20JCW%2C%202D%20Coupe%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper JCW, 2D Coupe, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20JCW%2C%202D%20Coupe%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper JCW, 2D Hatchback, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20JCW%2C%202D%20Hatchback%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper JCW, 2D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20JCW%2C%202D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper Paceman (R61) L4-1.6L",
+    "engine": "(N16)",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20Paceman%20%28R61%29%20L4-1.6L%20%28N16%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper Paceman, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20Paceman%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper Paceman, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20Paceman%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper Roadster (R59) L4-1.6L",
+    "engine": "(N16)",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20Roadster%20%28R59%29%20L4-1.6L%20%28N16%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper S (R56) L4-1.6L Turbo",
+    "engine": "(N18)",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20S%20%28R56%29%20L4-1.6L%20Turbo%20%28N18%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper S Clubman (R55) L4-1.6L Turbo",
+    "engine": "(N18)",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20S%20Clubman%20%28R55%29%20L4-1.6L%20Turbo%20%28N18%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper S Clubman, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20S%20Clubman%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper S Clubman, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20S%20Clubman%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper S Convertible (R57) L4-1.6L Turbo",
+    "engine": "(N18)",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20S%20Convertible%20%28R57%29%20L4-1.6L%20Turbo%20%28N18%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper S Countryman (R60) L4-1.6L Turbo",
+    "engine": "(N18)",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20S%20Countryman%20%28R60%29%20L4-1.6L%20Turbo%20%28N18%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper S Countryman ALL4 (R60) L4-1.6L Turbo",
+    "engine": "(N18)",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20S%20Countryman%20ALL4%20%28R60%29%20L4-1.6L%20Turbo%20%28N18%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper S Countryman ALL4, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20S%20Countryman%20ALL4%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper S Countryman ALL4, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20S%20Countryman%20ALL4%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper S Countryman, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20S%20Countryman%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper S Countryman, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20S%20Countryman%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper S Paceman (R61) L4-1.6L Turbo",
+    "engine": "(N18)",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20S%20Paceman%20%28R61%29%20L4-1.6L%20Turbo%20%28N18%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper S Paceman ALL4 (R61) L4-1.6L Turbo",
+    "engine": "(N18)",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20S%20Paceman%20ALL4%20%28R61%29%20L4-1.6L%20Turbo%20%28N18%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper S Paceman ALL4, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20S%20Paceman%20ALL4%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper S Paceman ALL4, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20S%20Paceman%20ALL4%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper S Paceman, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20S%20Paceman%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper S Paceman, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20S%20Paceman%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper S Roadster (R59) L4-1.6L Turbo",
+    "engine": "(N18)",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20S%20Roadster%20%28R59%29%20L4-1.6L%20Turbo%20%28N18%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper S, 2D Convertible, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20S%2C%202D%20Convertible%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper S, 2D Convertible, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20S%2C%202D%20Convertible%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper S, 2D Coupe, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20S%2C%202D%20Coupe%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper S, 2D Coupe, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20S%2C%202D%20Coupe%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper S, 2D Hatchback, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20S%2C%202D%20Hatchback%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Cooper S, 2D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Cooper%20S%2C%202D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Coupe (R58) L4-1.6L",
+    "engine": "(N16)",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Coupe%20%28R58%29%20L4-1.6L%20%28N16%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Coupe JCW (R58) L4-1.6L Turbo",
+    "engine": "(N18)",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Coupe%20JCW%20%28R58%29%20L4-1.6L%20Turbo%20%28N18%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2013,
+    "model": "Coupe S (R58) L4-1.6L Turbo",
+    "engine": "(N18)",
+    "manual_url": "https://lemon-manuals.la/Mini/2013/Coupe%20S%20%28R58%29%20L4-1.6L%20Turbo%20%28N18%29/"
+  },
+  {
+    "make": "Mini",
+    "year": 2014,
+    "model": "Cooper Base, 2D Convertible, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2014/Cooper%20Base%2C%202D%20Convertible%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2014,
+    "model": "Cooper Base, 2D Convertible, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2014/Cooper%20Base%2C%202D%20Convertible%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2014,
+    "model": "Cooper Base, 2D Coupe, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2014/Cooper%20Base%2C%202D%20Coupe%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2014,
+    "model": "Cooper Base, 2D Coupe, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2014/Cooper%20Base%2C%202D%20Coupe%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2014,
+    "model": "Cooper Base, 2D Hatchback, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2014/Cooper%20Base%2C%202D%20Hatchback%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2014,
+    "model": "Cooper Base, 2D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2014/Cooper%20Base%2C%202D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2014,
+    "model": "Cooper Clubman, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2014/Cooper%20Clubman%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2014,
+    "model": "Cooper Clubman, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2014/Cooper%20Clubman%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2014,
+    "model": "Cooper Countryman Base, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2014/Cooper%20Countryman%20Base%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2014,
+    "model": "Cooper Countryman Base, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2014/Cooper%20Countryman%20Base%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2014,
+    "model": "Cooper Countryman JCW ALL4, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2014/Cooper%20Countryman%20JCW%20ALL4%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2014,
+    "model": "Cooper Countryman JCW ALL4, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2014/Cooper%20Countryman%20JCW%20ALL4%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2014,
+    "model": "Cooper Countryman S ALL4, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2014/Cooper%20Countryman%20S%20ALL4%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2014,
+    "model": "Cooper Countryman S ALL4, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2014/Cooper%20Countryman%20S%20ALL4%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2014,
+    "model": "Cooper Countryman S, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2014/Cooper%20Countryman%20S%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2014,
+    "model": "Cooper Countryman S, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2014/Cooper%20Countryman%20S%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2014,
+    "model": "Cooper JCW Clubman, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2014/Cooper%20JCW%20Clubman%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2014,
+    "model": "Cooper JCW Clubman, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2014/Cooper%20JCW%20Clubman%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2014,
+    "model": "Cooper JCW, 2D Convertible, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2014/Cooper%20JCW%2C%202D%20Convertible%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2014,
+    "model": "Cooper JCW, 2D Convertible, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2014/Cooper%20JCW%2C%202D%20Convertible%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2014,
+    "model": "Cooper JCW, 2D Coupe, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2014/Cooper%20JCW%2C%202D%20Coupe%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2014,
+    "model": "Cooper JCW, 2D Coupe, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2014/Cooper%20JCW%2C%202D%20Coupe%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2014,
+    "model": "Cooper Paceman Base, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2014/Cooper%20Paceman%20Base%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2014,
+    "model": "Cooper Paceman Base, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2014/Cooper%20Paceman%20Base%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2014,
+    "model": "Cooper Paceman JCW ALL4, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2014/Cooper%20Paceman%20JCW%20ALL4%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2014,
+    "model": "Cooper Paceman JCW ALL4, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2014/Cooper%20Paceman%20JCW%20ALL4%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2014,
+    "model": "Cooper Paceman S ALL4, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2014/Cooper%20Paceman%20S%20ALL4%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2014,
+    "model": "Cooper Paceman S ALL4, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2014/Cooper%20Paceman%20S%20ALL4%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2014,
+    "model": "Cooper Paceman S, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2014/Cooper%20Paceman%20S%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2014,
+    "model": "Cooper Paceman S, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2014/Cooper%20Paceman%20S%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2014,
+    "model": "Cooper S Clubman, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2014/Cooper%20S%20Clubman%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2014,
+    "model": "Cooper S Clubman, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2014/Cooper%20S%20Clubman%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2014,
+    "model": "Cooper S, 2D Convertible, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2014/Cooper%20S%2C%202D%20Convertible%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2014,
+    "model": "Cooper S, 2D Convertible, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2014/Cooper%20S%2C%202D%20Convertible%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2014,
+    "model": "Cooper S, 2D Coupe, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2014/Cooper%20S%2C%202D%20Coupe%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2014,
+    "model": "Cooper S, 2D Coupe, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2014/Cooper%20S%2C%202D%20Coupe%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2014,
+    "model": "Cooper S, 2D Hatchback, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2014/Cooper%20S%2C%202D%20Hatchback%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2014,
+    "model": "Cooper S, 2D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2014/Cooper%20S%2C%202D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper Base, 2D Convertible, 1.6L Eng VIN C, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20Base%2C%202D%20Convertible%2C%201.6L%20Eng%20VIN%20C%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper Base, 2D Convertible, 1.6L Eng VIN C, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20Base%2C%202D%20Convertible%2C%201.6L%20Eng%20VIN%20C%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper Base, 2D Convertible, 1.6L Eng, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20Base%2C%202D%20Convertible%2C%201.6L%20Eng%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper Base, 2D Convertible, 1.6L Eng, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20Base%2C%202D%20Convertible%2C%201.6L%20Eng%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper Base, 2D Coupe, 1.6L Eng VIN C, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20Base%2C%202D%20Coupe%2C%201.6L%20Eng%20VIN%20C%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper Base, 2D Coupe, 1.6L Eng VIN C, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20Base%2C%202D%20Coupe%2C%201.6L%20Eng%20VIN%20C%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper Base, 2D Coupe, 1.6L Eng, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20Base%2C%202D%20Coupe%2C%201.6L%20Eng%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper Base, 2D Coupe, 1.6L Eng, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20Base%2C%202D%20Coupe%2C%201.6L%20Eng%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper Base, 2D Hatchback, 1.5L Eng VIN",
+    "engine": "C",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20Base%2C%202D%20Hatchback%2C%201.5L%20Eng%20VIN%20C/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper Base, 2D Hatchback, 1.5L Eng, Eng CD",
+    "engine": "B38",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20Base%2C%202D%20Hatchback%2C%201.5L%20Eng%2C%20Eng%20CD%20B38/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper Base, 2D Hatchback, 1.5L Eng, Eng CD",
+    "engine": "B38A15M0",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20Base%2C%202D%20Hatchback%2C%201.5L%20Eng%2C%20Eng%20CD%20B38A15M0/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper Base, 4D Hatchback, 1.5L Eng VIN",
+    "engine": "C",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20Base%2C%204D%20Hatchback%2C%201.5L%20Eng%20VIN%20C/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper Base, 4D Hatchback, 1.5L Eng, Eng CD",
+    "engine": "B38",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20Base%2C%204D%20Hatchback%2C%201.5L%20Eng%2C%20Eng%20CD%20B38/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper Base, 4D Hatchback, 1.5L Eng, Eng CD",
+    "engine": "B38A15M0",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20Base%2C%204D%20Hatchback%2C%201.5L%20Eng%2C%20Eng%20CD%20B38A15M0/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper Countryman Base, 1.6L Eng VIN C, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20Countryman%20Base%2C%201.6L%20Eng%20VIN%20C%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper Countryman Base, 1.6L Eng VIN C, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20Countryman%20Base%2C%201.6L%20Eng%20VIN%20C%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper Countryman Base, 1.6L Eng, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20Countryman%20Base%2C%201.6L%20Eng%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper Countryman Base, 1.6L Eng, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20Countryman%20Base%2C%201.6L%20Eng%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper Countryman JCW ALL4, 1.6L Eng VIN",
+    "engine": "C",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20Countryman%20JCW%20ALL4%2C%201.6L%20Eng%20VIN%20C/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper Countryman JCW ALL4, 1.6L Eng, Eng CD",
+    "engine": "N18",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20Countryman%20JCW%20ALL4%2C%201.6L%20Eng%2C%20Eng%20CD%20N18/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper Countryman JCW ALL4, 1.6L Eng, Eng CD",
+    "engine": "N18B16C",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20Countryman%20JCW%20ALL4%2C%201.6L%20Eng%2C%20Eng%20CD%20N18B16C/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper Countryman S ALL4, 1.6L Eng VIN",
+    "engine": "C",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20Countryman%20S%20ALL4%2C%201.6L%20Eng%20VIN%20C/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper Countryman S ALL4, 1.6L Eng, Eng CD",
+    "engine": "N18",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20Countryman%20S%20ALL4%2C%201.6L%20Eng%2C%20Eng%20CD%20N18/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper Countryman S ALL4, 1.6L Eng, Eng CD",
+    "engine": "N18B16A",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20Countryman%20S%20ALL4%2C%201.6L%20Eng%2C%20Eng%20CD%20N18B16A/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper Countryman S, 1.6L Eng VIN",
+    "engine": "C",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20Countryman%20S%2C%201.6L%20Eng%20VIN%20C/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper Countryman S, 1.6L Eng, Eng CD",
+    "engine": "N18",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20Countryman%20S%2C%201.6L%20Eng%2C%20Eng%20CD%20N18/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper Countryman S, 1.6L Eng, Eng CD",
+    "engine": "N18B16A",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20Countryman%20S%2C%201.6L%20Eng%2C%20Eng%20CD%20N18B16A/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper JCW, 2D Convertible, 1.6L Eng VIN C, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20JCW%2C%202D%20Convertible%2C%201.6L%20Eng%20VIN%20C%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper JCW, 2D Convertible, 1.6L Eng VIN C, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20JCW%2C%202D%20Convertible%2C%201.6L%20Eng%20VIN%20C%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper JCW, 2D Convertible, 1.6L Eng, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20JCW%2C%202D%20Convertible%2C%201.6L%20Eng%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper JCW, 2D Convertible, 1.6L Eng, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20JCW%2C%202D%20Convertible%2C%201.6L%20Eng%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper JCW, 2D Coupe, 1.6L Eng VIN C, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20JCW%2C%202D%20Coupe%2C%201.6L%20Eng%20VIN%20C%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper JCW, 2D Coupe, 1.6L Eng VIN C, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20JCW%2C%202D%20Coupe%2C%201.6L%20Eng%20VIN%20C%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper JCW, 2D Coupe, 1.6L Eng, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20JCW%2C%202D%20Coupe%2C%201.6L%20Eng%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper JCW, 2D Coupe, 1.6L Eng, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20JCW%2C%202D%20Coupe%2C%201.6L%20Eng%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper JCW, 2D Hatchback, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20JCW%2C%202D%20Hatchback%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper JCW, 2D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20JCW%2C%202D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper Paceman Base, 1.6L Eng VIN C, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20Paceman%20Base%2C%201.6L%20Eng%20VIN%20C%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper Paceman Base, 1.6L Eng VIN C, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20Paceman%20Base%2C%201.6L%20Eng%20VIN%20C%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper Paceman Base, 1.6L Eng, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20Paceman%20Base%2C%201.6L%20Eng%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper Paceman Base, 1.6L Eng, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20Paceman%20Base%2C%201.6L%20Eng%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper Paceman JCW ALL4, 1.6L Eng VIN",
+    "engine": "C",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20Paceman%20JCW%20ALL4%2C%201.6L%20Eng%20VIN%20C/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper Paceman JCW ALL4, 1.6L Eng, Eng CD",
+    "engine": "N18",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20Paceman%20JCW%20ALL4%2C%201.6L%20Eng%2C%20Eng%20CD%20N18/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper Paceman JCW ALL4, 1.6L Eng, Eng CD",
+    "engine": "N18B16C",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20Paceman%20JCW%20ALL4%2C%201.6L%20Eng%2C%20Eng%20CD%20N18B16C/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper Paceman S ALL4, 1.6L Eng VIN",
+    "engine": "C",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20Paceman%20S%20ALL4%2C%201.6L%20Eng%20VIN%20C/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper Paceman S ALL4, 1.6L Eng, Eng CD",
+    "engine": "N18",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20Paceman%20S%20ALL4%2C%201.6L%20Eng%2C%20Eng%20CD%20N18/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper Paceman S ALL4, 1.6L Eng, Eng CD",
+    "engine": "N18B16A",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20Paceman%20S%20ALL4%2C%201.6L%20Eng%2C%20Eng%20CD%20N18B16A/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper Paceman S, 1.6L Eng VIN",
+    "engine": "C",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20Paceman%20S%2C%201.6L%20Eng%20VIN%20C/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper Paceman S, 1.6L Eng, Eng CD",
+    "engine": "N18",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20Paceman%20S%2C%201.6L%20Eng%2C%20Eng%20CD%20N18/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper Paceman S, 1.6L Eng, Eng CD",
+    "engine": "N18B16A",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20Paceman%20S%2C%201.6L%20Eng%2C%20Eng%20CD%20N18B16A/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper S, 2D Convertible, 1.6L Eng VIN C, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20S%2C%202D%20Convertible%2C%201.6L%20Eng%20VIN%20C%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper S, 2D Convertible, 1.6L Eng VIN C, Standard Trans, Trans Mfr CD",
+    "engine": "GS653BG",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20S%2C%202D%20Convertible%2C%201.6L%20Eng%20VIN%20C%2C%20Standard%20Trans%2C%20Trans%20Mfr%20CD%20GS653BG/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper S, 2D Convertible, 1.6L Eng VIN C, Standard Trans, Trans Mfr CD",
+    "engine": "GS655BG",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20S%2C%202D%20Convertible%2C%201.6L%20Eng%20VIN%20C%2C%20Standard%20Trans%2C%20Trans%20Mfr%20CD%20GS655BG/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper S, 2D Convertible, 1.6L Eng, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20S%2C%202D%20Convertible%2C%201.6L%20Eng%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper S, 2D Convertible, 1.6L Eng, Standard Trans, Trans Mfr CD",
+    "engine": "GS653BG",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20S%2C%202D%20Convertible%2C%201.6L%20Eng%2C%20Standard%20Trans%2C%20Trans%20Mfr%20CD%20GS653BG/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper S, 2D Convertible, 1.6L Eng, Standard Trans, Trans Mfr CD",
+    "engine": "GS655BG",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20S%2C%202D%20Convertible%2C%201.6L%20Eng%2C%20Standard%20Trans%2C%20Trans%20Mfr%20CD%20GS655BG/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper S, 2D Coupe, 1.6L Eng VIN",
+    "engine": "C",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20S%2C%202D%20Coupe%2C%201.6L%20Eng%20VIN%20C/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper S, 2D Coupe, 1.6L Eng, Eng CD",
+    "engine": "N18",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20S%2C%202D%20Coupe%2C%201.6L%20Eng%2C%20Eng%20CD%20N18/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper S, 2D Coupe, 1.6L Eng, Eng CD",
+    "engine": "N18B16A",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20S%2C%202D%20Coupe%2C%201.6L%20Eng%2C%20Eng%20CD%20N18B16A/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper S, 2D Hatchback, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20S%2C%202D%20Hatchback%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper S, 2D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20S%2C%202D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper S, 4D Hatchback, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20S%2C%204D%20Hatchback%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2015,
+    "model": "Cooper S, 4D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2015/Cooper%20S%2C%204D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2016,
+    "model": "Cooper Base, 2D Convertible, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2016/Cooper%20Base%2C%202D%20Convertible%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2016,
+    "model": "Cooper Base, 2D Convertible, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2016/Cooper%20Base%2C%202D%20Convertible%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2016,
+    "model": "Cooper Base, 2D Hatchback, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2016/Cooper%20Base%2C%202D%20Hatchback%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2016,
+    "model": "Cooper Base, 2D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2016/Cooper%20Base%2C%202D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2016,
+    "model": "Cooper Base, 4D Hatchback, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2016/Cooper%20Base%2C%204D%20Hatchback%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2016,
+    "model": "Cooper Base, 4D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2016/Cooper%20Base%2C%204D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2016,
+    "model": "Cooper Clubman Base, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2016/Cooper%20Clubman%20Base%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2016,
+    "model": "Cooper Clubman Base, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2016/Cooper%20Clubman%20Base%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2016,
+    "model": "Cooper Clubman S, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2016/Cooper%20Clubman%20S%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2016,
+    "model": "Cooper Clubman S, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2016/Cooper%20Clubman%20S%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2016,
+    "model": "Cooper Countryman Base, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2016/Cooper%20Countryman%20Base%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2016,
+    "model": "Cooper Countryman Base, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2016/Cooper%20Countryman%20Base%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2016,
+    "model": "Cooper Countryman JCW ALL4, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2016/Cooper%20Countryman%20JCW%20ALL4%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2016,
+    "model": "Cooper Countryman JCW ALL4, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2016/Cooper%20Countryman%20JCW%20ALL4%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2016,
+    "model": "Cooper Countryman S ALL4, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2016/Cooper%20Countryman%20S%20ALL4%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2016,
+    "model": "Cooper Countryman S ALL4, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2016/Cooper%20Countryman%20S%20ALL4%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2016,
+    "model": "Cooper Countryman S, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2016/Cooper%20Countryman%20S%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2016,
+    "model": "Cooper Countryman S, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2016/Cooper%20Countryman%20S%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2016,
+    "model": "Cooper JCW, 2D Convertible, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2016/Cooper%20JCW%2C%202D%20Convertible%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2016,
+    "model": "Cooper JCW, 2D Convertible, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2016/Cooper%20JCW%2C%202D%20Convertible%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2016,
+    "model": "Cooper JCW, 2D Hatchback, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2016/Cooper%20JCW%2C%202D%20Hatchback%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2016,
+    "model": "Cooper JCW, 2D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2016/Cooper%20JCW%2C%202D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2016,
+    "model": "Cooper Paceman Base, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2016/Cooper%20Paceman%20Base%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2016,
+    "model": "Cooper Paceman Base, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2016/Cooper%20Paceman%20Base%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2016,
+    "model": "Cooper Paceman JCW ALL4, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2016/Cooper%20Paceman%20JCW%20ALL4%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2016,
+    "model": "Cooper Paceman JCW ALL4, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2016/Cooper%20Paceman%20JCW%20ALL4%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2016,
+    "model": "Cooper Paceman S ALL4, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2016/Cooper%20Paceman%20S%20ALL4%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2016,
+    "model": "Cooper Paceman S ALL4, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2016/Cooper%20Paceman%20S%20ALL4%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2016,
+    "model": "Cooper Paceman S, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2016/Cooper%20Paceman%20S%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2016,
+    "model": "Cooper Paceman S, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2016/Cooper%20Paceman%20S%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2016,
+    "model": "Cooper S, 2D Convertible, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2016/Cooper%20S%2C%202D%20Convertible%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2016,
+    "model": "Cooper S, 2D Convertible, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2016/Cooper%20S%2C%202D%20Convertible%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2016,
+    "model": "Cooper S, 2D Hatchback, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2016/Cooper%20S%2C%202D%20Hatchback%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2016,
+    "model": "Cooper S, 2D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2016/Cooper%20S%2C%202D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2016,
+    "model": "Cooper S, 4D Hatchback, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2016/Cooper%20S%2C%204D%20Hatchback%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2016,
+    "model": "Cooper S, 4D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2016/Cooper%20S%2C%204D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2017,
+    "model": "Cooper Base, 2D Convertible, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2017/Cooper%20Base%2C%202D%20Convertible%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2017,
+    "model": "Cooper Base, 2D Convertible, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2017/Cooper%20Base%2C%202D%20Convertible%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2017,
+    "model": "Cooper Base, 2D Hatchback, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2017/Cooper%20Base%2C%202D%20Hatchback%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2017,
+    "model": "Cooper Base, 2D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2017/Cooper%20Base%2C%202D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2017,
+    "model": "Cooper Base, 4D Hatchback, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2017/Cooper%20Base%2C%204D%20Hatchback%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2017,
+    "model": "Cooper Base, 4D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2017/Cooper%20Base%2C%204D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2017,
+    "model": "Cooper Clubman ALL4, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2017/Cooper%20Clubman%20ALL4%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2017,
+    "model": "Cooper Clubman ALL4, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2017/Cooper%20Clubman%20ALL4%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2017,
+    "model": "Cooper Clubman Base, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2017/Cooper%20Clubman%20Base%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2017,
+    "model": "Cooper Clubman Base, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2017/Cooper%20Clubman%20Base%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2017,
+    "model": "Cooper Clubman JCW ALL4, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2017/Cooper%20Clubman%20JCW%20ALL4%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2017,
+    "model": "Cooper Clubman JCW ALL4, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2017/Cooper%20Clubman%20JCW%20ALL4%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2017,
+    "model": "Cooper Clubman S ALL4, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2017/Cooper%20Clubman%20S%20ALL4%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2017,
+    "model": "Cooper Clubman S ALL4, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2017/Cooper%20Clubman%20S%20ALL4%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2017,
+    "model": "Cooper Clubman S, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2017/Cooper%20Clubman%20S%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2017,
+    "model": "Cooper Clubman S, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2017/Cooper%20Clubman%20S%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2017,
+    "model": "Cooper Countryman",
+    "engine": "S",
+    "manual_url": "https://lemon-manuals.la/Mini/2017/Cooper%20Countryman%20S/"
+  },
+  {
+    "make": "Mini",
+    "year": 2017,
+    "model": "Cooper Countryman ALL4, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2017/Cooper%20Countryman%20ALL4%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2017,
+    "model": "Cooper Countryman ALL4, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2017/Cooper%20Countryman%20ALL4%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2017,
+    "model": "Cooper Countryman Base, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2017/Cooper%20Countryman%20Base%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2017,
+    "model": "Cooper Countryman Base, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2017/Cooper%20Countryman%20Base%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2017,
+    "model": "Cooper Countryman JCW ALL4, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2017/Cooper%20Countryman%20JCW%20ALL4%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2017,
+    "model": "Cooper Countryman JCW ALL4, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2017/Cooper%20Countryman%20JCW%20ALL4%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2017,
+    "model": "Cooper Countryman S ALL4, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2017/Cooper%20Countryman%20S%20ALL4%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2017,
+    "model": "Cooper Countryman S ALL4, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2017/Cooper%20Countryman%20S%20ALL4%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2017,
+    "model": "Cooper JCW, 2D Convertible, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2017/Cooper%20JCW%2C%202D%20Convertible%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2017,
+    "model": "Cooper JCW, 2D Convertible, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2017/Cooper%20JCW%2C%202D%20Convertible%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2017,
+    "model": "Cooper JCW, 2D Hatchback, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2017/Cooper%20JCW%2C%202D%20Hatchback%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2017,
+    "model": "Cooper JCW, 2D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2017/Cooper%20JCW%2C%202D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2017,
+    "model": "Cooper S, 2D Convertible, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2017/Cooper%20S%2C%202D%20Convertible%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2017,
+    "model": "Cooper S, 2D Convertible, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2017/Cooper%20S%2C%202D%20Convertible%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2017,
+    "model": "Cooper S, 2D Hatchback, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2017/Cooper%20S%2C%202D%20Hatchback%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2017,
+    "model": "Cooper S, 2D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2017/Cooper%20S%2C%202D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2017,
+    "model": "Cooper S, 4D Hatchback, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2017/Cooper%20S%2C%204D%20Hatchback%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2017,
+    "model": "Cooper S, 4D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2017/Cooper%20S%2C%204D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2018,
+    "model": "Cooper Base, 2D Convertible, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2018/Cooper%20Base%2C%202D%20Convertible%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2018,
+    "model": "Cooper Base, 2D Convertible, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2018/Cooper%20Base%2C%202D%20Convertible%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2018,
+    "model": "Cooper Base, 2D Hatchback, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2018/Cooper%20Base%2C%202D%20Hatchback%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2018,
+    "model": "Cooper Base, 2D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2018/Cooper%20Base%2C%202D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2018,
+    "model": "Cooper Base, 4D Hatchback, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2018/Cooper%20Base%2C%204D%20Hatchback%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2018,
+    "model": "Cooper Base, 4D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2018/Cooper%20Base%2C%204D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2018,
+    "model": "Cooper Clubman ALL4, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2018/Cooper%20Clubman%20ALL4%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2018,
+    "model": "Cooper Clubman ALL4, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2018/Cooper%20Clubman%20ALL4%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2018,
+    "model": "Cooper Clubman Base, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2018/Cooper%20Clubman%20Base%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2018,
+    "model": "Cooper Clubman Base, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2018/Cooper%20Clubman%20Base%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2018,
+    "model": "Cooper Clubman JCW ALL4, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2018/Cooper%20Clubman%20JCW%20ALL4%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2018,
+    "model": "Cooper Clubman JCW ALL4, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2018/Cooper%20Clubman%20JCW%20ALL4%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2018,
+    "model": "Cooper Clubman S ALL4, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2018/Cooper%20Clubman%20S%20ALL4%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2018,
+    "model": "Cooper Clubman S ALL4, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2018/Cooper%20Clubman%20S%20ALL4%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2018,
+    "model": "Cooper Clubman S, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2018/Cooper%20Clubman%20S%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2018,
+    "model": "Cooper Clubman S, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2018/Cooper%20Clubman%20S%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2018,
+    "model": "Cooper Countryman",
+    "engine": "S",
+    "manual_url": "https://lemon-manuals.la/Mini/2018/Cooper%20Countryman%20S/"
+  },
+  {
+    "make": "Mini",
+    "year": 2018,
+    "model": "Cooper Countryman ALL4, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2018/Cooper%20Countryman%20ALL4%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2018,
+    "model": "Cooper Countryman ALL4, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2018/Cooper%20Countryman%20ALL4%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2018,
+    "model": "Cooper Countryman Base, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2018/Cooper%20Countryman%20Base%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2018,
+    "model": "Cooper Countryman Base, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2018/Cooper%20Countryman%20Base%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2018,
+    "model": "Cooper Countryman JCW ALL4, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2018/Cooper%20Countryman%20JCW%20ALL4%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2018,
+    "model": "Cooper Countryman JCW ALL4, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2018/Cooper%20Countryman%20JCW%20ALL4%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2018,
+    "model": "Cooper Countryman S ALL4, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2018/Cooper%20Countryman%20S%20ALL4%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2018,
+    "model": "Cooper Countryman S ALL4, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2018/Cooper%20Countryman%20S%20ALL4%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2018,
+    "model": "Cooper Countryman S E",
+    "engine": "ALL4",
+    "manual_url": "https://lemon-manuals.la/Mini/2018/Cooper%20Countryman%20S%20E%20ALL4/"
+  },
+  {
+    "make": "Mini",
+    "year": 2018,
+    "model": "Cooper JCW, 2D Convertible, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2018/Cooper%20JCW%2C%202D%20Convertible%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2018,
+    "model": "Cooper JCW, 2D Convertible, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2018/Cooper%20JCW%2C%202D%20Convertible%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2018,
+    "model": "Cooper JCW, 2D Hatchback, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2018/Cooper%20JCW%2C%202D%20Hatchback%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2018,
+    "model": "Cooper JCW, 2D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2018/Cooper%20JCW%2C%202D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2018,
+    "model": "Cooper S, 2D Convertible, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2018/Cooper%20S%2C%202D%20Convertible%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2018,
+    "model": "Cooper S, 2D Convertible, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2018/Cooper%20S%2C%202D%20Convertible%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2018,
+    "model": "Cooper S, 2D Hatchback, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2018/Cooper%20S%2C%202D%20Hatchback%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2018,
+    "model": "Cooper S, 2D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2018/Cooper%20S%2C%202D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2018,
+    "model": "Cooper S, 4D Hatchback, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2018/Cooper%20S%2C%204D%20Hatchback%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2018,
+    "model": "Cooper S, 4D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2018/Cooper%20S%2C%204D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2019,
+    "model": "Cooper Base, 2D Convertible, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2019/Cooper%20Base%2C%202D%20Convertible%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2019,
+    "model": "Cooper Base, 2D Convertible, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2019/Cooper%20Base%2C%202D%20Convertible%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2019,
+    "model": "Cooper Base, 2D Hatchback, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2019/Cooper%20Base%2C%202D%20Hatchback%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2019,
+    "model": "Cooper Base, 2D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2019/Cooper%20Base%2C%202D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2019,
+    "model": "Cooper Base, 4D Hatchback, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2019/Cooper%20Base%2C%204D%20Hatchback%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2019,
+    "model": "Cooper Base, 4D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2019/Cooper%20Base%2C%204D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2019,
+    "model": "Cooper Clubman ALL4, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2019/Cooper%20Clubman%20ALL4%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2019,
+    "model": "Cooper Clubman ALL4, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2019/Cooper%20Clubman%20ALL4%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2019,
+    "model": "Cooper Clubman Base, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2019/Cooper%20Clubman%20Base%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2019,
+    "model": "Cooper Clubman Base, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2019/Cooper%20Clubman%20Base%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2019,
+    "model": "Cooper Clubman JCW ALL4, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2019/Cooper%20Clubman%20JCW%20ALL4%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2019,
+    "model": "Cooper Clubman JCW ALL4, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2019/Cooper%20Clubman%20JCW%20ALL4%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2019,
+    "model": "Cooper Clubman S ALL4, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2019/Cooper%20Clubman%20S%20ALL4%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2019,
+    "model": "Cooper Clubman S ALL4, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2019/Cooper%20Clubman%20S%20ALL4%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2019,
+    "model": "Cooper Clubman S, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2019/Cooper%20Clubman%20S%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2019,
+    "model": "Cooper Clubman S, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2019/Cooper%20Clubman%20S%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2019,
+    "model": "Cooper Countryman",
+    "engine": "S",
+    "manual_url": "https://lemon-manuals.la/Mini/2019/Cooper%20Countryman%20S/"
+  },
+  {
+    "make": "Mini",
+    "year": 2019,
+    "model": "Cooper Countryman ALL4, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2019/Cooper%20Countryman%20ALL4%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2019,
+    "model": "Cooper Countryman ALL4, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2019/Cooper%20Countryman%20ALL4%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2019,
+    "model": "Cooper Countryman Base, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2019/Cooper%20Countryman%20Base%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2019,
+    "model": "Cooper Countryman Base, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2019/Cooper%20Countryman%20Base%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2019,
+    "model": "Cooper Countryman JCW ALL4, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2019/Cooper%20Countryman%20JCW%20ALL4%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2019,
+    "model": "Cooper Countryman JCW ALL4, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2019/Cooper%20Countryman%20JCW%20ALL4%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2019,
+    "model": "Cooper Countryman S ALL4, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2019/Cooper%20Countryman%20S%20ALL4%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2019,
+    "model": "Cooper Countryman S ALL4, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2019/Cooper%20Countryman%20S%20ALL4%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2019,
+    "model": "Cooper Countryman S E",
+    "engine": "ALL4",
+    "manual_url": "https://lemon-manuals.la/Mini/2019/Cooper%20Countryman%20S%20E%20ALL4/"
+  },
+  {
+    "make": "Mini",
+    "year": 2019,
+    "model": "Cooper JCW, 2D Convertible, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2019/Cooper%20JCW%2C%202D%20Convertible%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2019,
+    "model": "Cooper JCW, 2D Convertible, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2019/Cooper%20JCW%2C%202D%20Convertible%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2019,
+    "model": "Cooper JCW, 2D Hatchback, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2019/Cooper%20JCW%2C%202D%20Hatchback%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2019,
+    "model": "Cooper JCW, 2D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2019/Cooper%20JCW%2C%202D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2019,
+    "model": "Cooper S, 2D Convertible, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2019/Cooper%20S%2C%202D%20Convertible%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2019,
+    "model": "Cooper S, 2D Convertible, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2019/Cooper%20S%2C%202D%20Convertible%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2019,
+    "model": "Cooper S, 2D Hatchback, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2019/Cooper%20S%2C%202D%20Hatchback%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2019,
+    "model": "Cooper S, 2D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2019/Cooper%20S%2C%202D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2019,
+    "model": "Cooper S, 4D Hatchback, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2019/Cooper%20S%2C%204D%20Hatchback%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2019,
+    "model": "Cooper S, 4D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2019/Cooper%20S%2C%204D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2020,
+    "model": "Cooper",
+    "engine": "SE",
+    "manual_url": "https://lemon-manuals.la/Mini/2020/Cooper%20SE/"
+  },
+  {
+    "make": "Mini",
+    "year": 2020,
+    "model": "Cooper Base, 2D Convertible, Automatic DCT",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2020/Cooper%20Base%2C%202D%20Convertible%2C%20Automatic%20DCT%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2020,
+    "model": "Cooper Base, 2D Convertible, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2020/Cooper%20Base%2C%202D%20Convertible%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2020,
+    "model": "Cooper Base, 2D Hatchback, Automatic DCT",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2020/Cooper%20Base%2C%202D%20Hatchback%2C%20Automatic%20DCT%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2020,
+    "model": "Cooper Base, 2D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2020/Cooper%20Base%2C%202D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2020,
+    "model": "Cooper Base, 4D Hatchback, Automatic DCT",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2020/Cooper%20Base%2C%204D%20Hatchback%2C%20Automatic%20DCT%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2020,
+    "model": "Cooper Base, 4D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2020/Cooper%20Base%2C%204D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2020,
+    "model": "Cooper Clubman JCW",
+    "engine": "ALL4",
+    "manual_url": "https://lemon-manuals.la/Mini/2020/Cooper%20Clubman%20JCW%20ALL4/"
+  },
+  {
+    "make": "Mini",
+    "year": 2020,
+    "model": "Cooper Clubman S ALL4, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2020/Cooper%20Clubman%20S%20ALL4%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2020,
+    "model": "Cooper Clubman S ALL4, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2020/Cooper%20Clubman%20S%20ALL4%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2020,
+    "model": "Cooper Clubman S, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2020/Cooper%20Clubman%20S%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2020,
+    "model": "Cooper Clubman S, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2020/Cooper%20Clubman%20S%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2020,
+    "model": "Cooper Countryman",
+    "engine": "S",
+    "manual_url": "https://lemon-manuals.la/Mini/2020/Cooper%20Countryman%20S/"
+  },
+  {
+    "make": "Mini",
+    "year": 2020,
+    "model": "Cooper Countryman ALL4, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2020/Cooper%20Countryman%20ALL4%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2020,
+    "model": "Cooper Countryman ALL4, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2020/Cooper%20Countryman%20ALL4%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2020,
+    "model": "Cooper Countryman Base, Automatic DCT",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2020/Cooper%20Countryman%20Base%2C%20Automatic%20DCT%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2020,
+    "model": "Cooper Countryman Base, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2020/Cooper%20Countryman%20Base%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2020,
+    "model": "Cooper Countryman JCW",
+    "engine": "ALL4",
+    "manual_url": "https://lemon-manuals.la/Mini/2020/Cooper%20Countryman%20JCW%20ALL4/"
+  },
+  {
+    "make": "Mini",
+    "year": 2020,
+    "model": "Cooper Countryman S ALL4, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2020/Cooper%20Countryman%20S%20ALL4%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2020,
+    "model": "Cooper Countryman S ALL4, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2020/Cooper%20Countryman%20S%20ALL4%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2020,
+    "model": "Cooper Countryman S E",
+    "engine": "ALL4",
+    "manual_url": "https://lemon-manuals.la/Mini/2020/Cooper%20Countryman%20S%20E%20ALL4/"
+  },
+  {
+    "make": "Mini",
+    "year": 2020,
+    "model": "Cooper JCW, 2D",
+    "engine": "Convertible",
+    "manual_url": "https://lemon-manuals.la/Mini/2020/Cooper%20JCW%2C%202D%20Convertible/"
+  },
+  {
+    "make": "Mini",
+    "year": 2020,
+    "model": "Cooper JCW, 2D",
+    "engine": "Hatchback",
+    "manual_url": "https://lemon-manuals.la/Mini/2020/Cooper%20JCW%2C%202D%20Hatchback/"
+  },
+  {
+    "make": "Mini",
+    "year": 2020,
+    "model": "Cooper S, 2D Convertible, Automatic DCT",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2020/Cooper%20S%2C%202D%20Convertible%2C%20Automatic%20DCT%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2020,
+    "model": "Cooper S, 2D Convertible, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2020/Cooper%20S%2C%202D%20Convertible%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2020,
+    "model": "Cooper S, 2D Hatchback, Automatic DCT",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2020/Cooper%20S%2C%202D%20Hatchback%2C%20Automatic%20DCT%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2020,
+    "model": "Cooper S, 2D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2020/Cooper%20S%2C%202D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2020,
+    "model": "Cooper S, 4D Hatchback, Automatic DCT",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2020/Cooper%20S%2C%204D%20Hatchback%2C%20Automatic%20DCT%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2020,
+    "model": "Cooper S, 4D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2020/Cooper%20S%2C%204D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2021,
+    "model": "Cooper",
+    "engine": "SE",
+    "manual_url": "https://lemon-manuals.la/Mini/2021/Cooper%20SE/"
+  },
+  {
+    "make": "Mini",
+    "year": 2021,
+    "model": "Cooper Base, 2D Convertible, Automatic DCT",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2021/Cooper%20Base%2C%202D%20Convertible%2C%20Automatic%20DCT%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2021,
+    "model": "Cooper Base, 2D Convertible, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2021/Cooper%20Base%2C%202D%20Convertible%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2021,
+    "model": "Cooper Base, 2D Hatchback, Automatic DCT",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2021/Cooper%20Base%2C%202D%20Hatchback%2C%20Automatic%20DCT%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2021,
+    "model": "Cooper Base, 2D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2021/Cooper%20Base%2C%202D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2021,
+    "model": "Cooper Base, 4D Hatchback, Automatic DCT",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2021/Cooper%20Base%2C%204D%20Hatchback%2C%20Automatic%20DCT%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2021,
+    "model": "Cooper Base, 4D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2021/Cooper%20Base%2C%204D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2021,
+    "model": "Cooper Clubman JCW",
+    "engine": "ALL4",
+    "manual_url": "https://lemon-manuals.la/Mini/2021/Cooper%20Clubman%20JCW%20ALL4/"
+  },
+  {
+    "make": "Mini",
+    "year": 2021,
+    "model": "Cooper Clubman S",
+    "engine": "ALL4",
+    "manual_url": "https://lemon-manuals.la/Mini/2021/Cooper%20Clubman%20S%20ALL4/"
+  },
+  {
+    "make": "Mini",
+    "year": 2021,
+    "model": "Cooper Clubman S, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2021/Cooper%20Clubman%20S%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2021,
+    "model": "Cooper Clubman S, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2021/Cooper%20Clubman%20S%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2021,
+    "model": "Cooper Countryman",
+    "engine": "ALL4",
+    "manual_url": "https://lemon-manuals.la/Mini/2021/Cooper%20Countryman%20ALL4/"
+  },
+  {
+    "make": "Mini",
+    "year": 2021,
+    "model": "Cooper Countryman",
+    "engine": "Base",
+    "manual_url": "https://lemon-manuals.la/Mini/2021/Cooper%20Countryman%20Base/"
+  },
+  {
+    "make": "Mini",
+    "year": 2021,
+    "model": "Cooper Countryman",
+    "engine": "S",
+    "manual_url": "https://lemon-manuals.la/Mini/2021/Cooper%20Countryman%20S/"
+  },
+  {
+    "make": "Mini",
+    "year": 2021,
+    "model": "Cooper Countryman JCW",
+    "engine": "ALL4",
+    "manual_url": "https://lemon-manuals.la/Mini/2021/Cooper%20Countryman%20JCW%20ALL4/"
+  },
+  {
+    "make": "Mini",
+    "year": 2021,
+    "model": "Cooper Countryman S",
+    "engine": "ALL4",
+    "manual_url": "https://lemon-manuals.la/Mini/2021/Cooper%20Countryman%20S%20ALL4/"
+  },
+  {
+    "make": "Mini",
+    "year": 2021,
+    "model": "Cooper Countryman S E",
+    "engine": "ALL4",
+    "manual_url": "https://lemon-manuals.la/Mini/2021/Cooper%20Countryman%20S%20E%20ALL4/"
+  },
+  {
+    "make": "Mini",
+    "year": 2021,
+    "model": "Cooper JCW",
+    "engine": "GP",
+    "manual_url": "https://lemon-manuals.la/Mini/2021/Cooper%20JCW%20GP/"
+  },
+  {
+    "make": "Mini",
+    "year": 2021,
+    "model": "Cooper JCW, 2D",
+    "engine": "Convertible",
+    "manual_url": "https://lemon-manuals.la/Mini/2021/Cooper%20JCW%2C%202D%20Convertible/"
+  },
+  {
+    "make": "Mini",
+    "year": 2021,
+    "model": "Cooper JCW, 2D Hatchback, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2021/Cooper%20JCW%2C%202D%20Hatchback%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2021,
+    "model": "Cooper JCW, 2D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2021/Cooper%20JCW%2C%202D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2021,
+    "model": "Cooper S, 2D Convertible, Automatic DCT",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2021/Cooper%20S%2C%202D%20Convertible%2C%20Automatic%20DCT%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2021,
+    "model": "Cooper S, 2D Convertible, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2021/Cooper%20S%2C%202D%20Convertible%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2021,
+    "model": "Cooper S, 2D Hatchback, Automatic DCT",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2021/Cooper%20S%2C%202D%20Hatchback%2C%20Automatic%20DCT%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2021,
+    "model": "Cooper S, 2D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2021/Cooper%20S%2C%202D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2021,
+    "model": "Cooper S, 4D Hatchback, Automatic DCT",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2021/Cooper%20S%2C%204D%20Hatchback%2C%20Automatic%20DCT%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2021,
+    "model": "Cooper S, 4D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2021/Cooper%20S%2C%204D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2022,
+    "model": "Cooper",
+    "engine": "SE",
+    "manual_url": "https://lemon-manuals.la/Mini/2022/Cooper%20SE/"
+  },
+  {
+    "make": "Mini",
+    "year": 2022,
+    "model": "Cooper Base, 2D Convertible, Automatic DCT",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2022/Cooper%20Base%2C%202D%20Convertible%2C%20Automatic%20DCT%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2022,
+    "model": "Cooper Base, 2D Convertible, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2022/Cooper%20Base%2C%202D%20Convertible%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2022,
+    "model": "Cooper Base, 2D Hatchback, Automatic DCT",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2022/Cooper%20Base%2C%202D%20Hatchback%2C%20Automatic%20DCT%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2022,
+    "model": "Cooper Base, 2D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2022/Cooper%20Base%2C%202D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2022,
+    "model": "Cooper Base, 4D Hatchback, Automatic DCT",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2022/Cooper%20Base%2C%204D%20Hatchback%2C%20Automatic%20DCT%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2022,
+    "model": "Cooper Base, 4D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2022/Cooper%20Base%2C%204D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2022,
+    "model": "Cooper Clubman JCW",
+    "engine": "ALL4",
+    "manual_url": "https://lemon-manuals.la/Mini/2022/Cooper%20Clubman%20JCW%20ALL4/"
+  },
+  {
+    "make": "Mini",
+    "year": 2022,
+    "model": "Cooper Clubman S",
+    "engine": "ALL4",
+    "manual_url": "https://lemon-manuals.la/Mini/2022/Cooper%20Clubman%20S%20ALL4/"
+  },
+  {
+    "make": "Mini",
+    "year": 2022,
+    "model": "Cooper Clubman S, Automatic DCT",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2022/Cooper%20Clubman%20S%2C%20Automatic%20DCT%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2022,
+    "model": "Cooper Clubman S, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2022/Cooper%20Clubman%20S%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2022,
+    "model": "Cooper Countryman",
+    "engine": "ALL4",
+    "manual_url": "https://lemon-manuals.la/Mini/2022/Cooper%20Countryman%20ALL4/"
+  },
+  {
+    "make": "Mini",
+    "year": 2022,
+    "model": "Cooper Countryman",
+    "engine": "Base",
+    "manual_url": "https://lemon-manuals.la/Mini/2022/Cooper%20Countryman%20Base/"
+  },
+  {
+    "make": "Mini",
+    "year": 2022,
+    "model": "Cooper Countryman",
+    "engine": "S",
+    "manual_url": "https://lemon-manuals.la/Mini/2022/Cooper%20Countryman%20S/"
+  },
+  {
+    "make": "Mini",
+    "year": 2022,
+    "model": "Cooper Countryman JCW",
+    "engine": "ALL4",
+    "manual_url": "https://lemon-manuals.la/Mini/2022/Cooper%20Countryman%20JCW%20ALL4/"
+  },
+  {
+    "make": "Mini",
+    "year": 2022,
+    "model": "Cooper Countryman S",
+    "engine": "ALL4",
+    "manual_url": "https://lemon-manuals.la/Mini/2022/Cooper%20Countryman%20S%20ALL4/"
+  },
+  {
+    "make": "Mini",
+    "year": 2022,
+    "model": "Cooper Countryman S E",
+    "engine": "ALL4",
+    "manual_url": "https://lemon-manuals.la/Mini/2022/Cooper%20Countryman%20S%20E%20ALL4/"
+  },
+  {
+    "make": "Mini",
+    "year": 2022,
+    "model": "Cooper JCW",
+    "engine": "GP",
+    "manual_url": "https://lemon-manuals.la/Mini/2022/Cooper%20JCW%20GP/"
+  },
+  {
+    "make": "Mini",
+    "year": 2022,
+    "model": "Cooper JCW, 2D",
+    "engine": "Convertible",
+    "manual_url": "https://lemon-manuals.la/Mini/2022/Cooper%20JCW%2C%202D%20Convertible/"
+  },
+  {
+    "make": "Mini",
+    "year": 2022,
+    "model": "Cooper JCW, 2D Hatchback, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2022/Cooper%20JCW%2C%202D%20Hatchback%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2022,
+    "model": "Cooper JCW, 2D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2022/Cooper%20JCW%2C%202D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2022,
+    "model": "Cooper S, 2D Convertible, Automatic DCT",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2022/Cooper%20S%2C%202D%20Convertible%2C%20Automatic%20DCT%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2022,
+    "model": "Cooper S, 2D Convertible, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2022/Cooper%20S%2C%202D%20Convertible%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2022,
+    "model": "Cooper S, 2D Hatchback, Automatic DCT",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2022/Cooper%20S%2C%202D%20Hatchback%2C%20Automatic%20DCT%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2022,
+    "model": "Cooper S, 2D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2022/Cooper%20S%2C%202D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2022,
+    "model": "Cooper S, 4D Hatchback, Automatic DCT",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2022/Cooper%20S%2C%204D%20Hatchback%2C%20Automatic%20DCT%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2022,
+    "model": "Cooper S, 4D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2022/Cooper%20S%2C%204D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2023,
+    "model": "Cooper",
+    "engine": "SE",
+    "manual_url": "https://lemon-manuals.la/Mini/2023/Cooper%20SE/"
+  },
+  {
+    "make": "Mini",
+    "year": 2023,
+    "model": "Cooper Base, 2D Convertible, Automatic DCT",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2023/Cooper%20Base%2C%202D%20Convertible%2C%20Automatic%20DCT%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2023,
+    "model": "Cooper Base, 2D Convertible, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2023/Cooper%20Base%2C%202D%20Convertible%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2023,
+    "model": "Cooper Base, 2D Hatchback, Automatic DCT",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2023/Cooper%20Base%2C%202D%20Hatchback%2C%20Automatic%20DCT%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2023,
+    "model": "Cooper Base, 2D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2023/Cooper%20Base%2C%202D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2023,
+    "model": "Cooper Base, 4D Hatchback, Automatic DCT",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2023/Cooper%20Base%2C%204D%20Hatchback%2C%20Automatic%20DCT%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2023,
+    "model": "Cooper Base, 4D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2023/Cooper%20Base%2C%204D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2023,
+    "model": "Cooper Clubman JCW",
+    "engine": "ALL4",
+    "manual_url": "https://lemon-manuals.la/Mini/2023/Cooper%20Clubman%20JCW%20ALL4/"
+  },
+  {
+    "make": "Mini",
+    "year": 2023,
+    "model": "Cooper Clubman S",
+    "engine": "ALL4",
+    "manual_url": "https://lemon-manuals.la/Mini/2023/Cooper%20Clubman%20S%20ALL4/"
+  },
+  {
+    "make": "Mini",
+    "year": 2023,
+    "model": "Cooper Clubman S, Automatic DCT",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2023/Cooper%20Clubman%20S%2C%20Automatic%20DCT%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2023,
+    "model": "Cooper Clubman S, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2023/Cooper%20Clubman%20S%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2023,
+    "model": "Cooper Countryman",
+    "engine": "ALL4",
+    "manual_url": "https://lemon-manuals.la/Mini/2023/Cooper%20Countryman%20ALL4/"
+  },
+  {
+    "make": "Mini",
+    "year": 2023,
+    "model": "Cooper Countryman",
+    "engine": "Base",
+    "manual_url": "https://lemon-manuals.la/Mini/2023/Cooper%20Countryman%20Base/"
+  },
+  {
+    "make": "Mini",
+    "year": 2023,
+    "model": "Cooper Countryman",
+    "engine": "S",
+    "manual_url": "https://lemon-manuals.la/Mini/2023/Cooper%20Countryman%20S/"
+  },
+  {
+    "make": "Mini",
+    "year": 2023,
+    "model": "Cooper Countryman JCW",
+    "engine": "ALL4",
+    "manual_url": "https://lemon-manuals.la/Mini/2023/Cooper%20Countryman%20JCW%20ALL4/"
+  },
+  {
+    "make": "Mini",
+    "year": 2023,
+    "model": "Cooper Countryman S",
+    "engine": "ALL4",
+    "manual_url": "https://lemon-manuals.la/Mini/2023/Cooper%20Countryman%20S%20ALL4/"
+  },
+  {
+    "make": "Mini",
+    "year": 2023,
+    "model": "Cooper Countryman S E",
+    "engine": "ALL4",
+    "manual_url": "https://lemon-manuals.la/Mini/2023/Cooper%20Countryman%20S%20E%20ALL4/"
+  },
+  {
+    "make": "Mini",
+    "year": 2023,
+    "model": "Cooper JCW, 2D",
+    "engine": "Convertible",
+    "manual_url": "https://lemon-manuals.la/Mini/2023/Cooper%20JCW%2C%202D%20Convertible/"
+  },
+  {
+    "make": "Mini",
+    "year": 2023,
+    "model": "Cooper JCW, 2D Hatchback, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2023/Cooper%20JCW%2C%202D%20Hatchback%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2023,
+    "model": "Cooper JCW, 2D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2023/Cooper%20JCW%2C%202D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2023,
+    "model": "Cooper S, 2D Convertible, Automatic DCT",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2023/Cooper%20S%2C%202D%20Convertible%2C%20Automatic%20DCT%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2023,
+    "model": "Cooper S, 2D Convertible, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2023/Cooper%20S%2C%202D%20Convertible%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2023,
+    "model": "Cooper S, 2D Hatchback, Automatic DCT",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2023/Cooper%20S%2C%202D%20Hatchback%2C%20Automatic%20DCT%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2023,
+    "model": "Cooper S, 2D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2023/Cooper%20S%2C%202D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2023,
+    "model": "Cooper S, 4D Hatchback, Automatic DCT",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2023/Cooper%20S%2C%204D%20Hatchback%2C%20Automatic%20DCT%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2023,
+    "model": "Cooper S, 4D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2023/Cooper%20S%2C%204D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2024,
+    "model": "Cooper",
+    "engine": "SE",
+    "manual_url": "https://lemon-manuals.la/Mini/2024/Cooper%20SE/"
+  },
+  {
+    "make": "Mini",
+    "year": 2024,
+    "model": "Cooper Base, 2D Convertible, Automatic DCT",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2024/Cooper%20Base%2C%202D%20Convertible%2C%20Automatic%20DCT%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2024,
+    "model": "Cooper Base, 2D Convertible, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2024/Cooper%20Base%2C%202D%20Convertible%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2024,
+    "model": "Cooper Base, 2D Hatchback, Automatic DCT",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2024/Cooper%20Base%2C%202D%20Hatchback%2C%20Automatic%20DCT%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2024,
+    "model": "Cooper Base, 2D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2024/Cooper%20Base%2C%202D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2024,
+    "model": "Cooper Base, 4D Hatchback, Automatic DCT",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2024/Cooper%20Base%2C%204D%20Hatchback%2C%20Automatic%20DCT%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2024,
+    "model": "Cooper Base, 4D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2024/Cooper%20Base%2C%204D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2024,
+    "model": "Cooper Clubman",
+    "engine": "S",
+    "manual_url": "https://lemon-manuals.la/Mini/2024/Cooper%20Clubman%20S/"
+  },
+  {
+    "make": "Mini",
+    "year": 2024,
+    "model": "Cooper Clubman JCW",
+    "engine": "ALL4",
+    "manual_url": "https://lemon-manuals.la/Mini/2024/Cooper%20Clubman%20JCW%20ALL4/"
+  },
+  {
+    "make": "Mini",
+    "year": 2024,
+    "model": "Cooper Clubman S",
+    "engine": "ALL4",
+    "manual_url": "https://lemon-manuals.la/Mini/2024/Cooper%20Clubman%20S%20ALL4/"
+  },
+  {
+    "make": "Mini",
+    "year": 2024,
+    "model": "Cooper Countryman",
+    "engine": "ALL4",
+    "manual_url": "https://lemon-manuals.la/Mini/2024/Cooper%20Countryman%20ALL4/"
+  },
+  {
+    "make": "Mini",
+    "year": 2024,
+    "model": "Cooper Countryman",
+    "engine": "Base",
+    "manual_url": "https://lemon-manuals.la/Mini/2024/Cooper%20Countryman%20Base/"
+  },
+  {
+    "make": "Mini",
+    "year": 2024,
+    "model": "Cooper Countryman",
+    "engine": "S",
+    "manual_url": "https://lemon-manuals.la/Mini/2024/Cooper%20Countryman%20S/"
+  },
+  {
+    "make": "Mini",
+    "year": 2024,
+    "model": "Cooper Countryman JCW",
+    "engine": "ALL4",
+    "manual_url": "https://lemon-manuals.la/Mini/2024/Cooper%20Countryman%20JCW%20ALL4/"
+  },
+  {
+    "make": "Mini",
+    "year": 2024,
+    "model": "Cooper Countryman S",
+    "engine": "ALL4",
+    "manual_url": "https://lemon-manuals.la/Mini/2024/Cooper%20Countryman%20S%20ALL4/"
+  },
+  {
+    "make": "Mini",
+    "year": 2024,
+    "model": "Cooper JCW, 2D",
+    "engine": "Convertible",
+    "manual_url": "https://lemon-manuals.la/Mini/2024/Cooper%20JCW%2C%202D%20Convertible/"
+  },
+  {
+    "make": "Mini",
+    "year": 2024,
+    "model": "Cooper JCW, 2D Hatchback, Automatic",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2024/Cooper%20JCW%2C%202D%20Hatchback%2C%20Automatic%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2024,
+    "model": "Cooper JCW, 2D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2024/Cooper%20JCW%2C%202D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2024,
+    "model": "Cooper S, 2D Convertible, Automatic DCT",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2024/Cooper%20S%2C%202D%20Convertible%2C%20Automatic%20DCT%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2024,
+    "model": "Cooper S, 2D Convertible, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2024/Cooper%20S%2C%202D%20Convertible%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2024,
+    "model": "Cooper S, 2D Hatchback, Automatic DCT",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2024/Cooper%20S%2C%202D%20Hatchback%2C%20Automatic%20DCT%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2024,
+    "model": "Cooper S, 2D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2024/Cooper%20S%2C%202D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2024,
+    "model": "Cooper S, 4D Hatchback, Automatic DCT",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2024/Cooper%20S%2C%204D%20Hatchback%2C%20Automatic%20DCT%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2024,
+    "model": "Cooper S, 4D Hatchback, Standard",
+    "engine": "Trans",
+    "manual_url": "https://lemon-manuals.la/Mini/2024/Cooper%20S%2C%204D%20Hatchback%2C%20Standard%20Trans/"
+  },
+  {
+    "make": "Mini",
+    "year": 2025,
+    "model": "Cooper Base, 2D",
+    "engine": "Convertible",
+    "manual_url": "https://lemon-manuals.la/Mini/2025/Cooper%20Base%2C%202D%20Convertible/"
+  },
+  {
+    "make": "Mini",
+    "year": 2025,
+    "model": "Cooper Base, 2D",
+    "engine": "Hatchback",
+    "manual_url": "https://lemon-manuals.la/Mini/2025/Cooper%20Base%2C%202D%20Hatchback/"
+  },
+  {
+    "make": "Mini",
+    "year": 2025,
+    "model": "Cooper Base, 4D",
+    "engine": "Hatchback",
+    "manual_url": "https://lemon-manuals.la/Mini/2025/Cooper%20Base%2C%204D%20Hatchback/"
+  },
+  {
+    "make": "Mini",
+    "year": 2025,
+    "model": "Cooper Countryman JCW",
+    "engine": "ALL4",
+    "manual_url": "https://lemon-manuals.la/Mini/2025/Cooper%20Countryman%20JCW%20ALL4/"
+  },
+  {
+    "make": "Mini",
+    "year": 2025,
+    "model": "Cooper Countryman S",
+    "engine": "ALL4",
+    "manual_url": "https://lemon-manuals.la/Mini/2025/Cooper%20Countryman%20S%20ALL4/"
+  },
+  {
+    "make": "Mini",
+    "year": 2025,
+    "model": "Cooper Countryman S E",
+    "engine": "ALL4",
+    "manual_url": "https://lemon-manuals.la/Mini/2025/Cooper%20Countryman%20S%20E%20ALL4/"
+  },
+  {
+    "make": "Mini",
+    "year": 2025,
+    "model": "Cooper JCW, 2D",
+    "engine": "Convertible",
+    "manual_url": "https://lemon-manuals.la/Mini/2025/Cooper%20JCW%2C%202D%20Convertible/"
+  },
+  {
+    "make": "Mini",
+    "year": 2025,
+    "model": "Cooper JCW, 2D",
+    "engine": "Hatchback",
+    "manual_url": "https://lemon-manuals.la/Mini/2025/Cooper%20JCW%2C%202D%20Hatchback/"
+  },
+  {
+    "make": "Mini",
+    "year": 2025,
+    "model": "Cooper S, 2D",
+    "engine": "Convertible",
+    "manual_url": "https://lemon-manuals.la/Mini/2025/Cooper%20S%2C%202D%20Convertible/"
+  },
+  {
+    "make": "Mini",
+    "year": 2025,
+    "model": "Cooper S, 2D",
+    "engine": "Hatchback",
+    "manual_url": "https://lemon-manuals.la/Mini/2025/Cooper%20S%2C%202D%20Hatchback/"
+  },
+  {
+    "make": "Mini",
+    "year": 2025,
+    "model": "Cooper S, 4D",
+    "engine": "Hatchback",
+    "manual_url": "https://lemon-manuals.la/Mini/2025/Cooper%20S%2C%204D%20Hatchback/"
+  }
+]
