@@ -8,6 +8,7 @@ import { FixedWindowRateLimiter, rateLimitConfig } from './src/server/rate-limit
 import { decodeVinAndFindManuals } from './src/server/vin-lookup.mjs';
 import { ManualAvailabilityCache } from './src/server/manual-availability-cache.mjs';
 import { manualAvailability, manualMetadata, validateManualUrl } from './src/server/manual-lookup.mjs';
+import { lookupJobOperationRows } from './src/server/live-job-rows.mjs';
 
 const root = resolve(fileURLToPath(new URL('.', import.meta.url)));
 const port = Number.parseInt(process.env.PORT ?? '8099', 10);
@@ -82,6 +83,17 @@ const server = createServer(async (request, response) => {
         const manualUrl = validateManualUrl(apiUrl.searchParams.get('url'));
         if (!manualUrl) throw new Error('Unsupported manual URL');
         sendJson(response, 200, await manualAvailabilityCache.lookup(manualUrl, manualAvailability));
+      } catch (error) {
+        sendJson(response, 400, { error: error.message });
+      }
+      return;
+    }
+    if (apiUrl.pathname === '/api/live-job-rows') {
+      try {
+        sendJson(response, 200, await lookupJobOperationRows(
+          apiUrl.searchParams.get('url'),
+          apiUrl.searchParams.get('job'),
+        ));
       } catch (error) {
         sendJson(response, 400, { error: error.message });
       }

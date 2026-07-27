@@ -137,6 +137,23 @@ test('rejects an invalid manual availability URL before source lookup', async (t
   assert.equal(response.headers['cache-control'], 'no-store');
 });
 
+test('rejects invalid live job row input with the API no-store contract', async (t) => {
+  const port = 19106;
+  const child = spawn(process.execPath, ['server.mjs'], {
+    cwd: new URL('..', import.meta.url),
+    env: { ...process.env, PORT: String(port), HOST: '127.0.0.1', PLANNER_ALLOW_UNAUTHENTICATED_LOCAL: '1' },
+    stdio: ['ignore', 'pipe', 'pipe'],
+  });
+  t.after(() => child.kill());
+  await once(child.stdout, 'data');
+
+  const response = await get(port, '/api/live-job-rows?url=https%3A%2F%2Fexample.com%2F&job=alternator');
+
+  assert.equal(response.status, 400);
+  assert.deepEqual(JSON.parse(response.body), { error: 'Unsupported manual URL' });
+  assert.equal(response.headers['cache-control'], 'no-store');
+});
+
 test('does not serve application source, tests, or private repository paths', async (t) => {
   const port = 19102;
   const child = spawn(process.execPath, ['server.mjs'], {
