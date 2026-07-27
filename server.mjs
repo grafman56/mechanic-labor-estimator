@@ -9,6 +9,7 @@ import { decodeVinAndFindManuals } from './src/server/vin-lookup.mjs';
 import { ManualAvailabilityCache } from './src/server/manual-availability-cache.mjs';
 import { manualAvailability, manualMetadata, validateManualUrl } from './src/server/manual-lookup.mjs';
 import { lookupJobOperationRows } from './src/server/live-job-rows.mjs';
+import { lookupJobLabor } from './src/server/live-job-labor.mjs';
 
 const root = resolve(fileURLToPath(new URL('.', import.meta.url)));
 const port = Number.parseInt(process.env.PORT ?? '8099', 10);
@@ -93,6 +94,22 @@ const server = createServer(async (request, response) => {
         sendJson(response, 200, await lookupJobOperationRows(
           apiUrl.searchParams.get('url'),
           apiUrl.searchParams.get('job'),
+        ));
+      } catch (error) {
+        sendJson(response, 400, { error: error.message });
+      }
+      return;
+    }
+    if (apiUrl.pathname === '/api/live-job-labor') {
+      try {
+        sendJson(response, 200, await lookupJobLabor(
+          apiUrl.searchParams.get('url'),
+          apiUrl.searchParams.get('job'),
+          {
+            scope: apiUrl.searchParams.get('scope') || undefined,
+            source_row: apiUrl.searchParams.get('source_row') || undefined,
+            source_operation_url: apiUrl.searchParams.get('source_operation_url') || undefined,
+          },
         ));
       } catch (error) {
         sendJson(response, 400, { error: error.message });

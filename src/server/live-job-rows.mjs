@@ -32,7 +32,7 @@ function decodeHtml(value) {
   return value.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"');
 }
 
-function parseLaborTable(html) {
+export function parseLaborTable(html) {
   const table = String(html).match(/<table\b[^>]*\bclass\s*=\s*(["'])[^"']*\blabor-times-table\b[^"']*\1[^>]*>([\s\S]*?)<\/table>/i)?.[2] ?? '';
   const rows = [];
   let serviceOperation = null;
