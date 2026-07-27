@@ -4,7 +4,7 @@ A local, vehicle-specific labor-planning pilot. It does not provide generic esti
 
 ## Current verified coverage
 
-- VIN `2HNYD18836H516598`: 2006 Acura MDX Touring, J35A5 3.5L V6 is the reviewed VIN-to-manual mapping.
+- VIN `2HNYD18836H516598`: live VIN decoding returns 2006 Acura MDX source-manual candidates; the user must select the exact source configuration before live labor lookup.
 - A selected LEMON manual with a Parts and Labor page is an alternative to VIN verification for live labor lookup.
 - Live source labor supports these Tier 1 job IDs when the selected manual exposes an exact published `Replace` row: front struts; rear struts/shocks; alternator; starter motor; radiator; wheel bearing/hub; serpentine belt; spark plugs; oil and filter service; engine air filter; cabin air filter; valve-cover gasket; timing belt; and water pump.
 - Same-named source operations can require a manual operation-path selection. The tool never selects between conflicting paths automatically.
@@ -30,7 +30,7 @@ Labor values are source-published standard/book times for the selected vehicle/m
 - This is not a diagnosis or final quote.
 - It is a local private service with a small same-origin Python backend; it has no tracking, credentials, or live parts pricing.
 - It does not copy or republish LEMON/CHARM manual content. Source links support live selected-manual results and concise derived evidence.
-- VIN matching against reviewed static records remains available, but VIN is optional after selecting a labor-capable manual.
+- VIN decoding returns only matching make/year/model source-manual candidates. It does not prove engine, trim, drivetrain, or a labor-capable configuration; the user must select an exact candidate and the server separately checks its Parts and Labor page.
 - Source operation, row, and side/bank wording are displayed verbatim. `One Side` and `One Bank` are never represented as a specific left/right or front/rear result.
 - Procedure evidence is source-specific, not a generic parts list. An unavailable procedure route creates no recommendation.
 

@@ -1,4 +1,3 @@
-import { findVerifiedVehicle } from './src/mdx.js';
 import { findCatalogEntry } from './src/catalog.js';
 import { manualSelectionOptions } from './src/catalog-selection.js';
 import { tier1Jobs } from './src/tier1-jobs.js';
@@ -11,6 +10,7 @@ import { jobAwarenessGroup, procedureContextDisplayGroups } from './src/procedur
 import { fetchProcedureEvidence } from './src/live-procedure-evidence.js';
 
 const vinInput = document.querySelector('#vin');
+const vinManual = document.querySelector('#vin-manual');
 const rateInput = document.querySelector('#labor-rate');
 const estimate = document.querySelector('#estimate');
 const catalogMake = document.querySelector('#catalog-make');
@@ -146,11 +146,81 @@ function render() {
   renderUnavailable(vinInput.value.trim());
 }
 
-vinInput.addEventListener('input', () => {
-  selectedManual = findVerifiedVehicle(vinInput.value);
+function resetVinManual(message) {
+  vinManual.replaceChildren(new Option(message, ''));
+  vinManual.disabled = true;
+  vinManual.dataset.candidates = '[]';
+}
+
+async function selectVinManual() {
+  const candidate = JSON.parse(vinManual.dataset.candidates || '[]')
+    .find((entry) => entry.manual_url === vinManual.value);
+  selectedManual = null;
+  if (!candidate) {
+    populateLiveScopes();
+    render();
+    return;
+  }
+  catalogStatus.textContent = 'Checking selected VIN source configuration for Parts and Labor…';
+  try {
+    const response = await fetch(`/api/manual-availability?url=${encodeURIComponent(candidate.manual_url)}`);
+    const availability = await response.json();
+    if (!response.ok || !availability.available) {
+      catalogStatus.textContent = 'Selected VIN source configuration has no available Parts and Labor page.';
+      getLiveLabor.disabled = true;
+      return;
+    }
+    selectedManual = candidate;
+    checkManual.disabled = false;
+    getLiveLabor.disabled = false;
+    checkManual.dataset.url = candidate.manual_url;
+    getLiveLabor.dataset.url = candidate.manual_url;
+    catalogStatus.textContent = `VIN-decoded source configuration selected: ${candidate.model} · ${candidate.engine}.`;
+  } catch (error) {
+    catalogStatus.textContent = `VIN source-configuration check failed: ${error.message}`;
+  }
   populateLiveScopes();
   render();
-});
+}
+
+async function lookupVinManuals() {
+  const vin = vinInput.value.trim().toUpperCase();
+  selectedManual = null;
+  checkManual.disabled = true;
+  getLiveLabor.disabled = true;
+  if (!/^[A-HJ-NPR-Z0-9]{17}$/.test(vin)) {
+    resetVinManual('Enter a valid 17-character VIN to find source-manual candidates');
+    populateLiveScopes();
+    render();
+    return;
+  }
+  catalogStatus.textContent = 'Decoding VIN and finding exact source-manual candidates…';
+  resetVinManual('Loading VIN source-manual candidates…');
+  try {
+    const response = await fetch(`/api/vin-manuals?vin=${encodeURIComponent(vin)}`);
+    const result = await response.json();
+    if (!response.ok) throw new Error(result.error);
+    if (vinInput.value.trim().toUpperCase() !== vin) return;
+    const candidates = result.manual_candidates ?? [];
+    vinManual.replaceChildren(
+      new Option('Select an exact source configuration', ''),
+      ...candidates.map((candidate) => new Option(`${candidate.model} · ${candidate.engine}`, candidate.manual_url)),
+    );
+    vinManual.dataset.candidates = JSON.stringify(candidates);
+    vinManual.disabled = candidates.length === 0;
+    catalogStatus.textContent = candidates.length
+      ? `VIN decoded as ${result.vehicle.year} ${result.vehicle.make} ${result.vehicle.model}. Select the matching source configuration; VIN decoding does not prove an engine or trim match.`
+      : `VIN decoded as ${result.vehicle.year} ${result.vehicle.make} ${result.vehicle.model}, but no exact source-manual candidate was found.`;
+  } catch (error) {
+    resetVinManual('VIN source-manual lookup unavailable');
+    catalogStatus.textContent = `VIN lookup failed: ${error.message}`;
+  }
+  populateLiveScopes();
+  render();
+}
+
+vinInput.addEventListener('input', lookupVinManuals);
+vinManual.addEventListener('change', selectVinManual);
 checkManual.addEventListener('click', async () => {
   catalogStatus.textContent = 'Checking live manual…';
   try {

@@ -33,7 +33,10 @@
 
         <div class="form-grid">
           <label class="wide" for="vin">Vehicle identification number (VIN)
-            <input id="vin" type="text" maxlength="17" autocapitalize="characters" autocomplete="off" placeholder="Enter a reviewed 17-character VIN">
+            <input id="vin" type="text" maxlength="17" autocapitalize="characters" autocomplete="off" placeholder="Enter a 17-character VIN">
+          </label>
+          <label class="wide" for="vin-manual">Select exact source configuration
+            <select id="vin-manual" disabled><option value="">Enter a VIN to find matching source-manual candidates</option></select>
           </label>
         </div>
 
