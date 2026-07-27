@@ -75,8 +75,8 @@ test('rate limits API requests before route handling without limiting static ass
   t.after(() => child.kill());
   await once(child.stdout, 'data');
 
-  const firstApiResponse = await get(port, '/api/vin-manuals?vin=bad');
-  const limitedApiResponse = await get(port, '/api/vin-manuals?vin=bad');
+  const firstApiResponse = await get(port, '/api/not-a-route');
+  const limitedApiResponse = await get(port, '/api/not-a-route');
   const staticResponse = await get(port, '/');
 
   assert.equal(firstApiResponse.status, 404);
@@ -84,6 +84,23 @@ test('rate limits API requests before route handling without limiting static ass
   assert.equal(limitedApiResponse.headers['retry-after'], '60');
   assert.equal(limitedApiResponse.headers['cache-control'], 'no-store');
   assert.equal(staticResponse.status, 200);
+});
+
+test('rejects invalid VIN API input without exposing a source lookup', async (t) => {
+  const port = 19103;
+  const child = spawn(process.execPath, ['server.mjs'], {
+    cwd: new URL('..', import.meta.url),
+    env: { ...process.env, PORT: String(port), HOST: '127.0.0.1', PLANNER_ALLOW_UNAUTHENTICATED_LOCAL: '1' },
+    stdio: ['ignore', 'pipe', 'pipe'],
+  });
+  t.after(() => child.kill());
+  await once(child.stdout, 'data');
+
+  const response = await get(port, '/api/vin-manuals?vin=1HGCM82633A00%2F352');
+
+  assert.equal(response.status, 400);
+  assert.deepEqual(JSON.parse(response.body), { error: 'VIN must be 17 characters and cannot contain I, O, or Q.' });
+  assert.equal(response.headers['cache-control'], 'no-store');
 });
 
 test('does not serve application source, tests, or private repository paths', async (t) => {
