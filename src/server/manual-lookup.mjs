@@ -50,3 +50,21 @@ export async function manualAvailability(value, { requestText = defaultRequestTe
     return false;
   }
 }
+
+function decodeHtml(value) {
+  return value.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"');
+}
+
+export function findExactOperationLinks(html, aliases, partsLaborUrl) {
+  const base = new URL(partsLaborUrl);
+  const expected = new Set(aliases.map((alias) => alias.toLocaleLowerCase()));
+  const links = [];
+  for (const match of String(html).matchAll(/<a\b[^>]*\bhref\s*=\s*(["'])(.*?)\1[^>]*>([\s\S]*?)<\/a>/gi)) {
+    const title = decodeHtml(match[3].replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim());
+    if (!expected.has(title.toLocaleLowerCase())) continue;
+    const sourceUrl = new URL(match[2], base);
+    if (sourceUrl.origin !== base.origin || !sourceUrl.pathname.startsWith(base.pathname) || !sourceUrl.pathname.endsWith('/')) continue;
+    links.push({ title, source_url: sourceUrl.href });
+  }
+  return links;
+}

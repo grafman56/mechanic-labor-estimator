@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { manualAvailability, manualMetadata, validateManualUrl } from '../src/server/manual-lookup.mjs';
+import { findExactOperationLinks, manualAvailability, manualMetadata, validateManualUrl } from '../src/server/manual-lookup.mjs';
 
 const manualUrl = 'https://lemon-manuals.la/Acura/2006/MDX%20V6-3.5L/';
 
@@ -51,4 +51,14 @@ test('checks only the selected manual Parts and Labor page for availability', as
 
   const unavailable = await manualAvailability(manualUrl, { requestText: async () => { throw new Error('not found'); } });
   assert.equal(unavailable, false);
+});
+
+test('keeps only exact selected-manual operation links', () => {
+  const partsLaborUrl = `${manualUrl}Parts%20and%20Labor/`;
+  const html = '<a href="Starting/Alternator/">Alternator</a><a href="Alternator%20Bearing/">Alternator Bearing</a><a href="https://elsewhere.example/Alternator/">Alternator</a>';
+
+  assert.deepEqual(findExactOperationLinks(html, ['Alternator'], partsLaborUrl), [{
+    title: 'Alternator',
+    source_url: `${partsLaborUrl}Starting/Alternator/`,
+  }]);
 });
