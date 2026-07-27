@@ -3,9 +3,12 @@ import { stat } from 'node:fs/promises';
 import { createServer } from 'node:http';
 import { extname, normalize, relative, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { authorizeBasic, hostedAuthConfig } from './src/server/auth.mjs';
 
 const root = resolve(fileURLToPath(new URL('.', import.meta.url)));
 const port = Number.parseInt(process.env.PORT ?? '8099', 10);
+const host = process.env.HOST ?? '0.0.0.0';
+const authConfig = hostedAuthConfig(process.env, host === '127.0.0.1' || host === '::1');
 const mimeTypes = new Map([
   ['.css', 'text/css; charset=utf-8'],
   ['.html', 'text/html; charset=utf-8'],
@@ -24,6 +27,11 @@ function staticPath(requestUrl) {
 
 const server = createServer(async (request, response) => {
   response.setHeader('Cache-Control', 'no-store');
+  if (!authorizeBasic(request.headers.authorization, authConfig)) {
+    response.writeHead(401, { 'WWW-Authenticate': 'Basic realm="Mechanic Labor Planner"' });
+    response.end();
+    return;
+  }
   if (request.method !== 'GET' && request.method !== 'HEAD') {
     response.writeHead(405, { Allow: 'GET, HEAD' });
     response.end();
@@ -47,6 +55,6 @@ const server = createServer(async (request, response) => {
   }
 });
 
-server.listen(port, '127.0.0.1', () => {
+server.listen(port, host, () => {
   process.stdout.write(`Mechanic Labor Planner listening on ${port}\n`);
 });

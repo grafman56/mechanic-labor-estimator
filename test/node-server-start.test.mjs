@@ -4,9 +4,9 @@ import { request } from 'node:http';
 import { spawn } from 'node:child_process';
 import test from 'node:test';
 
-async function get(port, path) {
+async function get(port, path, headers = {}) {
   return new Promise((resolve, reject) => {
-    const req = request({ host: '127.0.0.1', port, path }, (response) => {
+    const req = request({ host: '127.0.0.1', port, path, headers }, (response) => {
       let body = '';
       response.setEncoding('utf8');
       response.on('data', (chunk) => { body += chunk; });
@@ -21,7 +21,7 @@ test('starts the Node server on PORT and serves the planner without caching', as
   const port = 19099;
   const child = spawn(process.execPath, ['server.mjs'], {
     cwd: new URL('..', import.meta.url),
-    env: { ...process.env, PORT: String(port), PLANNER_ALLOW_UNAUTHENTICATED_LOCAL: '1' },
+    env: { ...process.env, PORT: String(port), HOST: '127.0.0.1', PLANNER_ALLOW_UNAUTHENTICATED_LOCAL: '1' },
     stdio: ['ignore', 'pipe', 'pipe'],
   });
   t.after(() => child.kill());
@@ -38,4 +38,22 @@ test('starts the Node server on PORT and serves the planner without caching', as
   assert.equal(response.status, 200);
   assert.equal(response.headers['cache-control'], 'no-store');
   assert.match(response.body, /Mechanic Labor Planner/);
+});
+
+test('requires the configured test credential in hosted mode', async (t) => {
+  const port = 19100;
+  const child = spawn(process.execPath, ['server.mjs'], {
+    cwd: new URL('..', import.meta.url),
+    env: { ...process.env, PORT: String(port), PLANNER_TEST_USER: 'friend', PLANNER_TEST_PASSWORD: 'secret' },
+    stdio: ['ignore', 'pipe', 'pipe'],
+  });
+  t.after(() => child.kill());
+  await once(child.stdout, 'data');
+
+  const denied = await get(port, '/');
+  const allowed = await get(port, '/', { authorization: 'Basic ZnJpZW5kOnNlY3JldA==' });
+
+  assert.equal(denied.status, 401);
+  assert.equal(denied.headers['www-authenticate'], 'Basic realm="Mechanic Labor Planner"');
+  assert.equal(allowed.status, 200);
 });
