@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Static source-recorded automotive labor lookup.">
+  <title>Mechanic Labor Lookup</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <header>
+      <p class="eyebrow">Static source-recorded labor catalog</p>
+      <h1>Mechanic Labor Lookup</h1>
+      <p>Select an exact bundled vehicle configuration and job. Results are dated records, not live lookup results.</p>
+    </header>
+
+    <section class="controls" aria-label="Bundled labor lookup">
+      <label for="make">Make<select id="make" disabled></select></label>
+      <label for="vehicle">Vehicle configuration<select id="vehicle" disabled></select></label>
+      <label for="job">Repair job<select id="job" disabled></select></label>
+    </section>
+    <p id="status" role="status" aria-live="polite">Loading bundled catalog…</p>
+    <section id="result" aria-live="polite" aria-atomic="true"></section>
+    <aside>
+      <strong>Snapshot limits:</strong> this site stores only exact published labor results, source links, and retrieval dates. A missing or unavailable job is not estimated from a similar vehicle. It does not include manuals, procedures, VIN lookup, parts recommendations, or access recommendations.
+    </aside>
+  </main>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
