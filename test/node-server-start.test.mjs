@@ -37,6 +37,10 @@ test('starts the Node server on PORT and serves the planner without caching', as
 
   assert.equal(response.status, 200);
   assert.equal(response.headers['cache-control'], 'no-store');
+  assert.equal(response.headers['x-content-type-options'], 'nosniff');
+  assert.equal(response.headers['referrer-policy'], 'no-referrer');
+  assert.equal(response.headers['x-frame-options'], 'DENY');
+  assert.match(response.headers['content-security-policy'], /default-src 'self'/);
   assert.match(response.body, /Mechanic Labor Planner/);
 });
 
@@ -100,6 +104,91 @@ test('rejects invalid VIN API input without exposing a source lookup', async (t)
 
   assert.equal(response.status, 400);
   assert.deepEqual(JSON.parse(response.body), { error: 'VIN must be 17 characters and cannot contain I, O, or Q.' });
+  assert.equal(response.headers['cache-control'], 'no-store');
+});
+
+test('rejects an invalid manual URL API input before source lookup', async (t) => {
+  const port = 19104;
+  const child = spawn(process.execPath, ['server.mjs'], {
+    cwd: new URL('..', import.meta.url),
+    env: { ...process.env, PORT: String(port), HOST: '127.0.0.1', PLANNER_ALLOW_UNAUTHENTICATED_LOCAL: '1' },
+    stdio: ['ignore', 'pipe', 'pipe'],
+  });
+  t.after(() => child.kill());
+  await once(child.stdout, 'data');
+
+  const response = await get(port, '/api/manual-metadata?url=https%3A%2F%2Fexample.com%2F');
+
+  assert.equal(response.status, 400);
+  assert.deepEqual(JSON.parse(response.body), { error: 'Unsupported manual URL' });
+  assert.equal(response.headers['cache-control'], 'no-store');
+});
+
+test('rejects an invalid manual availability URL before source lookup', async (t) => {
+  const port = 19105;
+  const child = spawn(process.execPath, ['server.mjs'], {
+    cwd: new URL('..', import.meta.url),
+    env: { ...process.env, PORT: String(port), HOST: '127.0.0.1', PLANNER_ALLOW_UNAUTHENTICATED_LOCAL: '1' },
+    stdio: ['ignore', 'pipe', 'pipe'],
+  });
+  t.after(() => child.kill());
+  await once(child.stdout, 'data');
+
+  const response = await get(port, '/api/manual-availability?url=https%3A%2F%2Fexample.com%2F');
+
+  assert.equal(response.status, 400);
+  assert.deepEqual(JSON.parse(response.body), { error: 'Unsupported manual URL' });
+  assert.equal(response.headers['cache-control'], 'no-store');
+});
+
+test('rejects invalid live job row input with the API no-store contract', async (t) => {
+  const port = 19106;
+  const child = spawn(process.execPath, ['server.mjs'], {
+    cwd: new URL('..', import.meta.url),
+    env: { ...process.env, PORT: String(port), HOST: '127.0.0.1', PLANNER_ALLOW_UNAUTHENTICATED_LOCAL: '1' },
+    stdio: ['ignore', 'pipe', 'pipe'],
+  });
+  t.after(() => child.kill());
+  await once(child.stdout, 'data');
+
+  const response = await get(port, '/api/live-job-rows?url=https%3A%2F%2Fexample.com%2F&job=alternator');
+
+  assert.equal(response.status, 400);
+  assert.deepEqual(JSON.parse(response.body), { error: 'Unsupported manual URL' });
+  assert.equal(response.headers['cache-control'], 'no-store');
+});
+
+test('rejects invalid live labor input with the API no-store contract', async (t) => {
+  const port = 19107;
+  const child = spawn(process.execPath, ['server.mjs'], {
+    cwd: new URL('..', import.meta.url),
+    env: { ...process.env, PORT: String(port), HOST: '127.0.0.1', PLANNER_ALLOW_UNAUTHENTICATED_LOCAL: '1' },
+    stdio: ['ignore', 'pipe', 'pipe'],
+  });
+  t.after(() => child.kill());
+  await once(child.stdout, 'data');
+
+  const response = await get(port, '/api/live-job-labor?url=https%3A%2F%2Fexample.com%2F&job=alternator');
+
+  assert.equal(response.status, 400);
+  assert.deepEqual(JSON.parse(response.body), { error: 'Unsupported manual URL' });
+  assert.equal(response.headers['cache-control'], 'no-store');
+});
+
+test('rejects invalid procedure evidence input with the API no-store contract', async (t) => {
+  const port = 19108;
+  const child = spawn(process.execPath, ['server.mjs'], {
+    cwd: new URL('..', import.meta.url),
+    env: { ...process.env, PORT: String(port), HOST: '127.0.0.1', PLANNER_ALLOW_UNAUTHENTICATED_LOCAL: '1' },
+    stdio: ['ignore', 'pipe', 'pipe'],
+  });
+  t.after(() => child.kill());
+  await once(child.stdout, 'data');
+
+  const response = await get(port, '/api/procedure-evidence?url=https%3A%2F%2Fexample.com%2F&job=alternator');
+
+  assert.equal(response.status, 400);
+  assert.deepEqual(JSON.parse(response.body), { error: 'Unsupported manual URL' });
   assert.equal(response.headers['cache-control'], 'no-store');
 });
 

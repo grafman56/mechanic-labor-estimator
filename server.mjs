@@ -6,12 +6,18 @@ import { fileURLToPath } from 'node:url';
 import { authorizeBasic, hostedAuthConfig } from './src/server/auth.mjs';
 import { FixedWindowRateLimiter, rateLimitConfig } from './src/server/rate-limit.mjs';
 import { decodeVinAndFindManuals } from './src/server/vin-lookup.mjs';
+import { ManualAvailabilityCache } from './src/server/manual-availability-cache.mjs';
+import { manualAvailability, manualMetadata, validateManualUrl } from './src/server/manual-lookup.mjs';
+import { lookupJobOperationRows } from './src/server/live-job-rows.mjs';
+import { lookupJobLabor } from './src/server/live-job-labor.mjs';
+import { lookupJobProcedureEvidence } from './src/server/procedure-evidence.mjs';
 
 const root = resolve(fileURLToPath(new URL('.', import.meta.url)));
 const port = Number.parseInt(process.env.PORT ?? '8099', 10);
 const host = process.env.HOST ?? '0.0.0.0';
 const authConfig = hostedAuthConfig(process.env, host === '127.0.0.1' || host === '::1');
 const rateLimiter = new FixedWindowRateLimiter(rateLimitConfig(process.env));
+const manualAvailabilityCache = new ManualAvailabilityCache();
 const mimeTypes = new Map([
   ['.css', 'text/css; charset=utf-8'],
   ['.html', 'text/html; charset=utf-8'],
@@ -40,6 +46,10 @@ function sendJson(response, status, payload) {
 
 const server = createServer(async (request, response) => {
   response.setHeader('Cache-Control', 'no-store');
+  response.setHeader('X-Content-Type-Options', 'nosniff');
+  response.setHeader('Referrer-Policy', 'no-referrer');
+  response.setHeader('X-Frame-Options', 'DENY');
+  response.setHeader('Content-Security-Policy', "default-src 'self'; base-uri 'none'; frame-ancestors 'none'; form-action 'self'; object-src 'none'; script-src 'self'; style-src 'self'");
   if (!authorizeBasic(request.headers.authorization, authConfig)) {
     response.writeHead(401, { 'WWW-Authenticate': 'Basic realm="Mechanic Labor Planner"' });
     response.end();
@@ -61,6 +71,63 @@ const server = createServer(async (request, response) => {
     if (apiUrl.pathname === '/api/vin-manuals') {
       try {
         sendJson(response, 200, await decodeVinAndFindManuals(apiUrl.searchParams.get('vin')));
+      } catch (error) {
+        sendJson(response, 400, { error: error.message });
+      }
+      return;
+    }
+    if (apiUrl.pathname === '/api/manual-metadata') {
+      try {
+        sendJson(response, 200, await manualMetadata(apiUrl.searchParams.get('url')));
+      } catch (error) {
+        sendJson(response, 400, { error: error.message });
+      }
+      return;
+    }
+    if (apiUrl.pathname === '/api/manual-availability') {
+      try {
+        const manualUrl = validateManualUrl(apiUrl.searchParams.get('url'));
+        if (!manualUrl) throw new Error('Unsupported manual URL');
+        sendJson(response, 200, await manualAvailabilityCache.lookup(manualUrl, manualAvailability));
+      } catch (error) {
+        sendJson(response, 400, { error: error.message });
+      }
+      return;
+    }
+    if (apiUrl.pathname === '/api/live-job-rows') {
+      try {
+        sendJson(response, 200, await lookupJobOperationRows(
+          apiUrl.searchParams.get('url'),
+          apiUrl.searchParams.get('job'),
+        ));
+      } catch (error) {
+        sendJson(response, 400, { error: error.message });
+      }
+      return;
+    }
+    if (apiUrl.pathname === '/api/live-job-labor') {
+      try {
+        sendJson(response, 200, await lookupJobLabor(
+          apiUrl.searchParams.get('url'),
+          apiUrl.searchParams.get('job'),
+          {
+            scope: apiUrl.searchParams.get('scope') || undefined,
+            source_row: apiUrl.searchParams.get('source_row') || undefined,
+            source_operation_url: apiUrl.searchParams.get('source_operation_url') || undefined,
+          },
+        ));
+      } catch (error) {
+        sendJson(response, 400, { error: error.message });
+      }
+      return;
+    }
+    if (apiUrl.pathname === '/api/procedure-evidence') {
+      try {
+        sendJson(response, 200, await lookupJobProcedureEvidence(
+          apiUrl.searchParams.get('url'),
+          apiUrl.searchParams.get('job'),
+          { source_operation_url: apiUrl.searchParams.get('source_operation_url') || undefined },
+        ));
       } catch (error) {
         sendJson(response, 400, { error: error.message });
       }
