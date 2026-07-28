@@ -307,6 +307,7 @@ def lookup_job_labor(manual_url, job_id, fetch_html, scope=None, source_row=None
         'status': 'available',
         'job_id': job_id,
         'source_operation': match['title'],
+        'source_row': selected_row['operation'],
         'source_url': labor_url,
         'standard_hours': selected_row['standard_hours'],
         'time_basis': time_basis,

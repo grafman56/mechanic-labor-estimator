@@ -6,5 +6,5 @@ npm test
 node --check app.js
 node --check src/procedure-evidence.js
 node --check server.mjs src/server/*.mjs
-python3 -m py_compile server.py tools/procedure_evidence.py
+python3 -m py_compile server.py tools/procedure_evidence.py tools/static_labor_catalog.py
 git diff --check
