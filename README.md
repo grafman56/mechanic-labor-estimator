@@ -42,6 +42,24 @@ python3 server.py
 
 Open `http://127.0.0.1:8099/`. The planner requires this private same-origin server for live manual, labor, and procedure lookups; `python3 -m http.server` is not a supported live-lookup mode.
 
+## Self-hosted friend test
+
+Use this for a friend running the planner on their own computer. It stays on their loopback interface and is not reachable from the internet.
+
+1. Install Node.js 22.x. The Node server is verified with Node `22.23.1`.
+2. Obtain the approved source from Forgejo after access is granted, or receive an archive of the approved commit. Extract it and open a terminal in the project directory.
+3. Do **not** run `npm install`: the planner has no npm runtime dependencies.
+4. Start the loopback-only Node server:
+
+   ```sh
+   HOST=127.0.0.1 PLANNER_ALLOW_UNAUTHENTICATED_LOCAL=1 npm start
+   ```
+
+5. Open `http://127.0.0.1:8099/` in a browser on that same computer.
+6. Stop the test with `Ctrl+C` when finished.
+
+No `curl` command is required for normal use. Do not use router port forwarding, a public tunnel, or `HOST=0.0.0.0` for this mode. A remote invite-only test needs a separately approved private-access path and hosted-mode credentials.
+
 ## Test
 
 ```sh
