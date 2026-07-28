@@ -48,11 +48,21 @@ Open `http://127.0.0.1:8099/`. The planner requires this private same-origin ser
 ./verify.sh
 ```
 
-## Static deployment
+## Invite-only Hostinger deployment
 
-A static host such as Hostinger can serve the user interface and generated catalog files, but it cannot provide the private `/api/` source-lookup endpoints. Do not deploy this planner publicly. Keep it on localhost unless authentication, rate limiting, and a reviewed persistent-cache policy are added.
+The Node server (`npm start`) serves the browser UI and the same-origin restricted `/api/` source-lookup endpoints. It requires HTTP Basic authentication in hosted mode, rate-limits every API route before source lookup, sends `Cache-Control: no-store`, and sends `X-Content-Type-Options: nosniff`, `Referrer-Policy: no-referrer`, `X-Frame-Options: DENY`, and a same-origin Content Security Policy. It is suitable only for an invite-only friend test, not a public service.
 
-The pending hosted Node deployment limits each direct connection address to 20 `/api/` requests per 60 seconds by default. Hostinger hPanel may set the non-secret `PLANNER_RATE_LIMIT_REQUESTS` and `PLANNER_RATE_LIMIT_WINDOW_SECONDS` environment variables to positive integers for the invite-only test. The limiter does not trust `X-Forwarded-For`; it applies before API route handling and does not limit static assets.
+Before creating the Hostinger app:
+
+1. Use the reviewed Forgejo branch/commit approved for deployment. Forgejo is authoritative; do not mirror the repository to GitHub. If hPanel cannot ingest the approved Forgejo source through its supported Git workflow, stop and choose an approved source-transfer method rather than creating an unreviewed mirror.
+2. Confirm Hostinger provisions a Node web app with the repository as the application root and `npm start` as the start command. Hostinger must provide `PORT`; do not configure a fixed public port.
+3. In hPanel environment variables, set `PLANNER_TEST_USER` and `PLANNER_TEST_PASSWORD` to newly generated invite-only credentials. Do not place their values in Git, repository files, browser JavaScript, shell history, or support tickets.
+4. Optionally set the non-secret positive-integer `PLANNER_RATE_LIMIT_REQUESTS` and `PLANNER_RATE_LIMIT_WINDOW_SECONDS`. Defaults are 20 requests per 60 seconds per direct socket address. The limiter does not trust `X-Forwarded-For`; it applies before API route handling and does not limit static assets.
+5. Bind `estimator.paulsgarageva.com` only after the Hostinger app is healthy. Complete DNS and HTTPS certificate validation before sharing the URL.
+
+After the first deployment, manually verify: no credentials and bad credentials return `401`; valid credentials load the UI; malformed VIN/manual input returns `400` without source lookup; an unrecognized operation remains unavailable; API exhaustion returns `429`; and valid source results preserve exact wording and unavailable states. Rotate the invite credential after a tester leaves or if it is exposed. The cache and rate limiter are process-local and reset on restart. LEMON availability and terms remain external risks.
+
+Rollback: select the previous successful Hostinger deployment or unbind the subdomain. Do not point WordPress at this application and do not make it public until these checks pass.
 
 ## Vehicle/manual catalog
 
