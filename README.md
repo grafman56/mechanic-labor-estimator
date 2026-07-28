@@ -94,6 +94,22 @@ Refresh one generated make catalog with:
 python3 -c "from tools.lemon_catalog import crawl_make, write_catalog; write_catalog(crawl_make('Acura'), 'data/catalogs/acura.json')"
 ```
 
+## GitHub Pages static labor catalog
+
+`pages/` is a separate static snapshot for GitHub Pages. It contains only bundled exact labor records, source operation/row labels, source links, and retrieval timestamps. It does not call the private `/api/` routes, decode VINs, fetch source manuals, include manual or procedure text, infer missing labor, or create parts or access recommendations.
+
+The initial static catalog is a verified 2006 Acura MDX V6-3.5L fixture with all 14 Tier 1 jobs represented as either an exact result or an explicit unavailable result. More records are added with bounded source collection, not by copying a manual.
+
+The GitHub mirror deploys `pages/` through `.github/workflows/deploy-pages.yml` after changes reach `main`. Once, in the mirrored GitHub repository, set **Settings → Pages → Build and deployment → Source** to **GitHub Actions**. The GitHub deployment URL is the only public Pages URL; Forgejo remains the source repository.
+
+Generate one bounded source batch for review with:
+
+```sh
+python3 tools/static_labor_catalog.py --make Acura --year-start 2006 --year-end 2006 --limit 1
+```
+
+The command writes 14 explicit job records for one selected source configuration. Review generated JSON before committing it. A source configuration or job without one unambiguous published row stays unavailable.
+
 ## Private on-demand source lookup
 
 For the personal on-demand workflow, run the same-origin private server instead of a static host:
